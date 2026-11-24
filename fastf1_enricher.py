@@ -283,13 +283,21 @@ def enrich_jolpica_with_fastf1(
         try:
             race_frames.append(extract_fastf1_race_features(int(season), int(round_num), cache_dir))
         except Exception as exc:
-            print(f"[경고] {season} R{round_num:02d} 레이스 로드 건너뜀: {exc}")
+            msg = str(exc)
+            print(f"[경고] {season} R{round_num:02d} 레이스 로드 건너뜀: {msg}")
+            if "RateLimit" in type(exc).__name__ or "rate limit" in msg.lower() or "500 calls" in msg.lower():
+                print("[안내] FastF1 시간당 호출 한도에 도달해 남은 경기는 Jolpica 점수로 자동 대체합니다.")
+                break
 
         if include_qualifying:
             try:
                 quali_frames.append(extract_fastf1_quali_features(int(season), int(round_num), cache_dir))
             except Exception as exc:
-                print(f"[경고] {season} R{round_num:02d} 예선 로드 건너뜀: {exc}")
+                msg = str(exc)
+                print(f"[경고] {season} R{round_num:02d} 예선 로드 건너뜀: {msg}")
+                if "RateLimit" in type(exc).__name__ or "rate limit" in msg.lower() or "500 calls" in msg.lower():
+                    print("[안내] FastF1 시간당 호출 한도에 도달해 남은 예선 수집을 중단합니다.")
+                    break
 
     fastf1_race = pd.concat(race_frames, ignore_index=True) if race_frames else pd.DataFrame()
     fastf1_quali = pd.concat(quali_frames, ignore_index=True) if quali_frames else pd.DataFrame()
@@ -326,7 +334,9 @@ def merge_fastf1_features(
         if use_lap_pace_as_target:
             if "pace_score" in merged.columns and "position_pace_score" not in merged.columns:
                 merged["position_pace_score"] = merged["pace_score"]
-            merged["pace_score"] = merged["clean_air_pace_pct"]
+            # FastF1이 실패해 NaN인 경기는 기존 Jolpica 상대 순위 점수(중심화 스케일)로 안전하게 유지
+            fallback = (merged["position_pace_score"] - 0.5) * 1.2 if "position_pace_score" in merged.columns else merged["pace_score"]
+            merged["pace_score"] = merged["clean_air_pace_pct"].fillna(fallback)
 
     if quali_df is not None and not quali_df.empty:
         merged = merged.merge(
