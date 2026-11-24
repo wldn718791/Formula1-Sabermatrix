@@ -54,7 +54,7 @@ jobs:
 
       - name: Run incremental F1 sabermetrics pipeline
         run: |
-          ARGS="--archive-seasons 2024 2025 --active-season 2026 --data-dir data"
+          ARGS="--archive-seasons 2021 2022 2023 2024 2025 --active-season 2026 --data-dir data"
           if [ "${{ inputs.skip_fastf1 }}" = "true" ]; then
             ARGS="$ARGS --skip-fastf1"
           fi
