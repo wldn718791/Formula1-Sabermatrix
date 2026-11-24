@@ -42,17 +42,6 @@ POINTS_PER_WIN = 25.0
 
 
 def _fit_best_multilevel(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float, float, str]:
-    """설치된 패키지에 따라 statsmodels -> scikit-learn -> NumPy BLUP 순으로 자동 적합합니다."""
-    sm_res = fit_statsmodels_cross_classified(df)
-    if sm_res is not None:
-        return (
-            sm_res["driver_df"],
-            sm_res["car_df"],
-            sm_res["variance_components"]["car_share_pct"],
-            sm_res["variance_components"]["driver_share_pct"],
-            "statsmodels MixedLM (REML)",
-        )
-
     sk_res = fit_sklearn_cross_classified(df)
     if sk_res is not None:
         driver_df, car_df, summary = sk_res
@@ -63,7 +52,6 @@ def _fit_best_multilevel(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, 
             summary["driver_variance_share_pct"],
             "scikit-learn RidgeCV (BLUP 근사)",
         )
-
     driver_df, car_df, summary = fit_numpy_blup_cross_classified(df)
     return (
         driver_df,
