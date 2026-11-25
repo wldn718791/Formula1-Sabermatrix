@@ -15,7 +15,7 @@ on:
           - "false"
           - "true"
       force_refresh_archive:
-        description: "2024~2025 확정 아카이브 CSV 강제 재수집"
+        description: "2021~2025 확정 아카이브 CSV 강제 재수집"
         required: false
         default: "false"
         type: choice

@@ -163,6 +163,19 @@
           <canvas id="chart-par-compare"></canvas>
         </div>
       </div>
+
+      <!-- v2 방법론 및 통계적 한계 안내 -->
+      <details class="bg-white rounded-xl border border-slate-200 shadow-sm p-4 sm:p-5">
+        <summary class="cursor-pointer text-sm font-bold text-slate-900 select-none">
+          방법론 및 통계적 한계 안내 (v2 Plackett-Luce · 95% 신뢰구간 읽는 법)
+        </summary>
+        <div class="mt-3 text-xs sm:text-sm text-slate-600 space-y-2 leading-relaxed">
+          <p><strong>1. 머신-드라이버 분리 원리:</strong> 동일 머신을 공유하는 팀메이트 비교와 시즌 간 이적 네트워크를 결합한 <strong>교차 분류 Plackett-Luce 순위 로짓 모형</strong>으로 드라이버 기본 실력, 시즌별 폼, 팀-연도별 머신 성능을 동시에 추정합니다.</p>
+          <p><strong>2. 반사실적 기대 포인트(임의 배율 제거):</strong> 임의의 티어 가중치 대신, 드라이버만 하위 20% 대체 수준으로 치환한 <strong>Gumbel-Max 몬테카를로 시뮬레이션</strong>으로 공식 F1 포인트(25-18-15-12-10-8-6-4-2-1)의 기대값 차이(F1-PAR·F1-WAR)와 동일 머신 가정 환산치(dnPAR·dnWAR)를 산출합니다.</p>
+          <p><strong>3. 95% 신뢰구간(CI) 해석:</strong> 수치 아래의 대괄호 <code>[하한 ~ 상한]</code>은 경기 단위 부트스트랩으로 추정한 95% 신뢰구간입니다. 두 드라이버의 신뢰구간이 크게 겹친다면 순위 차이를 통계적 우열로 단정하기 어렵습니다.</p>
+          <p><strong>4. 모델의 한계:</strong> 피트스톱 전략 실수, 팀 오더, 세이프티카 타이밍, 트래픽 등 레이스 결과에 영향을 미치는 비기계적 변수는 완벽히 분리되지 않으며 잔차 불확실성으로 남습니다. 지표는 절대 서열이 아닌 <strong>조건부 통계 기대치</strong>로 참고해 주세요.</p>
+        </div>
+      </details>
     </section>
 
     <!-- ================= TAB 2: 드라이버 상세 프로필 ================= -->
@@ -335,6 +348,12 @@
       setTimeout(() => el.remove(), 3200);
     }
 
+    function fmtCiSub(lo, hi) {
+      if (lo === null || lo === undefined || hi === null || hi === undefined) return '';
+      if (Number.isNaN(Number(lo)) || Number.isNaN(Number(hi))) return '';
+      return `<div class="text-[11px] font-normal text-slate-400 num">[${Number(lo).toFixed(2)} ~ ${Number(hi).toFixed(2)}]</div>`;
+    }
+
     function fmtNum(val, decimals = 2, signed = true) {
       if (val === null || val === undefined || Number.isNaN(Number(val))) return '-';
       const n = Number(val);
@@ -490,9 +509,9 @@
             <td class="px-3 py-2.5 text-right num ${valueColorClass(r.delta_q)}">${fmtNum(r.delta_q, 2)}</td>
             <td class="px-3 py-2.5 text-right num ${valueColorClass(r.delta_r)}">${fmtNum(r.delta_r, 2)}</td>
             <td class="px-3 py-2.5 text-right num ${valueColorClass(r.f1_par)}">${fmtNum(r.f1_par, 1)}</td>
-            <td class="px-3 py-2.5 text-right num ${valueColorClass(r.f1_war)}">${fmtNum(r.f1_war, 2)}</td>
+            <td class="px-3 py-2.5 text-right num ${valueColorClass(r.f1_war)}">${fmtNum(r.f1_war, 2)}${fmtCiSub(r.f1_war_ci_low, r.f1_war_ci_high)}</td>
             <td class="px-3 py-2.5 text-right num text-slate-700">${fmtNum(r.dn_par, 1)}</td>
-            <td class="px-3 py-2.5 text-right num bg-rose-50/60 font-bold ${valueColorClass(r.dn_war)}">${fmtNum(r.dn_war, 2)}</td>
+            <td class="px-3 py-2.5 text-right num bg-rose-50/60 font-bold ${valueColorClass(r.dn_war)}">${fmtNum(r.dn_war, 2)}${fmtCiSub(r.dn_war_ci_low, r.dn_war_ci_high)}</td>
             <td class="px-3 py-2.5 text-right num text-slate-700 salary-col ${state.hasSalary ? '' : 'hidden'}">${fmtNum(r.salary_musd, 1, false)}</td>
             <td class="px-3 py-2.5 text-right num text-slate-700 salary-col ${state.hasSalary ? '' : 'hidden'}">${fmtNum(r.kusd_per_dn_par, 1, false)}</td>
           </tr>
@@ -708,7 +727,7 @@
       const missing = required.filter(k => !headers.includes(k));
       if (missing.length > 0) throw new Error(`필수 컬럼 누락: ${missing.join(', ')}`);
 
-      const numCols = new Set(['season', 'starts', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'dn_par', 'dn_war', 'salary_musd', 'musd_per_f1_war', 'kusd_per_dn_par']);
+      const numCols = new Set(['season', 'starts', 'counting_races', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'f1_war_ci_low', 'f1_war_ci_high', 'dn_par', 'dn_war', 'dn_war_ci_low', 'dn_war_ci_high', 'salary_musd', 'musd_per_f1_war', 'kusd_per_dn_par']);
       const parsed = lines.slice(1).map(line => {
         const vals = line.split(',').map(v => v.trim().replace(/^"|"$/g, ''));
         const obj = {};
