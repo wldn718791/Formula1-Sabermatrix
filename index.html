@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GRIDLAB — 세이버메트릭스 드라이버 랭킹 대시보드</title>
+  <title>F1 STATIZ — 세이버메트릭스 드라이버 랭킹 대시보드</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <style>
@@ -74,7 +74,7 @@
           <div id="kpi-war-sub" class="text-xs text-slate-500 mt-0.5 num">-</div>
         </div>
         <div class="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
-          <div class="text-xs font-medium text-slate-500">차량 중립(dnPAR) 1위</div>
+          <div class="text-xs font-medium text-slate-500">차량 중립(dnWAR) 1위</div>
           <div id="kpi-dnpar-leader" class="text-xl font-bold text-rose-600 mt-1 num">-</div>
           <div id="kpi-dnpar-sub" class="text-xs text-slate-500 mt-0.5 num">-</div>
         </div>
@@ -139,7 +139,8 @@
                 <th class="px-3 py-3 text-right sort-btn" data-sort="delta_r">레이스 ΔR</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="f1_par">F1-PAR</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="f1_war">F1-WAR</th>
-                <th class="px-3 py-3 text-right sort-btn text-rose-300" data-sort="dn_par">dnPAR ▼</th>
+                <th class="px-3 py-3 text-right sort-btn" data-sort="dn_par">dnPAR</th>
+                <th class="px-3 py-3 text-right sort-btn text-rose-300" data-sort="dn_war">dnWAR ▼</th>
                 <th class="px-3 py-3 text-right sort-btn salary-col hidden" data-sort="salary_musd">연봉($M)</th>
                 <th class="px-3 py-3 text-right sort-btn salary-col hidden" data-sort="kusd_per_dn_par">$/dnPAR($K)</th>
               </tr>
@@ -213,6 +214,7 @@
                   <th class="px-2.5 py-2 text-right">ΔQ</th>
                   <th class="px-2.5 py-2 text-right">ΔR</th>
                   <th class="px-2.5 py-2 text-right">F1-WAR</th>
+                  <th class="px-2.5 py-2 text-right">dnWAR</th>
                   <th class="px-2.5 py-2 text-right">dnPAR</th>
                 </tr>
               </thead>
@@ -307,13 +309,13 @@
     ];
 
     const state = {
-      rows: DEMO_DATA.map(r => ({ ...r })),
+      rows: DEMO_DATA.map(r => ({ ...r, dn_war: Number((r.dn_par / 25).toFixed(2)) })),
       activeTab: 'leaderboard',
       seasonFilter: '2024',
       tierFilter: 'ALL',
       minStarts: 0,
       searchQuery: '',
-      sortKey: 'dn_par',
+      sortKey: 'dn_war',
       sortDir: 'desc',
       selectedDriver: 'VER',
       cmpSeason: '2024',
@@ -445,8 +447,8 @@
 
         document.getElementById('kpi-war-leader').textContent = `${topWar.driver} (${fmtNum(topWar.f1_war, 2)})`;
         document.getElementById('kpi-war-sub').textContent = `${topWar.season} · ${topWar.team} · PAR ${fmtNum(topWar.f1_par, 1)}`;
-        document.getElementById('kpi-dnpar-leader').textContent = `${topDn.driver} (${fmtNum(topDn.dn_par, 1)})`;
-        document.getElementById('kpi-dnpar-sub').textContent = `${topDn.season} · ${topDn.team} (${topDn.car_tier})`;
+        document.getElementById('kpi-dnpar-leader').textContent = `${topDn.driver} (${fmtNum(topDn.dn_war, 2)} WAR)`;
+        document.getElementById('kpi-dnpar-sub').textContent = `${topDn.season} · ${topDn.team} · dnPAR ${fmtNum(topDn.dn_par, 1)}`;
         document.getElementById('kpi-q-leader').textContent = `${topQ.driver} (${fmtNum(topQ.delta_q, 2)})`;
         document.getElementById('kpi-q-sub').textContent = `레이스 ΔR ${fmtNum(topQ.delta_r, 2)}`;
         const gap = topUnderrated.dn_par - topUnderrated.f1_par;
@@ -473,7 +475,7 @@
       // 테이블 본문 렌더링
       const tbody = document.getElementById('leaderboard-tbody');
       if (rows.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="12" class="px-4 py-8 text-center text-slate-400">조건에 맞는 드라이버 기록이 없습니다.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="13" class="px-4 py-8 text-center text-slate-400">조건에 맞는 드라이버 기록이 없습니다.</td></tr>`;
       } else {
         tbody.innerHTML = rows.map((r, idx) => `
           <tr class="hover:bg-rose-50/50 cursor-pointer transition driver-row" data-driver="${r.driver}">
@@ -489,7 +491,8 @@
             <td class="px-3 py-2.5 text-right num ${valueColorClass(r.delta_r)}">${fmtNum(r.delta_r, 2)}</td>
             <td class="px-3 py-2.5 text-right num ${valueColorClass(r.f1_par)}">${fmtNum(r.f1_par, 1)}</td>
             <td class="px-3 py-2.5 text-right num ${valueColorClass(r.f1_war)}">${fmtNum(r.f1_war, 2)}</td>
-            <td class="px-3 py-2.5 text-right num bg-slate-50/80 ${valueColorClass(r.dn_par)}">${fmtNum(r.dn_par, 1)}</td>
+            <td class="px-3 py-2.5 text-right num text-slate-700">${fmtNum(r.dn_par, 1)}</td>
+            <td class="px-3 py-2.5 text-right num bg-rose-50/60 font-bold ${valueColorClass(r.dn_war)}">${fmtNum(r.dn_war, 2)}</td>
             <td class="px-3 py-2.5 text-right num text-slate-700 salary-col ${state.hasSalary ? '' : 'hidden'}">${fmtNum(r.salary_musd, 1, false)}</td>
             <td class="px-3 py-2.5 text-right num text-slate-700 salary-col ${state.hasSalary ? '' : 'hidden'}">${fmtNum(r.kusd_per_dn_par, 1, false)}</td>
           </tr>
@@ -558,7 +561,7 @@
 
       document.getElementById('prof-total-war').textContent = `${fmtNum(sumWar, 2)} WAR`;
       document.getElementById('prof-total-par').textContent = `${fmtNum(sumPar, 1)} pts`;
-      document.getElementById('prof-avg-dnpar').textContent = `${fmtNum(avgDn, 1)} pts`;
+      document.getElementById('prof-avg-dnpar').textContent = `${fmtNum(avgDn / 25, 2)} WAR (${fmtNum(avgDn, 1)})`;
       document.getElementById('prof-avg-pace').textContent = `${fmtNum(avgQ, 2)} / ${fmtNum(avgR, 2)}`;
 
       document.getElementById('profile-history-tbody').innerHTML = [...history].reverse().map(r => `
@@ -569,6 +572,7 @@
           <td class="px-2.5 py-2 text-right num ${valueColorClass(r.delta_q)}">${fmtNum(r.delta_q, 2)}</td>
           <td class="px-2.5 py-2 text-right num ${valueColorClass(r.delta_r)}">${fmtNum(r.delta_r, 2)}</td>
           <td class="px-2.5 py-2 text-right num ${valueColorClass(r.f1_war)}">${fmtNum(r.f1_war, 2)}</td>
+          <td class="px-2.5 py-2 text-right num bg-rose-50/60 ${valueColorClass(r.dn_war)}">${fmtNum(r.dn_war, 2)}</td>
           <td class="px-2.5 py-2 text-right num ${valueColorClass(r.dn_par)}">${fmtNum(r.dn_par, 1)}</td>
         </tr>
       `).join('');
@@ -624,7 +628,8 @@
       }
 
       const metrics = [
-        { label: 'F1-WAR (승리 환산)', key: 'f1_war', dec: 2 },
+        { label: 'F1-WAR (실제 머신 WAR)', key: 'f1_war', dec: 2 },
+        { label: 'dnWAR (차량 중립 WAR)', key: 'dn_war', dec: 2 },
         { label: 'F1-PAR (실제 머신 포인트)', key: 'f1_par', dec: 1 },
         { label: 'dnPAR (차량 중립 포인트)', key: 'dn_par', dec: 1 },
         { label: '예선 페이스 우위 (ΔQ)', key: 'delta_q', dec: 3 },
@@ -703,7 +708,7 @@
       const missing = required.filter(k => !headers.includes(k));
       if (missing.length > 0) throw new Error(`필수 컬럼 누락: ${missing.join(', ')}`);
 
-      const numCols = new Set(['season', 'starts', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'dn_par', 'salary_musd', 'musd_per_f1_war', 'kusd_per_dn_par']);
+      const numCols = new Set(['season', 'starts', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'dn_par', 'dn_war', 'salary_musd', 'musd_per_f1_war', 'kusd_per_dn_par']);
       const parsed = lines.slice(1).map(line => {
         const vals = line.split(',').map(v => v.trim().replace(/^"|"$/g, ''));
         const obj = {};
@@ -718,6 +723,9 @@
         if (!obj.car_tier) obj.car_tier = '중상위권';
         if (obj.delta_q === undefined) obj.delta_q = null;
         if (obj.delta_r === undefined) obj.delta_r = obj.skill_above_repl ?? null;
+        if (obj.dn_war === undefined || obj.dn_war === null) {
+          obj.dn_war = obj.dn_par !== null && obj.dn_par !== undefined ? Number((Number(obj.dn_par) / 25).toFixed(2)) : null;
+        }
         return obj;
       });
       return { rows: parsed, hasSalary: headers.includes('salary_musd') };
@@ -729,7 +737,7 @@
         showToast('내보낼 데이터가 없습니다.', 'error');
         return;
       }
-      const cols = ['season', 'driver', 'team', 'car_tier', 'starts', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'dn_par'];
+      const cols = ['season', 'driver', 'team', 'car_tier', 'starts', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'dn_par', 'dn_war'];
       if (state.hasSalary) cols.push('salary_musd', 'kusd_per_dn_par');
       const csv = [cols.join(','), ...rows.map(r => cols.map(c => r[c] ?? '').join(','))].join('\n');
       const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
@@ -858,7 +866,7 @@
     }
 
     document.getElementById('btn-reset-demo').addEventListener('click', () => {
-      state.rows = DEMO_DATA.map(r => ({ ...r }));
+      state.rows = DEMO_DATA.map(r => ({ ...r, dn_war: Number((r.dn_par / 25).toFixed(2)) }));
       state.hasSalary = false;
       state.seasonFilter = '2024';
       state.tierFilter = 'ALL';
