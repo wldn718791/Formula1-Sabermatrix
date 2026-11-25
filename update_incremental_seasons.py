@@ -145,6 +145,7 @@ def update_incremental(
         race_driver_df=race_driver_df,
         car_df=car_df,
         quali_driver_df=quali_driver_df,
+        raw_df=combined,
     )
 
     # data/salaries.csv가 존재하면 자동으로 연봉 가성비 보조 컬럼 결합
@@ -160,7 +161,7 @@ def update_incremental(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="F1 아카이브 + 현재 시즌 증분 업데이트 스크립트")
-    parser.add_argument("--archive-seasons", type=int, nargs="+", default=[2024, 2025], help="고정 아카이브 시즌")
+    parser.add_argument("--archive-seasons", type=int, nargs="+", default=[2023, 2024, 2025], help="고정 아카이브 시즌")
     parser.add_argument("--active-season", type=int, default=2026, help="매주 증분 갱신할 현재 시즌")
     parser.add_argument("--data-dir", type=str, default="data", help="데이터 저장 폴더")
     parser.add_argument("--cache-dir", type=str, default="./fastf1_cache", help="FastF1 로컬 캐시 폴더")

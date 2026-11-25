@@ -42,6 +42,7 @@ POINTS_PER_WIN = 25.0
 
 
 def _fit_best_multilevel(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float, float, str]:
+    """수치적 안정성(Singular matrix 방지)을 위해 scikit-learn RidgeCV -> NumPy BLUP 순으로 적합합니다."""
     sk_res = fit_sklearn_cross_classified(df)
     if sk_res is not None:
         driver_df, car_df, summary = sk_res
@@ -52,6 +53,7 @@ def _fit_best_multilevel(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, 
             summary["driver_variance_share_pct"],
             "scikit-learn RidgeCV (BLUP 근사)",
         )
+
     driver_df, car_df, summary = fit_numpy_blup_cross_classified(df)
     return (
         driver_df,
@@ -86,6 +88,7 @@ def compute_seasonal_par_rankings(
     race_driver_df: pd.DataFrame,
     car_df: pd.DataFrame,
     quali_driver_df: pd.DataFrame | None = None,
+    raw_df: pd.DataFrame | None = None,
     weight_quali: float = 0.35,
     weight_race: float = 0.65,
     pos_gain_per_unit_quali: float = 5.5,
@@ -109,9 +112,18 @@ def compute_seasonal_par_rankings(
     if "status_category" not in work.columns:
         work["status_category"] = "finished"
 
+    # raw_df가 주어지면 리타이어 포함 실제 총 출전 경기 수를 별도 집계
+    total_starts_map: dict[tuple[int, str], int] = {}
+    if raw_df is not None and not raw_df.empty:
+        total_starts_map = {
+            (int(k[0]), str(k[1])): int(v)
+            for k, v in raw_df.groupby(["season", "driver"]).size().items()
+        }
+
     rows: list[dict[str, object]] = []
     for (season, driver), grp in work.groupby(["season", "driver"]):
-        starts = len(grp)
+        counting_races = len(grp)
+        total_starts = total_starts_map.get((int(season), str(driver)), counting_races)
         main_team_year = str(grp["team_year"].mode().iloc[0])
         main_team = str(grp["team"].mode().iloc[0]) if "team" in grp.columns else main_team_year
         car_tier = tier_map.get(main_team_year, "중상위권")
@@ -129,11 +141,11 @@ def compute_seasonal_par_rankings(
             pos_gain_per_race = race_delta * pos_gain_per_unit_race
 
         incidents = int((grp["status_category"] == "driver_incident").sum())
-        expected_repl_incidents = repl_error_rate_per_24 * (starts / 24.0)
+        expected_repl_incidents = repl_error_rate_per_24 * (counting_races / 24.0)
         err_diff = expected_repl_incidents - incidents
 
-        # (1) 실제 머신 기준 F1-PAR & F1-WAR
-        pace_par = pos_gain_per_race * params["marginal_pts_per_pos"] * starts
+        # (1) 실제 머신 기준 F1-PAR & F1-WAR (기계적 DNF 제외 유효 경기 기준)
+        pace_par = pos_gain_per_race * params["marginal_pts_per_pos"] * counting_races
         exp_race_pts = np.clip(
             params["base_pts_per_race"] + pos_gain_per_race * params["marginal_pts_per_pos"],
             0.5,
@@ -143,8 +155,8 @@ def compute_seasonal_par_rankings(
         f1_par = float(pace_par + err_par)
         f1_war = f1_par / POINTS_PER_WIN
 
-        # (2) 차량 중립 기준 dnPAR
-        dn_pace_par = pos_gain_per_race * STANDARD_NEUTRAL_M * starts
+        # (2) 차량 중립 기준 dnPAR (기계적 DNF 제외 유효 경기 기준)
+        dn_pace_par = pos_gain_per_race * STANDARD_NEUTRAL_M * counting_races
         dn_exp_race_pts = np.clip(
             STANDARD_NEUTRAL_BASE + pos_gain_per_race * STANDARD_NEUTRAL_M,
             0.5,
@@ -158,7 +170,8 @@ def compute_seasonal_par_rankings(
             "driver": driver,
             "team": main_team,
             "car_tier": car_tier,
-            "starts": starts,
+            "starts": total_starts,
+            "counting_races": counting_races,
         }
         if has_quali:
             row_dict["delta_q"] = round(float(quali_delta), 3)
@@ -257,6 +270,7 @@ def run_pipeline(
         race_driver_df=race_driver_df,
         car_df=car_df,
         quali_driver_df=quali_driver_df,
+        raw_df=raw_df,
         weight_quali=weight_quali,
         weight_race=weight_race,
     )
