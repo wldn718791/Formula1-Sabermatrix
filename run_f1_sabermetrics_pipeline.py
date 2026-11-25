@@ -42,25 +42,25 @@ POINTS_PER_WIN = 25.0
 
 
 def _fit_best_multilevel(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, float, float, str]:
-    """수치적 안정성(Singular matrix 방지)을 위해 scikit-learn RidgeCV -> NumPy BLUP 순으로 적합합니다."""
+    """driver + driver_year(시즌별 폼) + team_year 3중 랜덤 효과를 RidgeCV -> NumPy BLUP 순으로 적합합니다."""
     sk_res = fit_sklearn_cross_classified(df)
     if sk_res is not None:
-        driver_df, car_df, summary = sk_res
+        _, car_df, summary = sk_res
         return (
-            driver_df,
+            summary["driver_season_df"],
             car_df,
-            summary["car_variance_share_pct"],
-            summary["driver_variance_share_pct"],
-            "scikit-learn RidgeCV (BLUP 근사)",
+            float(summary["car_variance_share_pct"]),
+            float(summary["driver_variance_share_pct"]),
+            "scikit-learn RidgeCV (시즌별 driver_year 포함)",
         )
 
-    driver_df, car_df, summary = fit_numpy_blup_cross_classified(df)
+    _, car_df, summary = fit_numpy_blup_cross_classified(df)
     return (
-        driver_df,
+        summary["driver_season_df"],
         car_df,
-        summary["car_variance_share_pct"],
-        summary["driver_variance_share_pct"],
-        "NumPy BLUP (외부 패키지 미설치 폴백)",
+        float(summary["car_variance_share_pct"]),
+        float(summary["driver_variance_share_pct"]),
+        "NumPy BLUP (시즌별 driver_year 포함)",
     )
 
 
@@ -96,16 +96,41 @@ def compute_seasonal_par_rankings(
     repl_error_rate_per_24: float = 2.0,
 ) -> pd.DataFrame:
     """예선(ΔQ)과 레이스(ΔR) 다층 모형 추정치를 가중 합산해 F1-PAR / F1-WAR / dnPAR을 산출합니다."""
-    race_skill_map = dict(zip(race_driver_df["driver"], race_driver_df["est_driver_skill"]))
-    repl_race = float(np.quantile(race_driver_df["est_driver_skill"], 0.20))
+    # 시즌별 실력(u_driver + u_driver_year)과 시즌별 대체 수준(해당 시즌 하위 20%)을 분리 매핑
+    if "est_driver_season_skill" in race_driver_df.columns:
+        race_skill_map = {
+            (int(r.season), str(r.driver)): float(r.est_driver_season_skill)
+            for r in race_driver_df.itertuples(index=False)
+        }
+        repl_race_by_season = {
+            int(s): float(np.quantile(g["est_driver_season_skill"], 0.20))
+            for s, g in race_driver_df.groupby("season")
+        }
+    else:
+        base_map = dict(zip(race_driver_df["driver"], race_driver_df["est_driver_skill"]))
+        race_skill_map = {(int(s), str(d)): float(base_map[d]) for s in clean_df["season"].unique() for d in base_map}
+        q20 = float(np.quantile(race_driver_df["est_driver_skill"], 0.20))
+        repl_race_by_season = {int(s): q20 for s in clean_df["season"].unique()}
 
     has_quali = quali_driver_df is not None and not quali_driver_df.empty
     if has_quali:
-        quali_skill_map = dict(zip(quali_driver_df["driver"], quali_driver_df["est_driver_skill"]))
-        repl_quali = float(np.quantile(quali_driver_df["est_driver_skill"], 0.20))
+        if "est_driver_season_skill" in quali_driver_df.columns:
+            quali_skill_map = {
+                (int(r.season), str(r.driver)): float(r.est_driver_season_skill)
+                for r in quali_driver_df.itertuples(index=False)
+            }
+            repl_quali_by_season = {
+                int(s): float(np.quantile(g["est_driver_season_skill"], 0.20))
+                for s, g in quali_driver_df.groupby("season")
+            }
+        else:
+            q_base = dict(zip(quali_driver_df["driver"], quali_driver_df["est_driver_skill"]))
+            quali_skill_map = {(int(s), str(d)): float(q_base[d]) for s in clean_df["season"].unique() for d in q_base}
+            qq20 = float(np.quantile(quali_driver_df["est_driver_skill"], 0.20))
+            repl_quali_by_season = {int(s): qq20 for s in clean_df["season"].unique()}
     else:
         quali_skill_map = {}
-        repl_quali = 0.0
+        repl_quali_by_season = {}
 
     tier_map = assign_car_tiers(car_df)
     work = clean_df.copy()
@@ -129,9 +154,11 @@ def compute_seasonal_par_rankings(
         car_tier = tier_map.get(main_team_year, "중상위권")
         params = TIER_PARAMS[car_tier]
 
-        race_delta = race_skill_map.get(driver, repl_race) - repl_race
+        repl_r = repl_race_by_season.get(int(season), 0.0)
+        race_delta = race_skill_map.get((int(season), str(driver)), repl_r) - repl_r
         if has_quali:
-            quali_delta = quali_skill_map.get(driver, repl_quali) - repl_quali
+            repl_q = repl_quali_by_season.get(int(season), 0.0)
+            quali_delta = quali_skill_map.get((int(season), str(driver)), repl_q) - repl_q
             pos_gain_per_race = (
                 weight_quali * quali_delta * pos_gain_per_unit_quali
                 + weight_race * race_delta * pos_gain_per_unit_race
