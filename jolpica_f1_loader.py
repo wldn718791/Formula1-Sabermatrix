@@ -148,7 +148,7 @@ def _fetch_paginated_races(
     endpoint: str,
     list_key: str,
     page_limit: int = 100,
-    pause_seconds: float = 0.35,
+    pause_seconds: float = 0.45,
 ) -> list[dict[str, Any]]:
     """단일 시즌의 results 또는 qualifying 엔드포인트를 페이지네이션으로 모두 수집합니다."""
     races_by_round: dict[str, dict[str, Any]] = {}
@@ -184,7 +184,7 @@ def _fetch_paginated_races(
 def fetch_season_races(
     season: int,
     page_limit: int = 100,
-    pause_seconds: float = 0.35,
+    pause_seconds: float = 0.45,
 ) -> list[dict[str, Any]]:
     """단일 시즌의 모든 그랑프리 결승 결과를 수집합니다."""
     return _fetch_paginated_races(season, "results", "Results", page_limit, pause_seconds)
@@ -193,7 +193,7 @@ def fetch_season_races(
 def fetch_season_qualifying(
     season: int,
     page_limit: int = 100,
-    pause_seconds: float = 0.35,
+    pause_seconds: float = 0.45,
 ) -> list[dict[str, Any]]:
     """단일 시즌의 모든 그랑프리 예선(Q1/Q2/Q3) 결과를 수집합니다."""
     return _fetch_paginated_races(season, "qualifying", "QualifyingResults", page_limit, pause_seconds)
@@ -303,6 +303,8 @@ def races_to_multilevel_df(
                     "circuit_id": circuit_id,
                     "driver": driver_code,
                     "driver_id": driver_info.get("driverId", ""),
+                    "driver_fullname": f"{driver_info.get('givenName', '')} {driver_info.get('familyName', '')}".strip(),
+                    "driver_nationality": driver_info.get("nationality", ""),
                     "team": team_id,
                     "team_year": f"{team_id}_{season}",
                     "grid": grid_pos,

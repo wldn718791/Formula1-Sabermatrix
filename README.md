@@ -1,4 +1,4 @@
-# F1 STATIZ — 세이버메트릭스 F1 드라이버 랭킹 사이트
+# Pole2Stat — 세이버메트릭스 F1 드라이버 랭킹 사이트
 
 GitHub Pages와 GitHub Actions만으로 2024~2025 확정 시즌과 2026 진행 시즌의 F1-WAR · F1-PAR · 차량 중립 가치(dnPAR)를 매주 자동 갱신하는 정적 대시보드 저장소입니다.
 
@@ -14,4 +14,4 @@ GitHub Pages와 GitHub Actions만으로 2024~2025 확정 시즌과 2026 진행 �
 
 1. **GitHub 저장소에 업로드**: 이 폴더의 모든 파일(숨김 폴더 `.github/` 포함)을 새 공개(Public) GitHub 저장소의 `main` 브랜치에 푸시합니다.
 2. **GitHub Pages 켜기**: 저장소 `Settings → Pages`에서 Source를 `Deploy from a branch`, Branch를 `main` / `/ (root)`로 저장하면 몇 분 안에 사이트가 열립니다.
-3. **최초 실제 데이터 갱신**: `Actions → Update F1 STATIZ Rankings → Run workflow` 버튼을 누르면 2024~2025 아카이브와 2026 최신 기록이 수집되어 `data/f1_war_rankings.csv`가 자동 갱신됩니다. (선택 사항: `data/salaries.csv`를 추가하면 연봉 가성비 컬럼이 자동 활성화됩니다.)
+3. **최초 실제 데이터 갱신**: `Actions → Update Pole2Stat Rankings → Run workflow` 버튼을 누르면 2024~2025 아카이브와 2026 최신 기록이 수집되어 `data/f1_war_rankings.csv`가 자동 갱신됩니다. (선택 사항: `data/salaries.csv`를 추가하면 연봉 가성비 컬럼이 자동 활성화됩니다.)
