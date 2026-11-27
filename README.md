@@ -1,6 +1,6 @@
-# F1 STATIZ — 세이버메트릭스 F1 드라이버 랭킹 사이트
+# Pole2Start — 세이버메트릭스 F1 드라이버 랭킹 사이트
 
-GitHub Pages와 GitHub Actions만으로 2024~2025 확정 시즌과 2026 진행 시즌의 F1-WAR · F1-PAR · 차량 중립 가치(dnPAR)를 매주 자동 갱신하는 정적 대시보드 저장소입니다.
+야구의 세이버메트릭스를 F1에 접목해 GitHub Pages와 GitHub Actions만으로 2024~2025 확정 시즌과 2026 진행 시즌의 F1-WAR · F1-PAR · 차량 중립 가치(dnPAR)를 통계로 나타내는 사이트 입니다.
 
 ## 파일 구성
 
