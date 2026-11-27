@@ -51,7 +51,8 @@ class PlackettLuceFit:
 # ---------------------------------------------------------------------------
 def _encode_races(clean_df: pd.DataFrame) -> tuple[list[dict[str, np.ndarray]], dict[str, int], dict[str, int], dict[str, int]]:
     """각 경기별 완주 순위(1위 -> 최하위)에 따른 정수 인덱스 배열을 생성합니다."""
-    drivers = sorted(clean_df["driver"].astype(str).unique())
+    id_col = "driver_id" if "driver_id" in clean_df.columns else "driver"
+    drivers = sorted(clean_df[id_col].astype(str).unique())
     dys = sorted(clean_df["driver_year"].astype(str).unique())
     cars = sorted(clean_df["team_year"].astype(str).unique())
 
@@ -66,7 +67,7 @@ def _encode_races(clean_df: pd.DataFrame) -> tuple[list[dict[str, np.ndarray]], 
             continue
         races.append(
             {
-                "d": np.array([d_idx[str(x)] for x in ordered["driver"]], dtype=np.int32),
+                "d": np.array([d_idx[str(x)] for x in ordered[id_col]], dtype=np.int32),
                 "dy": np.array([dy_idx[str(x)] for x in ordered["driver_year"]], dtype=np.int32),
                 "c": np.array([c_idx[str(x)] for x in ordered["team_year"]], dtype=np.int32),
             }
@@ -137,10 +138,12 @@ def fit_plackett_luce(
 ) -> PlackettLuceFit:
     """교차 분류 Plackett-Luce 순위 로짓 모형을 L-BFGS-B로 적합합니다."""
     work = clean_df.copy()
+    if "driver_id" not in work.columns or work["driver_id"].isna().all():
+        work["driver_id"] = work["driver"].astype(str)
+    work["driver_id"] = work["driver_id"].fillna(work["driver"]).astype(str)
     if "team_year" not in work.columns:
         work["team_year"] = work["team"].astype(str) + "_" + work["season"].astype(str)
-    if "driver_year" not in work.columns:
-        work["driver_year"] = work["driver"].astype(str) + "_" + work["season"].astype(str)
+    work["driver_year"] = work["driver_id"].astype(str) + "_" + work["season"].astype(str)
 
     races, d_idx, dy_idx, c_idx = _encode_races(work)
     n_d, n_dy, n_c = len(d_idx), len(dy_idx), len(c_idx)
@@ -160,16 +163,17 @@ def fit_plackett_luce(
     u_dy = theta[n_d : n_d + n_dy] - np.mean(theta[n_d : n_d + n_dy])
     u_c = theta[n_d + n_dy : n_d + n_dy + n_c] - np.mean(theta[n_d + n_dy : n_d + n_dy + n_c])
 
-    # 시즌별 드라이버 실력(u_driver + u_driver_year) 테이블 생성
-    pairs = work[["season", "driver", "driver_year", "team", "team_year"]].drop_duplicates(subset=["season", "driver"])
+    # 시즌별 드라이버 실력(u_driver + u_driver_year) 테이블 생성 (driver_id 기준)
+    pairs = work[["season", "driver_id", "driver", "driver_year", "team", "team_year"]].drop_duplicates(subset=["season", "driver_id"])
     ds_rows = []
     for r in pairs.itertuples(index=False):
-        b = float(u_d[d_idx[str(r.driver)]])
+        b = float(u_d[d_idx[str(r.driver_id)]])
         f = float(u_dy[dy_idx[str(r.driver_year)]])
         c = float(u_c[c_idx[str(r.team_year)]])
         ds_rows.append(
             {
                 "season": int(r.season),
+                "driver_id": str(r.driver_id),
                 "driver": str(r.driver),
                 "team": str(r.team),
                 "team_year": str(r.team_year),
@@ -185,7 +189,7 @@ def fit_plackett_luce(
         ds_df["car_skill"] = ds_df.groupby("season")["car_skill"].transform(lambda s: s - s.mean())
 
     # 분산 분해 비중 (관측치 기준 예측 분산 비교)
-    drv_eff = np.array([u_d[d_idx[str(d)]] + u_dy[dy_idx[str(dy)]] for d, dy in zip(work["driver"], work["driver_year"])])
+    drv_eff = np.array([u_d[d_idx[str(d)]] + u_dy[dy_idx[str(dy)]] for d, dy in zip(work["driver_id"], work["driver_year"])])
     car_eff = np.array([u_c[c_idx[str(c)]] for c in work["team_year"]])
     var_d, var_c = float(np.var(drv_eff)), float(np.var(car_eff))
     tot = var_d + var_c
@@ -234,12 +238,14 @@ def compute_counterfactual_war(
     rng = np.random.default_rng(seed)
     ds = fit.driver_season_df.copy()
 
+    id_col = "driver_id" if "driver_id" in clean_df.columns else "driver"
     counting_map = {
         (int(k[0]), str(k[1])): int(v)
-        for k, v in clean_df.groupby(["season", "driver"]).size().items()
+        for k, v in clean_df.groupby(["season", id_col]).size().items()
     }
+    raw_id_col = "driver_id" if (raw_df is not None and "driver_id" in raw_df.columns) else "driver"
     total_starts_map = (
-        {(int(k[0]), str(k[1])): int(v) for k, v in raw_df.groupby(["season", "driver"]).size().items()}
+        {(int(k[0]), str(k[1])): int(v) for k, v in raw_df.groupby(["season", raw_id_col]).size().items()}
         if raw_df is not None and not raw_df.empty
         else counting_map
     )
@@ -265,9 +271,10 @@ def compute_counterfactual_war(
         exp_pts_neutral = _expected_points_from_eta(drv_skills, gumbel)
 
         for i in range(n):
+            drv_id = str(grp.loc[i, "driver_id"])
             drv = str(grp.loc[i, "driver"])
-            starts = total_starts_map.get((int(season), drv), counting_map.get((int(season), drv), 0))
-            counting = counting_map.get((int(season), drv), starts)
+            starts = total_starts_map.get((int(season), drv_id), counting_map.get((int(season), drv_id), 0))
+            counting = counting_map.get((int(season), drv_id), starts)
 
             # 반사실적 1: 실제 머신은 그대로 두고 드라이버 i만 대체 수준으로 교체
             eta_cf_actual = eta_actual_grid.copy()
@@ -285,6 +292,7 @@ def compute_counterfactual_war(
             out_rows.append(
                 {
                     "season": int(season),
+                    "driver_id": drv_id,
                     "driver": drv,
                     "team": str(grp.loc[i, "team"]),
                     "starts": int(starts),
@@ -336,7 +344,7 @@ def compute_bootstrap_ci(
         b_rank = compute_counterfactual_war(b_fit, boot_df, raw_df=None, n_sims=n_sims, seed=seed + b + 1)
 
         for r in b_rank.itertuples(index=False):
-            key = (int(r.season), str(r.driver))
+            key = (int(r.season), str(r.driver_id))
             boot_f1_war.setdefault(key, []).append(float(r.f1_war))
             boot_dn_war.setdefault(key, []).append(float(r.dn_war))
 
@@ -347,7 +355,7 @@ def compute_bootstrap_ci(
 
     f1_lo, f1_hi, dn_lo, dn_hi = [], [], [], []
     for r in base_rankings.itertuples(index=False):
-        key = (int(r.season), str(r.driver))
+        key = (int(r.season), str(r.driver_id))
         lo1, hi1 = _ci_bounds(boot_f1_war.get(key, []), float(r.f1_war))
         lo2, hi2 = _ci_bounds(boot_dn_war.get(key, []), float(r.dn_war))
         f1_lo.append(lo1)

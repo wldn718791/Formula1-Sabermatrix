@@ -215,8 +215,10 @@ def qualifying_races_to_df(quali_races: list[dict[str, Any]]) -> pd.DataFrame:
         for item in q_results:
             drv = item.get("Driver", {})
             driver_code = drv.get("code") or drv.get("driverId", "UNK")
+            driver_id = drv.get("driverId") or driver_code
             parsed.append(
                 {
+                    "driver_id": driver_id,
                     "driver": driver_code,
                     "q1": parse_lap_time_str(item.get("Q1")),
                     "q2": parse_lap_time_str(item.get("Q2")),
@@ -245,6 +247,7 @@ def qualifying_races_to_df(quali_races: list[dict[str, Any]]) -> pd.DataFrame:
             race_rows.append(
                 {
                     "race_id": race_id,
+                    "driver_id": row.driver_id,
                     "driver": row.driver,
                     "best_quali_sec": round(best_raw, 4),
                     "adj_quali_sec": round(adj_sec, 4),
@@ -302,7 +305,8 @@ def races_to_multilevel_df(
                     "race_name": race_name,
                     "circuit_id": circuit_id,
                     "driver": driver_code,
-                    "driver_id": driver_info.get("driverId", ""),
+                    "driver_id": driver_info.get("driverId") or driver_code,
+                    "car_number": str(res.get("number", "")).strip(),
                     "driver_fullname": f"{driver_info.get('givenName', '')} {driver_info.get('familyName', '')}".strip(),
                     "driver_nationality": driver_info.get("nationality", ""),
                     "team": team_id,
@@ -323,9 +327,10 @@ def races_to_multilevel_df(
         return df
 
     if quali_df is not None and not quali_df.empty:
+        merge_key = "driver_id" if "driver_id" in quali_df.columns else "driver"
         df = df.merge(
-            quali_df[["race_id", "driver", "best_quali_sec", "adj_quali_sec", "quali_pace_pct"]],
-            on=["race_id", "driver"],
+            quali_df[["race_id", merge_key, "best_quali_sec", "adj_quali_sec", "quali_pace_pct"]],
+            on=["race_id", merge_key],
             how="left",
         )
     return df

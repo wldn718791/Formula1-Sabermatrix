@@ -208,8 +208,14 @@
           </div>
         </div>
 
-        <!-- 역대 소속팀 타임라인 -->
+        <!-- 역대 등번호 변천사 -->
         <div class="pt-3 border-t border-slate-100 flex flex-wrap items-center gap-2">
+          <span class="text-xs font-semibold text-slate-500 mr-1">역대 등번호</span>
+          <div id="prof-number-history" class="flex flex-wrap items-center gap-2 text-xs text-slate-600"></div>
+        </div>
+
+        <!-- 역대 소속팀 타임라인 -->
+        <div class="pt-2.5 border-t border-slate-100 flex flex-wrap items-center gap-2">
           <span class="text-xs font-semibold text-slate-500 mr-1">역대 소속팀</span>
           <div id="prof-team-history" class="flex flex-wrap items-center gap-2"></div>
         </div>
@@ -598,27 +604,79 @@
       Portuguese: '포르투갈', 'South African': '남아공', Scottish: '영국'
     };
 
-    function getDriverMeta(code) {
-      const key = String(code || '').toUpperCase();
-      const row = state.rows.find(r => String(r.driver || '').toUpperCase() === key && (r.driver_fullname || r.driver_nationality));
+    const DRIVER_ID_KO = {
+      max_verstappen: '막스 베르스타펜', hamilton: '루이스 해밀턴', leclerc: '샤를 르클레르',
+      norris: '랜도 노리스', piastri: '오스카 피아스트리', russell: '조지 러셀',
+      antonelli: '키미 안토넬리', sainz: '카를로스 사인츠', alonso: '페르난도 알론소',
+      stroll: '랜스 스트롤', gasly: '피에르 가슬리', ocon: '에스테반 오콘',
+      albon: '알렉산더 알본', hulkenberg: '니코 휠켄베르크', bottas: '발테리 보타스',
+      perez: '세르히오 페레스', tsunoda: '츠노다 유키', lawson: '리암 로슨',
+      hadjar: '이작 하자르', bearman: '올리버 베어먼', colapinto: '프랑코 콜라핀토',
+      bortoleto: '가브리엘 보르톨레토', lindblad: '아르비드 린드블라드', doohan: '잭 두한',
+      ricciardo: '다니엘 리카르도', kevin_magnussen: '케빈 마그누센', zhou: '저우관위',
+      sargeant: '로건 사전트', de_vries: '닉 더 프리스', latifi: '니콜라스 라티피',
+      mick_schumacher: '믹 슈마허', michael_schumacher: '미하엘 슈마허', ralf_schumacher: '랄프 슈마허',
+      vettel: '세바스티안 베텔', raikkonen: '키미 라이코넨', giovinazzi: '안토니오 지오비나치',
+      mazepin: '니키타 마제핀', kubica: '로베르트 쿠비차', rosberg: '니코 로즈버그',
+      button: '젠슨 버튼', webber: '마크 웨버', massa: '펠리페 마사',
+      barrichello: '루벤스 바리첼로', grosjean: '로맹 그로장', kvyat: '다닐 크비얏',
+      heidfeld: '닉 하이트펠트', trulli: '야르노 트룰리', fisichella: '지안카를로 피지켈라',
+      coulthard: '데이비드 쿨사드', kovalainen: '헤이키 코발라이넨', sutil: '아드리안 수틸',
+      kobayashi: '코바야시 카무이', maldonado: '파스토르 말도나도', ericsson: '마르쿠스 에릭슨',
+      wehrlein: '파스칼 베를라인', vandoorne: '스토펠 반도른', brendon_hartley: '브렌든 하틀리',
+      vergne: '장-에릭 베르뉴', jules_bianchi: '쥘 비앙키', buemi: '세바스티앙 부에미',
+      alguersuari: '하이메 알구어수아리', glock: '티모 글록', resta: '폴 디 레스타',
+      nasr: '펠리페 나스르', jolyon_palmer: '졸리온 팔머', albers: '크리스티안 알버스',
+      montoya: '후안 파블로 몬토야', villeneuve: '자크 빌뇌브', sato: '사토 타쿠마',
+      speed: '스콧 스피드', liuzzi: '비탄토니오 리우치', klien: '크리스티안 클린',
+      monteiro: '티아고 몬테이로', piquet_jr: '넬슨 피케 주니어', nakajima: '나카지마 카즈키',
+      bourdais: '세바스티앙 부르데', bruno_senna: '브루노 세나', petrov: '비탈리 페트로프',
+      grassi: '루카스 디 그라시', chandhok: '카룬 찬독', ambrosio: '제롬 담브로시오',
+      pic: '샤를 픽', garde: '기도 판 데르 가르데', chilton: '맥스 칠튼',
+      gutierrez: '에스테반 구티에레스', stevens: '윌 스티븐스', merhi: '로베르토 메리',
+      haryanto: '리오 하랸토', sirotkin: '세르게이 시로트킨', pietro_fittipaldi: '피에트로 피티팔디',
+      aitken: '잭 에이킨', karthikeyan: '나라얀 카티케얀', rosa: '페드로 데 라 로사',
+      wurz: '알렉산더 부르츠', davidson: '앤서니 데이비슨', yamamoto: '야마모토 사콘',
+      ide: '이데 유지', montagny: '프랑크 몽타니', doorNBos: '로베르트 도른보스',
+      doornbos: '로베르트 도른보스', winkelhock: '마르쿠스 빙켈호크', badoer: '루카 바도에르',
+      rossi: '알렉산더 로시', lotterer: '앙드레 로테러', kaiser: '마르쿠스 에릭슨'
+    };
+
+    function getRowDriverId(r) {
+      return String(r.driver_id || r.driver || '').trim();
+    }
+
+    function getDriverMeta(driverKey) {
+      const rawKey = String(driverKey || '').trim();
+      const lowerId = rawKey.toLowerCase();
+      const row = state.rows.find(r => getRowDriverId(r) === rawKey)
+        || state.rows.find(r => String(r.driver || '').toUpperCase() === rawKey.toUpperCase());
+
+      const code = row ? String(row.driver || rawKey).toUpperCase() : rawKey.toUpperCase();
+      const did = row ? String(row.driver_id || '').toLowerCase() : lowerId;
       const apiEn = row && row.driver_fullname ? String(row.driver_fullname).trim() : '';
       const apiNatRaw = row && row.driver_nationality ? String(row.driver_nationality).trim() : '';
       const apiNatKo = NAT_KO[apiNatRaw] || apiNatRaw;
 
-      // MSC는 2006/2010~2012 미하엘 슈마허와 2021~2022 믹 슈마허 구분
-      if (key === 'MSC' && apiEn.toLowerCase().includes('michael')) {
-        return { ko: '미하엘 슈마허', en: apiEn, nat: '독일' };
-      }
-      if (DRIVER_META[key]) {
+      // 1순위: driver_id 정확 매칭 (미하엘/믹 슈마허, 알본/알버스, 베르스타펜/베르뉴 완벽 분리)
+      if (DRIVER_ID_KO[did]) {
         return {
-          ko: DRIVER_META[key].ko,
-          en: apiEn || DRIVER_META[key].en,
-          nat: DRIVER_META[key].nat || apiNatKo || '국적 정보 없음'
+          code,
+          ko: DRIVER_ID_KO[did],
+          en: apiEn || (DRIVER_META[code] ? DRIVER_META[code].en : did),
+          nat: apiNatKo || (DRIVER_META[code] ? DRIVER_META[code].nat : '국적 정보 없음')
         };
       }
+      // 2순위: 데모 데이터 등 driver_id가 없는 경우 3글자 코드 매칭
+      if (!row || !row.driver_id) {
+        if (DRIVER_META[code]) {
+          return { code, ko: DRIVER_META[code].ko, en: apiEn || DRIVER_META[code].en, nat: apiNatKo || DRIVER_META[code].nat };
+        }
+      }
       return {
-        ko: apiEn || key,
-        en: apiEn || key,
+        code,
+        ko: apiEn || code,
+        en: apiEn || code,
         nat: apiNatKo || '국적 정보 없음'
       };
     }
@@ -731,7 +789,9 @@
     }
 
     function getUniqueDrivers() {
-      return [...new Set(state.rows.map(r => r.driver))].sort();
+      return [...new Set(state.rows.map(r => getRowDriverId(r)))].sort((a, b) =>
+        getDriverMeta(a).ko.localeCompare(getDriverMeta(b).ko, 'ko')
+      );
     }
 
     function populateSelectors() {
@@ -747,7 +807,7 @@
       selSeason.value = state.seasonFilter;
 
       const profSel = document.getElementById('profile-driver-select');
-      profSel.innerHTML = drivers.map(d => `<option value="${d}">${d} · ${getDriverMeta(d).ko}</option>`).join('');
+      profSel.innerHTML = drivers.map(id => { const m = getDriverMeta(id); return `<option value="${id}">${m.ko} (${m.code})</option>`; }).join('');
       if (!drivers.includes(state.selectedDriver)) state.selectedDriver = drivers[0] || '';
       profSel.value = state.selectedDriver;
 
@@ -758,7 +818,7 @@
 
       const cmpA = document.getElementById('cmp-driver-a');
       const cmpB = document.getElementById('cmp-driver-b');
-      const opts = drivers.map(d => `<option value="${d}">${d}</option>`).join('');
+      const opts = drivers.map(id => { const m = getDriverMeta(id); return `<option value="${id}">${m.ko} (${m.code})</option>`; }).join('');
       cmpA.innerHTML = opts;
       cmpB.innerHTML = opts;
       if (!drivers.includes(state.cmpA)) state.cmpA = drivers[0] || '';
@@ -774,7 +834,7 @@
         if ((Number(r.starts) || 0) < state.minStarts) return false;
         if (state.searchQuery) {
           const q = state.searchQuery.toLowerCase();
-          const dm = getDriverMeta(r.driver);
+          const dm = getDriverMeta(getRowDriverId(r));
           if (!String(r.driver).toLowerCase().includes(q) && !dm.ko.toLowerCase().includes(q) && !dm.en.toLowerCase().includes(q) && !String(r.team).toLowerCase().includes(q) && !formatTeamName(r.team).toLowerCase().includes(q)) return false;
         }
         return true;
@@ -846,7 +906,7 @@
         tbody.innerHTML = `<tr><td colspan="13" class="px-4 py-8 text-center text-slate-400">조건에 맞는 드라이버 기록이 없습니다.</td></tr>`;
       } else {
         tbody.innerHTML = rows.map((r, idx) => `
-          <tr class="hover:bg-rose-50/50 cursor-pointer transition driver-row" data-driver="${r.driver}">
+          <tr class="hover:bg-rose-50/50 cursor-pointer transition driver-row" data-driver-id="${getRowDriverId(r)}">
             <td class="px-3 py-2.5 text-center font-semibold text-slate-500 num">${idx + 1}</td>
             <td class="px-3 py-2.5 font-bold text-slate-900">
               ${r.driver}
@@ -868,7 +928,7 @@
 
         tbody.querySelectorAll('.driver-row').forEach(tr => {
           tr.addEventListener('click', () => {
-            state.selectedDriver = tr.dataset.driver;
+            state.selectedDriver = tr.dataset.driverId;
             document.getElementById('profile-driver-select').value = state.selectedDriver;
             switchTab('profile');
           });
@@ -913,7 +973,7 @@
     function renderProfile() {
       const drv = state.selectedDriver;
       const history = state.rows
-        .filter(r => r.driver === drv)
+        .filter(r => getRowDriverId(r) === drv)
         .sort((a, b) => Number(a.season) - Number(b.season));
 
       if (history.length === 0) return;
@@ -926,7 +986,7 @@
       const latestColor = (TEAM_COLORS[latestKey] && TEAM_COLORS[latestKey].dot) || '#0f172a';
 
       const codeBadge = document.getElementById('prof-code-badge');
-      codeBadge.textContent = drv;
+      codeBadge.textContent = meta.code;
       codeBadge.style.background = latestColor;
       document.getElementById('prof-fullname-ko').textContent = meta.ko;
       document.getElementById('prof-fullname-en').textContent = meta.en;
@@ -935,6 +995,29 @@
         `집계 출전 ${totalStarts}경기 (${minYear === maxYear ? `${minYear} 시즌` : `${minYear}–${maxYear} 시즌`})`;
       document.getElementById('profile-team-badge').textContent =
         `최근 소속: ${latest.season} ${formatTeamName(latest.team)} (${latest.car_tier})`;
+
+      // 연속 시즌 동일 등번호를 묶어 역대 등번호 변천사 표시
+      const numStints = [];
+      history.forEach(r => {
+        const rawNum = r.car_number !== undefined && r.car_number !== null ? String(r.car_number).trim().replace(/\.0$/, '') : '';
+        if (!rawNum) return;
+        const prev = numStints[numStints.length - 1];
+        if (prev && prev.num === rawNum) {
+          prev.end = r.season;
+        } else {
+          numStints.push({ num: rawNum, start: r.season, end: r.season });
+        }
+      });
+      const numBox = document.getElementById('prof-number-history');
+      if (numStints.length) {
+        numBox.innerHTML = numStints.map((ns, idx) => {
+          const yrs = ns.start === ns.end ? `${ns.start}` : `${ns.start}–${ns.end}`;
+          const arrow = idx < numStints.length - 1 ? '<span class="text-slate-300 text-xs">→</span>' : '';
+          return `<span class="inline-flex items-center gap-1"><span class="px-2 py-0.5 rounded-md bg-slate-900 text-white font-mono font-bold text-xs num">#${ns.num}</span><span class="text-xs text-slate-400 num">${yrs}</span></span>${arrow}`;
+        }).join('');
+      } else {
+        numBox.innerHTML = '<span class="text-xs text-slate-400">등번호 데이터 갱신 필요 (Actions 재실행 시 자동 표시)</span>';
+      }
 
       const stints = [];
       history.forEach(r => {
@@ -1014,8 +1097,8 @@
 
     function renderCompare() {
       const s = state.cmpSeason;
-      const rowA = state.rows.find(r => String(r.season) === s && r.driver === state.cmpA);
-      const rowB = state.rows.find(r => String(r.season) === s && r.driver === state.cmpB);
+      const rowA = state.rows.find(r => String(r.season) === s && getRowDriverId(r) === state.cmpA);
+      const rowB = state.rows.find(r => String(r.season) === s && getRowDriverId(r) === state.cmpB);
 
       document.getElementById('cmp-th-a').textContent = rowA ? `${rowA.driver} (${formatTeamName(rowA.team)})` : state.cmpA;
       document.getElementById('cmp-th-b').textContent = rowB ? `${rowB.driver} (${formatTeamName(rowB.team)})` : state.cmpB;
@@ -1241,11 +1324,11 @@
         return;
       }
       const drivers = getUniqueDrivers();
-      const matches = drivers.filter(code => {
-        const m = getDriverMeta(code);
-        const latestRow = [...state.rows].filter(r => r.driver === code).sort((a, b) => Number(b.season) - Number(a.season))[0];
+      const matches = drivers.filter(did => {
+        const m = getDriverMeta(did);
+        const latestRow = [...state.rows].filter(r => getRowDriverId(r) === did).sort((a, b) => Number(b.season) - Number(a.season))[0];
         const tKo = latestRow ? formatTeamName(latestRow.team).toLowerCase() : '';
-        return code.toLowerCase().includes(q) || m.ko.toLowerCase().includes(q) || m.en.toLowerCase().includes(q) || m.nat.toLowerCase().includes(q) || tKo.includes(q);
+        return did.toLowerCase().includes(q) || m.code.toLowerCase().includes(q) || m.ko.toLowerCase().includes(q) || m.en.toLowerCase().includes(q) || m.nat.toLowerCase().includes(q) || tKo.includes(q);
       }).slice(0, 8);
 
       if (!matches.length) {
@@ -1254,13 +1337,13 @@
         return;
       }
 
-      globalSearchDropdown.innerHTML = matches.map(code => {
-        const m = getDriverMeta(code);
-        const latestRow = [...state.rows].filter(r => r.driver === code).sort((a, b) => Number(b.season) - Number(a.season))[0];
+      globalSearchDropdown.innerHTML = matches.map(did => {
+        const m = getDriverMeta(did);
+        const latestRow = [...state.rows].filter(r => getRowDriverId(r) === did).sort((a, b) => Number(b.season) - Number(a.season))[0];
         return `
-          <button type="button" data-pick-driver="${code}" class="w-full px-3.5 py-2.5 text-left hover:bg-rose-50 flex items-center justify-between gap-2 transition">
+          <button type="button" data-pick-driver="${did}" class="w-full px-3.5 py-2.5 text-left hover:bg-rose-50 flex items-center justify-between gap-2 transition">
             <div>
-              <div class="text-xs sm:text-sm font-bold text-slate-900">${m.ko} <span class="text-xs font-mono text-slate-400 ml-1">${code}</span></div>
+              <div class="text-xs sm:text-sm font-bold text-slate-900">${m.ko} <span class="text-xs font-mono text-slate-400 ml-1">${m.code}</span></div>
               <div class="text-[11px] text-slate-500">${m.en} · ${m.nat}</div>
             </div>
             <div>${latestRow ? teamBadgeHtml(latestRow.team) : ''}</div>

@@ -129,27 +129,38 @@ def update_incremental(
     if combined.empty:
         raise RuntimeError("수집된 레이스 데이터가 없어 랭킹을 계산할 수 없습니다.")
 
-    # 드라이버별 풀네임·국적 메타 매핑 (API에서 자동 추출)
+    if "driver_id" not in combined.columns or combined["driver_id"].isna().all():
+        combined["driver_id"] = combined["driver"].astype(str)
+    combined["driver_id"] = combined["driver_id"].fillna(combined["driver"]).astype(str)
+
+    # 드라이버 고유 ID(driver_id)별 풀네임·국적·시즌 등번호 매핑 (동명이인/동일 3글자 코드 충돌 완전 차단)
     name_map: dict[str, str] = {}
     nat_map: dict[str, str] = {}
+    num_map: dict[tuple[int, str], str] = {}
     if "driver_fullname" in combined.columns:
-        for d, grp in combined.dropna(subset=["driver_fullname"]).groupby("driver"):
+        for did, grp in combined.dropna(subset=["driver_fullname"]).groupby("driver_id"):
             vals = [str(v).strip() for v in grp["driver_fullname"] if str(v).strip()]
             if vals:
-                name_map[str(d)] = vals[-1]
+                name_map[str(did)] = vals[-1]
     if "driver_nationality" in combined.columns:
-        for d, grp in combined.dropna(subset=["driver_nationality"]).groupby("driver"):
+        for did, grp in combined.dropna(subset=["driver_nationality"]).groupby("driver_id"):
             vals = [str(v).strip() for v in grp["driver_nationality"] if str(v).strip()]
             if vals:
-                nat_map[str(d)] = vals[-1]
+                nat_map[str(did)] = vals[-1]
+    if "car_number" in combined.columns:
+        for (s, did), grp in combined.dropna(subset=["car_number"]).groupby(["season", "driver_id"]):
+            nums = [str(v).strip().removesuffix(".0") for v in grp["car_number"] if str(v).strip() not in {"", "nan", "None"}]
+            if nums:
+                num_map[(int(s), str(did))] = pd.Series(nums).mode().iloc[0]
 
-    # 1) v2 Plackett-Luce 순위 로짓 + 반사실적 시뮬레이션 + 95% 부트스트랩 신뢰구간
+    # 1) v2 Plackett-Luce 순위 로짓 + 반사실적 시뮬레이션 + 95% 부트스트랩 신뢰구간 (driver_id 기준)
     clean_df = combined[combined.get("mechanical_dnf", 0) == 0].dropna(subset=["finish_position"]).copy()
     rankings, pl_fit = compute_bootstrap_ci(clean_df, raw_df=combined, n_bootstrap=n_bootstrap)
 
-    # 2) 퀄리 ΔQ 다층 모형 병합 (2006~2026 전 시즌 Q1/Q2/Q3)
+    # 2) 퀄리 ΔQ 다층 모형 병합 (driver_id 기준)
     if "quali_pace_pct" in combined.columns and combined["quali_pace_pct"].notna().sum() >= 20:
         q_work = combined.dropna(subset=["quali_pace_pct"]).copy()
+        q_work["driver"] = q_work["driver_id"]
         q_work["pace_score"] = q_work["quali_pace_pct"]
         q_work["mechanical_dnf"] = 0
         if "is_wet" not in q_work.columns:
@@ -161,17 +172,18 @@ def update_incremental(
             (int(r.season), str(r.driver)): round(float(r.est_driver_season_skill) - q_repl[int(r.season)], 3)
             for r in q_ds.itertuples(index=False)
         }
-        rankings["delta_q"] = [q_map.get((int(r.season), str(r.driver)), np.nan) for r in rankings.itertuples(index=False)]
+        rankings["delta_q"] = [q_map.get((int(r.season), str(r.driver_id)), np.nan) for r in rankings.itertuples(index=False)]
     else:
         rankings["delta_q"] = np.nan
 
     rankings["delta_r"] = rankings["skill_logit"]
     rankings["car_tier"] = _assign_tier_label_for_ui(rankings)
-    rankings["driver_fullname"] = rankings["driver"].map(lambda d: name_map.get(str(d), ""))
-    rankings["driver_nationality"] = rankings["driver"].map(lambda d: nat_map.get(str(d), ""))
+    rankings["driver_fullname"] = rankings["driver_id"].map(lambda d: name_map.get(str(d), ""))
+    rankings["driver_nationality"] = rankings["driver_id"].map(lambda d: nat_map.get(str(d), ""))
+    rankings["car_number"] = [num_map.get((int(r.season), str(r.driver_id)), "") for r in rankings.itertuples(index=False)]
 
     ordered_cols = [
-        "season", "driver", "driver_fullname", "driver_nationality",
+        "season", "driver_id", "driver", "car_number", "driver_fullname", "driver_nationality",
         "team", "car_tier", "starts", "counting_races",
         "delta_q", "delta_r", "f1_par", "f1_war", "f1_war_ci_low", "f1_war_ci_high",
         "dn_par", "dn_war", "dn_war_ci_low", "dn_war_ci_high",
