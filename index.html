@@ -639,7 +639,15 @@
       wurz: '알렉산더 부르츠', davidson: '앤서니 데이비슨', yamamoto: '야마모토 사콘',
       ide: '이데 유지', montagny: '프랑크 몽타니', doorNBos: '로베르트 도른보스',
       doornbos: '로베르트 도른보스', winkelhock: '마르쿠스 빙켈호크', badoer: '루카 바도에르',
-      rossi: '알렉산더 로시', lotterer: '앙드레 로테러', kaiser: '마르쿠스 에릭슨'
+      rossi: '알렉산더 로시', lotterer: '앙드레 로테러',
+      arvid_lindblad: '아르비드 린드블라드',
+      camara: '하파엘 카마라', rafael_camara: '하파엘 카마라',
+      hirakawa: '히라카와 료', ryo_hirakawa: '히라카와 료',
+      andrea_kimi_antonelli: '키미 안토넬리', kimi_antonelli: '키미 안토넬리',
+      oliver_bearman: '올리버 베어먼', gabriel_bortoleto: '가브리엘 보르톨레토',
+      isack_hadjar: '이작 하자르', franco_colapinto: '프랑코 콜라핀토',
+      jack_doohan: '잭 두한', liam_lawson: '리암 로슨',
+      sergio_perez: '세르히오 페레스', valtteri_bottas: '발테리 보타스'
     };
 
     function getRowDriverId(r) {
@@ -667,8 +675,17 @@
           nat: apiNatKo || (DRIVER_META[code] ? DRIVER_META[code].nat : '국적 정보 없음')
         };
       }
-      // 2순위: 데모 데이터 등 driver_id가 없는 경우 3글자 코드 매칭
-      if (!row || !row.driver_id) {
+      // 2순위: driver_id가 'arvid_lindblad'처럼 이름+성 형태인 경우 성(마지막 토큰) 매칭 (충돌 ID 제외)
+      const COLLIDING_CODES = new Set(['MSC', 'ALB', 'VER']);
+      if (!COLLIDING_CODES.has(code)) {
+        const lastToken = did.includes('_') ? did.split('_').pop() : '';
+        if (lastToken && DRIVER_ID_KO[lastToken]) {
+          return { code, ko: DRIVER_ID_KO[lastToken], en: apiEn || did, nat: apiNatKo || '국적 정보 없음' };
+        }
+        if (DRIVER_META[code]) {
+          return { code, ko: DRIVER_META[code].ko, en: apiEn || DRIVER_META[code].en, nat: apiNatKo || DRIVER_META[code].nat };
+        }
+      } else if (!row || !row.driver_id) {
         if (DRIVER_META[code]) {
           return { code, ko: DRIVER_META[code].ko, en: apiEn || DRIVER_META[code].en, nat: apiNatKo || DRIVER_META[code].nat };
         }
