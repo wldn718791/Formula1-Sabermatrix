@@ -1,441 +1,441 @@
-season,round,race_id,race_name,circuit_id,driver,driver_id,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,is_wet,pace_score,best_quali_sec,adj_quali_sec,quali_pace_pct
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,89.708,89.708,1.1539
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,2,2,18.0,Finished,finished,0,0,0.9474,89.846,89.846,1.0019
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,5,3,15.0,Finished,finished,0,0,0.8947,90.336,90.336,0.462
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,4,12.0,Finished,finished,0,0,0.8421,90.154,90.154,0.6625
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,7,5,10.0,Finished,finished,0,0,0.7895,90.384,90.222,0.5876
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,8,6,8.0,Finished,finished,0,0,0.7368,90.836,90.836,-0.089
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,RUS,russell,George Russell,British,mercedes,mercedes_2023,6,7,6.0,Finished,finished,0,0,0.6842,90.34,90.216,0.5942
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,12,8,4.0,Finished,finished,0,0,0.6316,91.443,91.152,-0.4372
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,20,9,2.0,Finished,finished,0,0,0.5789,92.181,91.3945,-0.7044
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,ALB,albon,Alexander Albon,Thai,williams,williams_2023,15,10,1.0,Finished,finished,0,0,0.5263,91.461,90.6745,0.089
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,14,11,0.0,Finished,finished,0,0,0.4737,91.4,92.219,-1.6129
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,16,12,0.0,Lapped,finished,0,0,0.4211,91.652,90.8655,-0.1215
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,17,13,0.0,Lapped,finished,0,0,0.3684,91.892,91.1055,-0.3859
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,19,14,0.0,Lapped,finished,0,0,0.3158,92.121,91.3345,-0.6383
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,10,15,0.0,Lapped,finished,0,0,0.2632,90.809,90.518,0.2614
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,13,16,0.0,Lapped,finished,0,0,0.2105,91.473,91.182,-0.4702
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,11,17,0.0,Lapped,finished,0,0,0.1579,91.381,91.09,-0.3688
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,9,18,0.0,Retired,mechanical_dnf,1,0,0.1053,90.914,90.623,0.1457
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,3,19,0.0,Retired,mechanical_dnf,1,0,0.0526,90.0,89.991,0.8421
-2023,1,2023_R01,Bahrain Grand Prix,bahrain,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,18,20,0.0,Retired,mechanical_dnf,1,0,0.0,92.101,91.3145,-0.6162
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,88.265,88.265,1.1457
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,15,2,19.0,Finished,finished,0,0,0.9474,88.761,109.81,-22.9841
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,3,15.0,Finished,finished,0,0,0.8947,88.73,88.614,0.7549
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,RUS,russell,George Russell,British,mercedes,mercedes_2023,3,4,12.0,Finished,finished,0,0,0.8421,88.857,88.857,0.4827
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,7,5,10.0,Finished,finished,0,0,0.7895,89.223,89.223,0.0728
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,6,8.0,Finished,finished,0,0,0.7368,88.931,88.814,0.5309
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,12,7,6.0,Finished,finished,0,0,0.6842,88.42,88.42,0.9721
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,6,8,4.0,Finished,finished,0,0,0.6316,89.078,89.078,0.2352
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,9,9,2.0,Finished,finished,0,0,0.5789,89.357,89.268,0.0224
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,13,10,1.0,Finished,finished,0,0,0.5263,89.634,89.491,-0.2274
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,11,0.0,Finished,finished,0,0,0.4737,89.939,89.423,-0.1512
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,10,12,0.0,Finished,finished,0,0,0.4211,89.451,89.308,-0.0224
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,11,13,0.0,Finished,finished,0,0,0.3684,89.461,89.318,-0.0336
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,18,14,0.0,Finished,finished,0,0,0.3158,90.244,89.728,-0.4928
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,8,15,0.0,Finished,finished,0,0,0.2632,89.243,89.235,0.0594
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,20,16,0.0,Finished,finished,0,0,0.2105,128.51,127.994,-43.3496
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,19,17,0.0,Finished,finished,0,0,0.1579,90.447,89.931,-0.7201
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,14,18,0.0,Lapped,finished,0,0,0.1053,89.668,89.525,-0.2654
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,ALB,albon,Alexander Albon,Thai,williams,williams_2023,17,19,0.0,Retired,mechanical_dnf,1,0,0.0526,89.994,89.478,-0.2128
-2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,5,20,0.0,Retired,mechanical_dnf,1,0,0.0,88.945,88.819,0.5253
-2023,3,2023_R03,Australian Grand Prix,albert_park,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,76.732,76.732,1.13
-2023,3,2023_R03,Australian Grand Prix,albert_park,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,3,2,18.0,Finished,finished,0,0,0.9474,77.104,77.104,0.6507
-2023,3,2023_R03,Australian Grand Prix,albert_park,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,4,3,15.0,Finished,finished,0,0,0.8947,77.139,77.135,0.6108
-2023,3,2023_R03,Australian Grand Prix,albert_park,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,6,4,12.0,Finished,finished,0,0,0.8421,77.308,77.308,0.3878
-2023,3,2023_R03,Australian Grand Prix,albert_park,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,20,5,11.0,Finished,finished,0,0,0.7895,,,
-2023,3,2023_R03,Australian Grand Prix,albert_park,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,13,6,8.0,Finished,finished,0,0,0.7368,78.119,77.971,-0.4664
-2023,3,2023_R03,Australian Grand Prix,albert_park,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,10,7,6.0,Finished,finished,0,0,0.6842,77.412,77.264,0.4445
-2023,3,2023_R03,Australian Grand Prix,albert_park,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,16,8,4.0,Finished,finished,0,0,0.6316,78.517,78.112,-0.6481
-2023,3,2023_R03,Australian Grand Prix,albert_park,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,17,9,2.0,Finished,finished,0,0,0.5789,78.54,78.135,-0.6778
-2023,3,2023_R03,Australian Grand Prix,albert_park,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,12,10,1.0,Finished,finished,0,0,0.5263,78.099,77.951,-0.4407
-2023,3,2023_R03,Australian Grand Prix,albert_park,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,19,11,0.0,Finished,finished,0,0,0.4737,78.714,78.309,-0.902
-2023,3,2023_R03,Australian Grand Prix,albert_park,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,5,12,0.0,Finished,finished,0,0,0.4211,77.27,77.201,0.5257
-2023,3,2023_R03,Australian Grand Prix,albert_park,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,9,13,0.0,Retired,mechanical_dnf,1,0,0.3684,77.574,77.426,0.2358
-2023,3,2023_R03,Australian Grand Prix,albert_park,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,11,14,0.0,Retired,mechanical_dnf,1,0,0.3158,77.768,77.62,-0.0142
-2023,3,2023_R03,Australian Grand Prix,albert_park,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,15,15,0.0,Retired,mechanical_dnf,1,0,0.2632,78.335,78.187,-0.7448
-2023,3,2023_R03,Australian Grand Prix,albert_park,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,18,16,0.0,Retired,mechanical_dnf,1,0,0.2105,78.557,78.152,-0.6997
-2023,3,2023_R03,Australian Grand Prix,albert_park,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,14,17,0.0,Retired,mechanical_dnf,1,0,0.1579,78.129,77.981,-0.4793
-2023,3,2023_R03,Australian Grand Prix,albert_park,RUS,russell,George Russell,British,mercedes,mercedes_2023,2,18,0.0,Retired,mechanical_dnf,1,0,0.1053,76.968,76.968,0.8259
-2023,3,2023_R03,Australian Grand Prix,albert_park,ALB,albon,Alexander Albon,Thai,williams,williams_2023,8,19,0.0,Retired,mechanical_dnf,1,0,0.0526,77.609,77.609,0.0
-2023,3,2023_R03,Australian Grand Prix,albert_park,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,7,20,0.0,Retired,mechanical_dnf,1,0,0.0,77.369,77.242,0.4729
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,3,1,25.0,Finished,finished,0,0,1.0,100.495,100.495,0.8598
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,2,2,18.0,Finished,finished,0,0,0.9474,100.391,100.391,0.9623
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,100.203,100.203,1.1478
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,6,4,12.0,Finished,finished,0,0,0.8421,101.253,101.0915,0.2713
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,5,10.0,Finished,finished,0,0,0.7895,101.016,101.016,0.3458
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,5,6,8.0,Finished,finished,0,0,0.7368,101.177,101.177,0.1869
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,9,7,6.0,Finished,finished,0,0,0.6842,101.576,101.2975,0.0681
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,RUS,russell,George Russell,British,mercedes,mercedes_2023,11,8,5.0,Finished,finished,0,0,0.6316,101.654,101.3755,-0.0089
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,7,9,2.0,Finished,finished,0,0,0.5789,101.281,101.2065,0.1578
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,8,10,1.0,Finished,finished,0,0,0.5263,101.569,101.2905,0.075
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,10,11,0.0,Finished,finished,0,0,0.4737,101.611,101.3575,0.0089
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,ALB,albon,Alexander Albon,Thai,williams,williams_2023,12,12,0.0,Finished,finished,0,0,0.4211,101.818,101.5395,-0.1707
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,16,13,0.0,Finished,finished,0,0,0.3684,103.417,102.5625,-1.1799
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,17,14,0.0,Finished,finished,0,0,0.3158,104.853,103.9985,-2.5965
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,19,15,0.0,Finished,finished,0,0,0.2632,101.798,101.5195,-0.1509
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,14,16,0.0,Finished,finished,0,0,0.2105,102.242,102.1165,-0.7399
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,20,17,0.0,Lapped,finished,0,0,0.1579,102.755,101.9005,-0.5268
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,13,18,0.0,Lapped,finished,0,0,0.1053,102.259,101.9805,-0.6057
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,15,19,0.0,Retired,mechanical_dnf,1,0,0.0526,102.642,101.7875,-0.4153
-2023,4,2023_R04,Azerbaijan Grand Prix,baku,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,18,20,0.0,Retired,mechanical_dnf,1,0,0.0,115.282,114.4275,-12.8849
-2023,5,2023_R05,Miami Grand Prix,miami,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,9,1,26.0,Finished,finished,0,0,1.0,86.814,86.9535,1.0422
-2023,5,2023_R05,Miami Grand Prix,miami,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,1,2,18.0,Finished,finished,0,0,0.9474,86.841,86.841,1.1702
-2023,5,2023_R05,Miami Grand Prix,miami,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,3,15.0,Finished,finished,0,0,0.8947,87.097,87.202,0.7594
-2023,5,2023_R05,Miami Grand Prix,miami,RUS,russell,George Russell,British,mercedes,mercedes_2023,6,4,12.0,Finished,finished,0,0,0.8421,87.743,87.804,0.0743
-2023,5,2023_R05,Miami Grand Prix,miami,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,3,5,10.0,Finished,finished,0,0,0.7895,87.148,87.2875,0.6621
-2023,5,2023_R05,Miami Grand Prix,miami,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,13,6,8.0,Finished,finished,0,0,0.7368,87.846,88.1145,-0.2791
-2023,5,2023_R05,Miami Grand Prix,miami,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,7,7,6.0,Finished,finished,0,0,0.6842,86.964,87.1035,0.8715
-2023,5,2023_R05,Miami Grand Prix,miami,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,5,8,4.0,Finished,finished,0,0,0.6316,87.612,87.7515,0.134
-2023,5,2023_R05,Miami Grand Prix,miami,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,8,9,2.0,Finished,finished,0,0,0.5789,87.444,87.5835,0.3252
-2023,5,2023_R05,Miami Grand Prix,miami,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,4,10,1.0,Finished,finished,0,0,0.5263,87.673,87.767,0.1164
-2023,5,2023_R05,Miami Grand Prix,miami,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,17,11,0.0,Finished,finished,0,0,0.4737,88.429,88.1835,-0.3576
-2023,5,2023_R05,Miami Grand Prix,miami,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,18,12,0.0,Finished,finished,0,0,0.4211,88.476,88.2305,-0.4111
-2023,5,2023_R05,Miami Grand Prix,miami,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,10,13,0.0,Finished,finished,0,0,0.3684,87.564,87.7035,0.1886
-2023,5,2023_R05,Miami Grand Prix,miami,ALB,albon,Alexander Albon,Thai,williams,williams_2023,11,14,0.0,Finished,finished,0,0,0.3158,87.795,87.9345,-0.0743
-2023,5,2023_R05,Miami Grand Prix,miami,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,12,15,0.0,Finished,finished,0,0,0.2632,87.903,88.0425,-0.1972
-2023,5,2023_R05,Miami Grand Prix,miami,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,14,16,0.0,Finished,finished,0,0,0.2105,88.091,88.2305,-0.4111
-2023,5,2023_R05,Miami Grand Prix,miami,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,16,17,0.0,Finished,finished,0,0,0.1579,88.394,88.1485,-0.3178
-2023,5,2023_R05,Miami Grand Prix,miami,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,15,18,0.0,Finished,finished,0,0,0.1053,88.325,88.5345,-0.7571
-2023,5,2023_R05,Miami Grand Prix,miami,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,19,19,0.0,Lapped,finished,0,0,0.0526,88.484,88.2385,-0.4202
-2023,5,2023_R05,Miami Grand Prix,miami,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,20,20,0.0,Lapped,finished,0,0,0.0,88.577,88.3315,-0.5261
-2023,6,2023_R06,Monaco Grand Prix,monaco,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,71.365,71.365,0.7427
-2023,6,2023_R06,Monaco Grand Prix,monaco,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,2,18.0,Finished,finished,0,0,0.9474,71.449,71.449,0.6259
-2023,6,2023_R06,Monaco Grand Prix,monaco,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,3,3,15.0,Finished,finished,0,0,0.8947,71.553,71.553,0.4812
-2023,6,2023_R06,Monaco Grand Prix,monaco,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,5,4,13.0,Finished,finished,0,0,0.8421,71.725,71.669,0.3199
-2023,6,2023_R06,Monaco Grand Prix,monaco,RUS,russell,George Russell,British,mercedes,mercedes_2023,8,5,10.0,Finished,finished,0,0,0.7895,71.964,71.664,0.3268
-2023,6,2023_R06,Monaco Grand Prix,monaco,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,6,6,8.0,Finished,finished,0,0,0.7368,71.471,71.471,0.5953
-2023,6,2023_R06,Monaco Grand Prix,monaco,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,7,7,6.0,Finished,finished,0,0,0.6842,71.933,71.682,0.3018
-2023,6,2023_R06,Monaco Grand Prix,monaco,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,8,4.0,Finished,finished,0,0,0.6316,71.63,71.63,0.3741
-2023,6,2023_R06,Monaco Grand Prix,monaco,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,10,9,2.0,Lapped,finished,0,0,0.5789,72.254,71.89,0.0125
-2023,6,2023_R06,Monaco Grand Prix,monaco,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,11,10,1.0,Lapped,finished,0,0,0.5263,72.395,71.908,-0.0125
-2023,6,2023_R06,Monaco Grand Prix,monaco,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,15,11,0.0,Lapped,finished,0,0,0.4737,72.625,72.138,-0.3324
-2023,6,2023_R06,Monaco Grand Prix,monaco,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,12,12,0.0,Lapped,finished,0,0,0.4211,72.428,71.941,-0.0584
-2023,6,2023_R06,Monaco Grand Prix,monaco,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,19,13,0.0,Lapped,finished,0,0,0.3684,73.523,72.425,-0.7316
-2023,6,2023_R06,Monaco Grand Prix,monaco,ALB,albon,Alexander Albon,Thai,williams,williams_2023,13,14,0.0,Lapped,finished,0,0,0.3158,72.527,72.04,-0.1961
-2023,6,2023_R06,Monaco Grand Prix,monaco,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,9,15,0.0,Lapped,finished,0,0,0.2632,72.082,71.762,0.1905
-2023,6,2023_R06,Monaco Grand Prix,monaco,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,20,16,0.0,Lapped,finished,0,0,0.2105,73.85,72.752,-1.1864
-2023,6,2023_R06,Monaco Grand Prix,monaco,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,18,17,0.0,Lapped,finished,0,0,0.1579,73.279,72.181,-0.3922
-2023,6,2023_R06,Monaco Grand Prix,monaco,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,16,18,0.0,Lapped,finished,0,0,0.1053,73.113,72.015,-0.1613
-2023,6,2023_R06,Monaco Grand Prix,monaco,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,17,19,0.0,Retired,mechanical_dnf,1,0,0.0526,73.27,72.172,-0.3797
-2023,6,2023_R06,Monaco Grand Prix,monaco,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,14,20,0.0,Retired,mechanical_dnf,1,0,0.0,72.623,72.136,-0.3296
-2023,7,2023_R07,Spanish Grand Prix,catalunya,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,72.272,72.272,1.3399
-2023,7,2023_R07,Spanish Grand Prix,catalunya,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,4,2,18.0,Finished,finished,0,0,0.9474,72.818,72.818,0.5945
-2023,7,2023_R07,Spanish Grand Prix,catalunya,RUS,russell,George Russell,British,mercedes,mercedes_2023,12,3,15.0,Finished,finished,0,0,0.8947,73.326,73.392,-0.1891
-2023,7,2023_R07,Spanish Grand Prix,catalunya,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,11,4,12.0,Finished,finished,0,0,0.8421,73.334,73.279,-0.0348
-2023,7,2023_R07,Spanish Grand Prix,catalunya,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,2,5,10.0,Finished,finished,0,0,0.7895,72.734,72.734,0.7092
-2023,7,2023_R07,Spanish Grand Prix,catalunya,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,5,6,8.0,Finished,finished,0,0,0.7368,72.994,72.994,0.3542
-2023,7,2023_R07,Spanish Grand Prix,catalunya,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,8,7,6.0,Finished,finished,0,0,0.6842,73.098,73.043,0.2874
-2023,7,2023_R07,Spanish Grand Prix,catalunya,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,6,8,4.0,Finished,finished,0,0,0.6316,73.001,72.946,0.4198
-2023,7,2023_R07,Spanish Grand Prix,catalunya,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,13,9,2.0,Finished,finished,0,0,0.5789,73.521,73.466,-0.2901
-2023,7,2023_R07,Spanish Grand Prix,catalunya,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,10,10,1.0,Finished,finished,0,0,0.5263,72.816,72.816,0.5972
-2023,7,2023_R07,Spanish Grand Prix,catalunya,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,19,11,0.0,Finished,finished,0,0,0.4737,74.079,73.592,-0.4621
-2023,7,2023_R07,Spanish Grand Prix,catalunya,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,15,12,0.0,Finished,finished,0,0,0.4211,73.862,74.422,-1.5951
-2023,7,2023_R07,Spanish Grand Prix,catalunya,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,9,13,0.0,Lapped,finished,0,0,0.3684,73.059,73.004,0.3406
-2023,7,2023_R07,Spanish Grand Prix,catalunya,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,14,14,0.0,Lapped,finished,0,0,0.3158,73.581,74.028,-1.0573
-2023,7,2023_R07,Spanish Grand Prix,catalunya,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,7,15,0.0,Lapped,finished,0,0,0.2632,73.229,73.228,0.0348
-2023,7,2023_R07,Spanish Grand Prix,catalunya,ALB,albon,Alexander Albon,Thai,williams,williams_2023,18,16,0.0,Lapped,finished,0,0,0.2105,74.063,73.576,-0.4403
-2023,7,2023_R07,Spanish Grand Prix,catalunya,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,3,17,0.0,Lapped,finished,0,0,0.1579,72.776,72.721,0.7269
-2023,7,2023_R07,Spanish Grand Prix,catalunya,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,17,18,0.0,Lapped,finished,0,0,0.1053,74.042,73.555,-0.4116
-2023,7,2023_R07,Spanish Grand Prix,catalunya,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,16,19,0.0,Lapped,finished,0,0,0.0526,73.977,73.49,-0.3229
-2023,7,2023_R07,Spanish Grand Prix,catalunya,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,20,20,0.0,Lapped,finished,0,0,0.0,74.699,74.212,-1.3085
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,79.092,85.858,2.4889
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,2,18.0,Finished,finished,0,0,0.9474,79.776,87.286,0.8671
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,3,3,15.0,Finished,finished,0,0,0.8947,80.426,87.627,0.4798
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,10,4,12.0,Finished,finished,0,0,0.8421,80.615,88.154,-0.1187
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,11,5,10.0,Finished,finished,0,0,0.7895,79.856,87.395,0.7433
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,12,6,9.0,Finished,finished,0,0,0.7368,80.959,88.498,-0.5094
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,ALB,albon,Alexander Albon,Thai,williams,williams_2023,9,7,6.0,Finished,finished,0,0,0.6842,78.725,86.264,2.0278
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,6,8,4.0,Finished,finished,0,0,0.6316,80.406,87.945,0.1187
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,16,9,2.0,Finished,finished,0,0,0.5789,81.484,89.023,-1.1056
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,14,10,1.0,Finished,finished,0,0,0.5263,81.821,89.36,-1.4884
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,8,11,0.0,Finished,finished,0,0,0.4737,79.659,87.198,0.9671
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,15,12,0.0,Finished,finished,0,0,0.4211,82.886,88.72,-0.7615
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,7,13,0.0,Finished,finished,0,0,0.3684,79.347,86.886,1.3214
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,19,14,0.0,Finished,finished,0,0,0.3158,82.746,88.58,-0.6025
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,5,15,0.0,Lapped,finished,0,0,0.2632,80.305,87.102,1.0761
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,20,16,0.0,Lapped,finished,0,0,0.2105,83.342,89.176,-1.2794
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,13,17,0.0,Lapped,finished,0,0,0.1579,81.678,89.217,-1.326
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,17,18,0.0,Lapped,finished,0,0,0.1053,83.137,88.971,-1.0466
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,RUS,russell,George Russell,British,mercedes,mercedes_2023,4,19,0.0,Retired,mechanical_dnf,1,0,0.0526,80.098,87.637,0.4685
-2023,8,2023_R08,Canadian Grand Prix,villeneuve,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,18,20,0.0,Retired,mechanical_dnf,1,0,0.0,83.337,89.171,-1.2737
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,64.391,64.391,1.0693
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,2,2,18.0,Finished,finished,0,0,0.9474,64.439,64.439,0.9956
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,15,3,15.0,Finished,finished,0,0,0.8947,65.177,126.3675,-94.1517
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,4,4,12.0,Finished,finished,0,0,0.8421,64.658,64.658,0.6591
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,7,5,10.0,Finished,finished,0,0,0.7895,64.911,64.8605,0.348
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,3,6,8.0,Finished,finished,0,0,0.7368,64.581,64.581,0.7774
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,RUS,russell,George Russell,British,mercedes,mercedes_2023,11,7,6.0,Finished,finished,0,0,0.6842,65.428,65.1075,-0.0315
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,5,8,4.0,Finished,finished,0,0,0.6316,64.819,64.819,0.4118
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,6,9,2.0,Finished,finished,0,0,0.5789,64.893,64.8005,0.4402
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,9,10,1.0,Finished,finished,0,0,0.5263,65.17,64.9875,0.1529
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,ALB,albon,Alexander Albon,Thai,williams,williams_2023,10,11,0.0,Finished,finished,0,0,0.4737,65.387,65.0665,0.0315
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,17,12,0.0,Lapped,finished,0,0,0.4211,65.818,65.2115,-0.1913
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,18,13,0.0,Lapped,finished,0,0,0.3684,65.948,65.3415,-0.391
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,12,14,0.0,Lapped,finished,0,0,0.3158,65.453,65.1325,-0.0699
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,14,15,0.0,Lapped,finished,0,0,0.2632,65.68,65.3595,-0.4187
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,13,16,0.0,Lapped,finished,0,0,0.2105,65.605,65.2845,-0.3034
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,20,17,0.0,Lapped,finished,0,0,0.1579,65.974,65.3675,-0.431
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,19,18,0.0,Lapped,finished,0,0,0.1053,65.971,65.3645,-0.4264
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,19,0.0,Lapped,finished,0,0,0.0526,65.784,65.1775,-0.139
-2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,8,20,0.0,Retired,mechanical_dnf,1,0,0.0,65.09,65.0415,0.0699
-2023,10,2023_R10,British Grand Prix,silverstone,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,86.72,86.6305,1.278
-2023,10,2023_R10,British Grand Prix,silverstone,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,2,2,18.0,Finished,finished,0,0,0.9474,86.961,86.961,0.9014
-2023,10,2023_R10,British Grand Prix,silverstone,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,7,3,15.0,Finished,finished,0,0,0.8947,87.211,87.211,0.6165
-2023,10,2023_R10,British Grand Prix,silverstone,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,3,4,12.0,Finished,finished,0,0,0.8421,87.092,86.7735,1.1151
-2023,10,2023_R10,British Grand Prix,silverstone,RUS,russell,George Russell,British,mercedes,mercedes_2023,6,5,10.0,Finished,finished,0,0,0.7895,87.155,87.155,0.6803
-2023,10,2023_R10,British Grand Prix,silverstone,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,15,6,8.0,Finished,finished,0,0,0.7368,89.968,88.0405,-0.3288
-2023,10,2023_R10,British Grand Prix,silverstone,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,9,7,6.0,Finished,finished,0,0,0.6842,87.659,87.2965,0.5191
-2023,10,2023_R10,British Grand Prix,silverstone,ALB,albon,Alexander Albon,Thai,williams,williams_2023,8,8,4.0,Finished,finished,0,0,0.6316,87.53,86.9955,0.8621
-2023,10,2023_R10,British Grand Prix,silverstone,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,4,9,2.0,Finished,finished,0,0,0.5789,87.136,87.136,0.702
-2023,10,2023_R10,British Grand Prix,silverstone,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,5,10,1.0,Finished,finished,0,0,0.5263,87.148,87.148,0.6883
-2023,10,2023_R10,British Grand Prix,silverstone,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,14,11,0.0,Finished,finished,0,0,0.4737,89.031,87.9595,-0.2365
-2023,10,2023_R10,British Grand Prix,silverstone,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,20,12,0.0,Finished,finished,0,0,0.4211,89.798,87.8705,-0.135
-2023,10,2023_R10,British Grand Prix,silverstone,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,11,13,0.0,Finished,finished,0,0,0.3684,88.896,87.8245,-0.0826
-2023,10,2023_R10,British Grand Prix,silverstone,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,12,14,0.0,Finished,finished,0,0,0.3158,88.935,87.8635,-0.1271
-2023,10,2023_R10,British Grand Prix,silverstone,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,17,15,0.0,Finished,finished,0,0,0.2632,90.123,88.1955,-0.5054
-2023,10,2023_R10,British Grand Prix,silverstone,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,16,0.0,Finished,finished,0,0,0.2105,90.025,88.0975,-0.3937
-2023,10,2023_R10,British Grand Prix,silverstone,DEV,de_vries,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,18,17,0.0,Finished,finished,0,0,0.1579,90.513,88.5855,-0.9498
-2023,10,2023_R10,British Grand Prix,silverstone,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,10,18,0.0,Retired,mechanical_dnf,1,0,0.1053,87.689,87.6795,0.0826
-2023,10,2023_R10,British Grand Prix,silverstone,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,19,19,0.0,Retired,mechanical_dnf,1,0,0.0526,92.378,90.4505,-3.0751
-2023,10,2023_R10,British Grand Prix,silverstone,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,13,20,0.0,Retired,mechanical_dnf,1,0,0.0,88.956,87.8845,-0.151
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,2,1,26.0,Finished,finished,0,0,1.0,76.612,76.612,0.5607
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,3,2,18.0,Finished,finished,0,0,0.9474,76.694,76.678,0.4751
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,3,15.0,Finished,finished,0,0,0.8947,77.045,77.025,0.0247
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,1,4,12.0,Finished,finished,0,0,0.8421,76.609,76.609,0.5646
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,4,5,10.0,Finished,finished,0,0,0.7895,76.905,76.905,0.1804
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,RUS,russell,George Russell,British,mercedes,mercedes_2023,18,6,8.0,Finished,finished,0,0,0.7368,79.027,77.498,-0.5893
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,6,7,6.0,Finished,finished,0,0,0.6842,76.992,76.93,0.148
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,11,8,4.0,Finished,finished,0,0,0.6316,77.703,77.053,-0.0117
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,8,9,2.0,Finished,finished,0,0,0.5789,77.035,77.035,0.0117
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,14,10,1.0,Lapped,finished,0,0,0.5263,78.144,77.494,-0.5841
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,ALB,albon,Alexander Albon,Thai,williams,williams_2023,16,11,0.0,Lapped,finished,0,0,0.4737,78.917,77.388,-0.4465
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,7,12,0.0,Lapped,finished,0,0,0.4211,77.034,76.913,0.17
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,13,13,0.0,Lapped,finished,0,0,0.3684,78.002,77.352,-0.3998
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,10,14,0.0,Lapped,finished,0,0,0.3158,77.186,77.002,0.0545
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,17,15,0.0,Lapped,finished,0,0,0.2632,78.919,77.39,-0.4491
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,5,16,0.0,Lapped,finished,0,0,0.2105,76.971,76.971,0.0948
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,19,17,0.0,Lapped,finished,0,0,0.1579,79.206,77.677,-0.8216
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,20,18,0.0,Retired,mechanical_dnf,1,0,0.1053,79.248,77.719,-0.8761
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,12,19,0.0,Retired,mechanical_dnf,1,0,0.0526,77.841,77.191,-0.1908
-2023,11,2023_R11,Hungarian Grand Prix,hungaroring,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,15,20,0.0,Retired,mechanical_dnf,1,0,0.0,78.217,77.567,-0.6788
-2023,12,2023_R12,Belgian Grand Prix,spa,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,6,1,25.0,Finished,finished,0,0,1.0,106.168,106.168,1.7586
-2023,12,2023_R12,Belgian Grand Prix,spa,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,2,2,18.0,Finished,finished,0,0,0.9474,107.045,107.045,0.9471
-2023,12,2023_R12,Belgian Grand Prix,spa,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,106.988,106.988,0.9998
-2023,12,2023_R12,Belgian Grand Prix,spa,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,3,4,13.0,Finished,finished,0,0,0.8421,107.087,107.087,0.9082
-2023,12,2023_R12,Belgian Grand Prix,spa,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,9,5,10.0,Finished,finished,0,0,0.7895,107.843,107.843,0.2087
-2023,12,2023_R12,Belgian Grand Prix,spa,RUS,russell,George Russell,British,mercedes,mercedes_2023,8,6,8.0,Finished,finished,0,0,0.7368,107.805,107.751,0.2938
-2023,12,2023_R12,Belgian Grand Prix,spa,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,7,7,6.0,Finished,finished,0,0,0.6842,107.669,107.398,0.6204
-2023,12,2023_R12,Belgian Grand Prix,spa,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,14,8,4.0,Finished,finished,0,0,0.6316,116.372,111.518,-3.192
-2023,12,2023_R12,Belgian Grand Prix,spa,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,10,9,2.0,Finished,finished,0,0,0.5789,108.841,107.339,0.675
-2023,12,2023_R12,Belgian Grand Prix,spa,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,10,1.0,Finished,finished,0,0,0.5263,113.148,108.294,-0.2087
-2023,12,2023_R12,Belgian Grand Prix,spa,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,12,11,0.0,Finished,finished,0,0,0.4737,113.671,108.817,-0.6926
-2023,12,2023_R12,Belgian Grand Prix,spa,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,13,12,0.0,Finished,finished,0,0,0.4211,114.694,109.84,-1.6392
-2023,12,2023_R12,Belgian Grand Prix,spa,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,17,13,0.0,Finished,finished,0,0,0.3684,120.832,109.76,-1.5652
-2023,12,2023_R12,Belgian Grand Prix,spa,ALB,albon,Alexander Albon,Thai,williams,williams_2023,15,14,0.0,Finished,finished,0,0,0.3158,120.314,109.242,-1.0859
-2023,12,2023_R12,Belgian Grand Prix,spa,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,16,15,0.0,Finished,finished,0,0,0.2632,114.16,109.306,-1.1451
-2023,12,2023_R12,Belgian Grand Prix,spa,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,19,16,0.0,Finished,finished,0,0,0.2105,122.159,111.087,-2.7931
-2023,12,2023_R12,Belgian Grand Prix,spa,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,18,17,0.0,Finished,finished,0,0,0.1579,121.535,110.463,-2.2157
-2023,12,2023_R12,Belgian Grand Prix,spa,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,20,18,0.0,Finished,finished,0,0,0.1053,123.166,112.094,-3.725
-2023,12,2023_R12,Belgian Grand Prix,spa,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,19,0.0,Retired,mechanical_dnf,1,0,0.0526,107.152,106.857,1.121
-2023,12,2023_R12,Belgian Grand Prix,spa,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,5,20,0.0,Retired,mechanical_dnf,1,0,0.0,107.365,106.68,1.2848
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,70.567,70.567,2.1479
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,5,2,19.0,Finished,finished,0,0,0.9474,71.506,71.451,0.9221
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,12,3,15.0,Finished,finished,0,0,0.8947,80.128,72.15,-0.0471
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,7,4,12.0,Finished,finished,0,0,0.8421,71.88,71.878,0.33
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,6,5,10.0,Finished,finished,0,0,0.7895,71.754,71.754,0.502
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,13,6,8.0,Finished,finished,0,0,0.7368,80.151,72.173,-0.079
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,2,7,6.0,Finished,finished,0,0,0.6842,71.104,71.104,1.4033
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,ALB,albon,Alexander Albon,Thai,williams,williams_2023,4,8,4.0,Finished,finished,0,0,0.6316,71.419,71.419,0.9665
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,8,9,2.0,Finished,finished,0,0,0.5789,71.938,71.414,0.9734
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,16,10,1.0,Finished,finished,0,0,0.5263,82.11,72.407,-0.4035
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,11,11,0.0,Finished,finished,0,0,0.4737,80.121,72.143,-0.0374
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,14,12,0.0,Finished,finished,0,0,0.4211,80.25,72.272,-0.2163
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,LAW,lawson,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,19,13,0.0,Finished,finished,0,0,0.3684,83.42,73.717,-2.22
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,18,14,0.0,Finished,finished,0,0,0.3158,82.26,72.557,-0.6115
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,17,15,0.0,Finished,finished,0,0,0.2632,80.23,72.252,-0.1886
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,0,16,0.0,Finished,finished,0,0,0.2105,82.192,72.489,-0.5172
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,RUS,russell,George Russell,British,mercedes,mercedes_2023,3,17,0.0,Finished,finished,0,0,0.1579,71.294,71.294,1.1398
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,15,18,0.0,Accident,driver_incident,0,0,0.1053,82.067,72.364,-0.3439
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,9,19,0.0,Undertray,mechanical_dnf,1,0,0.0526,72.665,71.622,0.685
-2023,13,2023_R13,Dutch Grand Prix,zandvoort,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,10,20,0.0,Accident,driver_incident,0,0,0.0,76.748,72.089,0.0374
-2023,14,2023_R14,Italian Grand Prix,monza,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,2,1,25.0,Finished,finished,0,0,1.0,80.307,80.307,0.8292
-2023,14,2023_R14,Italian Grand Prix,monza,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,5,2,18.0,Finished,finished,0,0,0.9474,80.688,80.631,0.4291
-2023,14,2023_R14,Italian Grand Prix,monza,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,80.294,80.294,0.8453
-2023,14,2023_R14,Italian Grand Prix,monza,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,3,4,12.0,Finished,finished,0,0,0.8421,80.361,80.361,0.7625
-2023,14,2023_R14,Italian Grand Prix,monza,RUS,russell,George Russell,British,mercedes,mercedes_2023,4,5,10.0,Finished,finished,0,0,0.7895,80.671,80.671,0.3797
-2023,14,2023_R14,Italian Grand Prix,monza,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,8,6,8.0,Finished,finished,0,0,0.7368,80.82,80.76,0.2698
-2023,14,2023_R14,Italian Grand Prix,monza,ALB,albon,Alexander Albon,Thai,williams,williams_2023,6,7,6.0,Finished,finished,0,0,0.6842,80.76,80.663,0.3896
-2023,14,2023_R14,Italian Grand Prix,monza,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,9,8,4.0,Finished,finished,0,0,0.6316,80.979,80.972,0.008
-2023,14,2023_R14,Italian Grand Prix,monza,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,10,9,2.0,Finished,finished,0,0,0.5789,81.417,80.934,0.055
-2023,14,2023_R14,Italian Grand Prix,monza,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,14,10,1.0,Finished,finished,0,0,0.5263,81.94,81.331,-0.4353
-2023,14,2023_R14,Italian Grand Prix,monza,LAW,lawson,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,12,11,0.0,Finished,finished,0,0,0.4737,81.758,81.149,-0.2105
-2023,14,2023_R14,Italian Grand Prix,monza,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,7,12,0.0,Finished,finished,0,0,0.4211,80.785,80.785,0.239
-2023,14,2023_R14,Italian Grand Prix,monza,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,15,13,0.0,Finished,finished,0,0,0.3684,81.93,81.335,-0.4402
-2023,14,2023_R14,Italian Grand Prix,monza,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,16,14,0.0,Finished,finished,0,0,0.3158,82.39,81.214,-0.2908
-2023,14,2023_R14,Italian Grand Prix,monza,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,17,15,0.0,Finished,finished,0,0,0.2632,82.545,81.369,-0.4822
-2023,14,2023_R14,Italian Grand Prix,monza,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,20,16,0.0,Finished,finished,0,0,0.2105,82.86,81.684,-0.8712
-2023,14,2023_R14,Italian Grand Prix,monza,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,13,17,0.0,Lapped,finished,0,0,0.1579,81.776,81.167,-0.2328
-2023,14,2023_R14,Italian Grand Prix,monza,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,19,18,0.0,Lapped,finished,0,0,0.1053,82.592,81.416,-0.5403
-2023,14,2023_R14,Italian Grand Prix,monza,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,18,19,0.0,Retired,mechanical_dnf,1,0,0.0526,82.548,81.372,-0.4859
-2023,14,2023_R14,Italian Grand Prix,monza,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,20,0.0,Did not start,other_dnf,0,0,0.0,81.594,80.985,-0.008
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,1,1,25.0,Finished,finished,0,0,1.0,90.984,90.984,0.7722
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,4,2,18.0,Finished,finished,0,0,0.9474,91.27,91.27,0.4602
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,5,3,16.0,Finished,finished,0,0,0.8947,91.485,91.485,0.2258
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,3,4,12.0,Finished,finished,0,0,0.8421,91.063,91.063,0.686
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,11,5,10.0,Finished,finished,0,0,0.7895,92.173,91.7375,-0.0496
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,12,6,8.0,Finished,finished,0,0,0.7368,92.274,91.8385,-0.1598
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,17,7,6.0,Finished,finished,0,0,0.6842,92.902,92.1515,-0.5011
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,13,8,4.0,Finished,finished,0,0,0.6316,92.099,91.8745,-0.199
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,LAW,lawson,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,10,9,2.0,Finished,finished,0,0,0.5789,92.166,91.7305,-0.042
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,6,10,1.0,Finished,finished,0,0,0.5263,91.575,91.4565,0.2568
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,ALB,albon,Alexander Albon,Thai,williams,williams_2023,14,11,0.0,Finished,finished,0,0,0.4737,92.668,93.2835,-1.7357
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,19,12,0.0,Finished,finished,0,0,0.4211,93.258,92.5075,-0.8894
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,9,13,0.0,Finished,finished,0,0,0.3684,91.808,91.5585,0.1456
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,18,14,0.0,Finished,finished,0,0,0.3158,93.252,92.5015,-0.8828
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,7,15,0.0,Finished,finished,0,0,0.2632,91.615,91.3995,0.319
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,RUS,russell,George Russell,British,mercedes,mercedes_2023,2,16,0.0,Retired,mechanical_dnf,1,0,0.2105,91.056,91.056,0.6936
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,16,17,0.0,Retired,mechanical_dnf,1,0,0.1579,92.809,92.0585,-0.3997
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,8,18,0.0,Retired,mechanical_dnf,1,0,0.1053,91.673,91.6535,0.042
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,15,19,0.0,Retired,mechanical_dnf,1,0,0.0526,91.991,91.2405,0.4924
-2023,15,2023_R15,Singapore Grand Prix,marina_bay,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,0,20,0.0,Withdrew,mechanical_dnf,1,0,0.0,93.397,92.6465,-1.041
-2023,16,2023_R16,Japanese Grand Prix,suzuka,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,88.877,88.877,1.4656
-2023,16,2023_R16,Japanese Grand Prix,suzuka,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,3,2,18.0,Finished,finished,0,0,0.9474,89.493,89.493,0.7827
-2023,16,2023_R16,Japanese Grand Prix,suzuka,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,2,3,15.0,Finished,finished,0,0,0.8947,89.458,89.458,0.8215
-2023,16,2023_R16,Japanese Grand Prix,suzuka,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,4,4,12.0,Finished,finished,0,0,0.8421,89.542,89.542,0.7284
-2023,16,2023_R16,Japanese Grand Prix,suzuka,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,7,5,10.0,Finished,finished,0,0,0.7895,89.908,89.774,0.4712
-2023,16,2023_R16,Japanese Grand Prix,suzuka,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,6,6,8.0,Finished,finished,0,0,0.7368,89.85,89.801,0.4412
-2023,16,2023_R16,Japanese Grand Prix,suzuka,RUS,russell,George Russell,British,mercedes,mercedes_2023,8,7,6.0,Finished,finished,0,0,0.6842,90.219,90.002,0.2184
-2023,16,2023_R16,Japanese Grand Prix,suzuka,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,10,8,4.0,Finished,finished,0,0,0.6316,90.465,90.199,0.0
-2023,16,2023_R16,Japanese Grand Prix,suzuka,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,14,9,2.0,Finished,finished,0,0,0.5789,90.586,90.32,-0.1341
-2023,16,2023_R16,Japanese Grand Prix,suzuka,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,12,10,1.0,Finished,finished,0,0,0.5263,90.509,90.243,-0.0488
-2023,16,2023_R16,Japanese Grand Prix,suzuka,LAW,lawson,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,11,11,0.0,Lapped,finished,0,0,0.4737,90.425,90.242,-0.0477
-2023,16,2023_R16,Japanese Grand Prix,suzuka,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,9,12,0.0,Lapped,finished,0,0,0.4211,90.204,89.938,0.2894
-2023,16,2023_R16,Japanese Grand Prix,suzuka,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,19,13,0.0,Lapped,finished,0,0,0.3684,91.398,90.728,-0.5865
-2023,16,2023_R16,Japanese Grand Prix,suzuka,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,18,14,0.0,Lapped,finished,0,0,0.3158,91.299,90.629,-0.4767
-2023,16,2023_R16,Japanese Grand Prix,suzuka,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,15,15,0.0,Lapped,finished,0,0,0.2632,90.665,90.399,-0.2217
-2023,16,2023_R16,Japanese Grand Prix,suzuka,ALB,albon,Alexander Albon,Thai,williams,williams_2023,13,16,0.0,Retired,mechanical_dnf,1,0,0.2105,90.537,90.271,-0.0798
-2023,16,2023_R16,Japanese Grand Prix,suzuka,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,20,17,0.0,Retired,mechanical_dnf,1,0,0.1579,,,
-2023,16,2023_R16,Japanese Grand Prix,suzuka,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,17,18,0.0,Retired,mechanical_dnf,1,0,0.1053,91.181,90.511,-0.3459
-2023,16,2023_R16,Japanese Grand Prix,suzuka,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,5,19,0.0,Retired,mechanical_dnf,1,0,0.0526,89.65,89.65,0.6087
-2023,16,2023_R16,Japanese Grand Prix,suzuka,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,16,20,0.0,Retired,mechanical_dnf,1,0,0.0,91.049,90.379,-0.1996
-2023,17,2023_R17,Qatar Grand Prix,losail,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,83.778,83.778,1.3611
-2023,17,2023_R17,Qatar Grand Prix,losail,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,6,2,18.0,Finished,finished,0,0,0.9474,84.54,84.359,0.677
-2023,17,2023_R17,Qatar Grand Prix,losail,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,10,3,15.0,Finished,finished,0,0,0.8947,84.685,84.32,0.7229
-2023,17,2023_R17,Qatar Grand Prix,losail,RUS,russell,George Russell,British,mercedes,mercedes_2023,2,4,12.0,Finished,finished,0,0,0.8421,84.219,84.219,0.8418
-2023,17,2023_R17,Qatar Grand Prix,losail,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,5,5,10.0,Finished,finished,0,0,0.7895,84.424,84.424,0.6005
-2023,17,2023_R17,Qatar Grand Prix,losail,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,4,6,8.0,Finished,finished,0,0,0.7368,84.369,84.369,0.6652
-2023,17,2023_R17,Qatar Grand Prix,losail,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,8,7,6.0,Finished,finished,0,0,0.6842,84.763,84.563,0.4368
-2023,17,2023_R17,Qatar Grand Prix,losail,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,9,8,4.0,Finished,finished,0,0,0.6316,85.058,84.932,0.0024
-2023,17,2023_R17,Qatar Grand Prix,losail,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,19,9,2.0,Finished,finished,0,0,0.5789,87.432,86.543,-1.8944
-2023,17,2023_R17,Qatar Grand Prix,losail,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,20,10,1.0,Finished,finished,0,0,0.5263,85.462,85.097,-0.1919
-2023,17,2023_R17,Qatar Grand Prix,losail,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,16,11,0.0,Finished,finished,0,0,0.4737,86.345,85.456,-0.6146
-2023,17,2023_R17,Qatar Grand Prix,losail,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,7,12,0.0,Finished,finished,0,0,0.4211,84.553,84.553,0.4486
-2023,17,2023_R17,Qatar Grand Prix,losail,ALB,albon,Alexander Albon,Thai,williams,williams_2023,13,13,0.0,Finished,finished,0,0,0.3684,85.707,85.342,-0.4804
-2023,17,2023_R17,Qatar Grand Prix,losail,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,18,14,0.0,Lapped,finished,0,0,0.3158,87.046,86.157,-1.4399
-2023,17,2023_R17,Qatar Grand Prix,losail,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,15,0.0,Lapped,finished,0,0,0.2632,85.301,84.936,-0.0024
-2023,17,2023_R17,Qatar Grand Prix,losail,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,14,16,0.0,Lapped,finished,0,0,0.2105,85.783,85.418,-0.5699
-2023,17,2023_R17,Qatar Grand Prix,losail,LAW,lawson,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,17,17,0.0,Lapped,finished,0,0,0.1579,86.635,85.746,-0.956
-2023,17,2023_R17,Qatar Grand Prix,losail,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,15,18,0.0,Retired,mechanical_dnf,1,0,0.1053,86.21,85.321,-0.4556
-2023,17,2023_R17,Qatar Grand Prix,losail,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,3,19,0.0,Retired,mechanical_dnf,1,0,0.0526,84.305,84.016,1.0808
-2023,17,2023_R17,Qatar Grand Prix,losail,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,12,20,0.0,Did not start,other_dnf,0,0,0.0,85.328,84.963,-0.0341
-2023,18,2023_R18,United States Grand Prix,americas,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,6,1,25.0,Finished,finished,0,0,1.0,95.008,94.6405,0.6597
-2023,18,2023_R18,United States Grand Prix,americas,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,2,2,18.0,Finished,finished,0,0,0.9474,94.853,94.853,0.4367
-2023,18,2023_R18,United States Grand Prix,americas,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,3,15.0,Finished,finished,0,0,0.8947,94.945,94.9345,0.3511
-2023,18,2023_R18,United States Grand Prix,americas,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,4,12.0,Finished,finished,0,0,0.8421,95.173,95.173,0.1008
-2023,18,2023_R18,United States Grand Prix,americas,RUS,russell,George Russell,British,mercedes,mercedes_2023,5,5,10.0,Finished,finished,0,0,0.7895,95.079,95.079,0.1994
-2023,18,2023_R18,United States Grand Prix,americas,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,7,6,8.0,Finished,finished,0,0,0.7368,95.089,95.089,0.1889
-2023,18,2023_R18,United States Grand Prix,americas,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,20,7,6.0,Finished,finished,0,0,0.6842,96.589,95.8835,-0.645
-2023,18,2023_R18,United States Grand Prix,americas,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,8,5.0,Finished,finished,0,0,0.6316,95.697,95.3295,-0.0635
-2023,18,2023_R18,United States Grand Prix,americas,ALB,albon,Alexander Albon,Thai,williams,williams_2023,15,9,2.0,Finished,finished,0,0,0.5789,96.315,95.6095,-0.3574
-2023,18,2023_R18,United States Grand Prix,americas,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,16,10,1.0,Finished,finished,0,0,0.5263,96.827,96.1215,-0.8948
-2023,18,2023_R18,United States Grand Prix,americas,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,18,11,0.0,Finished,finished,0,0,0.4737,96.235,95.5295,-0.2734
-2023,18,2023_R18,United States Grand Prix,americas,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,13,12,0.0,Finished,finished,0,0,0.4211,95.858,95.4905,-0.2325
-2023,18,2023_R18,United States Grand Prix,americas,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,12,13,0.0,Lapped,finished,0,0,0.3684,95.698,95.3305,-0.0646
-2023,18,2023_R18,United States Grand Prix,americas,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,17,14,0.0,Lapped,finished,0,0,0.3158,95.88,95.5125,-0.2556
-2023,18,2023_R18,United States Grand Prix,americas,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,14,15,0.0,Lapped,finished,0,0,0.2632,95.974,95.6065,-0.3543
-2023,18,2023_R18,United States Grand Prix,americas,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,19,16,0.0,Retired,mechanical_dnf,1,0,0.2105,96.268,95.5625,-0.3081
-2023,18,2023_R18,United States Grand Prix,americas,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,10,17,0.0,Retired,mechanical_dnf,1,0,0.1579,95.467,95.2085,0.0635
-2023,18,2023_R18,United States Grand Prix,americas,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,8,18,0.0,Retired,mechanical_dnf,1,0,0.1053,95.154,95.0455,0.2346
-2023,18,2023_R18,United States Grand Prix,americas,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,3,19,0.0,Disqualified,driver_incident,0,0,0.0526,94.862,94.862,0.4272
-2023,18,2023_R18,United States Grand Prix,americas,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,20,0.0,Disqualified,driver_incident,0,0,0.0,94.723,94.6365,0.6639
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,3,1,25.0,Finished,finished,0,0,1.0,77.263,77.263,1.0083
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,6,2,19.0,Finished,finished,0,0,0.9474,77.454,77.228,1.0532
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,77.166,77.166,1.1326
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,2,4,12.0,Finished,finished,0,0,0.8421,77.233,77.233,1.0468
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,17,5,10.0,Finished,finished,0,0,0.7895,81.554,80.774,-3.4901
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,RUS,russell,George Russell,British,mercedes,mercedes_2023,8,6,8.0,Finished,finished,0,0,0.7368,77.673,77.33,0.9225
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,4,7,6.0,Finished,finished,0,0,0.6842,77.382,77.363,0.8802
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,7,8,4.0,Finished,finished,0,0,0.6316,77.623,77.531,0.665
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,ALB,albon,Alexander Albon,Thai,williams,williams_2023,14,9,2.0,Finished,finished,0,0,0.5789,78.828,78.804,-0.966
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,15,10,1.0,Finished,finished,0,0,0.5263,79.08,78.3,-0.3203
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,11,11,0.0,Finished,finished,0,0,0.4737,78.521,78.178,-0.164
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,18,12,0.0,Finished,finished,0,0,0.4211,78.89,78.11,-0.0769
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,12,13,0.0,Finished,finished,0,0,0.3684,78.524,78.181,-0.1678
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,10,14,0.0,Finished,finished,0,0,0.3158,78.05,78.05,0.0
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,9,15,0.0,Finished,finished,0,0,0.2632,78.016,77.673,0.483
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,19,16,0.0,Retired,mechanical_dnf,1,0,0.2105,,,
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,0,17,0.0,Collision damage,driver_incident,0,0,0.1579,79.227,78.447,-0.5086
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,13,18,0.0,Withdrew,mechanical_dnf,1,0,0.1053,78.738,78.395,-0.442
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,16,19,0.0,Accident,driver_incident,0,0,0.0526,79.163,78.383,-0.4266
-2023,19,2023_R19,Mexico City Grand Prix,rodriguez,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,5,20,0.0,Collision damage,driver_incident,0,0,0.0,77.423,77.423,0.8033
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,70.162,70.727,1.2765
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,6,2,19.0,Finished,finished,0,0,0.9474,70.021,71.224,0.5828
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,4,3,15.0,Finished,finished,0,0,0.8947,70.237,71.387,0.3552
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,4,12.0,Finished,finished,0,0,0.8421,70.219,71.422,0.3064
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,3,5,10.0,Finished,finished,0,0,0.7895,70.375,71.344,0.4153
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,7,6,8.0,Finished,finished,0,0,0.7368,70.254,71.457,0.2575
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,15,7,6.0,Finished,finished,0,0,0.6842,70.567,71.77,-0.1794
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,5,8,4.0,Finished,finished,0,0,0.6316,70.266,71.469,0.2408
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,9,2.0,Finished,finished,0,0,0.5789,70.837,71.839,-0.2757
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,14,10,1.0,Lapped,finished,0,0,0.5263,70.562,71.765,-0.1724
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,19,11,0.0,Lapped,finished,0,0,0.4737,71.035,72.037,-0.5521
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,11,12,0.0,Lapped,finished,0,0,0.4211,70.475,71.75,-0.1514
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,17,13,0.0,Lapped,finished,0,0,0.3684,70.843,71.845,-0.2841
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,10,14,0.0,Lapped,finished,0,0,0.3158,70.33,71.533,0.1514
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,RUS,russell,George Russell,British,mercedes,mercedes_2023,8,15,0.0,Retired,mechanical_dnf,1,0,0.2632,70.316,71.519,0.171
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,18,16,0.0,Retired,mechanical_dnf,1,0,0.2105,70.955,71.957,-0.4404
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,20,17,0.0,Retired,mechanical_dnf,1,0,0.1579,71.275,72.277,-0.8871
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,12,18,0.0,Retired,mechanical_dnf,1,0,0.1053,70.602,71.926,-0.3971
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,ALB,albon,Alexander Albon,Thai,williams,williams_2023,13,19,0.0,Retired,mechanical_dnf,1,0,0.0526,70.621,72.043,-0.5604
-2023,20,2023_R20,São Paulo Grand Prix,interlagos,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,2,20,0.0,Did not start,other_dnf,0,0,0.0,70.303,71.021,0.8661
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,2,1,25.0,Finished,finished,0,0,1.0,93.104,93.104,0.4847
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,2,18.0,Finished,finished,0,0,0.9474,92.726,92.528,1.1004
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,11,3,15.0,Finished,finished,0,0,0.8947,93.855,93.608,-0.054
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,16,4,12.0,Finished,finished,0,0,0.8421,94.834,93.914,-0.381
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,19,5,10.0,Finished,finished,0,0,0.7895,94.199,93.952,-0.4217
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,12,6,8.0,Finished,finished,0,0,0.7368,92.77,92.77,0.8417
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,10,7,6.0,Finished,finished,0,0,0.6842,93.837,93.59,-0.0347
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,RUS,russell,George Russell,British,mercedes,mercedes_2023,3,8,4.0,Finished,finished,0,0,0.6316,93.112,93.104,0.4847
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,9,9,2.0,Finished,finished,0,0,0.5789,93.555,93.37,0.2004
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,18,10,2.0,Finished,finished,0,0,0.5263,94.85,93.93,-0.3982
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,4,11,0.0,Finished,finished,0,0,0.4737,93.239,93.239,0.3404
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,ALB,albon,Alexander Albon,Thai,williams,williams_2023,5,12,0.0,Finished,finished,0,0,0.4211,93.323,93.323,0.2506
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,8,13,0.0,Finished,finished,0,0,0.3684,93.537,93.417,0.1502
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,14,14,0.0,Finished,finished,0,0,0.3158,94.308,94.061,-0.5382
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,17,15,0.0,Finished,finished,0,0,0.2632,94.849,93.929,-0.3971
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,6,16,0.0,Finished,finished,0,0,0.2105,93.513,93.486,0.0764
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,7,17,0.0,Finished,finished,0,0,0.1579,93.525,93.525,0.0347
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,20,18,0.0,Retired,mechanical_dnf,1,0,0.1053,96.447,95.527,-2.1051
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,13,19,0.0,Retired,mechanical_dnf,1,0,0.0526,93.979,93.732,-0.1865
-2023,21,2023_R21,Las Vegas Grand Prix,vegas,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,15,20,0.0,Retired,mechanical_dnf,1,0,0.0,94.703,93.783,-0.241
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,VER,max_verstappen,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,83.445,83.445,0.7174
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,LEC,leclerc,Charles Leclerc,Monegasque,ferrari,ferrari_2023,2,2,18.0,Finished,finished,0,0,0.9474,83.584,83.584,0.5521
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,RUS,russell,George Russell,British,mercedes,mercedes_2023,4,3,15.0,Finished,finished,0,0,0.8947,83.788,83.788,0.3093
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,PER,perez,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,4,12.0,Finished,finished,0,0,0.8421,84.116,83.951,0.1154
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,NOR,norris,Lando Norris,British,mclaren,mclaren_2023,5,5,10.0,Finished,finished,0,0,0.7895,83.816,83.755,0.3486
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,PIA,piastri,Oscar Piastri,Australian,mclaren,mclaren_2023,3,6,8.0,Finished,finished,0,0,0.7368,83.782,83.782,0.3165
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,7,7,6.0,Finished,finished,0,0,0.6842,84.084,83.966,0.0976
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,TSU,tsunoda,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,6,8,4.0,Finished,finished,0,0,0.6316,83.968,83.968,0.0952
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2023,11,9,2.0,Finished,finished,0,0,0.5789,84.359,84.194,-0.1737
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,STR,stroll,Lance Stroll,Canadian,aston_martin,aston_martin_2023,13,10,1.0,Finished,finished,0,0,0.5263,84.405,84.257,-0.2487
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,RIC,ricciardo,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,15,11,0.0,Finished,finished,0,0,0.4737,84.442,84.277,-0.2725
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,OCO,ocon,Esteban Ocon,French,alpine,alpine_2023,12,12,0.0,Finished,finished,0,0,0.4211,84.391,84.226,-0.2118
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,GAS,gasly,Pierre Gasly,French,alpine,alpine_2023,10,13,0.0,Finished,finished,0,0,0.3684,84.078,83.913,0.1606
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,ALB,albon,Alexander Albon,Thai,williams,williams_2023,14,14,0.0,Finished,finished,0,0,0.3158,84.298,84.274,-0.2689
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,HUL,hulkenberg,Nico Hülkenberg,German,haas,haas_2023,8,15,0.0,Finished,finished,0,0,0.2632,84.108,84.048,0.0
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,SAR,sargeant,Logan Sargeant,American,williams,williams_2023,20,16,0.0,Finished,finished,0,0,0.2105,,,
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,ZHO,zhou,Guanyu Zhou,Chinese,alfa,alfa_2023,19,17,0.0,Finished,finished,0,0,0.1579,85.159,84.785,-0.8769
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,SAI,sainz,Carlos Sainz,Spanish,ferrari,ferrari_2023,16,18,0.0,Retired,mechanical_dnf,1,0,0.1053,84.738,84.364,-0.376
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,BOT,bottas,Valtteri Bottas,Finnish,alfa,alfa_2023,18,19,0.0,Lapped,finished,0,0,0.0526,84.788,84.414,-0.4355
-2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,MAG,kevin_magnussen,Kevin Magnussen,Danish,haas,haas_2023,17,20,0.0,Lapped,finished,0,0,0.0,84.764,84.39,-0.4069
+season,round,race_id,race_name,circuit_id,driver,driver_id,car_number,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,is_wet,pace_score,best_quali_sec,adj_quali_sec,quali_pace_pct
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,89.708,89.708,1.1539
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,2,2,18.0,Finished,finished,0,0,0.9474,89.846,89.846,1.0019
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,5,3,15.0,Finished,finished,0,0,0.8947,90.336,90.336,0.462
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,4,12.0,Finished,finished,0,0,0.8421,90.154,90.154,0.6625
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,7,5,10.0,Finished,finished,0,0,0.7895,90.384,90.222,0.5876
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,8,6,8.0,Finished,finished,0,0,0.7368,90.836,90.836,-0.089
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,6,7,6.0,Finished,finished,0,0,0.6842,90.34,90.216,0.5942
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,12,8,4.0,Finished,finished,0,0,0.6316,91.443,91.152,-0.4372
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,20,9,2.0,Finished,finished,0,0,0.5789,92.181,91.3945,-0.7044
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,15,10,1.0,Finished,finished,0,0,0.5263,91.461,90.6745,0.089
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,14,11,0.0,Finished,finished,0,0,0.4737,91.4,92.219,-1.6129
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,16,12,0.0,Lapped,finished,0,0,0.4211,91.652,90.8655,-0.1215
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,17,13,0.0,Lapped,finished,0,0,0.3684,91.892,91.1055,-0.3859
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,19,14,0.0,Lapped,finished,0,0,0.3158,92.121,91.3345,-0.6383
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,10,15,0.0,Lapped,finished,0,0,0.2632,90.809,90.518,0.2614
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,13,16,0.0,Lapped,finished,0,0,0.2105,91.473,91.182,-0.4702
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,11,17,0.0,Lapped,finished,0,0,0.1579,91.381,91.09,-0.3688
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,9,18,0.0,Retired,mechanical_dnf,1,0,0.1053,90.914,90.623,0.1457
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,3,19,0.0,Retired,mechanical_dnf,1,0,0.0526,90.0,89.991,0.8421
+2023,1,2023_R01,Bahrain Grand Prix,bahrain,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,18,20,0.0,Retired,mechanical_dnf,1,0,0.0,92.101,91.3145,-0.6162
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,88.265,88.265,1.1457
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,15,2,19.0,Finished,finished,0,0,0.9474,88.761,109.81,-22.9841
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,3,15.0,Finished,finished,0,0,0.8947,88.73,88.614,0.7549
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,3,4,12.0,Finished,finished,0,0,0.8421,88.857,88.857,0.4827
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,7,5,10.0,Finished,finished,0,0,0.7895,89.223,89.223,0.0728
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,6,8.0,Finished,finished,0,0,0.7368,88.931,88.814,0.5309
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,12,7,6.0,Finished,finished,0,0,0.6842,88.42,88.42,0.9721
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,6,8,4.0,Finished,finished,0,0,0.6316,89.078,89.078,0.2352
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,9,9,2.0,Finished,finished,0,0,0.5789,89.357,89.268,0.0224
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,13,10,1.0,Finished,finished,0,0,0.5263,89.634,89.491,-0.2274
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,11,0.0,Finished,finished,0,0,0.4737,89.939,89.423,-0.1512
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,10,12,0.0,Finished,finished,0,0,0.4211,89.451,89.308,-0.0224
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,11,13,0.0,Finished,finished,0,0,0.3684,89.461,89.318,-0.0336
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,18,14,0.0,Finished,finished,0,0,0.3158,90.244,89.728,-0.4928
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,8,15,0.0,Finished,finished,0,0,0.2632,89.243,89.235,0.0594
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,20,16,0.0,Finished,finished,0,0,0.2105,128.51,127.994,-43.3496
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,19,17,0.0,Finished,finished,0,0,0.1579,90.447,89.931,-0.7201
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,14,18,0.0,Lapped,finished,0,0,0.1053,89.668,89.525,-0.2654
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,17,19,0.0,Retired,mechanical_dnf,1,0,0.0526,89.994,89.478,-0.2128
+2023,2,2023_R02,Saudi Arabian Grand Prix,jeddah,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,5,20,0.0,Retired,mechanical_dnf,1,0,0.0,88.945,88.819,0.5253
+2023,3,2023_R03,Australian Grand Prix,albert_park,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,76.732,76.732,1.13
+2023,3,2023_R03,Australian Grand Prix,albert_park,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,3,2,18.0,Finished,finished,0,0,0.9474,77.104,77.104,0.6507
+2023,3,2023_R03,Australian Grand Prix,albert_park,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,4,3,15.0,Finished,finished,0,0,0.8947,77.139,77.135,0.6108
+2023,3,2023_R03,Australian Grand Prix,albert_park,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,6,4,12.0,Finished,finished,0,0,0.8421,77.308,77.308,0.3878
+2023,3,2023_R03,Australian Grand Prix,albert_park,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,20,5,11.0,Finished,finished,0,0,0.7895,,,
+2023,3,2023_R03,Australian Grand Prix,albert_park,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,13,6,8.0,Finished,finished,0,0,0.7368,78.119,77.971,-0.4664
+2023,3,2023_R03,Australian Grand Prix,albert_park,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,10,7,6.0,Finished,finished,0,0,0.6842,77.412,77.264,0.4445
+2023,3,2023_R03,Australian Grand Prix,albert_park,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,16,8,4.0,Finished,finished,0,0,0.6316,78.517,78.112,-0.6481
+2023,3,2023_R03,Australian Grand Prix,albert_park,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,17,9,2.0,Finished,finished,0,0,0.5789,78.54,78.135,-0.6778
+2023,3,2023_R03,Australian Grand Prix,albert_park,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,12,10,1.0,Finished,finished,0,0,0.5263,78.099,77.951,-0.4407
+2023,3,2023_R03,Australian Grand Prix,albert_park,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,19,11,0.0,Finished,finished,0,0,0.4737,78.714,78.309,-0.902
+2023,3,2023_R03,Australian Grand Prix,albert_park,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,5,12,0.0,Finished,finished,0,0,0.4211,77.27,77.201,0.5257
+2023,3,2023_R03,Australian Grand Prix,albert_park,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,9,13,0.0,Retired,mechanical_dnf,1,0,0.3684,77.574,77.426,0.2358
+2023,3,2023_R03,Australian Grand Prix,albert_park,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,11,14,0.0,Retired,mechanical_dnf,1,0,0.3158,77.768,77.62,-0.0142
+2023,3,2023_R03,Australian Grand Prix,albert_park,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,15,15,0.0,Retired,mechanical_dnf,1,0,0.2632,78.335,78.187,-0.7448
+2023,3,2023_R03,Australian Grand Prix,albert_park,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,18,16,0.0,Retired,mechanical_dnf,1,0,0.2105,78.557,78.152,-0.6997
+2023,3,2023_R03,Australian Grand Prix,albert_park,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,14,17,0.0,Retired,mechanical_dnf,1,0,0.1579,78.129,77.981,-0.4793
+2023,3,2023_R03,Australian Grand Prix,albert_park,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,2,18,0.0,Retired,mechanical_dnf,1,0,0.1053,76.968,76.968,0.8259
+2023,3,2023_R03,Australian Grand Prix,albert_park,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,8,19,0.0,Retired,mechanical_dnf,1,0,0.0526,77.609,77.609,0.0
+2023,3,2023_R03,Australian Grand Prix,albert_park,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,7,20,0.0,Retired,mechanical_dnf,1,0,0.0,77.369,77.242,0.4729
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,3,1,25.0,Finished,finished,0,0,1.0,100.495,100.495,0.8598
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,2,2,18.0,Finished,finished,0,0,0.9474,100.391,100.391,0.9623
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,100.203,100.203,1.1478
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,6,4,12.0,Finished,finished,0,0,0.8421,101.253,101.0915,0.2713
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,5,10.0,Finished,finished,0,0,0.7895,101.016,101.016,0.3458
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,5,6,8.0,Finished,finished,0,0,0.7368,101.177,101.177,0.1869
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,9,7,6.0,Finished,finished,0,0,0.6842,101.576,101.2975,0.0681
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,11,8,5.0,Finished,finished,0,0,0.6316,101.654,101.3755,-0.0089
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,7,9,2.0,Finished,finished,0,0,0.5789,101.281,101.2065,0.1578
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,8,10,1.0,Finished,finished,0,0,0.5263,101.569,101.2905,0.075
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,10,11,0.0,Finished,finished,0,0,0.4737,101.611,101.3575,0.0089
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,12,12,0.0,Finished,finished,0,0,0.4211,101.818,101.5395,-0.1707
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,16,13,0.0,Finished,finished,0,0,0.3684,103.417,102.5625,-1.1799
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,17,14,0.0,Finished,finished,0,0,0.3158,104.853,103.9985,-2.5965
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,19,15,0.0,Finished,finished,0,0,0.2632,101.798,101.5195,-0.1509
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,14,16,0.0,Finished,finished,0,0,0.2105,102.242,102.1165,-0.7399
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,20,17,0.0,Lapped,finished,0,0,0.1579,102.755,101.9005,-0.5268
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,13,18,0.0,Lapped,finished,0,0,0.1053,102.259,101.9805,-0.6057
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,15,19,0.0,Retired,mechanical_dnf,1,0,0.0526,102.642,101.7875,-0.4153
+2023,4,2023_R04,Azerbaijan Grand Prix,baku,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,18,20,0.0,Retired,mechanical_dnf,1,0,0.0,115.282,114.4275,-12.8849
+2023,5,2023_R05,Miami Grand Prix,miami,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,9,1,26.0,Finished,finished,0,0,1.0,86.814,86.9535,1.0422
+2023,5,2023_R05,Miami Grand Prix,miami,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,1,2,18.0,Finished,finished,0,0,0.9474,86.841,86.841,1.1702
+2023,5,2023_R05,Miami Grand Prix,miami,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,3,15.0,Finished,finished,0,0,0.8947,87.097,87.202,0.7594
+2023,5,2023_R05,Miami Grand Prix,miami,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,6,4,12.0,Finished,finished,0,0,0.8421,87.743,87.804,0.0743
+2023,5,2023_R05,Miami Grand Prix,miami,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,3,5,10.0,Finished,finished,0,0,0.7895,87.148,87.2875,0.6621
+2023,5,2023_R05,Miami Grand Prix,miami,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,13,6,8.0,Finished,finished,0,0,0.7368,87.846,88.1145,-0.2791
+2023,5,2023_R05,Miami Grand Prix,miami,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,7,7,6.0,Finished,finished,0,0,0.6842,86.964,87.1035,0.8715
+2023,5,2023_R05,Miami Grand Prix,miami,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,5,8,4.0,Finished,finished,0,0,0.6316,87.612,87.7515,0.134
+2023,5,2023_R05,Miami Grand Prix,miami,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,8,9,2.0,Finished,finished,0,0,0.5789,87.444,87.5835,0.3252
+2023,5,2023_R05,Miami Grand Prix,miami,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,4,10,1.0,Finished,finished,0,0,0.5263,87.673,87.767,0.1164
+2023,5,2023_R05,Miami Grand Prix,miami,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,17,11,0.0,Finished,finished,0,0,0.4737,88.429,88.1835,-0.3576
+2023,5,2023_R05,Miami Grand Prix,miami,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,18,12,0.0,Finished,finished,0,0,0.4211,88.476,88.2305,-0.4111
+2023,5,2023_R05,Miami Grand Prix,miami,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,10,13,0.0,Finished,finished,0,0,0.3684,87.564,87.7035,0.1886
+2023,5,2023_R05,Miami Grand Prix,miami,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,11,14,0.0,Finished,finished,0,0,0.3158,87.795,87.9345,-0.0743
+2023,5,2023_R05,Miami Grand Prix,miami,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,12,15,0.0,Finished,finished,0,0,0.2632,87.903,88.0425,-0.1972
+2023,5,2023_R05,Miami Grand Prix,miami,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,14,16,0.0,Finished,finished,0,0,0.2105,88.091,88.2305,-0.4111
+2023,5,2023_R05,Miami Grand Prix,miami,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,16,17,0.0,Finished,finished,0,0,0.1579,88.394,88.1485,-0.3178
+2023,5,2023_R05,Miami Grand Prix,miami,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,15,18,0.0,Finished,finished,0,0,0.1053,88.325,88.5345,-0.7571
+2023,5,2023_R05,Miami Grand Prix,miami,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,19,19,0.0,Lapped,finished,0,0,0.0526,88.484,88.2385,-0.4202
+2023,5,2023_R05,Miami Grand Prix,miami,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,20,20,0.0,Lapped,finished,0,0,0.0,88.577,88.3315,-0.5261
+2023,6,2023_R06,Monaco Grand Prix,monaco,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,71.365,71.365,0.7427
+2023,6,2023_R06,Monaco Grand Prix,monaco,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,2,18.0,Finished,finished,0,0,0.9474,71.449,71.449,0.6259
+2023,6,2023_R06,Monaco Grand Prix,monaco,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,3,3,15.0,Finished,finished,0,0,0.8947,71.553,71.553,0.4812
+2023,6,2023_R06,Monaco Grand Prix,monaco,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,5,4,13.0,Finished,finished,0,0,0.8421,71.725,71.669,0.3199
+2023,6,2023_R06,Monaco Grand Prix,monaco,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,8,5,10.0,Finished,finished,0,0,0.7895,71.964,71.664,0.3268
+2023,6,2023_R06,Monaco Grand Prix,monaco,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,6,6,8.0,Finished,finished,0,0,0.7368,71.471,71.471,0.5953
+2023,6,2023_R06,Monaco Grand Prix,monaco,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,7,7,6.0,Finished,finished,0,0,0.6842,71.933,71.682,0.3018
+2023,6,2023_R06,Monaco Grand Prix,monaco,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,8,4.0,Finished,finished,0,0,0.6316,71.63,71.63,0.3741
+2023,6,2023_R06,Monaco Grand Prix,monaco,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,10,9,2.0,Lapped,finished,0,0,0.5789,72.254,71.89,0.0125
+2023,6,2023_R06,Monaco Grand Prix,monaco,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,11,10,1.0,Lapped,finished,0,0,0.5263,72.395,71.908,-0.0125
+2023,6,2023_R06,Monaco Grand Prix,monaco,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,15,11,0.0,Lapped,finished,0,0,0.4737,72.625,72.138,-0.3324
+2023,6,2023_R06,Monaco Grand Prix,monaco,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,12,12,0.0,Lapped,finished,0,0,0.4211,72.428,71.941,-0.0584
+2023,6,2023_R06,Monaco Grand Prix,monaco,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,19,13,0.0,Lapped,finished,0,0,0.3684,73.523,72.425,-0.7316
+2023,6,2023_R06,Monaco Grand Prix,monaco,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,13,14,0.0,Lapped,finished,0,0,0.3158,72.527,72.04,-0.1961
+2023,6,2023_R06,Monaco Grand Prix,monaco,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,9,15,0.0,Lapped,finished,0,0,0.2632,72.082,71.762,0.1905
+2023,6,2023_R06,Monaco Grand Prix,monaco,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,20,16,0.0,Lapped,finished,0,0,0.2105,73.85,72.752,-1.1864
+2023,6,2023_R06,Monaco Grand Prix,monaco,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,18,17,0.0,Lapped,finished,0,0,0.1579,73.279,72.181,-0.3922
+2023,6,2023_R06,Monaco Grand Prix,monaco,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,16,18,0.0,Lapped,finished,0,0,0.1053,73.113,72.015,-0.1613
+2023,6,2023_R06,Monaco Grand Prix,monaco,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,17,19,0.0,Retired,mechanical_dnf,1,0,0.0526,73.27,72.172,-0.3797
+2023,6,2023_R06,Monaco Grand Prix,monaco,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,14,20,0.0,Retired,mechanical_dnf,1,0,0.0,72.623,72.136,-0.3296
+2023,7,2023_R07,Spanish Grand Prix,catalunya,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,72.272,72.272,1.3399
+2023,7,2023_R07,Spanish Grand Prix,catalunya,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,4,2,18.0,Finished,finished,0,0,0.9474,72.818,72.818,0.5945
+2023,7,2023_R07,Spanish Grand Prix,catalunya,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,12,3,15.0,Finished,finished,0,0,0.8947,73.326,73.392,-0.1891
+2023,7,2023_R07,Spanish Grand Prix,catalunya,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,11,4,12.0,Finished,finished,0,0,0.8421,73.334,73.279,-0.0348
+2023,7,2023_R07,Spanish Grand Prix,catalunya,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,2,5,10.0,Finished,finished,0,0,0.7895,72.734,72.734,0.7092
+2023,7,2023_R07,Spanish Grand Prix,catalunya,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,5,6,8.0,Finished,finished,0,0,0.7368,72.994,72.994,0.3542
+2023,7,2023_R07,Spanish Grand Prix,catalunya,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,8,7,6.0,Finished,finished,0,0,0.6842,73.098,73.043,0.2874
+2023,7,2023_R07,Spanish Grand Prix,catalunya,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,6,8,4.0,Finished,finished,0,0,0.6316,73.001,72.946,0.4198
+2023,7,2023_R07,Spanish Grand Prix,catalunya,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,13,9,2.0,Finished,finished,0,0,0.5789,73.521,73.466,-0.2901
+2023,7,2023_R07,Spanish Grand Prix,catalunya,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,10,10,1.0,Finished,finished,0,0,0.5263,72.816,72.816,0.5972
+2023,7,2023_R07,Spanish Grand Prix,catalunya,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,19,11,0.0,Finished,finished,0,0,0.4737,74.079,73.592,-0.4621
+2023,7,2023_R07,Spanish Grand Prix,catalunya,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,15,12,0.0,Finished,finished,0,0,0.4211,73.862,74.422,-1.5951
+2023,7,2023_R07,Spanish Grand Prix,catalunya,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,9,13,0.0,Lapped,finished,0,0,0.3684,73.059,73.004,0.3406
+2023,7,2023_R07,Spanish Grand Prix,catalunya,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,14,14,0.0,Lapped,finished,0,0,0.3158,73.581,74.028,-1.0573
+2023,7,2023_R07,Spanish Grand Prix,catalunya,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,7,15,0.0,Lapped,finished,0,0,0.2632,73.229,73.228,0.0348
+2023,7,2023_R07,Spanish Grand Prix,catalunya,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,18,16,0.0,Lapped,finished,0,0,0.2105,74.063,73.576,-0.4403
+2023,7,2023_R07,Spanish Grand Prix,catalunya,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,3,17,0.0,Lapped,finished,0,0,0.1579,72.776,72.721,0.7269
+2023,7,2023_R07,Spanish Grand Prix,catalunya,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,17,18,0.0,Lapped,finished,0,0,0.1053,74.042,73.555,-0.4116
+2023,7,2023_R07,Spanish Grand Prix,catalunya,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,16,19,0.0,Lapped,finished,0,0,0.0526,73.977,73.49,-0.3229
+2023,7,2023_R07,Spanish Grand Prix,catalunya,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,20,20,0.0,Lapped,finished,0,0,0.0,74.699,74.212,-1.3085
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,79.092,85.858,2.4889
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,2,2,18.0,Finished,finished,0,0,0.9474,79.776,87.286,0.8671
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,3,3,15.0,Finished,finished,0,0,0.8947,80.426,87.627,0.4798
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,10,4,12.0,Finished,finished,0,0,0.8421,80.615,88.154,-0.1187
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,11,5,10.0,Finished,finished,0,0,0.7895,79.856,87.395,0.7433
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,12,6,9.0,Finished,finished,0,0,0.7368,80.959,88.498,-0.5094
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,9,7,6.0,Finished,finished,0,0,0.6842,78.725,86.264,2.0278
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,6,8,4.0,Finished,finished,0,0,0.6316,80.406,87.945,0.1187
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,16,9,2.0,Finished,finished,0,0,0.5789,81.484,89.023,-1.1056
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,14,10,1.0,Finished,finished,0,0,0.5263,81.821,89.36,-1.4884
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,8,11,0.0,Finished,finished,0,0,0.4737,79.659,87.198,0.9671
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,15,12,0.0,Finished,finished,0,0,0.4211,82.886,88.72,-0.7615
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,7,13,0.0,Finished,finished,0,0,0.3684,79.347,86.886,1.3214
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,19,14,0.0,Finished,finished,0,0,0.3158,82.746,88.58,-0.6025
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,5,15,0.0,Lapped,finished,0,0,0.2632,80.305,87.102,1.0761
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,20,16,0.0,Lapped,finished,0,0,0.2105,83.342,89.176,-1.2794
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,13,17,0.0,Lapped,finished,0,0,0.1579,81.678,89.217,-1.326
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,17,18,0.0,Lapped,finished,0,0,0.1053,83.137,88.971,-1.0466
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,4,19,0.0,Retired,mechanical_dnf,1,0,0.0526,80.098,87.637,0.4685
+2023,8,2023_R08,Canadian Grand Prix,villeneuve,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,18,20,0.0,Retired,mechanical_dnf,1,0,0.0,83.337,89.171,-1.2737
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,64.391,64.391,1.0693
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,2,2,18.0,Finished,finished,0,0,0.9474,64.439,64.439,0.9956
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,15,3,15.0,Finished,finished,0,0,0.8947,65.177,126.3675,-94.1517
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,4,4,12.0,Finished,finished,0,0,0.8421,64.658,64.658,0.6591
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,7,5,10.0,Finished,finished,0,0,0.7895,64.911,64.8605,0.348
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,3,6,8.0,Finished,finished,0,0,0.7368,64.581,64.581,0.7774
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,11,7,6.0,Finished,finished,0,0,0.6842,65.428,65.1075,-0.0315
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,5,8,4.0,Finished,finished,0,0,0.6316,64.819,64.819,0.4118
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,6,9,2.0,Finished,finished,0,0,0.5789,64.893,64.8005,0.4402
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,9,10,1.0,Finished,finished,0,0,0.5263,65.17,64.9875,0.1529
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,10,11,0.0,Finished,finished,0,0,0.4737,65.387,65.0665,0.0315
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,17,12,0.0,Lapped,finished,0,0,0.4211,65.818,65.2115,-0.1913
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,18,13,0.0,Lapped,finished,0,0,0.3684,65.948,65.3415,-0.391
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,12,14,0.0,Lapped,finished,0,0,0.3158,65.453,65.1325,-0.0699
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,14,15,0.0,Lapped,finished,0,0,0.2632,65.68,65.3595,-0.4187
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,13,16,0.0,Lapped,finished,0,0,0.2105,65.605,65.2845,-0.3034
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,20,17,0.0,Lapped,finished,0,0,0.1579,65.974,65.3675,-0.431
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,19,18,0.0,Lapped,finished,0,0,0.1053,65.971,65.3645,-0.4264
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,19,0.0,Lapped,finished,0,0,0.0526,65.784,65.1775,-0.139
+2023,9,2023_R09,Austrian Grand Prix,red_bull_ring,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,8,20,0.0,Retired,mechanical_dnf,1,0,0.0,65.09,65.0415,0.0699
+2023,10,2023_R10,British Grand Prix,silverstone,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,86.72,86.6305,1.278
+2023,10,2023_R10,British Grand Prix,silverstone,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,2,2,18.0,Finished,finished,0,0,0.9474,86.961,86.961,0.9014
+2023,10,2023_R10,British Grand Prix,silverstone,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,7,3,15.0,Finished,finished,0,0,0.8947,87.211,87.211,0.6165
+2023,10,2023_R10,British Grand Prix,silverstone,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,3,4,12.0,Finished,finished,0,0,0.8421,87.092,86.7735,1.1151
+2023,10,2023_R10,British Grand Prix,silverstone,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,6,5,10.0,Finished,finished,0,0,0.7895,87.155,87.155,0.6803
+2023,10,2023_R10,British Grand Prix,silverstone,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,15,6,8.0,Finished,finished,0,0,0.7368,89.968,88.0405,-0.3288
+2023,10,2023_R10,British Grand Prix,silverstone,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,9,7,6.0,Finished,finished,0,0,0.6842,87.659,87.2965,0.5191
+2023,10,2023_R10,British Grand Prix,silverstone,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,8,8,4.0,Finished,finished,0,0,0.6316,87.53,86.9955,0.8621
+2023,10,2023_R10,British Grand Prix,silverstone,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,4,9,2.0,Finished,finished,0,0,0.5789,87.136,87.136,0.702
+2023,10,2023_R10,British Grand Prix,silverstone,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,5,10,1.0,Finished,finished,0,0,0.5263,87.148,87.148,0.6883
+2023,10,2023_R10,British Grand Prix,silverstone,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,14,11,0.0,Finished,finished,0,0,0.4737,89.031,87.9595,-0.2365
+2023,10,2023_R10,British Grand Prix,silverstone,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,20,12,0.0,Finished,finished,0,0,0.4211,89.798,87.8705,-0.135
+2023,10,2023_R10,British Grand Prix,silverstone,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,11,13,0.0,Finished,finished,0,0,0.3684,88.896,87.8245,-0.0826
+2023,10,2023_R10,British Grand Prix,silverstone,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,12,14,0.0,Finished,finished,0,0,0.3158,88.935,87.8635,-0.1271
+2023,10,2023_R10,British Grand Prix,silverstone,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,17,15,0.0,Finished,finished,0,0,0.2632,90.123,88.1955,-0.5054
+2023,10,2023_R10,British Grand Prix,silverstone,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,16,0.0,Finished,finished,0,0,0.2105,90.025,88.0975,-0.3937
+2023,10,2023_R10,British Grand Prix,silverstone,DEV,de_vries,21,Nyck de Vries,Dutch,alphatauri,alphatauri_2023,18,17,0.0,Finished,finished,0,0,0.1579,90.513,88.5855,-0.9498
+2023,10,2023_R10,British Grand Prix,silverstone,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,10,18,0.0,Retired,mechanical_dnf,1,0,0.1053,87.689,87.6795,0.0826
+2023,10,2023_R10,British Grand Prix,silverstone,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,19,19,0.0,Retired,mechanical_dnf,1,0,0.0526,92.378,90.4505,-3.0751
+2023,10,2023_R10,British Grand Prix,silverstone,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,13,20,0.0,Retired,mechanical_dnf,1,0,0.0,88.956,87.8845,-0.151
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,2,1,26.0,Finished,finished,0,0,1.0,76.612,76.612,0.5607
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,3,2,18.0,Finished,finished,0,0,0.9474,76.694,76.678,0.4751
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,3,15.0,Finished,finished,0,0,0.8947,77.045,77.025,0.0247
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,1,4,12.0,Finished,finished,0,0,0.8421,76.609,76.609,0.5646
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,4,5,10.0,Finished,finished,0,0,0.7895,76.905,76.905,0.1804
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,18,6,8.0,Finished,finished,0,0,0.7368,79.027,77.498,-0.5893
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,6,7,6.0,Finished,finished,0,0,0.6842,76.992,76.93,0.148
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,11,8,4.0,Finished,finished,0,0,0.6316,77.703,77.053,-0.0117
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,8,9,2.0,Finished,finished,0,0,0.5789,77.035,77.035,0.0117
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,14,10,1.0,Lapped,finished,0,0,0.5263,78.144,77.494,-0.5841
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,16,11,0.0,Lapped,finished,0,0,0.4737,78.917,77.388,-0.4465
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,7,12,0.0,Lapped,finished,0,0,0.4211,77.034,76.913,0.17
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,13,13,0.0,Lapped,finished,0,0,0.3684,78.002,77.352,-0.3998
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,10,14,0.0,Lapped,finished,0,0,0.3158,77.186,77.002,0.0545
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,17,15,0.0,Lapped,finished,0,0,0.2632,78.919,77.39,-0.4491
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,5,16,0.0,Lapped,finished,0,0,0.2105,76.971,76.971,0.0948
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,19,17,0.0,Lapped,finished,0,0,0.1579,79.206,77.677,-0.8216
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,20,18,0.0,Retired,mechanical_dnf,1,0,0.1053,79.248,77.719,-0.8761
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,12,19,0.0,Retired,mechanical_dnf,1,0,0.0526,77.841,77.191,-0.1908
+2023,11,2023_R11,Hungarian Grand Prix,hungaroring,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,15,20,0.0,Retired,mechanical_dnf,1,0,0.0,78.217,77.567,-0.6788
+2023,12,2023_R12,Belgian Grand Prix,spa,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,6,1,25.0,Finished,finished,0,0,1.0,106.168,106.168,1.7586
+2023,12,2023_R12,Belgian Grand Prix,spa,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,2,2,18.0,Finished,finished,0,0,0.9474,107.045,107.045,0.9471
+2023,12,2023_R12,Belgian Grand Prix,spa,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,106.988,106.988,0.9998
+2023,12,2023_R12,Belgian Grand Prix,spa,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,3,4,13.0,Finished,finished,0,0,0.8421,107.087,107.087,0.9082
+2023,12,2023_R12,Belgian Grand Prix,spa,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,9,5,10.0,Finished,finished,0,0,0.7895,107.843,107.843,0.2087
+2023,12,2023_R12,Belgian Grand Prix,spa,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,8,6,8.0,Finished,finished,0,0,0.7368,107.805,107.751,0.2938
+2023,12,2023_R12,Belgian Grand Prix,spa,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,7,7,6.0,Finished,finished,0,0,0.6842,107.669,107.398,0.6204
+2023,12,2023_R12,Belgian Grand Prix,spa,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,14,8,4.0,Finished,finished,0,0,0.6316,116.372,111.518,-3.192
+2023,12,2023_R12,Belgian Grand Prix,spa,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,10,9,2.0,Finished,finished,0,0,0.5789,108.841,107.339,0.675
+2023,12,2023_R12,Belgian Grand Prix,spa,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,10,1.0,Finished,finished,0,0,0.5263,113.148,108.294,-0.2087
+2023,12,2023_R12,Belgian Grand Prix,spa,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,12,11,0.0,Finished,finished,0,0,0.4737,113.671,108.817,-0.6926
+2023,12,2023_R12,Belgian Grand Prix,spa,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,13,12,0.0,Finished,finished,0,0,0.4211,114.694,109.84,-1.6392
+2023,12,2023_R12,Belgian Grand Prix,spa,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,17,13,0.0,Finished,finished,0,0,0.3684,120.832,109.76,-1.5652
+2023,12,2023_R12,Belgian Grand Prix,spa,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,15,14,0.0,Finished,finished,0,0,0.3158,120.314,109.242,-1.0859
+2023,12,2023_R12,Belgian Grand Prix,spa,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,16,15,0.0,Finished,finished,0,0,0.2632,114.16,109.306,-1.1451
+2023,12,2023_R12,Belgian Grand Prix,spa,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,19,16,0.0,Finished,finished,0,0,0.2105,122.159,111.087,-2.7931
+2023,12,2023_R12,Belgian Grand Prix,spa,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,18,17,0.0,Finished,finished,0,0,0.1579,121.535,110.463,-2.2157
+2023,12,2023_R12,Belgian Grand Prix,spa,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,20,18,0.0,Finished,finished,0,0,0.1053,123.166,112.094,-3.725
+2023,12,2023_R12,Belgian Grand Prix,spa,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,19,0.0,Retired,mechanical_dnf,1,0,0.0526,107.152,106.857,1.121
+2023,12,2023_R12,Belgian Grand Prix,spa,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,5,20,0.0,Retired,mechanical_dnf,1,0,0.0,107.365,106.68,1.2848
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,70.567,70.567,2.1479
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,5,2,19.0,Finished,finished,0,0,0.9474,71.506,71.451,0.9221
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,12,3,15.0,Finished,finished,0,0,0.8947,80.128,72.15,-0.0471
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,7,4,12.0,Finished,finished,0,0,0.8421,71.88,71.878,0.33
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,6,5,10.0,Finished,finished,0,0,0.7895,71.754,71.754,0.502
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,13,6,8.0,Finished,finished,0,0,0.7368,80.151,72.173,-0.079
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,2,7,6.0,Finished,finished,0,0,0.6842,71.104,71.104,1.4033
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,4,8,4.0,Finished,finished,0,0,0.6316,71.419,71.419,0.9665
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,8,9,2.0,Finished,finished,0,0,0.5789,71.938,71.414,0.9734
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,16,10,1.0,Finished,finished,0,0,0.5263,82.11,72.407,-0.4035
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,11,11,0.0,Finished,finished,0,0,0.4737,80.121,72.143,-0.0374
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,14,12,0.0,Finished,finished,0,0,0.4211,80.25,72.272,-0.2163
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,LAW,lawson,40,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,19,13,0.0,Finished,finished,0,0,0.3684,83.42,73.717,-2.22
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,18,14,0.0,Finished,finished,0,0,0.3158,82.26,72.557,-0.6115
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,17,15,0.0,Finished,finished,0,0,0.2632,80.23,72.252,-0.1886
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,0,16,0.0,Finished,finished,0,0,0.2105,82.192,72.489,-0.5172
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,3,17,0.0,Finished,finished,0,0,0.1579,71.294,71.294,1.1398
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,15,18,0.0,Accident,driver_incident,0,0,0.1053,82.067,72.364,-0.3439
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,9,19,0.0,Undertray,mechanical_dnf,1,0,0.0526,72.665,71.622,0.685
+2023,13,2023_R13,Dutch Grand Prix,zandvoort,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,10,20,0.0,Accident,driver_incident,0,0,0.0,76.748,72.089,0.0374
+2023,14,2023_R14,Italian Grand Prix,monza,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,2,1,25.0,Finished,finished,0,0,1.0,80.307,80.307,0.8292
+2023,14,2023_R14,Italian Grand Prix,monza,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,5,2,18.0,Finished,finished,0,0,0.9474,80.688,80.631,0.4291
+2023,14,2023_R14,Italian Grand Prix,monza,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,80.294,80.294,0.8453
+2023,14,2023_R14,Italian Grand Prix,monza,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,3,4,12.0,Finished,finished,0,0,0.8421,80.361,80.361,0.7625
+2023,14,2023_R14,Italian Grand Prix,monza,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,4,5,10.0,Finished,finished,0,0,0.7895,80.671,80.671,0.3797
+2023,14,2023_R14,Italian Grand Prix,monza,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,8,6,8.0,Finished,finished,0,0,0.7368,80.82,80.76,0.2698
+2023,14,2023_R14,Italian Grand Prix,monza,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,6,7,6.0,Finished,finished,0,0,0.6842,80.76,80.663,0.3896
+2023,14,2023_R14,Italian Grand Prix,monza,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,9,8,4.0,Finished,finished,0,0,0.6316,80.979,80.972,0.008
+2023,14,2023_R14,Italian Grand Prix,monza,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,10,9,2.0,Finished,finished,0,0,0.5789,81.417,80.934,0.055
+2023,14,2023_R14,Italian Grand Prix,monza,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,14,10,1.0,Finished,finished,0,0,0.5263,81.94,81.331,-0.4353
+2023,14,2023_R14,Italian Grand Prix,monza,LAW,lawson,40,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,12,11,0.0,Finished,finished,0,0,0.4737,81.758,81.149,-0.2105
+2023,14,2023_R14,Italian Grand Prix,monza,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,7,12,0.0,Finished,finished,0,0,0.4211,80.785,80.785,0.239
+2023,14,2023_R14,Italian Grand Prix,monza,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,15,13,0.0,Finished,finished,0,0,0.3684,81.93,81.335,-0.4402
+2023,14,2023_R14,Italian Grand Prix,monza,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,16,14,0.0,Finished,finished,0,0,0.3158,82.39,81.214,-0.2908
+2023,14,2023_R14,Italian Grand Prix,monza,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,17,15,0.0,Finished,finished,0,0,0.2632,82.545,81.369,-0.4822
+2023,14,2023_R14,Italian Grand Prix,monza,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,20,16,0.0,Finished,finished,0,0,0.2105,82.86,81.684,-0.8712
+2023,14,2023_R14,Italian Grand Prix,monza,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,13,17,0.0,Lapped,finished,0,0,0.1579,81.776,81.167,-0.2328
+2023,14,2023_R14,Italian Grand Prix,monza,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,19,18,0.0,Lapped,finished,0,0,0.1053,82.592,81.416,-0.5403
+2023,14,2023_R14,Italian Grand Prix,monza,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,18,19,0.0,Retired,mechanical_dnf,1,0,0.0526,82.548,81.372,-0.4859
+2023,14,2023_R14,Italian Grand Prix,monza,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,20,0.0,Did not start,other_dnf,0,0,0.0,81.594,80.985,-0.008
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,1,1,25.0,Finished,finished,0,0,1.0,90.984,90.984,0.7722
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,4,2,18.0,Finished,finished,0,0,0.9474,91.27,91.27,0.4602
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,5,3,16.0,Finished,finished,0,0,0.8947,91.485,91.485,0.2258
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,3,4,12.0,Finished,finished,0,0,0.8421,91.063,91.063,0.686
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,11,5,10.0,Finished,finished,0,0,0.7895,92.173,91.7375,-0.0496
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,12,6,8.0,Finished,finished,0,0,0.7368,92.274,91.8385,-0.1598
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,17,7,6.0,Finished,finished,0,0,0.6842,92.902,92.1515,-0.5011
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,13,8,4.0,Finished,finished,0,0,0.6316,92.099,91.8745,-0.199
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,LAW,lawson,40,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,10,9,2.0,Finished,finished,0,0,0.5789,92.166,91.7305,-0.042
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,6,10,1.0,Finished,finished,0,0,0.5263,91.575,91.4565,0.2568
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,14,11,0.0,Finished,finished,0,0,0.4737,92.668,93.2835,-1.7357
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,19,12,0.0,Finished,finished,0,0,0.4211,93.258,92.5075,-0.8894
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,9,13,0.0,Finished,finished,0,0,0.3684,91.808,91.5585,0.1456
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,18,14,0.0,Finished,finished,0,0,0.3158,93.252,92.5015,-0.8828
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,7,15,0.0,Finished,finished,0,0,0.2632,91.615,91.3995,0.319
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,2,16,0.0,Retired,mechanical_dnf,1,0,0.2105,91.056,91.056,0.6936
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,16,17,0.0,Retired,mechanical_dnf,1,0,0.1579,92.809,92.0585,-0.3997
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,8,18,0.0,Retired,mechanical_dnf,1,0,0.1053,91.673,91.6535,0.042
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,15,19,0.0,Retired,mechanical_dnf,1,0,0.0526,91.991,91.2405,0.4924
+2023,15,2023_R15,Singapore Grand Prix,marina_bay,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,0,20,0.0,Withdrew,mechanical_dnf,1,0,0.0,93.397,92.6465,-1.041
+2023,16,2023_R16,Japanese Grand Prix,suzuka,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,88.877,88.877,1.4656
+2023,16,2023_R16,Japanese Grand Prix,suzuka,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,3,2,18.0,Finished,finished,0,0,0.9474,89.493,89.493,0.7827
+2023,16,2023_R16,Japanese Grand Prix,suzuka,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,2,3,15.0,Finished,finished,0,0,0.8947,89.458,89.458,0.8215
+2023,16,2023_R16,Japanese Grand Prix,suzuka,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,4,4,12.0,Finished,finished,0,0,0.8421,89.542,89.542,0.7284
+2023,16,2023_R16,Japanese Grand Prix,suzuka,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,7,5,10.0,Finished,finished,0,0,0.7895,89.908,89.774,0.4712
+2023,16,2023_R16,Japanese Grand Prix,suzuka,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,6,6,8.0,Finished,finished,0,0,0.7368,89.85,89.801,0.4412
+2023,16,2023_R16,Japanese Grand Prix,suzuka,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,8,7,6.0,Finished,finished,0,0,0.6842,90.219,90.002,0.2184
+2023,16,2023_R16,Japanese Grand Prix,suzuka,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,10,8,4.0,Finished,finished,0,0,0.6316,90.465,90.199,0.0
+2023,16,2023_R16,Japanese Grand Prix,suzuka,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,14,9,2.0,Finished,finished,0,0,0.5789,90.586,90.32,-0.1341
+2023,16,2023_R16,Japanese Grand Prix,suzuka,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,12,10,1.0,Finished,finished,0,0,0.5263,90.509,90.243,-0.0488
+2023,16,2023_R16,Japanese Grand Prix,suzuka,LAW,lawson,40,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,11,11,0.0,Lapped,finished,0,0,0.4737,90.425,90.242,-0.0477
+2023,16,2023_R16,Japanese Grand Prix,suzuka,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,9,12,0.0,Lapped,finished,0,0,0.4211,90.204,89.938,0.2894
+2023,16,2023_R16,Japanese Grand Prix,suzuka,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,19,13,0.0,Lapped,finished,0,0,0.3684,91.398,90.728,-0.5865
+2023,16,2023_R16,Japanese Grand Prix,suzuka,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,18,14,0.0,Lapped,finished,0,0,0.3158,91.299,90.629,-0.4767
+2023,16,2023_R16,Japanese Grand Prix,suzuka,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,15,15,0.0,Lapped,finished,0,0,0.2632,90.665,90.399,-0.2217
+2023,16,2023_R16,Japanese Grand Prix,suzuka,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,13,16,0.0,Retired,mechanical_dnf,1,0,0.2105,90.537,90.271,-0.0798
+2023,16,2023_R16,Japanese Grand Prix,suzuka,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,20,17,0.0,Retired,mechanical_dnf,1,0,0.1579,,,
+2023,16,2023_R16,Japanese Grand Prix,suzuka,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,17,18,0.0,Retired,mechanical_dnf,1,0,0.1053,91.181,90.511,-0.3459
+2023,16,2023_R16,Japanese Grand Prix,suzuka,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,5,19,0.0,Retired,mechanical_dnf,1,0,0.0526,89.65,89.65,0.6087
+2023,16,2023_R16,Japanese Grand Prix,suzuka,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,16,20,0.0,Retired,mechanical_dnf,1,0,0.0,91.049,90.379,-0.1996
+2023,17,2023_R17,Qatar Grand Prix,losail,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,83.778,83.778,1.3611
+2023,17,2023_R17,Qatar Grand Prix,losail,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,6,2,18.0,Finished,finished,0,0,0.9474,84.54,84.359,0.677
+2023,17,2023_R17,Qatar Grand Prix,losail,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,10,3,15.0,Finished,finished,0,0,0.8947,84.685,84.32,0.7229
+2023,17,2023_R17,Qatar Grand Prix,losail,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,2,4,12.0,Finished,finished,0,0,0.8421,84.219,84.219,0.8418
+2023,17,2023_R17,Qatar Grand Prix,losail,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,5,5,10.0,Finished,finished,0,0,0.7895,84.424,84.424,0.6005
+2023,17,2023_R17,Qatar Grand Prix,losail,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,4,6,8.0,Finished,finished,0,0,0.7368,84.369,84.369,0.6652
+2023,17,2023_R17,Qatar Grand Prix,losail,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,8,7,6.0,Finished,finished,0,0,0.6842,84.763,84.563,0.4368
+2023,17,2023_R17,Qatar Grand Prix,losail,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,9,8,4.0,Finished,finished,0,0,0.6316,85.058,84.932,0.0024
+2023,17,2023_R17,Qatar Grand Prix,losail,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,19,9,2.0,Finished,finished,0,0,0.5789,87.432,86.543,-1.8944
+2023,17,2023_R17,Qatar Grand Prix,losail,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,20,10,1.0,Finished,finished,0,0,0.5263,85.462,85.097,-0.1919
+2023,17,2023_R17,Qatar Grand Prix,losail,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,16,11,0.0,Finished,finished,0,0,0.4737,86.345,85.456,-0.6146
+2023,17,2023_R17,Qatar Grand Prix,losail,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,7,12,0.0,Finished,finished,0,0,0.4211,84.553,84.553,0.4486
+2023,17,2023_R17,Qatar Grand Prix,losail,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,13,13,0.0,Finished,finished,0,0,0.3684,85.707,85.342,-0.4804
+2023,17,2023_R17,Qatar Grand Prix,losail,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,18,14,0.0,Lapped,finished,0,0,0.3158,87.046,86.157,-1.4399
+2023,17,2023_R17,Qatar Grand Prix,losail,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,15,0.0,Lapped,finished,0,0,0.2632,85.301,84.936,-0.0024
+2023,17,2023_R17,Qatar Grand Prix,losail,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,14,16,0.0,Lapped,finished,0,0,0.2105,85.783,85.418,-0.5699
+2023,17,2023_R17,Qatar Grand Prix,losail,LAW,lawson,40,Liam Lawson,New Zealander,alphatauri,alphatauri_2023,17,17,0.0,Lapped,finished,0,0,0.1579,86.635,85.746,-0.956
+2023,17,2023_R17,Qatar Grand Prix,losail,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,15,18,0.0,Retired,mechanical_dnf,1,0,0.1053,86.21,85.321,-0.4556
+2023,17,2023_R17,Qatar Grand Prix,losail,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,3,19,0.0,Retired,mechanical_dnf,1,0,0.0526,84.305,84.016,1.0808
+2023,17,2023_R17,Qatar Grand Prix,losail,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,12,20,0.0,Did not start,other_dnf,0,0,0.0,85.328,84.963,-0.0341
+2023,18,2023_R18,United States Grand Prix,americas,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,6,1,25.0,Finished,finished,0,0,1.0,95.008,94.6405,0.6597
+2023,18,2023_R18,United States Grand Prix,americas,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,2,2,18.0,Finished,finished,0,0,0.9474,94.853,94.853,0.4367
+2023,18,2023_R18,United States Grand Prix,americas,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,4,3,15.0,Finished,finished,0,0,0.8947,94.945,94.9345,0.3511
+2023,18,2023_R18,United States Grand Prix,americas,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,4,12.0,Finished,finished,0,0,0.8421,95.173,95.173,0.1008
+2023,18,2023_R18,United States Grand Prix,americas,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,5,5,10.0,Finished,finished,0,0,0.7895,95.079,95.079,0.1994
+2023,18,2023_R18,United States Grand Prix,americas,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,7,6,8.0,Finished,finished,0,0,0.7368,95.089,95.089,0.1889
+2023,18,2023_R18,United States Grand Prix,americas,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,20,7,6.0,Finished,finished,0,0,0.6842,96.589,95.8835,-0.645
+2023,18,2023_R18,United States Grand Prix,americas,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,11,8,5.0,Finished,finished,0,0,0.6316,95.697,95.3295,-0.0635
+2023,18,2023_R18,United States Grand Prix,americas,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,15,9,2.0,Finished,finished,0,0,0.5789,96.315,95.6095,-0.3574
+2023,18,2023_R18,United States Grand Prix,americas,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,16,10,1.0,Finished,finished,0,0,0.5263,96.827,96.1215,-0.8948
+2023,18,2023_R18,United States Grand Prix,americas,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,18,11,0.0,Finished,finished,0,0,0.4737,96.235,95.5295,-0.2734
+2023,18,2023_R18,United States Grand Prix,americas,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,13,12,0.0,Finished,finished,0,0,0.4211,95.858,95.4905,-0.2325
+2023,18,2023_R18,United States Grand Prix,americas,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,12,13,0.0,Lapped,finished,0,0,0.3684,95.698,95.3305,-0.0646
+2023,18,2023_R18,United States Grand Prix,americas,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,17,14,0.0,Lapped,finished,0,0,0.3158,95.88,95.5125,-0.2556
+2023,18,2023_R18,United States Grand Prix,americas,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,14,15,0.0,Lapped,finished,0,0,0.2632,95.974,95.6065,-0.3543
+2023,18,2023_R18,United States Grand Prix,americas,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,19,16,0.0,Retired,mechanical_dnf,1,0,0.2105,96.268,95.5625,-0.3081
+2023,18,2023_R18,United States Grand Prix,americas,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,10,17,0.0,Retired,mechanical_dnf,1,0,0.1579,95.467,95.2085,0.0635
+2023,18,2023_R18,United States Grand Prix,americas,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,8,18,0.0,Retired,mechanical_dnf,1,0,0.1053,95.154,95.0455,0.2346
+2023,18,2023_R18,United States Grand Prix,americas,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,3,19,0.0,Disqualified,driver_incident,0,0,0.0526,94.862,94.862,0.4272
+2023,18,2023_R18,United States Grand Prix,americas,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,20,0.0,Disqualified,driver_incident,0,0,0.0,94.723,94.6365,0.6639
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,3,1,25.0,Finished,finished,0,0,1.0,77.263,77.263,1.0083
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,6,2,19.0,Finished,finished,0,0,0.9474,77.454,77.228,1.0532
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,3,15.0,Finished,finished,0,0,0.8947,77.166,77.166,1.1326
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,2,4,12.0,Finished,finished,0,0,0.8421,77.233,77.233,1.0468
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,17,5,10.0,Finished,finished,0,0,0.7895,81.554,80.774,-3.4901
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,8,6,8.0,Finished,finished,0,0,0.7368,77.673,77.33,0.9225
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,4,7,6.0,Finished,finished,0,0,0.6842,77.382,77.363,0.8802
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,7,8,4.0,Finished,finished,0,0,0.6316,77.623,77.531,0.665
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,14,9,2.0,Finished,finished,0,0,0.5789,78.828,78.804,-0.966
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,15,10,1.0,Finished,finished,0,0,0.5263,79.08,78.3,-0.3203
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,11,11,0.0,Finished,finished,0,0,0.4737,78.521,78.178,-0.164
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,18,12,0.0,Finished,finished,0,0,0.4211,78.89,78.11,-0.0769
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,12,13,0.0,Finished,finished,0,0,0.3684,78.524,78.181,-0.1678
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,10,14,0.0,Finished,finished,0,0,0.3158,78.05,78.05,0.0
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,9,15,0.0,Finished,finished,0,0,0.2632,78.016,77.673,0.483
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,19,16,0.0,Retired,mechanical_dnf,1,0,0.2105,,,
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,0,17,0.0,Collision damage,driver_incident,0,0,0.1579,79.227,78.447,-0.5086
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,13,18,0.0,Withdrew,mechanical_dnf,1,0,0.1053,78.738,78.395,-0.442
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,16,19,0.0,Accident,driver_incident,0,0,0.0526,79.163,78.383,-0.4266
+2023,19,2023_R19,Mexico City Grand Prix,rodriguez,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,5,20,0.0,Collision damage,driver_incident,0,0,0.0,77.423,77.423,0.8033
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,25.0,Finished,finished,0,0,1.0,70.162,70.727,1.2765
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,6,2,19.0,Finished,finished,0,0,0.9474,70.021,71.224,0.5828
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,4,3,15.0,Finished,finished,0,0,0.8947,70.237,71.387,0.3552
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,4,12.0,Finished,finished,0,0,0.8421,70.219,71.422,0.3064
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,3,5,10.0,Finished,finished,0,0,0.7895,70.375,71.344,0.4153
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,7,6,8.0,Finished,finished,0,0,0.7368,70.254,71.457,0.2575
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,15,7,6.0,Finished,finished,0,0,0.6842,70.567,71.77,-0.1794
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,5,8,4.0,Finished,finished,0,0,0.6316,70.266,71.469,0.2408
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,16,9,2.0,Finished,finished,0,0,0.5789,70.837,71.839,-0.2757
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,14,10,1.0,Lapped,finished,0,0,0.5263,70.562,71.765,-0.1724
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,19,11,0.0,Lapped,finished,0,0,0.4737,71.035,72.037,-0.5521
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,11,12,0.0,Lapped,finished,0,0,0.4211,70.475,71.75,-0.1514
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,17,13,0.0,Lapped,finished,0,0,0.3684,70.843,71.845,-0.2841
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,10,14,0.0,Lapped,finished,0,0,0.3158,70.33,71.533,0.1514
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,8,15,0.0,Retired,mechanical_dnf,1,0,0.2632,70.316,71.519,0.171
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,18,16,0.0,Retired,mechanical_dnf,1,0,0.2105,70.955,71.957,-0.4404
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,20,17,0.0,Retired,mechanical_dnf,1,0,0.1579,71.275,72.277,-0.8871
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,12,18,0.0,Retired,mechanical_dnf,1,0,0.1053,70.602,71.926,-0.3971
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,13,19,0.0,Retired,mechanical_dnf,1,0,0.0526,70.621,72.043,-0.5604
+2023,20,2023_R20,São Paulo Grand Prix,interlagos,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,2,20,0.0,Did not start,other_dnf,0,0,0.0,70.303,71.021,0.8661
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,2,1,25.0,Finished,finished,0,0,1.0,93.104,93.104,0.4847
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,1,2,18.0,Finished,finished,0,0,0.9474,92.726,92.528,1.1004
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,11,3,15.0,Finished,finished,0,0,0.8947,93.855,93.608,-0.054
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,16,4,12.0,Finished,finished,0,0,0.8421,94.834,93.914,-0.381
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,19,5,10.0,Finished,finished,0,0,0.7895,94.199,93.952,-0.4217
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,12,6,8.0,Finished,finished,0,0,0.7368,92.77,92.77,0.8417
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,10,7,6.0,Finished,finished,0,0,0.6842,93.837,93.59,-0.0347
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,3,8,4.0,Finished,finished,0,0,0.6316,93.112,93.104,0.4847
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,9,9,2.0,Finished,finished,0,0,0.5789,93.555,93.37,0.2004
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,18,10,2.0,Finished,finished,0,0,0.5263,94.85,93.93,-0.3982
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,4,11,0.0,Finished,finished,0,0,0.4737,93.239,93.239,0.3404
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,5,12,0.0,Finished,finished,0,0,0.4211,93.323,93.323,0.2506
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,8,13,0.0,Finished,finished,0,0,0.3684,93.537,93.417,0.1502
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,14,14,0.0,Finished,finished,0,0,0.3158,94.308,94.061,-0.5382
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,17,15,0.0,Finished,finished,0,0,0.2632,94.849,93.929,-0.3971
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,6,16,0.0,Finished,finished,0,0,0.2105,93.513,93.486,0.0764
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,7,17,0.0,Finished,finished,0,0,0.1579,93.525,93.525,0.0347
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,20,18,0.0,Retired,mechanical_dnf,1,0,0.1053,96.447,95.527,-2.1051
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,13,19,0.0,Retired,mechanical_dnf,1,0,0.0526,93.979,93.732,-0.1865
+2023,21,2023_R21,Las Vegas Grand Prix,vegas,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,15,20,0.0,Retired,mechanical_dnf,1,0,0.0,94.703,93.783,-0.241
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,VER,max_verstappen,1,Max Verstappen,Dutch,red_bull,red_bull_2023,1,1,26.0,Finished,finished,0,0,1.0,83.445,83.445,0.7174
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,LEC,leclerc,16,Charles Leclerc,Monegasque,ferrari,ferrari_2023,2,2,18.0,Finished,finished,0,0,0.9474,83.584,83.584,0.5521
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,RUS,russell,63,George Russell,British,mercedes,mercedes_2023,4,3,15.0,Finished,finished,0,0,0.8947,83.788,83.788,0.3093
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,PER,perez,11,Sergio Pérez,Mexican,red_bull,red_bull_2023,9,4,12.0,Finished,finished,0,0,0.8421,84.116,83.951,0.1154
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,NOR,norris,4,Lando Norris,British,mclaren,mclaren_2023,5,5,10.0,Finished,finished,0,0,0.7895,83.816,83.755,0.3486
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,PIA,piastri,81,Oscar Piastri,Australian,mclaren,mclaren_2023,3,6,8.0,Finished,finished,0,0,0.7368,83.782,83.782,0.3165
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,14,Fernando Alonso,Spanish,aston_martin,aston_martin_2023,7,7,6.0,Finished,finished,0,0,0.6842,84.084,83.966,0.0976
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,TSU,tsunoda,22,Yuki Tsunoda,Japanese,alphatauri,alphatauri_2023,6,8,4.0,Finished,finished,0,0,0.6316,83.968,83.968,0.0952
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2023,11,9,2.0,Finished,finished,0,0,0.5789,84.359,84.194,-0.1737
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,STR,stroll,18,Lance Stroll,Canadian,aston_martin,aston_martin_2023,13,10,1.0,Finished,finished,0,0,0.5263,84.405,84.257,-0.2487
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,RIC,ricciardo,3,Daniel Ricciardo,Australian,alphatauri,alphatauri_2023,15,11,0.0,Finished,finished,0,0,0.4737,84.442,84.277,-0.2725
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,OCO,ocon,31,Esteban Ocon,French,alpine,alpine_2023,12,12,0.0,Finished,finished,0,0,0.4211,84.391,84.226,-0.2118
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,GAS,gasly,10,Pierre Gasly,French,alpine,alpine_2023,10,13,0.0,Finished,finished,0,0,0.3684,84.078,83.913,0.1606
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,ALB,albon,23,Alexander Albon,Thai,williams,williams_2023,14,14,0.0,Finished,finished,0,0,0.3158,84.298,84.274,-0.2689
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,HUL,hulkenberg,27,Nico Hülkenberg,German,haas,haas_2023,8,15,0.0,Finished,finished,0,0,0.2632,84.108,84.048,0.0
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,SAR,sargeant,2,Logan Sargeant,American,williams,williams_2023,20,16,0.0,Finished,finished,0,0,0.2105,,,
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,ZHO,zhou,24,Guanyu Zhou,Chinese,alfa,alfa_2023,19,17,0.0,Finished,finished,0,0,0.1579,85.159,84.785,-0.8769
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,SAI,sainz,55,Carlos Sainz,Spanish,ferrari,ferrari_2023,16,18,0.0,Retired,mechanical_dnf,1,0,0.1053,84.738,84.364,-0.376
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,BOT,bottas,77,Valtteri Bottas,Finnish,alfa,alfa_2023,18,19,0.0,Lapped,finished,0,0,0.0526,84.788,84.414,-0.4355
+2023,22,2023_R22,Abu Dhabi Grand Prix,yas_marina,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,haas,haas_2023,17,20,0.0,Lapped,finished,0,0,0.0,84.764,84.39,-0.4069

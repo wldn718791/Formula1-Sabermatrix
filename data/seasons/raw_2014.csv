@@ -1,408 +1,408 @@
-season,round,race_id,race_name,circuit_id,driver,driver_id,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,is_wet,pace_score,best_quali_sec,adj_quali_sec,quali_pace_pct
-2014,1,2014_R01,Australian Grand Prix,albert_park,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,3,1,25.0,Finished,finished,0,0,1.0,92.564,104.595,2.1306
-2014,1,2014_R01,Australian Grand Prix,albert_park,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,4,2,18.0,Finished,finished,0,0,0.9524,90.949,105.682,1.1135
-2014,1,2014_R01,Australian Grand Prix,albert_park,BUT,button,Jenson Button,British,mclaren,mclaren_2014,10,3,15.0,Finished,finished,0,0,0.9048,91.396,106.872,0.0
-2014,1,2014_R01,Australian Grand Prix,albert_park,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,4,12.0,Finished,finished,0,0,0.8571,91.388,105.24,1.5271
-2014,1,2014_R01,Australian Grand Prix,albert_park,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,15,5,10.0,Finished,finished,0,0,0.8095,91.601,106.287,0.5474
-2014,1,2014_R01,Australian Grand Prix,albert_park,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,7,6,8.0,Finished,finished,0,0,0.7619,93.893,106.03,0.7879
-2014,1,2014_R01,Australian Grand Prix,albert_park,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,11,7,6.0,Finished,finished,0,0,0.7143,92.439,106.929,-0.0533
-2014,1,2014_R01,Australian Grand Prix,albert_park,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,6,8,4.0,Finished,finished,0,0,0.6667,93.488,105.864,0.9432
-2014,1,2014_R01,Australian Grand Prix,albert_park,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,8,9,2.0,Finished,finished,0,0,0.619,93.777,106.766,0.0992
-2014,1,2014_R01,Australian Grand Prix,albert_park,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,16,10,1.0,Finished,finished,0,0,0.5714,94.141,109.728,-2.6724
-2014,1,2014_R01,Australian Grand Prix,albert_park,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,13,11,0.0,+1 Lap,finished,0,0,0.5238,93.673,108.09,-1.1397
-2014,1,2014_R01,Australian Grand Prix,albert_park,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,20,12,0.0,+1 Lap,finished,0,0,0.4762,95.117,109.3395,-2.3088
-2014,1,2014_R01,Australian Grand Prix,albert_park,CHI,chilton,Max Chilton,British,marussia,marussia_2014,17,13,0.0,+2 Laps,finished,0,0,0.4286,94.293,108.5155,-1.5378
-2014,1,2014_R01,Australian Grand Prix,albert_park,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,18,14,0.0,+8 Laps,finished,0,0,0.381,94.794,109.0165,-2.0066
-2014,1,2014_R01,Australian Grand Prix,albert_park,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,22,15,0.0,ERS,mechanical_dnf,1,0,0.3333,96.993,111.2155,-4.0642
-2014,1,2014_R01,Australian Grand Prix,albert_park,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,21,16,0.0,ERS,mechanical_dnf,1,0,0.2857,,,
-2014,1,2014_R01,Australian Grand Prix,albert_park,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,19,17,0.0,Oil pressure,mechanical_dnf,1,0,0.2381,95.157,109.3795,-2.3463
-2014,1,2014_R01,Australian Grand Prix,albert_park,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,12,18,0.0,Engine,mechanical_dnf,1,0,0.1905,91.931,107.123,-0.2349
-2014,1,2014_R01,Australian Grand Prix,albert_park,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,19,0.0,Engine,mechanical_dnf,1,0,0.1429,91.699,104.231,2.4712
-2014,1,2014_R01,Australian Grand Prix,albert_park,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,9,20,0.0,Collision,driver_incident,0,0,0.0952,91.228,106.677,0.1825
-2014,1,2014_R01,Australian Grand Prix,albert_park,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,14,21,0.0,Collision,driver_incident,0,0,0.0476,94.274,108.302,-1.338
-2014,1,2014_R01,Australian Grand Prix,albert_park,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,2,22,0.0,Disqualified,driver_incident,0,0,0.0,90.775,104.548,2.1746
-2014,2,2014_R02,Malaysian Grand Prix,sepang,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,117.202,119.431,2.7055
-2014,2,2014_R02,Malaysian Grand Prix,sepang,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,3,2,18.0,Finished,finished,0,0,0.9524,117.183,119.837,2.3747
-2014,2,2014_R02,Malaysian Grand Prix,sepang,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,2,3,15.0,Finished,finished,0,0,0.9048,117.654,119.486,2.6606
-2014,2,2014_R02,Malaysian Grand Prix,sepang,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,4,4,12.0,Finished,finished,0,0,0.8571,118.889,120.175,2.0994
-2014,2,2014_R02,Malaysian Grand Prix,sepang,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,7,5,10.0,Finished,finished,0,0,0.8095,118.883,121.231,1.2391
-2014,2,2014_R02,Malaysian Grand Prix,sepang,BUT,button,Jenson Button,British,mclaren,mclaren_2014,10,6,8.0,Finished,finished,0,0,0.7619,120.889,122.202,0.4481
-2014,2,2014_R02,Malaysian Grand Prix,sepang,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,13,7,6.0,Finished,finished,0,0,0.7143,120.047,122.852,-0.0815
-2014,2,2014_R02,Malaysian Grand Prix,sepang,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,18,8,4.0,Finished,finished,0,0,0.6667,119.709,123.148,-0.3226
-2014,2,2014_R02,Malaysian Grand Prix,sepang,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,8,9,2.0,+1 Lap,finished,0,0,0.619,120.356,122.213,0.4391
-2014,2,2014_R02,Malaysian Grand Prix,sepang,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,11,10,1.0,+1 Lap,finished,0,0,0.5714,121.175,122.743,0.0073
-2014,2,2014_R02,Malaysian Grand Prix,sepang,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,15,11,0.0,+1 Lap,finished,0,0,0.5238,120.202,123.277,-0.4277
-2014,2,2014_R02,Malaysian Grand Prix,sepang,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,6,12,0.0,+1 Lap,finished,0,0,0.4762,119.257,121.218,1.2497
-2014,2,2014_R02,Malaysian Grand Prix,sepang,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,13,0.0,+1 Lap,finished,0,0,0.4286,123.595,125.8845,-2.5519
-2014,2,2014_R02,Malaysian Grand Prix,sepang,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,22,14,0.0,+2 Laps,finished,0,0,0.381,124.407,126.6965,-3.2134
-2014,2,2014_R02,Malaysian Grand Prix,sepang,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,15,0.0,+2 Laps,finished,0,0,0.3333,124.388,126.6775,-3.1979
-2014,2,2014_R02,Malaysian Grand Prix,sepang,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,16,0.0,Technical,mechanical_dnf,1,0,0.2857,118.913,120.539,1.8028
-2014,2,2014_R02,Malaysian Grand Prix,sepang,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,12,17,0.0,Gearbox,mechanical_dnf,1,0,0.2381,121.134,122.761,-0.0073
-2014,2,2014_R02,Malaysian Grand Prix,sepang,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,17,18,0.0,Electrical,mechanical_dnf,1,0,0.1905,122.131,124.4205,-1.3592
-2014,2,2014_R02,Malaysian Grand Prix,sepang,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,9,19,0.0,Power Unit,mechanical_dnf,1,0,0.1429,121.689,122.488,0.2151
-2014,2,2014_R02,Malaysian Grand Prix,sepang,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,19,20,0.0,Brakes,mechanical_dnf,1,0,0.0952,122.702,124.9915,-1.8244
-2014,2,2014_R02,Malaysian Grand Prix,sepang,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,16,21,0.0,Engine,mechanical_dnf,1,0,0.0476,122.074,124.3635,-1.3128
-2014,2,2014_R02,Malaysian Grand Prix,sepang,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,14,22,0.0,Withdrew,mechanical_dnf,1,0,0.0,120.076,122.903,-0.123
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,25.0,Finished,finished,0,0,1.0,93.464,93.464,1.2489
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,93.185,93.185,1.5436
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,4,3,15.0,Finished,finished,0,0,0.9048,94.346,94.3425,0.3207
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,13,4,12.0,Finished,finished,0,0,0.8571,94.051,94.051,0.6287
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,11,5,10.0,Finished,finished,0,0,0.8095,94.874,94.7115,-0.0692
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,10,6,8.0,Finished,finished,0,0,0.7619,94.985,94.5805,0.0692
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,7,7,6.0,Finished,finished,0,0,0.7143,94.511,94.4375,0.2203
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,8,4.0,Finished,finished,0,0,0.6667,94.247,94.247,0.4216
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,9,9,2.0,Finished,finished,0,0,0.619,94.723,94.3185,0.346
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,5,10,1.0,Finished,finished,0,0,0.5714,94.368,94.368,0.2937
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,12,11,0.0,Finished,finished,0,0,0.5238,95.145,94.7405,-0.0998
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,12,0.0,Finished,finished,0,0,0.4762,95.908,95.5035,-0.906
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,13,0.0,Finished,finished,0,0,0.4286,97.913,96.98,-2.466
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,17,14,0.0,Finished,finished,0,0,0.381,96.663,95.73,-1.1453
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,18,15,0.0,Finished,finished,0,0,0.3333,97.085,96.152,-1.5912
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,19,16,0.0,+1 Lap,finished,0,0,0.2857,97.31,96.377,-1.8289
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,BUT,button,Jenson Button,British,mclaren,mclaren_2014,6,17,0.0,Clutch,mechanical_dnf,1,0,0.2381,94.387,94.3095,0.3555
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,8,18,0.0,Clutch,mechanical_dnf,1,0,0.1905,94.712,94.4995,0.1548
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,19,0.0,Collision,driver_incident,0,0,0.1429,95.891,95.4865,-0.888
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,20,20,0.0,Retired,mechanical_dnf,1,0,0.0952,97.875,96.942,-2.4259
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,14,21,0.0,Retired,mechanical_dnf,1,0,0.0476,95.286,94.8815,-0.2488
-2014,3,2014_R03,Bahrain Grand Prix,bahrain,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,22,22,0.0,Collision,driver_incident,0,0,0.0,96.84,95.907,-1.3323
-2014,4,2014_R04,Chinese Grand Prix,shanghai,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,113.86,113.86,2.4507
-2014,4,2014_R04,Chinese Grand Prix,shanghai,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,4,2,18.0,Finished,finished,0,0,0.9524,115.143,115.143,1.3515
-2014,4,2014_R04,Chinese Grand Prix,shanghai,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,3,15.0,Finished,finished,0,0,0.9048,115.637,115.6255,0.9381
-2014,4,2014_R04,Chinese Grand Prix,shanghai,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,2,4,12.0,Finished,finished,0,0,0.8571,114.455,114.455,1.941
-2014,4,2014_R04,Chinese Grand Prix,shanghai,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,3,5,10.0,Finished,finished,0,0,0.8095,114.499,114.3595,2.0228
-2014,4,2014_R04,Chinese Grand Prix,shanghai,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,8,6,8.0,Finished,finished,0,0,0.7619,115.913,116.366,0.3037
-2014,4,2014_R04,Chinese Grand Prix,shanghai,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,7,7,6.0,Finished,finished,0,0,0.7143,116.253,116.1135,0.52
-2014,4,2014_R04,Chinese Grand Prix,shanghai,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,11,8,4.0,Finished,finished,0,0,0.6667,116.86,116.7205,0.0
-2014,4,2014_R04,Chinese Grand Prix,shanghai,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,16,9,2.0,Finished,finished,0,0,0.619,118.264,118.1245,-1.2029
-2014,4,2014_R04,Chinese Grand Prix,shanghai,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,13,10,1.0,+1 Lap,finished,0,0,0.5714,117.261,117.1495,-0.3675
-2014,4,2014_R04,Chinese Grand Prix,shanghai,BUT,button,Jenson Button,British,mclaren,mclaren_2014,12,11,0.0,+1 Lap,finished,0,0,0.5238,116.963,116.8235,-0.0882
-2014,4,2014_R04,Chinese Grand Prix,shanghai,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,9,12,0.0,+1 Lap,finished,0,0,0.4762,116.584,116.4445,0.2365
-2014,4,2014_R04,Chinese Grand Prix,shanghai,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,15,13,0.0,+1 Lap,finished,0,0,0.4286,117.369,117.5355,-0.6982
-2014,4,2014_R04,Chinese Grand Prix,shanghai,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,22,14,0.0,+1 Lap,finished,0,0,0.381,,,
-2014,4,2014_R04,Chinese Grand Prix,shanghai,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,6,15,0.0,+1 Lap,finished,0,0,0.3333,116.147,116.147,0.4913
-2014,4,2014_R04,Chinese Grand Prix,shanghai,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,17,16,0.0,+1 Lap,finished,0,0,0.2857,118.988,118.0565,-1.1446
-2014,4,2014_R04,Chinese Grand Prix,shanghai,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,19,17,0.0,+1 Lap,finished,0,0,0.2381,119.326,118.3945,-1.4342
-2014,4,2014_R04,Chinese Grand Prix,shanghai,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,18,18,0.0,+1 Lap,finished,0,0,0.1905,119.26,118.3285,-1.3777
-2014,4,2014_R04,Chinese Grand Prix,shanghai,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,19,0.0,+2 Laps,finished,0,0,0.1429,120.865,119.9335,-2.7527
-2014,4,2014_R04,Chinese Grand Prix,shanghai,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,20,20,0.0,+2 Laps,finished,0,0,0.0952,120.646,119.7145,-2.5651
-2014,4,2014_R04,Chinese Grand Prix,shanghai,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,10,21,0.0,Gearbox,mechanical_dnf,1,0,0.0476,116.407,116.2675,0.3881
-2014,4,2014_R04,Chinese Grand Prix,shanghai,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,14,22,0.0,Engine,mechanical_dnf,1,0,0.0,117.393,117.2535,-0.4566
-2014,5,2014_R05,Spanish Grand Prix,catalunya,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,85.232,85.232,2.3039
-2014,5,2014_R05,Spanish Grand Prix,catalunya,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9524,85.4,85.4,2.1114
-2014,5,2014_R05,Spanish Grand Prix,catalunya,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,86.285,86.285,1.0969
-2014,5,2014_R05,Spanish Grand Prix,catalunya,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,15,4,12.0,Finished,finished,0,0,0.8571,87.052,86.724,0.5938
-2014,5,2014_R05,Spanish Grand Prix,catalunya,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,4,5,10.0,Finished,finished,0,0,0.8095,86.632,86.632,0.6992
-2014,5,2014_R05,Spanish Grand Prix,catalunya,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,6,8.0,Finished,finished,0,0,0.7619,87.14,87.14,0.1169
-2014,5,2014_R05,Spanish Grand Prix,catalunya,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,6,7,6.0,+1 Lap,finished,0,0,0.7143,87.104,87.007,0.2694
-2014,5,2014_R05,Spanish Grand Prix,catalunya,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,5,8,4.0,+1 Lap,finished,0,0,0.6667,86.96,86.93,0.3576
-2014,5,2014_R05,Spanish Grand Prix,catalunya,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,11,9,2.0,+1 Lap,finished,0,0,0.619,88.002,87.674,-0.4952
-2014,5,2014_R05,Spanish Grand Prix,catalunya,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,10,10,1.0,+1 Lap,finished,0,0,0.5714,87.685,87.357,-0.1318
-2014,5,2014_R05,Spanish Grand Prix,catalunya,BUT,button,Jenson Button,British,mclaren,mclaren_2014,8,11,0.0,+1 Lap,finished,0,0,0.5238,87.335,87.242,0.0
-2014,5,2014_R05,Spanish Grand Prix,catalunya,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,14,12,0.0,+1 Lap,finished,0,0,0.4762,88.389,87.343,-0.1158
-2014,5,2014_R05,Spanish Grand Prix,catalunya,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,9,13,0.0,+1 Lap,finished,0,0,0.4286,87.016,86.688,0.635
-2014,5,2014_R05,Spanish Grand Prix,catalunya,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,12,14,0.0,+1 Lap,finished,0,0,0.381,88.039,87.711,-0.5376
-2014,5,2014_R05,Spanish Grand Prix,catalunya,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,22,15,0.0,+1 Lap,finished,0,0,0.3333,,,
-2014,5,2014_R05,Spanish Grand Prix,catalunya,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,13,16,0.0,+1 Lap,finished,0,0,0.2857,88.28,87.952,-0.8138
-2014,5,2014_R05,Spanish Grand Prix,catalunya,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,16,17,0.0,+1 Lap,finished,0,0,0.2381,88.563,87.517,-0.3152
-2014,5,2014_R05,Spanish Grand Prix,catalunya,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,18,18,0.0,+2 Laps,finished,0,0,0.1905,90.177,89.131,-2.1652
-2014,5,2014_R05,Spanish Grand Prix,catalunya,CHI,chilton,Max Chilton,British,marussia,marussia_2014,17,19,0.0,+2 Laps,finished,0,0,0.1429,89.586,88.54,-1.4878
-2014,5,2014_R05,Spanish Grand Prix,catalunya,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,19,20,0.0,+2 Laps,finished,0,0,0.0952,90.312,89.266,-2.32
-2014,5,2014_R05,Spanish Grand Prix,catalunya,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,21,0.0,Brakes,mechanical_dnf,1,0,0.0476,90.375,89.329,-2.3922
-2014,5,2014_R05,Spanish Grand Prix,catalunya,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,21,22,0.0,Exhaust,mechanical_dnf,1,0,0.0,88.194,87.148,0.1077
-2014,6,2014_R06,Monaco Grand Prix,monaco,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,75.989,75.989,2.0621
-2014,6,2014_R06,Monaco Grand Prix,monaco,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9524,76.048,76.048,1.9861
-2014,6,2014_R06,Monaco Grand Prix,monaco,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,76.384,76.384,1.5531
-2014,6,2014_R06,Monaco Grand Prix,monaco,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,4,12.0,Finished,finished,0,0,0.8571,76.686,76.686,1.1638
-2014,6,2014_R06,Monaco Grand Prix,monaco,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,11,5,10.0,+1 Lap,finished,0,0,0.8095,77.846,77.6345,-0.0586
-2014,6,2014_R06,Monaco Grand Prix,monaco,BUT,button,Jenson Button,British,mclaren,mclaren_2014,12,6,8.0,+1 Lap,finished,0,0,0.7619,77.89,77.7765,-0.2417
-2014,6,2014_R06,Monaco Grand Prix,monaco,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,16,7,6.0,+1 Lap,finished,0,0,0.7143,78.209,77.4935,0.1231
-2014,6,2014_R06,Monaco Grand Prix,monaco,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,8,4.0,+1 Lap,finished,0,0,0.6667,78.196,77.9845,-0.5097
-2014,6,2014_R06,Monaco Grand Prix,monaco,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,21,9,2.0,+1 Lap,finished,0,0,0.619,79.332,78.6165,-1.3243
-2014,6,2014_R06,Monaco Grand Prix,monaco,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,8,10,1.0,+1 Lap,finished,0,0,0.5714,77.555,77.3975,0.2468
-2014,6,2014_R06,Monaco Grand Prix,monaco,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,22,11,0.0,+1 Lap,finished,0,0,0.5238,81.732,81.0165,-4.4175
-2014,6,2014_R06,Monaco Grand Prix,monaco,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,6,12,0.0,+1 Lap,finished,0,0,0.4762,77.389,77.1865,0.5188
-2014,6,2014_R06,Monaco Grand Prix,monaco,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,13,0.0,+2 Laps,finished,0,0,0.4286,80.133,79.4175,-2.3566
-2014,6,2014_R06,Monaco Grand Prix,monaco,CHI,chilton,Max Chilton,British,marussia,marussia_2014,19,14,0.0,+3 Laps,finished,0,0,0.381,79.928,79.2125,-2.0924
-2014,6,2014_R06,Monaco Grand Prix,monaco,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,17,15,0.0,Accident,driver_incident,0,0,0.3333,78.741,78.0255,-0.5626
-2014,6,2014_R06,Monaco Grand Prix,monaco,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,13,16,0.0,Engine,mechanical_dnf,1,0,0.2857,78.082,77.8705,-0.3628
-2014,6,2014_R06,Monaco Grand Prix,monaco,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,7,17,0.0,Engine,mechanical_dnf,1,0,0.2381,77.54,77.4455,0.1849
-2014,6,2014_R06,Monaco Grand Prix,monaco,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,18,18,0.0,Accident,driver_incident,0,0,0.1905,78.745,78.0295,-0.5677
-2014,6,2014_R06,Monaco Grand Prix,monaco,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,9,19,0.0,Mechanical,mechanical_dnf,1,0,0.1429,77.594,77.3825,0.2661
-2014,6,2014_R06,Monaco Grand Prix,monaco,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,4,20,0.0,Turbo,mechanical_dnf,1,0,0.0952,76.547,76.547,1.343
-2014,6,2014_R06,Monaco Grand Prix,monaco,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,10,21,0.0,Collision,driver_incident,0,0,0.0476,77.755,77.5435,0.0586
-2014,6,2014_R06,Monaco Grand Prix,monaco,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,15,22,0.0,Withdrew,mechanical_dnf,1,0,0.0,78.356,78.1445,-0.716
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,6,1,25.0,Finished,finished,0,0,1.0,75.589,75.589,0.6382
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,74.874,74.874,1.5781
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,75.548,75.548,0.6921
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,BUT,button,Jenson Button,British,mclaren,mclaren_2014,9,4,12.0,Finished,finished,0,0,0.8571,76.182,75.9885,0.113
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,11,5,10.0,Finished,finished,0,0,0.8095,76.3,76.0745,0.0
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,6,8.0,Finished,finished,0,0,0.7619,75.814,75.814,0.3424
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,4,7,6.0,Finished,finished,0,0,0.7143,75.55,75.55,0.6895
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,8,8,4.0,Finished,finished,0,0,0.6667,76.162,76.0295,0.0592
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,12,9,2.0,Finished,finished,0,0,0.619,76.31,76.0845,-0.0131
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,10,10,1.0,Finished,finished,0,0,0.5714,76.214,76.0195,0.0723
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,13,11,0.0,Collision,driver_incident,0,0,0.5238,76.472,76.2465,-0.2261
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,5,12,0.0,Collision,driver_incident,0,0,0.4762,75.578,75.5475,0.6927
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,16,13,0.0,+1 Lap,finished,0,0,0.4286,77.314,77.0885,-1.3329
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,22,14,0.0,ERS,mechanical_dnf,1,0,0.381,,,
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,15,0.0,Rear wing,mechanical_dnf,1,0,0.3333,76.687,76.4615,-0.5087
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,15,16,0.0,Drivetrain,mechanical_dnf,1,0,0.2857,76.713,76.4875,-0.5429
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,17,0.0,Brakes,mechanical_dnf,1,0,0.2381,74.953,74.8285,1.6379
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,21,18,0.0,Suspension,mechanical_dnf,1,0,0.1905,79.278,78.1665,-2.7499
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,17,19,0.0,Power Unit,mechanical_dnf,1,0,0.1429,78.328,77.2165,-1.5012
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,20,20,0.0,Turbo,mechanical_dnf,1,0,0.0952,79.82,78.7085,-3.4624
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,CHI,chilton,Max Chilton,British,marussia,marussia_2014,18,21,0.0,Collision,driver_incident,0,0,0.0476,78.348,77.2365,-1.5275
-2014,7,2014_R07,Canadian Grand Prix,villeneuve,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,19,22,0.0,Collision,driver_incident,0,0,0.0,78.359,77.2475,-1.5419
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,3,1,25.0,Finished,finished,0,0,1.0,68.944,68.873,1.1383
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,9,2,18.0,Finished,finished,0,0,0.9524,69.092,68.991,0.9689
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,2,3,15.0,Finished,finished,0,0,0.9048,68.846,68.846,1.177
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,1,4,12.0,Finished,finished,0,0,0.8571,68.759,68.759,1.3019
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,4,5,10.0,Finished,finished,0,0,0.8095,69.285,69.285,0.5469
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,15,6,8.0,Finished,finished,0,0,0.7619,69.754,69.653,0.0187
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,6,7,6.0,Finished,finished,0,0,0.7143,69.473,69.372,0.422
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,8,4.0,Finished,finished,0,0,0.6667,69.466,69.466,0.2871
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,10,9,2.0,Finished,finished,0,0,0.619,69.624,69.523,0.2053
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,10,1.0,Finished,finished,0,0,0.5714,69.657,69.556,0.1579
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,BUT,button,Jenson Button,British,mclaren,mclaren_2014,11,11,0.0,Finished,finished,0,0,0.5238,69.78,69.679,-0.0187
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,13,12,0.0,+1 Lap,finished,0,0,0.4762,69.939,69.838,-0.2469
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,16,13,0.0,+1 Lap,finished,0,0,0.4286,70.825,70.0495,-0.5505
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,22,14,0.0,+1 Lap,finished,0,0,0.381,70.461,70.541,-1.256
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,18,15,0.0,+2 Laps,finished,0,0,0.3333,71.412,70.6365,-1.3931
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,16,0.0,+2 Laps,finished,0,0,0.2857,71.673,70.8975,-1.7677
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,17,0.0,+2 Laps,finished,0,0,0.2381,71.775,70.9995,-1.9141
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,20,18,0.0,+2 Laps,finished,0,0,0.1905,72.673,71.8975,-3.2031
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,17,19,0.0,+2 Laps,finished,0,0,0.1429,71.349,70.5735,-1.3026
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,14,20,0.0,Brakes,mechanical_dnf,1,0,0.0952,70.073,69.972,-0.4392
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,12,21,0.0,Electrical,mechanical_dnf,1,0,0.0476,69.801,69.7,-0.0488
-2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,7,22,0.0,Suspension,mechanical_dnf,1,0,0.0,69.49,69.389,0.3976
-2014,9,2014_R09,British Grand Prix,silverstone,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,6,1,25.0,Finished,finished,0,0,1.0,94.87,96.9005,3.4485
-2014,9,2014_R09,British Grand Prix,silverstone,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,14,2,18.0,Finished,finished,0,0,0.9524,105.318,102.5525,-2.1831
-2014,9,2014_R09,British Grand Prix,silverstone,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,8,3,15.0,Finished,finished,0,0,0.9048,98.166,100.1965,0.1644
-2014,9,2014_R09,British Grand Prix,silverstone,BUT,button,Jenson Button,British,mclaren,mclaren_2014,3,4,12.0,Finished,finished,0,0,0.8571,96.579,98.2,2.1537
-2014,9,2014_R09,British Grand Prix,silverstone,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,2,5,10.0,Finished,finished,0,0,0.8095,96.41,97.386,2.9648
-2014,9,2014_R09,British Grand Prix,silverstone,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,16,6,8.0,Finished,finished,0,0,0.7619,105.935,103.1695,-2.7979
-2014,9,2014_R09,British Grand Prix,silverstone,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,5,7,6.0,Finished,finished,0,0,0.7143,97.37,98.417,1.9375
-2014,9,2014_R09,British Grand Prix,silverstone,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,4,8,4.0,Finished,finished,0,0,0.6667,97.112,98.329,2.0252
-2014,9,2014_R09,British Grand Prix,silverstone,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,9,9,2.0,Finished,finished,0,0,0.619,96.813,98.8435,1.5125
-2014,9,2014_R09,British Grand Prix,silverstone,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,10,10,1.0,+1 Lap,finished,0,0,0.5714,97.8,99.8305,0.5291
-2014,9,2014_R09,British Grand Prix,silverstone,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,7,11,0.0,+1 Lap,finished,0,0,0.5238,97.35,99.3805,0.9775
-2014,9,2014_R09,British Grand Prix,silverstone,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,11,12,0.0,+1 Lap,finished,0,0,0.4762,98.496,100.5265,-0.1644
-2014,9,2014_R09,British Grand Prix,silverstone,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,13,13,0.0,+1 Lap,finished,0,0,0.4286,102.603,99.8375,0.5221
-2014,9,2014_R09,British Grand Prix,silverstone,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,12,14,0.0,+1 Lap,finished,0,0,0.381,98.709,100.7395,-0.3766
-2014,9,2014_R09,British Grand Prix,silverstone,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,22,15,0.0,+2 Laps,finished,0,0,0.3333,109.625,106.8595,-6.4746
-2014,9,2014_R09,British Grand Prix,silverstone,CHI,chilton,Max Chilton,British,marussia,marussia_2014,17,16,0.0,+2 Laps,finished,0,0,0.2857,99.8,101.8305,-1.4637
-2014,9,2014_R09,British Grand Prix,silverstone,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,20,17,0.0,+3 Laps,finished,0,0,0.2381,103.892,106.0485,-5.6665
-2014,9,2014_R09,British Grand Prix,silverstone,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,18,0.0,Gearbox,mechanical_dnf,1,0,0.1905,95.179,95.766,4.5789
-2014,9,2014_R09,British Grand Prix,silverstone,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,21,19,0.0,Suspension,mechanical_dnf,1,0,0.1429,109.421,106.6555,-6.2713
-2014,9,2014_R09,British Grand Prix,silverstone,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,19,20,0.0,Collision,driver_incident,0,0,0.0952,100.912,102.9425,-2.5717
-2014,9,2014_R09,British Grand Prix,silverstone,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,15,21,0.0,Collision,driver_incident,0,0,0.0476,105.695,102.9295,-2.5588
-2014,9,2014_R09,British Grand Prix,silverstone,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,18,22,0.0,Collision,driver_incident,0,0,0.0,106.684,103.9185,-3.5442
-2014,10,2014_R10,German Grand Prix,hockenheimring,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,76.54,76.54,1.7944
-2014,10,2014_R10,German Grand Prix,hockenheimring,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,2,2,18.0,Finished,finished,0,0,0.9524,76.759,76.759,1.5134
-2014,10,2014_R10,German Grand Prix,hockenheimring,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,20,3,15.0,Finished,finished,0,0,0.9048,78.683,77.9565,-0.0231
-2014,10,2014_R10,German Grand Prix,hockenheimring,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,6,4,12.0,Finished,finished,0,0,0.8571,77.577,77.3915,0.7018
-2014,10,2014_R10,German Grand Prix,hockenheimring,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,5,10.0,Finished,finished,0,0,0.8095,77.649,77.6115,0.4196
-2014,10,2014_R10,German Grand Prix,hockenheimring,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,6,8.0,Finished,finished,0,0,0.7619,77.273,77.273,0.8539
-2014,10,2014_R10,German Grand Prix,hockenheimring,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,9,7,6.0,Finished,finished,0,0,0.7143,78.014,77.7625,0.2258
-2014,10,2014_R10,German Grand Prix,hockenheimring,BUT,button,Jenson Button,British,mclaren,mclaren_2014,11,8,4.0,Finished,finished,0,0,0.6667,78.193,77.9385,0.0
-2014,10,2014_R10,German Grand Prix,hockenheimring,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,4,9,2.0,+1 Lap,finished,0,0,0.619,77.214,77.214,0.9296
-2014,10,2014_R10,German Grand Prix,hockenheimring,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,10,10,1.0,+1 Lap,finished,0,0,0.5714,78.035,77.9065,0.0411
-2014,10,2014_R10,German Grand Prix,hockenheimring,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,12,11,0.0,+1 Lap,finished,0,0,0.5238,78.273,78.0185,-0.1026
-2014,10,2014_R10,German Grand Prix,hockenheimring,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,18,12,0.0,+1 Lap,finished,0,0,0.4762,80.195,79.4685,-1.9631
-2014,10,2014_R10,German Grand Prix,hockenheimring,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,13,13,0.0,+1 Lap,finished,0,0,0.4286,78.285,78.0305,-0.118
-2014,10,2014_R10,German Grand Prix,hockenheimring,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,16,14,0.0,+1 Lap,finished,0,0,0.381,78.739,78.5325,-0.7621
-2014,10,2014_R10,German Grand Prix,hockenheimring,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,17,15,0.0,+1 Lap,finished,0,0,0.3333,79.676,78.9495,-1.2972
-2014,10,2014_R10,German Grand Prix,hockenheimring,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,16,0.0,+2 Laps,finished,0,0,0.2857,80.408,79.6815,-2.2364
-2014,10,2014_R10,German Grand Prix,hockenheimring,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,17,0.0,+2 Laps,finished,0,0,0.2381,80.489,79.7625,-2.3403
-2014,10,2014_R10,German Grand Prix,hockenheimring,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,22,18,0.0,+2 Laps,finished,0,0,0.1905,,,
-2014,10,2014_R10,German Grand Prix,hockenheimring,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,15,19,0.0,Brakes,mechanical_dnf,1,0,0.1429,79.142,78.4155,-0.612
-2014,10,2014_R10,German Grand Prix,hockenheimring,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,8,20,0.0,Oil leak,mechanical_dnf,1,0,0.0952,77.965,77.8485,0.1155
-2014,10,2014_R10,German Grand Prix,hockenheimring,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,21,0.0,Water leak,mechanical_dnf,1,0,0.0476,78.894,78.7285,-1.0136
-2014,10,2014_R10,German Grand Prix,hockenheimring,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,3,22,0.0,Collision,driver_incident,0,0,0.0,77.078,77.078,1.1041
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,4,1,25.0,Finished,finished,0,0,1.0,83.391,83.391,1.1855
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,2,18.0,Finished,finished,0,0,0.9524,83.909,83.909,0.5717
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,22,3,15.0,Finished,finished,0,0,0.9048,,,
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,4,12.0,Finished,finished,0,0,0.8571,82.715,82.715,1.9866
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,6,5,10.0,Finished,finished,0,0,0.8095,84.03,83.745,0.7661
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,16,6,8.0,Finished,finished,0,0,0.7619,86.792,84.8465,-0.5392
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,2,7,6.0,Finished,finished,0,0,0.7143,83.201,83.201,1.4107
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,8,4.0,Finished,finished,0,0,0.6667,83.354,83.354,1.2294
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,8,9,2.0,Finished,finished,0,0,0.619,84.637,84.352,0.0468
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,BUT,button,Jenson Button,British,mclaren,mclaren_2014,7,10,1.0,Finished,finished,0,0,0.5714,84.294,84.217,0.2068
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,11,11,0.0,Finished,finished,0,0,0.5238,85.136,84.851,-0.5445
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,21,12,0.0,Finished,finished,0,0,0.4762,84.585,84.3,0.1084
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,20,13,0.0,Finished,finished,0,0,0.4286,,,
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,10,14,0.0,+1 Lap,finished,0,0,0.381,84.706,84.421,-0.035
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,15,15,0.0,+1 Lap,finished,0,0,0.3333,86.728,87.134,-3.2497
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,CHI,chilton,Max Chilton,British,marussia,marussia_2014,18,16,0.0,+1 Lap,finished,0,0,0.2857,87.819,85.8735,-1.7561
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,13,17,0.0,Retired,mechanical_dnf,1,0,0.2381,85.26,84.975,-0.6914
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,17,18,0.0,Retired,mechanical_dnf,1,0,0.1905,87.139,85.1935,-0.9503
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,12,19,0.0,Accident,driver_incident,0,0,0.1429,85.211,84.926,-0.6334
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,9,20,0.0,Accident,driver_incident,0,0,0.0952,84.647,84.362,0.035
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,21,0.0,Accident,driver_incident,0,0,0.0476,85.337,85.052,-0.7827
-2014,11,2014_R11,Hungarian Grand Prix,hungaroring,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,19,22,0.0,Accident,driver_incident,0,0,0.0,88.643,86.6975,-2.7325
-2014,12,2014_R12,Belgian Grand Prix,spa,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,1,25.0,Finished,finished,0,0,1.0,127.911,127.911,0.8887
-2014,12,2014_R12,Belgian Grand Prix,spa,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,125.591,125.591,2.6864
-2014,12,2014_R12,Belgian Grand Prix,spa,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,6,3,15.0,Finished,finished,0,0,0.9048,128.049,127.918,0.8833
-2014,12,2014_R12,Belgian Grand Prix,spa,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,4,12.0,Finished,finished,0,0,0.8571,128.646,128.113,0.7322
-2014,12,2014_R12,Belgian Grand Prix,spa,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,3,5,10.0,Finished,finished,0,0,0.8095,127.717,127.717,1.0391
-2014,12,2014_R12,Belgian Grand Prix,spa,BUT,button,Jenson Button,British,mclaren,mclaren_2014,10,6,8.0,Finished,finished,0,0,0.7619,129.272,128.739,0.2472
-2014,12,2014_R12,Belgian Grand Prix,spa,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,4,7,6.0,Finished,finished,0,0,0.7143,127.786,127.786,0.9856
-2014,12,2014_R12,Belgian Grand Prix,spa,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,13,8,4.0,Finished,finished,0,0,0.6667,130.084,129.551,-0.382
-2014,12,2014_R12,Belgian Grand Prix,spa,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,11,9,2.0,Finished,finished,0,0,0.619,129.377,128.844,0.1658
-2014,12,2014_R12,Belgian Grand Prix,spa,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,18,10,1.0,Finished,finished,0,0,0.5714,131.267,129.928,-0.6741
-2014,12,2014_R12,Belgian Grand Prix,spa,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,12,11,0.0,Finished,finished,0,0,0.5238,129.805,129.272,-0.1658
-2014,12,2014_R12,Belgian Grand Prix,spa,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,12,0.0,Finished,finished,0,0,0.4762,128.679,128.368,0.5346
-2014,12,2014_R12,Belgian Grand Prix,spa,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,9,13,0.0,Finished,finished,0,0,0.4286,128.403,128.3,0.5873
-2014,12,2014_R12,Belgian Grand Prix,spa,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,14,14,0.0,Finished,finished,0,0,0.381,130.238,129.705,-0.5013
-2014,12,2014_R12,Belgian Grand Prix,spa,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,20,15,0.0,Finished,finished,0,0,0.3333,133.414,132.075,-2.3377
-2014,12,2014_R12,Belgian Grand Prix,spa,CHI,chilton,Max Chilton,British,marussia,marussia_2014,19,16,0.0,+1 Lap,finished,0,0,0.2857,132.566,131.227,-1.6806
-2014,12,2014_R12,Belgian Grand Prix,spa,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,22,17,0.0,+1 Lap,finished,0,0,0.2381,134.438,133.099,-3.1312
-2014,12,2014_R12,Belgian Grand Prix,spa,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,16,18,0.0,Gearbox,mechanical_dnf,1,0,0.1905,131.051,131.937,-2.2308
-2014,12,2014_R12,Belgian Grand Prix,spa,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,19,0.0,Retired,mechanical_dnf,1,0,0.1429,125.819,125.819,2.5097
-2014,12,2014_R12,Belgian Grand Prix,spa,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,15,20,0.0,Retired,mechanical_dnf,1,0,0.0952,130.898,130.554,-1.1592
-2014,12,2014_R12,Belgian Grand Prix,spa,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,17,21,0.0,Mechanical,mechanical_dnf,1,0,0.0476,131.261,129.922,-0.6695
-2014,12,2014_R12,Belgian Grand Prix,spa,LOT,lotterer,André Lotterer,German,caterham,caterham_2014,21,22,0.0,Power Unit,mechanical_dnf,1,0,0.0,133.469,132.13,-2.3803
-2014,13,2014_R13,Italian Grand Prix,monza,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,84.109,84.109,2.0428
-2014,13,2014_R13,Italian Grand Prix,monza,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9524,84.383,84.373,1.7353
-2014,13,2014_R13,Italian Grand Prix,monza,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,4,3,15.0,Finished,finished,0,0,0.9048,84.865,84.819,1.2159
-2014,13,2014_R13,Italian Grand Prix,monza,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,4,12.0,Finished,finished,0,0,0.8571,84.697,84.631,1.4348
-2014,13,2014_R13,Italian Grand Prix,monza,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,9,5,10.0,Finished,finished,0,0,0.8095,85.709,85.709,0.1794
-2014,13,2014_R13,Italian Grand Prix,monza,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,8,6,8.0,Finished,finished,0,0,0.7619,85.436,85.436,0.4973
-2014,13,2014_R13,Italian Grand Prix,monza,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,10,7,6.0,Finished,finished,0,0,0.7143,85.863,85.636,0.2644
-2014,13,2014_R13,Italian Grand Prix,monza,BUT,button,Jenson Button,British,mclaren,mclaren_2014,6,8,4.0,Finished,finished,0,0,0.6667,85.379,85.379,0.5637
-2014,13,2014_R13,Italian Grand Prix,monza,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,11,9,2.0,Finished,finished,0,0,0.619,86.11,85.883,-0.0233
-2014,13,2014_R13,Italian Grand Prix,monza,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,5,10,1.0,Finished,finished,0,0,0.5714,85.314,85.314,0.6394
-2014,13,2014_R13,Italian Grand Prix,monza,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,21,11,0.0,Finished,finished,0,0,0.5238,86.07,85.843,0.0233
-2014,13,2014_R13,Italian Grand Prix,monza,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,13,12,0.0,Finished,finished,0,0,0.4762,86.279,86.052,-0.2201
-2014,13,2014_R13,Italian Grand Prix,monza,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,12,13,0.0,Finished,finished,0,0,0.4286,86.14,85.93,-0.078
-2014,13,2014_R13,Italian Grand Prix,monza,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,16,14,0.0,+1 Lap,finished,0,0,0.381,87.52,86.6545,-0.9218
-2014,13,2014_R13,Italian Grand Prix,monza,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,14,15,0.0,+1 Lap,finished,0,0,0.3333,86.588,86.361,-0.58
-2014,13,2014_R13,Italian Grand Prix,monza,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,17,16,0.0,+1 Lap,finished,0,0,0.2857,87.632,86.7665,-1.0523
-2014,13,2014_R13,Italian Grand Prix,monza,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,18,17,0.0,+1 Lap,finished,0,0,0.2381,87.671,86.8055,-1.0977
-2014,13,2014_R13,Italian Grand Prix,monza,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,19,18,0.0,+1 Lap,finished,0,0,0.1905,87.738,86.8725,-1.1757
-2014,13,2014_R13,Italian Grand Prix,monza,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,19,0.0,+2 Laps,finished,0,0,0.1429,86.692,86.465,-0.7011
-2014,13,2014_R13,Italian Grand Prix,monza,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,22,20,0.0,+2 Laps,finished,0,0,0.0952,88.562,87.6965,-2.1354
-2014,13,2014_R13,Italian Grand Prix,monza,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,21,0.0,Engine,mechanical_dnf,1,0,0.0476,85.43,85.298,0.658
-2014,13,2014_R13,Italian Grand Prix,monza,CHI,chilton,Max Chilton,British,marussia,marussia_2014,20,22,0.0,Accident,driver_incident,0,0,0.0,88.247,87.3815,-1.7685
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,105.681,105.681,0.7909
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,4,2,18.0,Finished,finished,0,0,0.9524,105.902,105.902,0.5834
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,105.854,105.854,0.6285
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,4,12.0,Finished,finished,0,0,0.8571,105.907,105.8855,0.5989
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,6,5,10.0,Finished,finished,0,0,0.8095,106.0,106.0,0.4914
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,12,6,8.0,Finished,finished,0,0,0.7619,106.989,106.5465,-0.0216
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,15,7,6.0,Finished,finished,0,0,0.7143,107.575,107.1325,-0.5717
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,7,8,4.0,Finished,finished,0,0,0.6667,106.17,105.9165,0.5698
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,13,9,2.0,Finished,finished,0,0,0.619,107.308,106.8655,-0.3211
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,9,10,1.0,Finished,finished,0,0,0.5714,106.25,106.25,0.2568
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,8,11,0.0,Finished,finished,0,0,0.5238,106.187,106.1795,0.3229
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,18,12,0.0,Finished,finished,0,0,0.4762,109.063,108.0165,-1.4016
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,13,0.0,Finished,finished,0,0,0.4286,107.812,107.3695,-0.7942
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,10,14,0.0,Finished,finished,0,0,0.381,106.926,106.4835,0.0376
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,22,15,0.0,Finished,finished,0,0,0.3333,112.287,111.2405,-4.4281
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,19,16,0.0,Finished,finished,0,0,0.2857,109.44,108.3935,-1.7555
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,17,0.0,+1 Lap,finished,0,0,0.2381,110.473,109.4265,-2.7252
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,BUT,button,Jenson Button,British,mclaren,mclaren_2014,11,18,0.0,Retired,mechanical_dnf,1,0,0.1905,106.943,106.5005,0.0216
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,17,19,0.0,Water pressure,mechanical_dnf,1,0,0.1429,108.324,107.2775,-0.7078
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,14,20,0.0,Electrical,mechanical_dnf,1,0,0.0952,107.333,106.8905,-0.3445
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,2,21,0.0,Electrical,mechanical_dnf,1,0,0.0476,105.688,105.3825,1.0711
-2014,14,2014_R14,Singapore Grand Prix,marina_bay,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,22,0.0,Power Unit,mechanical_dnf,1,0,0.0,110.405,109.3585,-2.6614
-2014,15,2014_R15,Japanese Grand Prix,suzuka,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,25.0,Finished,finished,0,0,1.0,92.703,92.685,2.1686
-2014,15,2014_R15,Japanese Grand Prix,suzuka,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,92.506,92.506,2.3575
-2014,15,2014_R15,Japanese Grand Prix,suzuka,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,9,3,15.0,Finished,finished,0,0,0.9048,94.432,94.432,0.3246
-2014,15,2014_R15,Japanese Grand Prix,suzuka,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,6,4,12.0,Finished,finished,0,0,0.8571,94.075,94.075,0.7014
-2014,15,2014_R15,Japanese Grand Prix,suzuka,BUT,button,Jenson Button,British,mclaren,mclaren_2014,8,5,10.0,Finished,finished,0,0,0.8095,94.317,94.317,0.446
-2014,15,2014_R15,Japanese Grand Prix,suzuka,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,6,8.0,Finished,finished,0,0,0.7619,93.128,93.128,1.701
-2014,15,2014_R15,Japanese Grand Prix,suzuka,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,4,7,6.0,Finished,finished,0,0,0.7143,93.527,93.254,1.568
-2014,15,2014_R15,Japanese Grand Prix,suzuka,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,13,8,4.0,Finished,finished,0,0,0.6667,95.0,94.802,-0.066
-2014,15,2014_R15,Japanese Grand Prix,suzuka,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,20,9,2.0,Finished,finished,0,0,0.619,94.984,94.687,0.0554
-2014,15,2014_R15,Japanese Grand Prix,suzuka,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,11,10,1.0,+1 Lap,finished,0,0,0.5714,95.089,94.792,-0.0554
-2014,15,2014_R15,Japanese Grand Prix,suzuka,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,12,11,0.0,+1 Lap,finished,0,0,0.5238,95.092,94.795,-0.0586
-2014,15,2014_R15,Japanese Grand Prix,suzuka,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,10,12,0.0,+1 Lap,finished,0,0,0.4762,94.548,94.474,0.2802
-2014,15,2014_R15,Japanese Grand Prix,suzuka,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,13,0.0,+1 Lap,finished,0,0,0.4286,95.308,95.384,-0.6803
-2014,15,2014_R15,Japanese Grand Prix,suzuka,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,14,0.0,+1 Lap,finished,0,0,0.381,94.229,93.932,0.8523
-2014,15,2014_R15,Japanese Grand Prix,suzuka,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,15,0.0,+1 Lap,finished,0,0,0.3333,95.984,95.1215,-0.4032
-2014,15,2014_R15,Japanese Grand Prix,suzuka,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,22,16,0.0,+1 Lap,finished,0,0,0.2857,95.917,95.0545,-0.3325
-2014,15,2014_R15,Japanese Grand Prix,suzuka,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,17,17,0.0,+1 Lap,finished,0,0,0.2381,96.813,95.9505,-1.2782
-2014,15,2014_R15,Japanese Grand Prix,suzuka,CHI,chilton,Max Chilton,British,marussia,marussia_2014,21,18,0.0,+1 Lap,finished,0,0,0.1905,97.481,96.6185,-1.9833
-2014,15,2014_R15,Japanese Grand Prix,suzuka,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,19,0.0,+1 Lap,finished,0,0,0.1429,97.015,96.1525,-1.4915
-2014,15,2014_R15,Japanese Grand Prix,suzuka,BIA,jules_bianchi,Jules Bianchi,French,marussia,marussia_2014,18,20,0.0,Accident,driver_incident,0,0,0.0952,96.943,96.0805,-1.4155
-2014,15,2014_R15,Japanese Grand Prix,suzuka,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,14,21,0.0,Accident,driver_incident,0,0,0.0476,95.364,95.067,-0.3457
-2014,15,2014_R15,Japanese Grand Prix,suzuka,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,22,0.0,Electronics,mechanical_dnf,1,0,0.0,93.675,93.378,1.4371
-2014,16,2014_R16,Russian Grand Prix,sochi,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,98.338,98.313,1.7135
-2014,16,2014_R16,Russian Grand Prix,sochi,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.95,98.606,98.581,1.4456
-2014,16,2014_R16,Russian Grand Prix,sochi,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,3,15.0,Finished,finished,0,0,0.9,98.92,98.92,1.1067
-2014,16,2014_R16,Russian Grand Prix,sochi,BUT,button,Jenson Button,British,mclaren,mclaren_2014,4,4,12.0,Finished,finished,0,0,0.85,99.121,99.121,0.9058
-2014,16,2014_R16,Russian Grand Prix,sochi,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,11,5,10.0,Finished,finished,0,0,0.8,99.022,98.997,1.0297
-2014,16,2014_R16,Russian Grand Prix,sochi,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,6,8.0,Finished,finished,0,0,0.75,99.709,99.709,0.3179
-2014,16,2014_R16,Russian Grand Prix,sochi,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,6,7,6.0,Finished,finished,0,0,0.7,99.635,99.635,0.3919
-2014,16,2014_R16,Russian Grand Prix,sochi,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,10,8,4.0,Finished,finished,0,0,0.65,100.052,100.027,0.0
-2014,16,2014_R16,Russian Grand Prix,sochi,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,9,2.0,Finished,finished,0,0,0.6,99.771,99.771,0.2559
-2014,16,2014_R16,Russian Grand Prix,sochi,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,12,10,1.0,Finished,finished,0,0,0.55,100.163,100.138,-0.111
-2014,16,2014_R16,Russian Grand Prix,sochi,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,18,11,0.0,Finished,finished,0,0,0.5,103.064,102.592,-2.5643
-2014,16,2014_R16,Russian Grand Prix,sochi,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,17,12,0.0,Finished,finished,0,0,0.45,100.058,100.033,-0.006
-2014,16,2014_R16,Russian Grand Prix,sochi,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,9,13,0.0,Finished,finished,0,0,0.4,99.929,99.904,0.123
-2014,16,2014_R16,Russian Grand Prix,sochi,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,5,14,0.0,+1 Lap,finished,0,0,0.35,99.277,99.271,0.7558
-2014,16,2014_R16,Russian Grand Prix,sochi,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,13,15,0.0,+1 Lap,finished,0,0,0.3,100.536,100.511,-0.4839
-2014,16,2014_R16,Russian Grand Prix,sochi,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,14,16,0.0,+1 Lap,finished,0,0,0.25,100.766,100.959,-0.9317
-2014,16,2014_R16,Russian Grand Prix,sochi,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,15,17,0.0,+1 Lap,finished,0,0,0.2,101.397,101.372,-1.3446
-2014,16,2014_R16,Russian Grand Prix,sochi,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,21,18,0.0,+1 Lap,finished,0,0,0.15,103.205,102.733,-2.7053
-2014,16,2014_R16,Russian Grand Prix,sochi,ERI,ericsson,Marcus Ericsson,Swedish,caterham,caterham_2014,16,19,0.0,+2 Laps,finished,0,0,0.1,102.648,102.176,-2.1484
-2014,16,2014_R16,Russian Grand Prix,sochi,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,20,0.0,Brakes,mechanical_dnf,1,0,0.05,103.166,102.694,-2.6663
-2014,16,2014_R16,Russian Grand Prix,sochi,CHI,chilton,Max Chilton,British,marussia,marussia_2014,20,21,0.0,Suspension,mechanical_dnf,1,0,0.0,103.649,103.177,-3.1491
-2014,17,2014_R17,United States Grand Prix,americas,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,25.0,Finished,finished,0,0,1.0,96.443,96.443,1.487
-2014,17,2014_R17,United States Grand Prix,americas,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9412,96.067,95.9055,2.036
-2014,17,2014_R17,United States Grand Prix,americas,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,3,15.0,Finished,finished,0,0,0.8824,97.244,97.244,0.6688
-2014,17,2014_R17,United States Grand Prix,americas,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,4,4,12.0,Finished,finished,0,0,0.8235,97.205,96.9625,0.9563
-2014,17,2014_R17,United States Grand Prix,americas,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,5,10.0,Finished,finished,0,0,0.7647,96.906,96.906,1.0141
-2014,17,2014_R17,United States Grand Prix,americas,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,6,6,8.0,Finished,finished,0,0,0.7059,97.61,97.61,0.2949
-2014,17,2014_R17,United States Grand Prix,americas,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,18,7,6.0,Finished,finished,0,0,0.6471,99.621,98.743,-0.8624
-2014,17,2014_R17,United States Grand Prix,americas,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,8,4.0,Finished,finished,0,0,0.5882,97.706,97.6625,0.2413
-2014,17,2014_R17,United States Grand Prix,americas,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,10,9,2.0,Finished,finished,0,0,0.5294,98.467,98.0825,-0.1877
-2014,17,2014_R17,United States Grand Prix,americas,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,14,10,1.0,Finished,finished,0,0,0.4706,99.25,98.372,-0.4834
-2014,17,2014_R17,United States Grand Prix,americas,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,11,0.0,+1 Lap,finished,0,0,0.4118,99.679,98.801,-0.9216
-2014,17,2014_R17,United States Grand Prix,americas,BUT,button,Jenson Button,British,mclaren,mclaren_2014,12,12,0.0,+1 Lap,finished,0,0,0.3529,97.655,97.6395,0.2648
-2014,17,2014_R17,United States Grand Prix,americas,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,13,0.0,+1 Lap,finished,0,0,0.2941,97.804,97.804,0.0968
-2014,17,2014_R17,United States Grand Prix,americas,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,14,0.0,+1 Lap,finished,0,0,0.2353,99.555,98.677,-0.795
-2014,17,2014_R17,United States Grand Prix,americas,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,17,15,0.0,+1 Lap,finished,0,0,0.1765,98.699,98.3145,-0.4247
-2014,17,2014_R17,United States Grand Prix,americas,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,13,16,0.0,Engine,mechanical_dnf,1,0,0.1176,98.598,98.2135,-0.3215
-2014,17,2014_R17,United States Grand Prix,americas,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,11,17,0.0,Collision damage,driver_incident,0,0,0.0588,98.554,98.1695,-0.2766
-2014,17,2014_R17,United States Grand Prix,americas,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,9,18,0.0,Collision,driver_incident,0,0,0.0,98.378,97.9935,-0.0968
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,70.023,70.023,1.3816
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9412,70.056,70.056,1.3351
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,3,3,15.0,Finished,finished,0,0,0.8824,70.247,70.149,1.2042
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,BUT,button,Jenson Button,British,mclaren,mclaren_2014,5,4,12.0,Finished,finished,0,0,0.8235,70.93,70.93,0.1042
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,6,5,10.0,Finished,finished,0,0,0.7647,70.938,70.935,0.0972
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,8,6,8.0,Finished,finished,0,0,0.7059,70.977,70.977,0.038
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,10,7,6.0,Finished,finished,0,0,0.6471,71.099,70.994,0.0141
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,12,8,4.0,Finished,finished,0,0,0.5882,71.848,71.782,-1.0957
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,9,2.0,Finished,finished,0,0,0.5294,70.969,70.969,0.0493
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,4,10,1.0,+1 Lap,finished,0,0,0.4706,70.305,70.227,1.0943
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,17,11,0.0,+1 Lap,finished,0,0,0.4118,71.423,71.224,-0.3098
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,16,12,0.0,+1 Lap,finished,0,0,0.3529,72.233,72.034,-1.4506
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,15,13,0.0,+1 Lap,finished,0,0,0.2941,72.04,71.841,-1.1788
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,11,14,0.0,+1 Lap,finished,0,0,0.2353,71.52,71.397,-0.5535
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,18,15,0.0,+1 Lap,finished,0,0,0.1765,72.076,71.877,-1.2295
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,13,16,0.0,+1 Lap,finished,0,0,0.1176,71.943,71.905,-1.2689
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,17,0.0,+8 Laps,finished,0,0,0.0588,72.037,71.838,-1.1746
-2014,18,2014_R18,Brazilian Grand Prix,interlagos,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,9,18,0.0,Suspension,mechanical_dnf,1,0,0.0,71.075,71.014,-0.0141
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,50.0,Finished,finished,0,0,1.0,100.866,100.866,1.2695
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,MAS,massa,Felipe Massa,Brazilian,williams,williams_2014,4,2,36.0,Finished,finished,0,0,0.9474,101.119,101.1045,1.0361
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,BOT,bottas,Valtteri Bottas,Finnish,williams,williams_2014,3,3,30.0,Finished,finished,0,0,0.8947,101.025,101.025,1.1139
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,RIC,ricciardo,Daniel Ricciardo,Australian,red_bull,red_bull_2014,20,4,24.0,Finished,finished,0,0,0.8421,,,
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,BUT,button,Jenson Button,British,mclaren,mclaren_2014,6,5,20.0,Finished,finished,0,0,0.7895,101.875,101.8355,0.3206
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,HUL,hulkenberg,Nico Hülkenberg,German,force_india,force_india_2014,12,6,16.0,Finished,finished,0,0,0.7368,102.384,102.3445,-0.1777
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,PER,perez,Sergio Pérez,Mexican,force_india,force_india_2014,11,7,12.0,Finished,finished,0,0,0.6842,102.239,102.1995,-0.0357
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,VET,vettel,Sebastian Vettel,German,red_bull,red_bull_2014,19,8,8.0,Finished,finished,0,0,0.6316,,,
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,Fernando Alonso,Spanish,ferrari,ferrari_2014,8,9,4.0,Finished,finished,0,0,0.5789,101.94,101.9005,0.2569
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,RAI,raikkonen,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,7,10,2.0,Finished,finished,0,0,0.5263,102.168,102.1285,0.0338
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,MAG,kevin_magnussen,Kevin Magnussen,Danish,mclaren,mclaren_2014,9,11,0.0,Finished,finished,0,0,0.4737,102.104,102.1585,0.0044
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,VER,vergne,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,10,12,0.0,Finished,finished,0,0,0.4211,102.207,102.1675,-0.0044
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,GRO,grosjean,Romain Grosjean,French,lotus_f1,lotus_f1_2014,18,13,0.0,+1 Lap,finished,0,0,0.3684,102.768,102.4665,-0.2971
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,ROS,rosberg,Nico Rosberg,German,mercedes,mercedes_2014,1,14,0.0,+1 Lap,finished,0,0,0.3158,100.48,100.48,1.6474
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,GUT,gutierrez,Esteban Gutiérrez,Mexican,sauber,sauber_2014,14,15,0.0,+1 Lap,finished,0,0,0.2632,102.819,102.5175,-0.347
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,SUT,sutil,Adrian Sutil,German,sauber,sauber_2014,13,16,0.0,+1 Lap,finished,0,0,0.2105,102.746,103.0345,-0.853
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,STE,stevens,Will Stevens,British,caterham,caterham_2014,17,17,0.0,+1 Lap,finished,0,0,0.1579,105.095,104.7935,-2.5748
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,KOB,kobayashi,Kamui Kobayashi,Japanese,caterham,caterham_2014,16,18,0.0,Retired,mechanical_dnf,1,0,0.1053,104.54,104.2385,-2.0316
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,MAL,maldonado,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,15,19,0.0,Power Unit,mechanical_dnf,1,0,0.0526,102.86,102.5585,-0.3871
-2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,KVY,kvyat,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,5,20,0.0,Power Unit,mechanical_dnf,1,0,0.0,101.908,101.908,0.2496
+season,round,race_id,race_name,circuit_id,driver,driver_id,car_number,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,is_wet,pace_score,best_quali_sec,adj_quali_sec,quali_pace_pct
+2014,1,2014_R01,Australian Grand Prix,albert_park,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,3,1,25.0,Finished,finished,0,0,1.0,92.564,104.595,2.1306
+2014,1,2014_R01,Australian Grand Prix,albert_park,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,4,2,18.0,Finished,finished,0,0,0.9524,90.949,105.682,1.1135
+2014,1,2014_R01,Australian Grand Prix,albert_park,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,10,3,15.0,Finished,finished,0,0,0.9048,91.396,106.872,0.0
+2014,1,2014_R01,Australian Grand Prix,albert_park,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,4,12.0,Finished,finished,0,0,0.8571,91.388,105.24,1.5271
+2014,1,2014_R01,Australian Grand Prix,albert_park,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,15,5,10.0,Finished,finished,0,0,0.8095,91.601,106.287,0.5474
+2014,1,2014_R01,Australian Grand Prix,albert_park,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,7,6,8.0,Finished,finished,0,0,0.7619,93.893,106.03,0.7879
+2014,1,2014_R01,Australian Grand Prix,albert_park,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,11,7,6.0,Finished,finished,0,0,0.7143,92.439,106.929,-0.0533
+2014,1,2014_R01,Australian Grand Prix,albert_park,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,6,8,4.0,Finished,finished,0,0,0.6667,93.488,105.864,0.9432
+2014,1,2014_R01,Australian Grand Prix,albert_park,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,8,9,2.0,Finished,finished,0,0,0.619,93.777,106.766,0.0992
+2014,1,2014_R01,Australian Grand Prix,albert_park,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,16,10,1.0,Finished,finished,0,0,0.5714,94.141,109.728,-2.6724
+2014,1,2014_R01,Australian Grand Prix,albert_park,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,13,11,0.0,+1 Lap,finished,0,0,0.5238,93.673,108.09,-1.1397
+2014,1,2014_R01,Australian Grand Prix,albert_park,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,20,12,0.0,+1 Lap,finished,0,0,0.4762,95.117,109.3395,-2.3088
+2014,1,2014_R01,Australian Grand Prix,albert_park,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,17,13,0.0,+2 Laps,finished,0,0,0.4286,94.293,108.5155,-1.5378
+2014,1,2014_R01,Australian Grand Prix,albert_park,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,18,14,0.0,+8 Laps,finished,0,0,0.381,94.794,109.0165,-2.0066
+2014,1,2014_R01,Australian Grand Prix,albert_park,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,22,15,0.0,ERS,mechanical_dnf,1,0,0.3333,96.993,111.2155,-4.0642
+2014,1,2014_R01,Australian Grand Prix,albert_park,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,21,16,0.0,ERS,mechanical_dnf,1,0,0.2857,,,
+2014,1,2014_R01,Australian Grand Prix,albert_park,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,19,17,0.0,Oil pressure,mechanical_dnf,1,0,0.2381,95.157,109.3795,-2.3463
+2014,1,2014_R01,Australian Grand Prix,albert_park,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,12,18,0.0,Engine,mechanical_dnf,1,0,0.1905,91.931,107.123,-0.2349
+2014,1,2014_R01,Australian Grand Prix,albert_park,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,19,0.0,Engine,mechanical_dnf,1,0,0.1429,91.699,104.231,2.4712
+2014,1,2014_R01,Australian Grand Prix,albert_park,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,9,20,0.0,Collision,driver_incident,0,0,0.0952,91.228,106.677,0.1825
+2014,1,2014_R01,Australian Grand Prix,albert_park,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,14,21,0.0,Collision,driver_incident,0,0,0.0476,94.274,108.302,-1.338
+2014,1,2014_R01,Australian Grand Prix,albert_park,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,2,22,0.0,Disqualified,driver_incident,0,0,0.0,90.775,104.548,2.1746
+2014,2,2014_R02,Malaysian Grand Prix,sepang,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,117.202,119.431,2.7055
+2014,2,2014_R02,Malaysian Grand Prix,sepang,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,3,2,18.0,Finished,finished,0,0,0.9524,117.183,119.837,2.3747
+2014,2,2014_R02,Malaysian Grand Prix,sepang,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,2,3,15.0,Finished,finished,0,0,0.9048,117.654,119.486,2.6606
+2014,2,2014_R02,Malaysian Grand Prix,sepang,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,4,4,12.0,Finished,finished,0,0,0.8571,118.889,120.175,2.0994
+2014,2,2014_R02,Malaysian Grand Prix,sepang,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,7,5,10.0,Finished,finished,0,0,0.8095,118.883,121.231,1.2391
+2014,2,2014_R02,Malaysian Grand Prix,sepang,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,10,6,8.0,Finished,finished,0,0,0.7619,120.889,122.202,0.4481
+2014,2,2014_R02,Malaysian Grand Prix,sepang,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,13,7,6.0,Finished,finished,0,0,0.7143,120.047,122.852,-0.0815
+2014,2,2014_R02,Malaysian Grand Prix,sepang,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,18,8,4.0,Finished,finished,0,0,0.6667,119.709,123.148,-0.3226
+2014,2,2014_R02,Malaysian Grand Prix,sepang,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,8,9,2.0,+1 Lap,finished,0,0,0.619,120.356,122.213,0.4391
+2014,2,2014_R02,Malaysian Grand Prix,sepang,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,11,10,1.0,+1 Lap,finished,0,0,0.5714,121.175,122.743,0.0073
+2014,2,2014_R02,Malaysian Grand Prix,sepang,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,15,11,0.0,+1 Lap,finished,0,0,0.5238,120.202,123.277,-0.4277
+2014,2,2014_R02,Malaysian Grand Prix,sepang,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,6,12,0.0,+1 Lap,finished,0,0,0.4762,119.257,121.218,1.2497
+2014,2,2014_R02,Malaysian Grand Prix,sepang,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,13,0.0,+1 Lap,finished,0,0,0.4286,123.595,125.8845,-2.5519
+2014,2,2014_R02,Malaysian Grand Prix,sepang,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,22,14,0.0,+2 Laps,finished,0,0,0.381,124.407,126.6965,-3.2134
+2014,2,2014_R02,Malaysian Grand Prix,sepang,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,15,0.0,+2 Laps,finished,0,0,0.3333,124.388,126.6775,-3.1979
+2014,2,2014_R02,Malaysian Grand Prix,sepang,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,16,0.0,Technical,mechanical_dnf,1,0,0.2857,118.913,120.539,1.8028
+2014,2,2014_R02,Malaysian Grand Prix,sepang,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,12,17,0.0,Gearbox,mechanical_dnf,1,0,0.2381,121.134,122.761,-0.0073
+2014,2,2014_R02,Malaysian Grand Prix,sepang,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,17,18,0.0,Electrical,mechanical_dnf,1,0,0.1905,122.131,124.4205,-1.3592
+2014,2,2014_R02,Malaysian Grand Prix,sepang,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,9,19,0.0,Power Unit,mechanical_dnf,1,0,0.1429,121.689,122.488,0.2151
+2014,2,2014_R02,Malaysian Grand Prix,sepang,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,19,20,0.0,Brakes,mechanical_dnf,1,0,0.0952,122.702,124.9915,-1.8244
+2014,2,2014_R02,Malaysian Grand Prix,sepang,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,16,21,0.0,Engine,mechanical_dnf,1,0,0.0476,122.074,124.3635,-1.3128
+2014,2,2014_R02,Malaysian Grand Prix,sepang,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,14,22,0.0,Withdrew,mechanical_dnf,1,0,0.0,120.076,122.903,-0.123
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,25.0,Finished,finished,0,0,1.0,93.464,93.464,1.2489
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,93.185,93.185,1.5436
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,4,3,15.0,Finished,finished,0,0,0.9048,94.346,94.3425,0.3207
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,13,4,12.0,Finished,finished,0,0,0.8571,94.051,94.051,0.6287
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,11,5,10.0,Finished,finished,0,0,0.8095,94.874,94.7115,-0.0692
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,10,6,8.0,Finished,finished,0,0,0.7619,94.985,94.5805,0.0692
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,7,7,6.0,Finished,finished,0,0,0.7143,94.511,94.4375,0.2203
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,8,4.0,Finished,finished,0,0,0.6667,94.247,94.247,0.4216
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,9,9,2.0,Finished,finished,0,0,0.619,94.723,94.3185,0.346
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,5,10,1.0,Finished,finished,0,0,0.5714,94.368,94.368,0.2937
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,12,11,0.0,Finished,finished,0,0,0.5238,95.145,94.7405,-0.0998
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,12,0.0,Finished,finished,0,0,0.4762,95.908,95.5035,-0.906
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,13,0.0,Finished,finished,0,0,0.4286,97.913,96.98,-2.466
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,17,14,0.0,Finished,finished,0,0,0.381,96.663,95.73,-1.1453
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,18,15,0.0,Finished,finished,0,0,0.3333,97.085,96.152,-1.5912
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,19,16,0.0,+1 Lap,finished,0,0,0.2857,97.31,96.377,-1.8289
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,6,17,0.0,Clutch,mechanical_dnf,1,0,0.2381,94.387,94.3095,0.3555
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,8,18,0.0,Clutch,mechanical_dnf,1,0,0.1905,94.712,94.4995,0.1548
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,19,0.0,Collision,driver_incident,0,0,0.1429,95.891,95.4865,-0.888
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,20,20,0.0,Retired,mechanical_dnf,1,0,0.0952,97.875,96.942,-2.4259
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,14,21,0.0,Retired,mechanical_dnf,1,0,0.0476,95.286,94.8815,-0.2488
+2014,3,2014_R03,Bahrain Grand Prix,bahrain,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,22,22,0.0,Collision,driver_incident,0,0,0.0,96.84,95.907,-1.3323
+2014,4,2014_R04,Chinese Grand Prix,shanghai,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,113.86,113.86,2.4507
+2014,4,2014_R04,Chinese Grand Prix,shanghai,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,4,2,18.0,Finished,finished,0,0,0.9524,115.143,115.143,1.3515
+2014,4,2014_R04,Chinese Grand Prix,shanghai,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,3,15.0,Finished,finished,0,0,0.9048,115.637,115.6255,0.9381
+2014,4,2014_R04,Chinese Grand Prix,shanghai,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,2,4,12.0,Finished,finished,0,0,0.8571,114.455,114.455,1.941
+2014,4,2014_R04,Chinese Grand Prix,shanghai,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,3,5,10.0,Finished,finished,0,0,0.8095,114.499,114.3595,2.0228
+2014,4,2014_R04,Chinese Grand Prix,shanghai,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,8,6,8.0,Finished,finished,0,0,0.7619,115.913,116.366,0.3037
+2014,4,2014_R04,Chinese Grand Prix,shanghai,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,7,7,6.0,Finished,finished,0,0,0.7143,116.253,116.1135,0.52
+2014,4,2014_R04,Chinese Grand Prix,shanghai,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,11,8,4.0,Finished,finished,0,0,0.6667,116.86,116.7205,0.0
+2014,4,2014_R04,Chinese Grand Prix,shanghai,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,16,9,2.0,Finished,finished,0,0,0.619,118.264,118.1245,-1.2029
+2014,4,2014_R04,Chinese Grand Prix,shanghai,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,13,10,1.0,+1 Lap,finished,0,0,0.5714,117.261,117.1495,-0.3675
+2014,4,2014_R04,Chinese Grand Prix,shanghai,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,12,11,0.0,+1 Lap,finished,0,0,0.5238,116.963,116.8235,-0.0882
+2014,4,2014_R04,Chinese Grand Prix,shanghai,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,9,12,0.0,+1 Lap,finished,0,0,0.4762,116.584,116.4445,0.2365
+2014,4,2014_R04,Chinese Grand Prix,shanghai,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,15,13,0.0,+1 Lap,finished,0,0,0.4286,117.369,117.5355,-0.6982
+2014,4,2014_R04,Chinese Grand Prix,shanghai,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,22,14,0.0,+1 Lap,finished,0,0,0.381,,,
+2014,4,2014_R04,Chinese Grand Prix,shanghai,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,6,15,0.0,+1 Lap,finished,0,0,0.3333,116.147,116.147,0.4913
+2014,4,2014_R04,Chinese Grand Prix,shanghai,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,17,16,0.0,+1 Lap,finished,0,0,0.2857,118.988,118.0565,-1.1446
+2014,4,2014_R04,Chinese Grand Prix,shanghai,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,19,17,0.0,+1 Lap,finished,0,0,0.2381,119.326,118.3945,-1.4342
+2014,4,2014_R04,Chinese Grand Prix,shanghai,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,18,18,0.0,+1 Lap,finished,0,0,0.1905,119.26,118.3285,-1.3777
+2014,4,2014_R04,Chinese Grand Prix,shanghai,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,19,0.0,+2 Laps,finished,0,0,0.1429,120.865,119.9335,-2.7527
+2014,4,2014_R04,Chinese Grand Prix,shanghai,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,20,20,0.0,+2 Laps,finished,0,0,0.0952,120.646,119.7145,-2.5651
+2014,4,2014_R04,Chinese Grand Prix,shanghai,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,10,21,0.0,Gearbox,mechanical_dnf,1,0,0.0476,116.407,116.2675,0.3881
+2014,4,2014_R04,Chinese Grand Prix,shanghai,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,14,22,0.0,Engine,mechanical_dnf,1,0,0.0,117.393,117.2535,-0.4566
+2014,5,2014_R05,Spanish Grand Prix,catalunya,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,85.232,85.232,2.3039
+2014,5,2014_R05,Spanish Grand Prix,catalunya,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9524,85.4,85.4,2.1114
+2014,5,2014_R05,Spanish Grand Prix,catalunya,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,86.285,86.285,1.0969
+2014,5,2014_R05,Spanish Grand Prix,catalunya,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,15,4,12.0,Finished,finished,0,0,0.8571,87.052,86.724,0.5938
+2014,5,2014_R05,Spanish Grand Prix,catalunya,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,4,5,10.0,Finished,finished,0,0,0.8095,86.632,86.632,0.6992
+2014,5,2014_R05,Spanish Grand Prix,catalunya,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,6,8.0,Finished,finished,0,0,0.7619,87.14,87.14,0.1169
+2014,5,2014_R05,Spanish Grand Prix,catalunya,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,6,7,6.0,+1 Lap,finished,0,0,0.7143,87.104,87.007,0.2694
+2014,5,2014_R05,Spanish Grand Prix,catalunya,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,5,8,4.0,+1 Lap,finished,0,0,0.6667,86.96,86.93,0.3576
+2014,5,2014_R05,Spanish Grand Prix,catalunya,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,11,9,2.0,+1 Lap,finished,0,0,0.619,88.002,87.674,-0.4952
+2014,5,2014_R05,Spanish Grand Prix,catalunya,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,10,10,1.0,+1 Lap,finished,0,0,0.5714,87.685,87.357,-0.1318
+2014,5,2014_R05,Spanish Grand Prix,catalunya,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,8,11,0.0,+1 Lap,finished,0,0,0.5238,87.335,87.242,0.0
+2014,5,2014_R05,Spanish Grand Prix,catalunya,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,14,12,0.0,+1 Lap,finished,0,0,0.4762,88.389,87.343,-0.1158
+2014,5,2014_R05,Spanish Grand Prix,catalunya,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,9,13,0.0,+1 Lap,finished,0,0,0.4286,87.016,86.688,0.635
+2014,5,2014_R05,Spanish Grand Prix,catalunya,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,12,14,0.0,+1 Lap,finished,0,0,0.381,88.039,87.711,-0.5376
+2014,5,2014_R05,Spanish Grand Prix,catalunya,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,22,15,0.0,+1 Lap,finished,0,0,0.3333,,,
+2014,5,2014_R05,Spanish Grand Prix,catalunya,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,13,16,0.0,+1 Lap,finished,0,0,0.2857,88.28,87.952,-0.8138
+2014,5,2014_R05,Spanish Grand Prix,catalunya,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,16,17,0.0,+1 Lap,finished,0,0,0.2381,88.563,87.517,-0.3152
+2014,5,2014_R05,Spanish Grand Prix,catalunya,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,18,18,0.0,+2 Laps,finished,0,0,0.1905,90.177,89.131,-2.1652
+2014,5,2014_R05,Spanish Grand Prix,catalunya,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,17,19,0.0,+2 Laps,finished,0,0,0.1429,89.586,88.54,-1.4878
+2014,5,2014_R05,Spanish Grand Prix,catalunya,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,19,20,0.0,+2 Laps,finished,0,0,0.0952,90.312,89.266,-2.32
+2014,5,2014_R05,Spanish Grand Prix,catalunya,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,21,0.0,Brakes,mechanical_dnf,1,0,0.0476,90.375,89.329,-2.3922
+2014,5,2014_R05,Spanish Grand Prix,catalunya,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,21,22,0.0,Exhaust,mechanical_dnf,1,0,0.0,88.194,87.148,0.1077
+2014,6,2014_R06,Monaco Grand Prix,monaco,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,75.989,75.989,2.0621
+2014,6,2014_R06,Monaco Grand Prix,monaco,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9524,76.048,76.048,1.9861
+2014,6,2014_R06,Monaco Grand Prix,monaco,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,76.384,76.384,1.5531
+2014,6,2014_R06,Monaco Grand Prix,monaco,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,4,12.0,Finished,finished,0,0,0.8571,76.686,76.686,1.1638
+2014,6,2014_R06,Monaco Grand Prix,monaco,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,11,5,10.0,+1 Lap,finished,0,0,0.8095,77.846,77.6345,-0.0586
+2014,6,2014_R06,Monaco Grand Prix,monaco,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,12,6,8.0,+1 Lap,finished,0,0,0.7619,77.89,77.7765,-0.2417
+2014,6,2014_R06,Monaco Grand Prix,monaco,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,16,7,6.0,+1 Lap,finished,0,0,0.7143,78.209,77.4935,0.1231
+2014,6,2014_R06,Monaco Grand Prix,monaco,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,8,4.0,+1 Lap,finished,0,0,0.6667,78.196,77.9845,-0.5097
+2014,6,2014_R06,Monaco Grand Prix,monaco,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,21,9,2.0,+1 Lap,finished,0,0,0.619,79.332,78.6165,-1.3243
+2014,6,2014_R06,Monaco Grand Prix,monaco,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,8,10,1.0,+1 Lap,finished,0,0,0.5714,77.555,77.3975,0.2468
+2014,6,2014_R06,Monaco Grand Prix,monaco,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,22,11,0.0,+1 Lap,finished,0,0,0.5238,81.732,81.0165,-4.4175
+2014,6,2014_R06,Monaco Grand Prix,monaco,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,6,12,0.0,+1 Lap,finished,0,0,0.4762,77.389,77.1865,0.5188
+2014,6,2014_R06,Monaco Grand Prix,monaco,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,13,0.0,+2 Laps,finished,0,0,0.4286,80.133,79.4175,-2.3566
+2014,6,2014_R06,Monaco Grand Prix,monaco,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,19,14,0.0,+3 Laps,finished,0,0,0.381,79.928,79.2125,-2.0924
+2014,6,2014_R06,Monaco Grand Prix,monaco,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,17,15,0.0,Accident,driver_incident,0,0,0.3333,78.741,78.0255,-0.5626
+2014,6,2014_R06,Monaco Grand Prix,monaco,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,13,16,0.0,Engine,mechanical_dnf,1,0,0.2857,78.082,77.8705,-0.3628
+2014,6,2014_R06,Monaco Grand Prix,monaco,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,7,17,0.0,Engine,mechanical_dnf,1,0,0.2381,77.54,77.4455,0.1849
+2014,6,2014_R06,Monaco Grand Prix,monaco,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,18,18,0.0,Accident,driver_incident,0,0,0.1905,78.745,78.0295,-0.5677
+2014,6,2014_R06,Monaco Grand Prix,monaco,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,9,19,0.0,Mechanical,mechanical_dnf,1,0,0.1429,77.594,77.3825,0.2661
+2014,6,2014_R06,Monaco Grand Prix,monaco,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,4,20,0.0,Turbo,mechanical_dnf,1,0,0.0952,76.547,76.547,1.343
+2014,6,2014_R06,Monaco Grand Prix,monaco,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,10,21,0.0,Collision,driver_incident,0,0,0.0476,77.755,77.5435,0.0586
+2014,6,2014_R06,Monaco Grand Prix,monaco,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,15,22,0.0,Withdrew,mechanical_dnf,1,0,0.0,78.356,78.1445,-0.716
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,6,1,25.0,Finished,finished,0,0,1.0,75.589,75.589,0.6382
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,74.874,74.874,1.5781
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,75.548,75.548,0.6921
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,9,4,12.0,Finished,finished,0,0,0.8571,76.182,75.9885,0.113
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,11,5,10.0,Finished,finished,0,0,0.8095,76.3,76.0745,0.0
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,6,8.0,Finished,finished,0,0,0.7619,75.814,75.814,0.3424
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,4,7,6.0,Finished,finished,0,0,0.7143,75.55,75.55,0.6895
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,8,8,4.0,Finished,finished,0,0,0.6667,76.162,76.0295,0.0592
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,12,9,2.0,Finished,finished,0,0,0.619,76.31,76.0845,-0.0131
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,10,10,1.0,Finished,finished,0,0,0.5714,76.214,76.0195,0.0723
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,13,11,0.0,Collision,driver_incident,0,0,0.5238,76.472,76.2465,-0.2261
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,5,12,0.0,Collision,driver_incident,0,0,0.4762,75.578,75.5475,0.6927
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,16,13,0.0,+1 Lap,finished,0,0,0.4286,77.314,77.0885,-1.3329
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,22,14,0.0,ERS,mechanical_dnf,1,0,0.381,,,
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,15,0.0,Rear wing,mechanical_dnf,1,0,0.3333,76.687,76.4615,-0.5087
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,15,16,0.0,Drivetrain,mechanical_dnf,1,0,0.2857,76.713,76.4875,-0.5429
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,17,0.0,Brakes,mechanical_dnf,1,0,0.2381,74.953,74.8285,1.6379
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,21,18,0.0,Suspension,mechanical_dnf,1,0,0.1905,79.278,78.1665,-2.7499
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,17,19,0.0,Power Unit,mechanical_dnf,1,0,0.1429,78.328,77.2165,-1.5012
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,20,20,0.0,Turbo,mechanical_dnf,1,0,0.0952,79.82,78.7085,-3.4624
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,18,21,0.0,Collision,driver_incident,0,0,0.0476,78.348,77.2365,-1.5275
+2014,7,2014_R07,Canadian Grand Prix,villeneuve,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,19,22,0.0,Collision,driver_incident,0,0,0.0,78.359,77.2475,-1.5419
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,3,1,25.0,Finished,finished,0,0,1.0,68.944,68.873,1.1383
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,9,2,18.0,Finished,finished,0,0,0.9524,69.092,68.991,0.9689
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,2,3,15.0,Finished,finished,0,0,0.9048,68.846,68.846,1.177
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,1,4,12.0,Finished,finished,0,0,0.8571,68.759,68.759,1.3019
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,4,5,10.0,Finished,finished,0,0,0.8095,69.285,69.285,0.5469
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,15,6,8.0,Finished,finished,0,0,0.7619,69.754,69.653,0.0187
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,6,7,6.0,Finished,finished,0,0,0.7143,69.473,69.372,0.422
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,8,4.0,Finished,finished,0,0,0.6667,69.466,69.466,0.2871
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,10,9,2.0,Finished,finished,0,0,0.619,69.624,69.523,0.2053
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,10,1.0,Finished,finished,0,0,0.5714,69.657,69.556,0.1579
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,11,11,0.0,Finished,finished,0,0,0.5238,69.78,69.679,-0.0187
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,13,12,0.0,+1 Lap,finished,0,0,0.4762,69.939,69.838,-0.2469
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,16,13,0.0,+1 Lap,finished,0,0,0.4286,70.825,70.0495,-0.5505
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,22,14,0.0,+1 Lap,finished,0,0,0.381,70.461,70.541,-1.256
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,18,15,0.0,+2 Laps,finished,0,0,0.3333,71.412,70.6365,-1.3931
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,16,0.0,+2 Laps,finished,0,0,0.2857,71.673,70.8975,-1.7677
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,17,0.0,+2 Laps,finished,0,0,0.2381,71.775,70.9995,-1.9141
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,20,18,0.0,+2 Laps,finished,0,0,0.1905,72.673,71.8975,-3.2031
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,17,19,0.0,+2 Laps,finished,0,0,0.1429,71.349,70.5735,-1.3026
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,14,20,0.0,Brakes,mechanical_dnf,1,0,0.0952,70.073,69.972,-0.4392
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,12,21,0.0,Electrical,mechanical_dnf,1,0,0.0476,69.801,69.7,-0.0488
+2014,8,2014_R08,Austrian Grand Prix,red_bull_ring,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,7,22,0.0,Suspension,mechanical_dnf,1,0,0.0,69.49,69.389,0.3976
+2014,9,2014_R09,British Grand Prix,silverstone,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,6,1,25.0,Finished,finished,0,0,1.0,94.87,96.9005,3.4485
+2014,9,2014_R09,British Grand Prix,silverstone,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,14,2,18.0,Finished,finished,0,0,0.9524,105.318,102.5525,-2.1831
+2014,9,2014_R09,British Grand Prix,silverstone,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,8,3,15.0,Finished,finished,0,0,0.9048,98.166,100.1965,0.1644
+2014,9,2014_R09,British Grand Prix,silverstone,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,3,4,12.0,Finished,finished,0,0,0.8571,96.579,98.2,2.1537
+2014,9,2014_R09,British Grand Prix,silverstone,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,2,5,10.0,Finished,finished,0,0,0.8095,96.41,97.386,2.9648
+2014,9,2014_R09,British Grand Prix,silverstone,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,16,6,8.0,Finished,finished,0,0,0.7619,105.935,103.1695,-2.7979
+2014,9,2014_R09,British Grand Prix,silverstone,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,5,7,6.0,Finished,finished,0,0,0.7143,97.37,98.417,1.9375
+2014,9,2014_R09,British Grand Prix,silverstone,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,4,8,4.0,Finished,finished,0,0,0.6667,97.112,98.329,2.0252
+2014,9,2014_R09,British Grand Prix,silverstone,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,9,9,2.0,Finished,finished,0,0,0.619,96.813,98.8435,1.5125
+2014,9,2014_R09,British Grand Prix,silverstone,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,10,10,1.0,+1 Lap,finished,0,0,0.5714,97.8,99.8305,0.5291
+2014,9,2014_R09,British Grand Prix,silverstone,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,7,11,0.0,+1 Lap,finished,0,0,0.5238,97.35,99.3805,0.9775
+2014,9,2014_R09,British Grand Prix,silverstone,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,11,12,0.0,+1 Lap,finished,0,0,0.4762,98.496,100.5265,-0.1644
+2014,9,2014_R09,British Grand Prix,silverstone,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,13,13,0.0,+1 Lap,finished,0,0,0.4286,102.603,99.8375,0.5221
+2014,9,2014_R09,British Grand Prix,silverstone,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,12,14,0.0,+1 Lap,finished,0,0,0.381,98.709,100.7395,-0.3766
+2014,9,2014_R09,British Grand Prix,silverstone,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,22,15,0.0,+2 Laps,finished,0,0,0.3333,109.625,106.8595,-6.4746
+2014,9,2014_R09,British Grand Prix,silverstone,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,17,16,0.0,+2 Laps,finished,0,0,0.2857,99.8,101.8305,-1.4637
+2014,9,2014_R09,British Grand Prix,silverstone,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,20,17,0.0,+3 Laps,finished,0,0,0.2381,103.892,106.0485,-5.6665
+2014,9,2014_R09,British Grand Prix,silverstone,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,18,0.0,Gearbox,mechanical_dnf,1,0,0.1905,95.179,95.766,4.5789
+2014,9,2014_R09,British Grand Prix,silverstone,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,21,19,0.0,Suspension,mechanical_dnf,1,0,0.1429,109.421,106.6555,-6.2713
+2014,9,2014_R09,British Grand Prix,silverstone,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,19,20,0.0,Collision,driver_incident,0,0,0.0952,100.912,102.9425,-2.5717
+2014,9,2014_R09,British Grand Prix,silverstone,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,15,21,0.0,Collision,driver_incident,0,0,0.0476,105.695,102.9295,-2.5588
+2014,9,2014_R09,British Grand Prix,silverstone,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,18,22,0.0,Collision,driver_incident,0,0,0.0,106.684,103.9185,-3.5442
+2014,10,2014_R10,German Grand Prix,hockenheimring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,76.54,76.54,1.7944
+2014,10,2014_R10,German Grand Prix,hockenheimring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,2,2,18.0,Finished,finished,0,0,0.9524,76.759,76.759,1.5134
+2014,10,2014_R10,German Grand Prix,hockenheimring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,20,3,15.0,Finished,finished,0,0,0.9048,78.683,77.9565,-0.0231
+2014,10,2014_R10,German Grand Prix,hockenheimring,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,6,4,12.0,Finished,finished,0,0,0.8571,77.577,77.3915,0.7018
+2014,10,2014_R10,German Grand Prix,hockenheimring,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,5,10.0,Finished,finished,0,0,0.8095,77.649,77.6115,0.4196
+2014,10,2014_R10,German Grand Prix,hockenheimring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,6,8.0,Finished,finished,0,0,0.7619,77.273,77.273,0.8539
+2014,10,2014_R10,German Grand Prix,hockenheimring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,9,7,6.0,Finished,finished,0,0,0.7143,78.014,77.7625,0.2258
+2014,10,2014_R10,German Grand Prix,hockenheimring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,11,8,4.0,Finished,finished,0,0,0.6667,78.193,77.9385,0.0
+2014,10,2014_R10,German Grand Prix,hockenheimring,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,4,9,2.0,+1 Lap,finished,0,0,0.619,77.214,77.214,0.9296
+2014,10,2014_R10,German Grand Prix,hockenheimring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,10,10,1.0,+1 Lap,finished,0,0,0.5714,78.035,77.9065,0.0411
+2014,10,2014_R10,German Grand Prix,hockenheimring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,12,11,0.0,+1 Lap,finished,0,0,0.5238,78.273,78.0185,-0.1026
+2014,10,2014_R10,German Grand Prix,hockenheimring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,18,12,0.0,+1 Lap,finished,0,0,0.4762,80.195,79.4685,-1.9631
+2014,10,2014_R10,German Grand Prix,hockenheimring,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,13,13,0.0,+1 Lap,finished,0,0,0.4286,78.285,78.0305,-0.118
+2014,10,2014_R10,German Grand Prix,hockenheimring,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,16,14,0.0,+1 Lap,finished,0,0,0.381,78.739,78.5325,-0.7621
+2014,10,2014_R10,German Grand Prix,hockenheimring,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,17,15,0.0,+1 Lap,finished,0,0,0.3333,79.676,78.9495,-1.2972
+2014,10,2014_R10,German Grand Prix,hockenheimring,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,16,0.0,+2 Laps,finished,0,0,0.2857,80.408,79.6815,-2.2364
+2014,10,2014_R10,German Grand Prix,hockenheimring,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,17,0.0,+2 Laps,finished,0,0,0.2381,80.489,79.7625,-2.3403
+2014,10,2014_R10,German Grand Prix,hockenheimring,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,22,18,0.0,+2 Laps,finished,0,0,0.1905,,,
+2014,10,2014_R10,German Grand Prix,hockenheimring,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,15,19,0.0,Brakes,mechanical_dnf,1,0,0.1429,79.142,78.4155,-0.612
+2014,10,2014_R10,German Grand Prix,hockenheimring,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,8,20,0.0,Oil leak,mechanical_dnf,1,0,0.0952,77.965,77.8485,0.1155
+2014,10,2014_R10,German Grand Prix,hockenheimring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,21,0.0,Water leak,mechanical_dnf,1,0,0.0476,78.894,78.7285,-1.0136
+2014,10,2014_R10,German Grand Prix,hockenheimring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,3,22,0.0,Collision,driver_incident,0,0,0.0,77.078,77.078,1.1041
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,4,1,25.0,Finished,finished,0,0,1.0,83.391,83.391,1.1855
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,2,18.0,Finished,finished,0,0,0.9524,83.909,83.909,0.5717
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,22,3,15.0,Finished,finished,0,0,0.9048,,,
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,4,12.0,Finished,finished,0,0,0.8571,82.715,82.715,1.9866
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,6,5,10.0,Finished,finished,0,0,0.8095,84.03,83.745,0.7661
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,16,6,8.0,Finished,finished,0,0,0.7619,86.792,84.8465,-0.5392
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,2,7,6.0,Finished,finished,0,0,0.7143,83.201,83.201,1.4107
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,8,4.0,Finished,finished,0,0,0.6667,83.354,83.354,1.2294
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,8,9,2.0,Finished,finished,0,0,0.619,84.637,84.352,0.0468
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,7,10,1.0,Finished,finished,0,0,0.5714,84.294,84.217,0.2068
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,11,11,0.0,Finished,finished,0,0,0.5238,85.136,84.851,-0.5445
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,21,12,0.0,Finished,finished,0,0,0.4762,84.585,84.3,0.1084
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,20,13,0.0,Finished,finished,0,0,0.4286,,,
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,10,14,0.0,+1 Lap,finished,0,0,0.381,84.706,84.421,-0.035
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,15,15,0.0,+1 Lap,finished,0,0,0.3333,86.728,87.134,-3.2497
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,18,16,0.0,+1 Lap,finished,0,0,0.2857,87.819,85.8735,-1.7561
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,13,17,0.0,Retired,mechanical_dnf,1,0,0.2381,85.26,84.975,-0.6914
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,17,18,0.0,Retired,mechanical_dnf,1,0,0.1905,87.139,85.1935,-0.9503
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,12,19,0.0,Accident,driver_incident,0,0,0.1429,85.211,84.926,-0.6334
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,9,20,0.0,Accident,driver_incident,0,0,0.0952,84.647,84.362,0.035
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,21,0.0,Accident,driver_incident,0,0,0.0476,85.337,85.052,-0.7827
+2014,11,2014_R11,Hungarian Grand Prix,hungaroring,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,19,22,0.0,Accident,driver_incident,0,0,0.0,88.643,86.6975,-2.7325
+2014,12,2014_R12,Belgian Grand Prix,spa,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,1,25.0,Finished,finished,0,0,1.0,127.911,127.911,0.8887
+2014,12,2014_R12,Belgian Grand Prix,spa,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,125.591,125.591,2.6864
+2014,12,2014_R12,Belgian Grand Prix,spa,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,6,3,15.0,Finished,finished,0,0,0.9048,128.049,127.918,0.8833
+2014,12,2014_R12,Belgian Grand Prix,spa,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,4,12.0,Finished,finished,0,0,0.8571,128.646,128.113,0.7322
+2014,12,2014_R12,Belgian Grand Prix,spa,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,3,5,10.0,Finished,finished,0,0,0.8095,127.717,127.717,1.0391
+2014,12,2014_R12,Belgian Grand Prix,spa,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,10,6,8.0,Finished,finished,0,0,0.7619,129.272,128.739,0.2472
+2014,12,2014_R12,Belgian Grand Prix,spa,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,4,7,6.0,Finished,finished,0,0,0.7143,127.786,127.786,0.9856
+2014,12,2014_R12,Belgian Grand Prix,spa,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,13,8,4.0,Finished,finished,0,0,0.6667,130.084,129.551,-0.382
+2014,12,2014_R12,Belgian Grand Prix,spa,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,11,9,2.0,Finished,finished,0,0,0.619,129.377,128.844,0.1658
+2014,12,2014_R12,Belgian Grand Prix,spa,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,18,10,1.0,Finished,finished,0,0,0.5714,131.267,129.928,-0.6741
+2014,12,2014_R12,Belgian Grand Prix,spa,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,12,11,0.0,Finished,finished,0,0,0.5238,129.805,129.272,-0.1658
+2014,12,2014_R12,Belgian Grand Prix,spa,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,12,0.0,Finished,finished,0,0,0.4762,128.679,128.368,0.5346
+2014,12,2014_R12,Belgian Grand Prix,spa,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,9,13,0.0,Finished,finished,0,0,0.4286,128.403,128.3,0.5873
+2014,12,2014_R12,Belgian Grand Prix,spa,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,14,14,0.0,Finished,finished,0,0,0.381,130.238,129.705,-0.5013
+2014,12,2014_R12,Belgian Grand Prix,spa,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,20,15,0.0,Finished,finished,0,0,0.3333,133.414,132.075,-2.3377
+2014,12,2014_R12,Belgian Grand Prix,spa,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,19,16,0.0,+1 Lap,finished,0,0,0.2857,132.566,131.227,-1.6806
+2014,12,2014_R12,Belgian Grand Prix,spa,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,22,17,0.0,+1 Lap,finished,0,0,0.2381,134.438,133.099,-3.1312
+2014,12,2014_R12,Belgian Grand Prix,spa,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,16,18,0.0,Gearbox,mechanical_dnf,1,0,0.1905,131.051,131.937,-2.2308
+2014,12,2014_R12,Belgian Grand Prix,spa,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,19,0.0,Retired,mechanical_dnf,1,0,0.1429,125.819,125.819,2.5097
+2014,12,2014_R12,Belgian Grand Prix,spa,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,15,20,0.0,Retired,mechanical_dnf,1,0,0.0952,130.898,130.554,-1.1592
+2014,12,2014_R12,Belgian Grand Prix,spa,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,17,21,0.0,Mechanical,mechanical_dnf,1,0,0.0476,131.261,129.922,-0.6695
+2014,12,2014_R12,Belgian Grand Prix,spa,LOT,lotterer,45,André Lotterer,German,caterham,caterham_2014,21,22,0.0,Power Unit,mechanical_dnf,1,0,0.0,133.469,132.13,-2.3803
+2014,13,2014_R13,Italian Grand Prix,monza,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,84.109,84.109,2.0428
+2014,13,2014_R13,Italian Grand Prix,monza,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9524,84.383,84.373,1.7353
+2014,13,2014_R13,Italian Grand Prix,monza,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,4,3,15.0,Finished,finished,0,0,0.9048,84.865,84.819,1.2159
+2014,13,2014_R13,Italian Grand Prix,monza,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,4,12.0,Finished,finished,0,0,0.8571,84.697,84.631,1.4348
+2014,13,2014_R13,Italian Grand Prix,monza,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,9,5,10.0,Finished,finished,0,0,0.8095,85.709,85.709,0.1794
+2014,13,2014_R13,Italian Grand Prix,monza,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,8,6,8.0,Finished,finished,0,0,0.7619,85.436,85.436,0.4973
+2014,13,2014_R13,Italian Grand Prix,monza,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,10,7,6.0,Finished,finished,0,0,0.7143,85.863,85.636,0.2644
+2014,13,2014_R13,Italian Grand Prix,monza,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,6,8,4.0,Finished,finished,0,0,0.6667,85.379,85.379,0.5637
+2014,13,2014_R13,Italian Grand Prix,monza,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,11,9,2.0,Finished,finished,0,0,0.619,86.11,85.883,-0.0233
+2014,13,2014_R13,Italian Grand Prix,monza,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,5,10,1.0,Finished,finished,0,0,0.5714,85.314,85.314,0.6394
+2014,13,2014_R13,Italian Grand Prix,monza,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,21,11,0.0,Finished,finished,0,0,0.5238,86.07,85.843,0.0233
+2014,13,2014_R13,Italian Grand Prix,monza,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,13,12,0.0,Finished,finished,0,0,0.4762,86.279,86.052,-0.2201
+2014,13,2014_R13,Italian Grand Prix,monza,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,12,13,0.0,Finished,finished,0,0,0.4286,86.14,85.93,-0.078
+2014,13,2014_R13,Italian Grand Prix,monza,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,16,14,0.0,+1 Lap,finished,0,0,0.381,87.52,86.6545,-0.9218
+2014,13,2014_R13,Italian Grand Prix,monza,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,14,15,0.0,+1 Lap,finished,0,0,0.3333,86.588,86.361,-0.58
+2014,13,2014_R13,Italian Grand Prix,monza,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,17,16,0.0,+1 Lap,finished,0,0,0.2857,87.632,86.7665,-1.0523
+2014,13,2014_R13,Italian Grand Prix,monza,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,18,17,0.0,+1 Lap,finished,0,0,0.2381,87.671,86.8055,-1.0977
+2014,13,2014_R13,Italian Grand Prix,monza,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,19,18,0.0,+1 Lap,finished,0,0,0.1905,87.738,86.8725,-1.1757
+2014,13,2014_R13,Italian Grand Prix,monza,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,19,0.0,+2 Laps,finished,0,0,0.1429,86.692,86.465,-0.7011
+2014,13,2014_R13,Italian Grand Prix,monza,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,22,20,0.0,+2 Laps,finished,0,0,0.0952,88.562,87.6965,-2.1354
+2014,13,2014_R13,Italian Grand Prix,monza,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,21,0.0,Engine,mechanical_dnf,1,0,0.0476,85.43,85.298,0.658
+2014,13,2014_R13,Italian Grand Prix,monza,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,20,22,0.0,Accident,driver_incident,0,0,0.0,88.247,87.3815,-1.7685
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,105.681,105.681,0.7909
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,4,2,18.0,Finished,finished,0,0,0.9524,105.902,105.902,0.5834
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,3,3,15.0,Finished,finished,0,0,0.9048,105.854,105.854,0.6285
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,4,12.0,Finished,finished,0,0,0.8571,105.907,105.8855,0.5989
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,6,5,10.0,Finished,finished,0,0,0.8095,106.0,106.0,0.4914
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,12,6,8.0,Finished,finished,0,0,0.7619,106.989,106.5465,-0.0216
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,15,7,6.0,Finished,finished,0,0,0.7143,107.575,107.1325,-0.5717
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,7,8,4.0,Finished,finished,0,0,0.6667,106.17,105.9165,0.5698
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,13,9,2.0,Finished,finished,0,0,0.619,107.308,106.8655,-0.3211
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,9,10,1.0,Finished,finished,0,0,0.5714,106.25,106.25,0.2568
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,8,11,0.0,Finished,finished,0,0,0.5238,106.187,106.1795,0.3229
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,18,12,0.0,Finished,finished,0,0,0.4762,109.063,108.0165,-1.4016
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,13,0.0,Finished,finished,0,0,0.4286,107.812,107.3695,-0.7942
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,10,14,0.0,Finished,finished,0,0,0.381,106.926,106.4835,0.0376
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,22,15,0.0,Finished,finished,0,0,0.3333,112.287,111.2405,-4.4281
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,19,16,0.0,Finished,finished,0,0,0.2857,109.44,108.3935,-1.7555
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,17,0.0,+1 Lap,finished,0,0,0.2381,110.473,109.4265,-2.7252
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,11,18,0.0,Retired,mechanical_dnf,1,0,0.1905,106.943,106.5005,0.0216
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,17,19,0.0,Water pressure,mechanical_dnf,1,0,0.1429,108.324,107.2775,-0.7078
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,14,20,0.0,Electrical,mechanical_dnf,1,0,0.0952,107.333,106.8905,-0.3445
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,2,21,0.0,Electrical,mechanical_dnf,1,0,0.0476,105.688,105.3825,1.0711
+2014,14,2014_R14,Singapore Grand Prix,marina_bay,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,20,22,0.0,Power Unit,mechanical_dnf,1,0,0.0,110.405,109.3585,-2.6614
+2014,15,2014_R15,Japanese Grand Prix,suzuka,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,25.0,Finished,finished,0,0,1.0,92.703,92.685,2.1686
+2014,15,2014_R15,Japanese Grand Prix,suzuka,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9524,92.506,92.506,2.3575
+2014,15,2014_R15,Japanese Grand Prix,suzuka,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,9,3,15.0,Finished,finished,0,0,0.9048,94.432,94.432,0.3246
+2014,15,2014_R15,Japanese Grand Prix,suzuka,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,6,4,12.0,Finished,finished,0,0,0.8571,94.075,94.075,0.7014
+2014,15,2014_R15,Japanese Grand Prix,suzuka,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,8,5,10.0,Finished,finished,0,0,0.8095,94.317,94.317,0.446
+2014,15,2014_R15,Japanese Grand Prix,suzuka,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,6,8.0,Finished,finished,0,0,0.7619,93.128,93.128,1.701
+2014,15,2014_R15,Japanese Grand Prix,suzuka,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,4,7,6.0,Finished,finished,0,0,0.7143,93.527,93.254,1.568
+2014,15,2014_R15,Japanese Grand Prix,suzuka,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,13,8,4.0,Finished,finished,0,0,0.6667,95.0,94.802,-0.066
+2014,15,2014_R15,Japanese Grand Prix,suzuka,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,20,9,2.0,Finished,finished,0,0,0.619,94.984,94.687,0.0554
+2014,15,2014_R15,Japanese Grand Prix,suzuka,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,11,10,1.0,+1 Lap,finished,0,0,0.5714,95.089,94.792,-0.0554
+2014,15,2014_R15,Japanese Grand Prix,suzuka,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,12,11,0.0,+1 Lap,finished,0,0,0.5238,95.092,94.795,-0.0586
+2014,15,2014_R15,Japanese Grand Prix,suzuka,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,10,12,0.0,+1 Lap,finished,0,0,0.4762,94.548,94.474,0.2802
+2014,15,2014_R15,Japanese Grand Prix,suzuka,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,13,0.0,+1 Lap,finished,0,0,0.4286,95.308,95.384,-0.6803
+2014,15,2014_R15,Japanese Grand Prix,suzuka,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,14,0.0,+1 Lap,finished,0,0,0.381,94.229,93.932,0.8523
+2014,15,2014_R15,Japanese Grand Prix,suzuka,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,15,0.0,+1 Lap,finished,0,0,0.3333,95.984,95.1215,-0.4032
+2014,15,2014_R15,Japanese Grand Prix,suzuka,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,22,16,0.0,+1 Lap,finished,0,0,0.2857,95.917,95.0545,-0.3325
+2014,15,2014_R15,Japanese Grand Prix,suzuka,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,17,17,0.0,+1 Lap,finished,0,0,0.2381,96.813,95.9505,-1.2782
+2014,15,2014_R15,Japanese Grand Prix,suzuka,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,21,18,0.0,+1 Lap,finished,0,0,0.1905,97.481,96.6185,-1.9833
+2014,15,2014_R15,Japanese Grand Prix,suzuka,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,19,0.0,+1 Lap,finished,0,0,0.1429,97.015,96.1525,-1.4915
+2014,15,2014_R15,Japanese Grand Prix,suzuka,BIA,jules_bianchi,17,Jules Bianchi,French,marussia,marussia_2014,18,20,0.0,Accident,driver_incident,0,0,0.0952,96.943,96.0805,-1.4155
+2014,15,2014_R15,Japanese Grand Prix,suzuka,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,14,21,0.0,Accident,driver_incident,0,0,0.0476,95.364,95.067,-0.3457
+2014,15,2014_R15,Japanese Grand Prix,suzuka,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,5,22,0.0,Electronics,mechanical_dnf,1,0,0.0,93.675,93.378,1.4371
+2014,16,2014_R16,Russian Grand Prix,sochi,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,98.338,98.313,1.7135
+2014,16,2014_R16,Russian Grand Prix,sochi,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.95,98.606,98.581,1.4456
+2014,16,2014_R16,Russian Grand Prix,sochi,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,3,15.0,Finished,finished,0,0,0.9,98.92,98.92,1.1067
+2014,16,2014_R16,Russian Grand Prix,sochi,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,4,4,12.0,Finished,finished,0,0,0.85,99.121,99.121,0.9058
+2014,16,2014_R16,Russian Grand Prix,sochi,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,11,5,10.0,Finished,finished,0,0,0.8,99.022,98.997,1.0297
+2014,16,2014_R16,Russian Grand Prix,sochi,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,7,6,8.0,Finished,finished,0,0,0.75,99.709,99.709,0.3179
+2014,16,2014_R16,Russian Grand Prix,sochi,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,6,7,6.0,Finished,finished,0,0,0.7,99.635,99.635,0.3919
+2014,16,2014_R16,Russian Grand Prix,sochi,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,10,8,4.0,Finished,finished,0,0,0.65,100.052,100.027,0.0
+2014,16,2014_R16,Russian Grand Prix,sochi,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,9,2.0,Finished,finished,0,0,0.6,99.771,99.771,0.2559
+2014,16,2014_R16,Russian Grand Prix,sochi,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,12,10,1.0,Finished,finished,0,0,0.55,100.163,100.138,-0.111
+2014,16,2014_R16,Russian Grand Prix,sochi,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,18,11,0.0,Finished,finished,0,0,0.5,103.064,102.592,-2.5643
+2014,16,2014_R16,Russian Grand Prix,sochi,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,17,12,0.0,Finished,finished,0,0,0.45,100.058,100.033,-0.006
+2014,16,2014_R16,Russian Grand Prix,sochi,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,9,13,0.0,Finished,finished,0,0,0.4,99.929,99.904,0.123
+2014,16,2014_R16,Russian Grand Prix,sochi,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,5,14,0.0,+1 Lap,finished,0,0,0.35,99.277,99.271,0.7558
+2014,16,2014_R16,Russian Grand Prix,sochi,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,13,15,0.0,+1 Lap,finished,0,0,0.3,100.536,100.511,-0.4839
+2014,16,2014_R16,Russian Grand Prix,sochi,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,14,16,0.0,+1 Lap,finished,0,0,0.25,100.766,100.959,-0.9317
+2014,16,2014_R16,Russian Grand Prix,sochi,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,15,17,0.0,+1 Lap,finished,0,0,0.2,101.397,101.372,-1.3446
+2014,16,2014_R16,Russian Grand Prix,sochi,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,21,18,0.0,+1 Lap,finished,0,0,0.15,103.205,102.733,-2.7053
+2014,16,2014_R16,Russian Grand Prix,sochi,ERI,ericsson,9,Marcus Ericsson,Swedish,caterham,caterham_2014,16,19,0.0,+2 Laps,finished,0,0,0.1,102.648,102.176,-2.1484
+2014,16,2014_R16,Russian Grand Prix,sochi,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,19,20,0.0,Brakes,mechanical_dnf,1,0,0.05,103.166,102.694,-2.6663
+2014,16,2014_R16,Russian Grand Prix,sochi,CHI,chilton,4,Max Chilton,British,marussia,marussia_2014,20,21,0.0,Suspension,mechanical_dnf,1,0,0.0,103.649,103.177,-3.1491
+2014,17,2014_R17,United States Grand Prix,americas,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,25.0,Finished,finished,0,0,1.0,96.443,96.443,1.487
+2014,17,2014_R17,United States Grand Prix,americas,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,2,18.0,Finished,finished,0,0,0.9412,96.067,95.9055,2.036
+2014,17,2014_R17,United States Grand Prix,americas,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,5,3,15.0,Finished,finished,0,0,0.8824,97.244,97.244,0.6688
+2014,17,2014_R17,United States Grand Prix,americas,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,4,4,12.0,Finished,finished,0,0,0.8235,97.205,96.9625,0.9563
+2014,17,2014_R17,United States Grand Prix,americas,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,5,10.0,Finished,finished,0,0,0.7647,96.906,96.906,1.0141
+2014,17,2014_R17,United States Grand Prix,americas,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,6,6,8.0,Finished,finished,0,0,0.7059,97.61,97.61,0.2949
+2014,17,2014_R17,United States Grand Prix,americas,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,18,7,6.0,Finished,finished,0,0,0.6471,99.621,98.743,-0.8624
+2014,17,2014_R17,United States Grand Prix,americas,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,8,4.0,Finished,finished,0,0,0.5882,97.706,97.6625,0.2413
+2014,17,2014_R17,United States Grand Prix,americas,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,10,9,2.0,Finished,finished,0,0,0.5294,98.467,98.0825,-0.1877
+2014,17,2014_R17,United States Grand Prix,americas,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,14,10,1.0,Finished,finished,0,0,0.4706,99.25,98.372,-0.4834
+2014,17,2014_R17,United States Grand Prix,americas,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,16,11,0.0,+1 Lap,finished,0,0,0.4118,99.679,98.801,-0.9216
+2014,17,2014_R17,United States Grand Prix,americas,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,12,12,0.0,+1 Lap,finished,0,0,0.3529,97.655,97.6395,0.2648
+2014,17,2014_R17,United States Grand Prix,americas,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,8,13,0.0,+1 Lap,finished,0,0,0.2941,97.804,97.804,0.0968
+2014,17,2014_R17,United States Grand Prix,americas,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,15,14,0.0,+1 Lap,finished,0,0,0.2353,99.555,98.677,-0.795
+2014,17,2014_R17,United States Grand Prix,americas,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,17,15,0.0,+1 Lap,finished,0,0,0.1765,98.699,98.3145,-0.4247
+2014,17,2014_R17,United States Grand Prix,americas,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,13,16,0.0,Engine,mechanical_dnf,1,0,0.1176,98.598,98.2135,-0.3215
+2014,17,2014_R17,United States Grand Prix,americas,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,11,17,0.0,Collision damage,driver_incident,0,0,0.0588,98.554,98.1695,-0.2766
+2014,17,2014_R17,United States Grand Prix,americas,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,9,18,0.0,Collision,driver_incident,0,0,0.0,98.378,97.9935,-0.0968
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,1,25.0,Finished,finished,0,0,1.0,70.023,70.023,1.3816
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,2,18.0,Finished,finished,0,0,0.9412,70.056,70.056,1.3351
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,3,3,15.0,Finished,finished,0,0,0.8824,70.247,70.149,1.2042
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,5,4,12.0,Finished,finished,0,0,0.8235,70.93,70.93,0.1042
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,6,5,10.0,Finished,finished,0,0,0.7647,70.938,70.935,0.0972
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,8,6,8.0,Finished,finished,0,0,0.7059,70.977,70.977,0.038
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,10,7,6.0,Finished,finished,0,0,0.6471,71.099,70.994,0.0141
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,12,8,4.0,Finished,finished,0,0,0.5882,71.848,71.782,-1.0957
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,7,9,2.0,Finished,finished,0,0,0.5294,70.969,70.969,0.0493
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,4,10,1.0,+1 Lap,finished,0,0,0.4706,70.305,70.227,1.0943
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,17,11,0.0,+1 Lap,finished,0,0,0.4118,71.423,71.224,-0.3098
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,16,12,0.0,+1 Lap,finished,0,0,0.3529,72.233,72.034,-1.4506
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,15,13,0.0,+1 Lap,finished,0,0,0.2941,72.04,71.841,-1.1788
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,11,14,0.0,+1 Lap,finished,0,0,0.2353,71.52,71.397,-0.5535
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,18,15,0.0,+1 Lap,finished,0,0,0.1765,72.076,71.877,-1.2295
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,13,16,0.0,+1 Lap,finished,0,0,0.1176,71.943,71.905,-1.2689
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,14,17,0.0,+8 Laps,finished,0,0,0.0588,72.037,71.838,-1.1746
+2014,18,2014_R18,Brazilian Grand Prix,interlagos,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,9,18,0.0,Suspension,mechanical_dnf,1,0,0.0,71.075,71.014,-0.0141
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2014,2,1,50.0,Finished,finished,0,0,1.0,100.866,100.866,1.2695
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2014,4,2,36.0,Finished,finished,0,0,0.9474,101.119,101.1045,1.0361
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2014,3,3,30.0,Finished,finished,0,0,0.8947,101.025,101.025,1.1139
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2014,20,4,24.0,Finished,finished,0,0,0.8421,,,
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,BUT,button,22,Jenson Button,British,mclaren,mclaren_2014,6,5,20.0,Finished,finished,0,0,0.7895,101.875,101.8355,0.3206
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2014,12,6,16.0,Finished,finished,0,0,0.7368,102.384,102.3445,-0.1777
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2014,11,7,12.0,Finished,finished,0,0,0.6842,102.239,102.1995,-0.0357
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,VET,vettel,1,Sebastian Vettel,German,red_bull,red_bull_2014,19,8,8.0,Finished,finished,0,0,0.6316,,,
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,14,Fernando Alonso,Spanish,ferrari,ferrari_2014,8,9,4.0,Finished,finished,0,0,0.5789,101.94,101.9005,0.2569
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2014,7,10,2.0,Finished,finished,0,0,0.5263,102.168,102.1285,0.0338
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2014,9,11,0.0,Finished,finished,0,0,0.4737,102.104,102.1585,0.0044
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,VER,vergne,25,Jean-Éric Vergne,French,toro_rosso,toro_rosso_2014,10,12,0.0,Finished,finished,0,0,0.4211,102.207,102.1675,-0.0044
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2014,18,13,0.0,+1 Lap,finished,0,0,0.3684,102.768,102.4665,-0.2971
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2014,1,14,0.0,+1 Lap,finished,0,0,0.3158,100.48,100.48,1.6474
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,GUT,gutierrez,21,Esteban Gutiérrez,Mexican,sauber,sauber_2014,14,15,0.0,+1 Lap,finished,0,0,0.2632,102.819,102.5175,-0.347
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,SUT,sutil,99,Adrian Sutil,German,sauber,sauber_2014,13,16,0.0,+1 Lap,finished,0,0,0.2105,102.746,103.0345,-0.853
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,STE,stevens,46,Will Stevens,British,caterham,caterham_2014,17,17,0.0,+1 Lap,finished,0,0,0.1579,105.095,104.7935,-2.5748
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,KOB,kobayashi,10,Kamui Kobayashi,Japanese,caterham,caterham_2014,16,18,0.0,Retired,mechanical_dnf,1,0,0.1053,104.54,104.2385,-2.0316
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2014,15,19,0.0,Power Unit,mechanical_dnf,1,0,0.0526,102.86,102.5585,-0.3871
+2014,19,2014_R19,Abu Dhabi Grand Prix,yas_marina,KVY,kvyat,26,Daniil Kvyat,Russian,toro_rosso,toro_rosso_2014,5,20,0.0,Power Unit,mechanical_dnf,1,0,0.0,101.908,101.908,0.2496
