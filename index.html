@@ -94,6 +94,52 @@
         </div>
       </div>
 
+      <!-- 메인 페이지 지표 읽는 법 간단 설명서 -->
+      <details class="bg-white rounded-xl border border-slate-200 shadow-sm group">
+        <summary class="cursor-pointer px-4 py-3 flex items-center justify-between gap-2 select-none list-none">
+          <div class="flex items-center gap-2">
+            <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-rose-100 text-rose-700 text-xs font-bold">?</span>
+            <span class="text-xs sm:text-sm font-bold text-slate-800">처음 오셨나요? 3초 만에 보는 Pole2Stat 지표 읽는 법</span>
+          </div>
+          <span class="text-xs font-medium text-rose-600 group-open:hidden">펼쳐보기 ▼</span>
+          <span class="text-xs font-medium text-slate-400 hidden group-open:inline">접기 ▲</span>
+        </summary>
+        <div class="px-4 pb-4 pt-1 border-t border-slate-100 space-y-3">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 text-xs">
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+              <div class="font-bold text-indigo-700">퀄리 ΔQ (토요일 원랩 실력)</div>
+              <p class="text-slate-600 mt-1 leading-relaxed">같은 차를 탄 대체 드라이버보다 1랩당 몇 % 더 빠른지 나타냅니다. <em>(90초 서킷 기준 +0.50 ≈ 약 0.45초 빠름)</em></p>
+            </div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+              <div class="font-bold text-emerald-700">레이스 ΔR (일요일 순수 실력)</div>
+              <p class="text-slate-600 mt-1 leading-relaxed">엔진 고장 등 기계적 DNF와 레이스카 성능을 걷어낸 뒤 추정한 드라이버의 순수 레이스 경쟁력입니다.</p>
+            </div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+              <div class="font-bold text-slate-900">F1-WAR · F1-PAR (실제 팀 기여)</div>
+              <p class="text-slate-600 mt-1 leading-relaxed">현재 탄 레이스카에서 대체 드라이버 대비 실제로 벌어온 추가 포인트(PAR)와 우승 환산치(<code>PAR ÷ 25</code>)입니다.</p>
+            </div>
+            <div class="p-3 rounded-lg bg-rose-50/70 border border-rose-100">
+              <div class="font-bold text-rose-700">dnWAR · dnPAR (차 떼고 본 순수 실력)</div>
+              <p class="text-slate-600 mt-1 leading-relaxed"><strong>모든 드라이버가 똑같은 레이스카를 탔다고 가정</strong>한 환산 WAR입니다. 하위권 에이스와 우승권 드라이버를 공정하게 비교할 때 봅니다.</p>
+            </div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+              <div class="font-bold text-slate-800">[하한 ~ 상한] 95% 신뢰구간</div>
+              <p class="text-slate-600 mt-1 leading-relaxed">수치 아래 대괄호는 통계적 오차범위입니다. 두 선수의 구간이 크게 겹치면 순위 우열을 단정하기 어렵습니다.</p>
+            </div>
+            <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+              <div class="font-bold text-slate-800">0.00의 의미 (대체 수준 기준선)</div>
+              <p class="text-slate-600 mt-1 leading-relaxed">해당 시즌 하위 20% 대체 드라이버 수준이 <code>0.00</code>입니다. <code>+</code>가 클수록 뛰어나고, <code>-</code>면 대체 수준 이하입니다.</p>
+            </div>
+          </div>
+          <div class="flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500 pt-1">
+            <span>※ 팀 기여도는 <strong>F1-WAR</strong>, 타 팀 간 순수 실력 비교는 <strong>dnWAR</strong>을 추천합니다.</span>
+            <button id="btn-go-methodology" type="button" class="text-rose-600 hover:text-rose-700 font-semibold hover:underline">
+              자세한 계산식·논문 근거 보기 →
+            </button>
+          </div>
+        </div>
+      </details>
+
       <!-- 필터 바 -->
       <div class="bg-white rounded-xl p-3.5 border border-slate-200 shadow-sm flex flex-wrap items-center justify-between gap-3">
         <div class="flex flex-wrap items-center gap-2.5">
@@ -544,13 +590,13 @@
       PER: { ko: '세르히오 페레스', en: 'Sergio Perez', nat: '멕시코' },
       TSU: { ko: '츠노다 유키', en: 'Yuki Tsunoda', nat: '일본' },
       LAW: { ko: '리암 로슨', en: 'Liam Lawson', nat: '뉴질랜드' },
-      HAD: { ko: '아이작 하자르', en: 'Isack Hadjar', nat: '프랑스' },
+      HAD: { ko: '이작 하자르', en: 'Isack Hadjar', nat: '프랑스' },
       BEA: { ko: '올리버 베어먼', en: 'Oliver Bearman', nat: '영국' },
       COL: { ko: '프랑코 콜라핀토', en: 'Franco Colapinto', nat: '아르헨티나' },
       BOR: { ko: '가브리엘 보르톨레토', en: 'Gabriel Bortoleto', nat: '브라질' },
-      LIN: { ko: '아비드 린블라드', en: 'Arvid Lindblad', nat: '영국' },
+      LIN: { ko: '아르비드 린드블라드', en: 'Arvid Lindblad', nat: '영국' },
       DOO: { ko: '잭 두한', en: 'Jack Doohan', nat: '호주' },
-      RIC: { ko: '다니엘 리카도', en: 'Daniel Ricciardo', nat: '호주' },
+      RIC: { ko: '다니엘 리카르도', en: 'Daniel Ricciardo', nat: '호주' },
       MAG: { ko: '케빈 마그누센', en: 'Kevin Magnussen', nat: '덴마크' },
       ZHO: { ko: '저우관위', en: 'Guanyu Zhou', nat: '중국' },
       SAR: { ko: '로건 사전트', en: 'Logan Sargeant', nat: '미국' },
@@ -1233,6 +1279,10 @@
     // 이벤트 리스너 연결
     document.querySelectorAll('.tab-btn').forEach(btn => {
       btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+    });
+    document.getElementById('btn-go-methodology').addEventListener('click', () => {
+      switchTab('methodology');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
     document.getElementById('filter-season').addEventListener('change', e => {
