@@ -1,0 +1,11 @@
+{
+  "lambda_d": 1.5,
+  "lambda_dy": 4.0,
+  "lambda_c": 0.5,
+  "val_log_loss": 32.3901,
+  "car_variance_share_pct": 77.1,
+  "driver_variance_share_pct": 22.9,
+  "n_races": 142,
+  "n_bootstrap": 25,
+  "seasons_range": "2015–2026"
+}
