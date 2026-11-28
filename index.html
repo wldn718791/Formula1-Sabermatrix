@@ -120,7 +120,7 @@
             </div>
             <div class="p-3 rounded-lg bg-rose-50/70 border border-rose-100">
               <div class="font-bold text-rose-700">dnWAR · dnPAR (차 떼고 본 순수 실력)</div>
-              <p class="text-slate-600 mt-1 leading-relaxed"><strong>모든 드라이버가 똑같은 레이스카를 탔다고 가정</strong>후 환산한 대체 선수 대비 승리 기여도(WAR)입니다. 하위권 에이스와 우승권 드라이버를 공정하게 비교할 때 봅니다.</p>
+              <p class="text-slate-600 mt-1 leading-relaxed"><strong>모든 드라이버가 똑같은 레이스카를 탔다고 가정</strong>한 환산 WAR입니다. 하위권 에이스와 우승권 드라이버를 공정하게 비교할 때 봅니다.</p>
             </div>
             <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
               <div class="font-bold text-slate-800">[하한 ~ 상한] 95% 신뢰구간</div>
@@ -180,8 +180,8 @@
           <table class="w-full text-sm text-left border-collapse">
             <thead class="bg-slate-900 text-slate-200 text-xs uppercase tracking-wider">
               <tr id="leaderboard-thead-row">
-                <th class="px-3 py-3 text-center whitespace-nowrap">순위</th>
-                <th class="px-3 py-3 sort-btn" data-sort="driver">드라이버</th>
+                <th class="px-3 py-3 text-center whitespace-nowrap sticky left-0 z-20 bg-slate-900 w-12 min-w-[48px]">순위</th>
+                <th class="px-3 py-3 sort-btn whitespace-nowrap sticky left-12 z-20 bg-slate-900 shadow-[2px_0_6px_-2px_rgba(0,0,0,0.3)]" data-sort="driver">드라이버</th>
                 <th class="px-3 py-3 sort-btn" data-sort="team">팀</th>
                 <th class="px-3 py-3 text-center sort-btn" data-sort="car_tier">레이스카 티어</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="starts">출전</th>
@@ -248,9 +248,12 @@
             </div>
           </div>
 
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-2 flex-wrap">
             <label for="profile-driver-select" class="text-xs font-semibold text-slate-500">빠른 전환</label>
             <select id="profile-driver-select" class="text-sm font-semibold rounded-lg border border-slate-300 px-3 py-1.5 bg-white focus:outline-none focus:ring-2 focus:ring-rose-500"></select>
+            <button id="btn-copy-profile-link" type="button" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition">
+              프로필 링크 복사
+            </button>
           </div>
         </div>
 
@@ -333,6 +336,9 @@
           <label for="cmp-driver-b" class="text-xs font-semibold text-blue-600">드라이버 B</label>
           <select id="cmp-driver-b" class="text-sm font-semibold rounded-lg border border-blue-300 px-2.5 py-1.5 bg-blue-50/40"></select>
         </div>
+        <button id="btn-copy-compare-link" type="button" class="ml-auto px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition">
+          비교 링크 복사
+        </button>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -485,9 +491,14 @@
     </section>
   </main>
 
-  <footer class="max-w-7xl mx-auto px-4 py-6 mt-4 border-t border-slate-200 text-xs text-slate-400 flex flex-wrap items-center justify-between gap-2">
+  <footer class="max-w-7xl mx-auto px-4 py-6 mt-4 border-t border-slate-200 text-xs text-slate-400 flex flex-wrap items-center justify-between gap-3">
     <div><strong class="text-slate-600">Pole2Stat</strong> · F1 Sabermetrics Analytics (v2 Plackett-Luce)</div>
-    <div>Data: Jolpica F1 API &amp; FastF1 · Unofficial Fan Project</div>
+    <div class="flex flex-wrap items-center gap-3">
+      <span>Data: Jolpica F1 API &amp; FastF1</span>
+      <a href="https://github.com/wldn718791/Formula1-Sabermatrix/issues/new" target="_blank" rel="noopener noreferrer" class="text-rose-600 hover:text-rose-700 font-semibold hover:underline">
+        베타 피드백 · 오타 제보
+      </a>
+    </div>
   </footer>
 
   <!-- 인페이지 토스트 알림 -->
@@ -590,13 +601,13 @@
       PER: { ko: '세르히오 페레스', en: 'Sergio Perez', nat: '멕시코' },
       TSU: { ko: '츠노다 유키', en: 'Yuki Tsunoda', nat: '일본' },
       LAW: { ko: '리암 로슨', en: 'Liam Lawson', nat: '뉴질랜드' },
-      HAD: { ko: '아이작 하자르', en: 'Isack Hadjar', nat: '프랑스' },
+      HAD: { ko: '이작 하자르', en: 'Isack Hadjar', nat: '프랑스' },
       BEA: { ko: '올리버 베어먼', en: 'Oliver Bearman', nat: '영국' },
       COL: { ko: '프랑코 콜라핀토', en: 'Franco Colapinto', nat: '아르헨티나' },
       BOR: { ko: '가브리엘 보르톨레토', en: 'Gabriel Bortoleto', nat: '브라질' },
-      LIN: { ko: '아비드 린드블라드', en: 'Arvid Lindblad', nat: '영국' },
+      LIN: { ko: '아르비드 린드블라드', en: 'Arvid Lindblad', nat: '영국' },
       DOO: { ko: '잭 두한', en: 'Jack Doohan', nat: '호주' },
-      RIC: { ko: '다니엘 리카도', en: 'Daniel Ricciardo', nat: '호주' },
+      RIC: { ko: '다니엘 리카르도', en: 'Daniel Ricciardo', nat: '호주' },
       MAG: { ko: '케빈 마그누센', en: 'Kevin Magnussen', nat: '덴마크' },
       ZHO: { ko: '저우관위', en: 'Guanyu Zhou', nat: '중국' },
       SAR: { ko: '로건 사전트', en: 'Logan Sargeant', nat: '미국' },
@@ -657,9 +668,9 @@
       stroll: '랜스 스트롤', gasly: '피에르 가슬리', ocon: '에스테반 오콘',
       albon: '알렉산더 알본', hulkenberg: '니코 휠켄베르크', bottas: '발테리 보타스',
       perez: '세르히오 페레스', tsunoda: '츠노다 유키', lawson: '리암 로슨',
-      hadjar: '아이작 하자르', bearman: '올리버 베어먼', colapinto: '프랑코 콜라핀토',
+      hadjar: '이작 하자르', bearman: '올리버 베어먼', colapinto: '프랑코 콜라핀토',
       bortoleto: '가브리엘 보르톨레토', lindblad: '아르비드 린드블라드', doohan: '잭 두한',
-      ricciardo: '다니엘 리카도', kevin_magnussen: '케빈 마그누센', zhou: '저우관위',
+      ricciardo: '다니엘 리카르도', kevin_magnussen: '케빈 마그누센', zhou: '저우관위',
       sargeant: '로건 사전트', de_vries: '닉 더 프리스', latifi: '니콜라스 라티피',
       mick_schumacher: '믹 슈마허', michael_schumacher: '미하엘 슈마허', ralf_schumacher: '랄프 슈마허',
       vettel: '세바스티안 베텔', raikkonen: '키미 라이코넨', giovinazzi: '안토니오 지오비나치',
@@ -691,7 +702,7 @@
       hirakawa: '히라카와 료', ryo_hirakawa: '히라카와 료',
       andrea_kimi_antonelli: '키미 안토넬리', kimi_antonelli: '키미 안토넬리',
       oliver_bearman: '올리버 베어먼', gabriel_bortoleto: '가브리엘 보르톨레토',
-      isack_hadjar: '아이작 하자르', franco_colapinto: '프랑코 콜라핀토',
+      isack_hadjar: '이작 하자르', franco_colapinto: '프랑코 콜라핀토',
       jack_doohan: '잭 두한', liam_lawson: '리암 로슨',
       sergio_perez: '세르히오 페레스', valtteri_bottas: '발테리 보타스'
     };
@@ -767,7 +778,7 @@
       toro_rosso: '토로 로소',
       force_india: '포스 인디아',
       racing_point: '레이싱 포인트',
-      brawn: '브런 GP',
+      brawn: '브라운 GP',
       bmw_sauber: 'BMW 자우버',
       honda: '혼다',
       toyota: '토요타',
@@ -969,11 +980,14 @@
         tbody.innerHTML = `<tr><td colspan="13" class="px-4 py-8 text-center text-slate-400">조건에 맞는 드라이버 기록이 없습니다.</td></tr>`;
       } else {
         tbody.innerHTML = rows.map((r, idx) => `
-          <tr class="hover:bg-rose-50/50 cursor-pointer transition driver-row" data-driver-id="${getRowDriverId(r)}">
-            <td class="px-3 py-2.5 text-center font-semibold text-slate-500 num">${idx + 1}</td>
-            <td class="px-3 py-2.5 font-bold text-slate-900">
-              ${r.driver}
-              ${state.seasonFilter === 'ALL' ? `<span class="text-xs font-normal text-slate-400 ml-1">(${r.season})</span>` : ''}
+          <tr class="group hover:bg-rose-50/60 cursor-pointer transition driver-row" data-driver-id="${getRowDriverId(r)}">
+            <td class="px-3 py-2.5 text-center font-semibold text-slate-500 num sticky left-0 z-10 bg-white group-hover:bg-rose-50 w-12 min-w-[48px]">${idx + 1}</td>
+            <td class="px-3 py-2.5 whitespace-nowrap sticky left-12 z-10 bg-white group-hover:bg-rose-50 shadow-[2px_0_6px_-2px_rgba(15,23,42,0.08)]">
+              <div class="flex items-center gap-1.5">
+                <span class="font-bold text-slate-900">${getDriverMeta(getRowDriverId(r)).ko}</span>
+                <span class="text-[11px] font-mono font-semibold text-slate-400">${r.driver}</span>
+                ${state.seasonFilter === 'ALL' ? `<span class="text-[11px] font-normal text-slate-400">(${r.season})</span>` : ''}
+              </div>
             </td>
             <td class="px-3 py-2.5">${teamBadgeHtml(r.team)}</td>
             <td class="px-3 py-2.5 text-center">${tierBadgeHtml(r.car_tier)}</td>
@@ -1243,6 +1257,89 @@
       if (tabName === 'leaderboard') renderLeaderboard();
       if (tabName === 'profile') renderProfile();
       if (tabName === 'compare') renderCompare();
+      syncUrlHash();
+    }
+
+    function syncUrlHash() {
+      let targetHash = '';
+      if (state.activeTab === 'profile' && state.selectedDriver) {
+        targetHash = `#driver=${encodeURIComponent(state.selectedDriver)}`;
+      } else if (state.activeTab === 'compare' && state.cmpSeason && state.cmpA && state.cmpB) {
+        targetHash = `#compare=${encodeURIComponent(state.cmpSeason)}:${encodeURIComponent(state.cmpA)}:${encodeURIComponent(state.cmpB)}`;
+      } else if (state.activeTab === 'methodology') {
+        targetHash = '#methodology';
+      }
+      try {
+        const nextUrl = targetHash ? `${window.location.pathname}${window.location.search}${targetHash}` : `${window.location.pathname}${window.location.search}`;
+        window.history.replaceState(null, '', nextUrl);
+      } catch (_err) {
+        // 샌드박스 환경에서 history.replaceState 제한 시 무시
+      }
+    }
+
+    function applyUrlHash() {
+      const h = (window.location.hash || '').trim();
+      if (!h) return false;
+      const drivers = getUniqueDrivers();
+      const seasons = getUniqueSeasons().map(String);
+
+      if (h.startsWith('#driver=')) {
+        const target = decodeURIComponent(h.slice('#driver='.length));
+        const match = drivers.find(d => d.toLowerCase() === target.toLowerCase() || getDriverMeta(d).code.toLowerCase() === target.toLowerCase());
+        if (match) {
+          state.selectedDriver = match;
+          document.getElementById('profile-driver-select').value = match;
+          switchTab('profile');
+          return true;
+        }
+      } else if (h.startsWith('#compare=')) {
+        const parts = h.slice('#compare='.length).split(':').map(decodeURIComponent);
+        if (parts.length === 3) {
+          const [sec, da, db] = parts;
+          if (seasons.includes(sec)) state.cmpSeason = sec;
+          const mA = drivers.find(d => d.toLowerCase() === da.toLowerCase() || getDriverMeta(d).code.toLowerCase() === da.toLowerCase());
+          const mB = drivers.find(d => d.toLowerCase() === db.toLowerCase() || getDriverMeta(d).code.toLowerCase() === db.toLowerCase());
+          if (mA) state.cmpA = mA;
+          if (mB) state.cmpB = mB;
+          document.getElementById('cmp-season').value = state.cmpSeason;
+          document.getElementById('cmp-driver-a').value = state.cmpA;
+          document.getElementById('cmp-driver-b').value = state.cmpB;
+          switchTab('compare');
+          return true;
+        }
+      } else if (h === '#methodology') {
+        switchTab('methodology');
+        return true;
+      }
+      return false;
+    }
+
+    function copyCurrentShareUrl(label) {
+      syncUrlHash();
+      const url = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url)
+          .then(() => showToast(`${label} 복사 완료!`))
+          .catch(() => fallbackCopyText(url, label));
+      } else {
+        fallbackCopyText(url, label);
+      }
+    }
+
+    function fallbackCopyText(text, label) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast(`${label} 복사 완료!`);
+      } catch (_err) {
+        showToast('주소창의 URL을 직접 복사해 주세요.', 'error');
+      }
+      document.body.removeChild(ta);
     }
 
     function parseCsvText(text) {
@@ -1318,19 +1415,29 @@
     document.getElementById('profile-driver-select').addEventListener('change', e => {
       state.selectedDriver = e.target.value;
       renderProfile();
+      syncUrlHash();
+    });
+    document.getElementById('btn-copy-profile-link').addEventListener('click', () => {
+      copyCurrentShareUrl('드라이버 프로필 링크');
     });
 
     document.getElementById('cmp-season').addEventListener('change', e => {
       state.cmpSeason = e.target.value;
       renderCompare();
+      syncUrlHash();
     });
     document.getElementById('cmp-driver-a').addEventListener('change', e => {
       state.cmpA = e.target.value;
       renderCompare();
+      syncUrlHash();
     });
     document.getElementById('cmp-driver-b').addEventListener('change', e => {
       state.cmpB = e.target.value;
       renderCompare();
+      syncUrlHash();
+    });
+    document.getElementById('btn-copy-compare-link').addEventListener('click', () => {
+      copyCurrentShareUrl('1:1 맞대결 링크');
     });
 
     function setLastUpdated(dateObj, customLabel = null) {
@@ -1366,7 +1473,9 @@
         const lastMod = resp.headers.get('Last-Modified');
         setLastUpdated(lastMod ? new Date(lastMod) : new Date());
         populateSelectors();
-        switchTab(state.activeTab);
+        if (!applyUrlHash()) {
+          switchTab(state.activeTab);
+        }
       } catch (_err) {
         // 정적 CSV가 없는 로컬/미리보기 환경에서는 기본 데모 데이터 유지
       }
@@ -1450,7 +1559,9 @@
 
     // 초기화: 기본 데모 화면을 즉시 렌더링한 뒤 배포용 CSV 자동 로드 시도
     populateSelectors();
-    renderLeaderboard();
+    if (!applyUrlHash()) {
+      renderLeaderboard();
+    }
     tryLoadAutoCsv();
   </script>
 </body>
