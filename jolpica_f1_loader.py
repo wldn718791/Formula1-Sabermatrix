@@ -116,8 +116,8 @@ def parse_lap_time_str(time_str: str | None) -> float:
 def _fetch_json_with_retry(
     url: str,
     timeout: int = 20,
-    max_retries: int = 4,
-    base_delay: float = 1.0,
+    max_retries: int = 5,
+    base_delay: float = 2.5,
 ) -> dict[str, Any]:
     """Jolpica API 레이트 리밋(429) 및 일시적 오류에 대응하는 HTTP GET 헬퍼입니다."""
     req = urllib.request.Request(
@@ -131,7 +131,7 @@ def _fetch_json_with_retry(
         except urllib.error.HTTPError as exc:
             if exc.code == 429 and attempt < max_retries - 1:
                 retry_after = exc.headers.get("Retry-After")
-                wait_sec = float(retry_after) if retry_after else base_delay * (2**attempt)
+                wait_sec = min(30.0, float(retry_after)) if retry_after else min(30.0, base_delay * (2**attempt))
                 time.sleep(wait_sec)
                 continue
             raise
@@ -148,7 +148,7 @@ def _fetch_paginated_races(
     endpoint: str,
     list_key: str,
     page_limit: int = 100,
-    pause_seconds: float = 0.45,
+    pause_seconds: float = 0.75,
 ) -> list[dict[str, Any]]:
     """단일 시즌의 results 또는 qualifying 엔드포인트를 페이지네이션으로 모두 수집합니다."""
     races_by_round: dict[str, dict[str, Any]] = {}
@@ -184,7 +184,7 @@ def _fetch_paginated_races(
 def fetch_season_races(
     season: int,
     page_limit: int = 100,
-    pause_seconds: float = 0.45,
+    pause_seconds: float = 0.75,
 ) -> list[dict[str, Any]]:
     """단일 시즌의 모든 그랑프리 결승 결과를 수집합니다."""
     return _fetch_paginated_races(season, "results", "Results", page_limit, pause_seconds)
@@ -193,7 +193,7 @@ def fetch_season_races(
 def fetch_season_qualifying(
     season: int,
     page_limit: int = 100,
-    pause_seconds: float = 0.45,
+    pause_seconds: float = 0.75,
 ) -> list[dict[str, Any]]:
     """단일 시즌의 모든 그랑프리 예선(Q1/Q2/Q3) 결과를 수집합니다."""
     return _fetch_paginated_races(season, "qualifying", "QualifyingResults", page_limit, pause_seconds)
@@ -297,6 +297,16 @@ def races_to_multilevel_df(
                 (n_entrants - finish_pos) / (n_entrants - 1) if n_entrants > 1 else 0.5
             )
 
+            # Jolpica Time.millis / laps 로 실제 완주 평균 랩타임(초/랩) 산출 (리드랩 완주자 기준)
+            laps_done = int(res.get("laps", 0) or 0)
+            time_obj = res.get("Time") or {}
+            millis_raw = time_obj.get("millis")
+            avg_lap_sec = (
+                (float(millis_raw) / 1000.0) / laps_done
+                if (millis_raw is not None and str(millis_raw).isdigit() and laps_done > 0)
+                else np.nan
+            )
+
             rows.append(
                 {
                     "season": season,
@@ -317,6 +327,8 @@ def races_to_multilevel_df(
                     "status_raw": status_raw,
                     "status_category": status_cat,
                     "mechanical_dnf": int(status_cat == "mechanical_dnf"),
+                    "laps_done": laps_done,
+                    "avg_lap_sec": avg_lap_sec,
                     "is_wet": 0,
                     "pace_score": round(outperformed_score, 4),
                 }
@@ -325,6 +337,24 @@ def races_to_multilevel_df(
     df = pd.DataFrame(rows)
     if df.empty:
         return df
+
+    # 경기별 완주 평균 랩타임 중앙값 대비 초/랩 우위(race_pace_sec_adv, 양수=빠름) 계산
+    # 주회 지연(+1 Lap 등) 완주자는 우승자 평균 랩타임 × (우승 랩수 / 완주 랩수)로 근사해 정보 손실 방지
+    df["race_pace_sec_adv"] = np.nan
+    for rid, grp in df.groupby("race_id"):
+        valid_avg = grp["avg_lap_sec"].dropna()
+        if valid_avg.empty:
+            continue
+        leader_laps = int(grp["laps_done"].max()) if "laps_done" in grp.columns else 0
+        leader_avg = float(valid_avg.min())
+        est_avg = grp["avg_lap_sec"].copy()
+        for idx, row in grp.iterrows():
+            if pd.isna(est_avg.loc[idx]) and row["status_category"] == "finished" and row["laps_done"] > 0 and leader_laps > 0:
+                est_avg.loc[idx] = leader_avg * (leader_laps / float(row["laps_done"]))
+        med_sec = float(est_avg.dropna().median()) if est_avg.notna().any() else np.nan
+        if pd.notna(med_sec):
+            # 양수 = 경기 중앙값보다 초/랩 더 빠름
+            df.loc[grp.index, "race_pace_sec_adv"] = (med_sec - est_avg).clip(-3.5, 3.5).round(4)
 
     if quali_df is not None and not quali_df.empty:
         merge_key = "driver_id" if "driver_id" in quali_df.columns else "driver"
@@ -347,6 +377,7 @@ def fetch_recent_seasons_df(
     for season in seasons:
         all_races.extend(fetch_season_races(season))
         if include_qualifying:
+            time.sleep(0.8)
             try:
                 all_quali.extend(fetch_season_qualifying(season))
             except Exception as exc:
@@ -393,10 +424,10 @@ def run_self_test() -> None:
             "season": "2024",
             "round": "1",
             "QualifyingResults": [
-                {"Driver": {"code": "VER"}, "Q1": "1:30.000", "Q2": "1:29.600", "Q3": "1:29.200"},
-                {"Driver": {"code": "LEC"}, "Q1": "1:30.200", "Q2": "1:29.800", "Q3": "1:29.400"},
-                {"Driver": {"code": "HAM"}, "Q1": "1:30.500", "Q2": "1:30.100"},
-                {"Driver": {"code": "ALO"}, "Q1": "1:30.800"},
+                {"Driver": {"driverId": "max_verstappen", "code": "VER"}, "Q1": "1:30.000", "Q2": "1:29.600", "Q3": "1:29.200"},
+                {"Driver": {"driverId": "leclerc", "code": "LEC"}, "Q1": "1:30.200", "Q2": "1:29.800", "Q3": "1:29.400"},
+                {"Driver": {"driverId": "hamilton", "code": "HAM"}, "Q1": "1:30.500", "Q2": "1:30.100"},
+                {"Driver": {"driverId": "alonso", "code": "ALO"}, "Q1": "1:30.800"},
             ],
         }
     ]
