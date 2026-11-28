@@ -1,11 +1,11 @@
 # Pole2Stat — 세이버메트릭스 F1 드라이버 랭킹 사이트
 
-야구의 세이버메트릭스를 포뮬러 원에 접목시켜 수치를 계산 후 통계를 내어 기록한 사이트 입니다.
+GitHub Pages와 GitHub Actions만으로 2024~2025 확정 시즌과 2026 진행 시즌의 F1-WAR · F1-PAR · 차량 중립 가치(dnPAR)를 매주 자동 갱신하는 정적 대시보드 저장소입니다.
 
 ## 파일 구성
 
-- `index.html`: `./data/f1_war_rankings.csv`를 자동 로드하는 웹 대시보드
-- `update_incremental_seasons.py`: 2006~2025 아카이브 재사용 + 2026 신규 라운드 증분 수집 스크립트
+- `index.html`: `./data/f1_war_rankings.csv`를 자동 로드하는 스탯티즈 스타일 웹 대시보드
+- `update_incremental_seasons.py`: 2024~2025 아카이브 재사용 + 2026 신규 라운드 증분 수집 스크립트
 - `jolpica_f1_loader.py` / `fastf1_enricher.py` / `f1_multilevel_prototype.py` / `run_f1_sabermetrics_pipeline.py`: 데이터 수집·보정·다층 모형 코어 모듈
 - `.github/workflows/update_f1_stats.yml`: 매주 월요일 오전 09:00(KST) 자동 갱신 및 수동 실행 워크플로
 - `data/f1_war_rankings.csv`: 대시보드가 자동으로 읽는 최종 랭킹 파일 (초기 데모 데이터 포함)

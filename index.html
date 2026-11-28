@@ -36,7 +36,7 @@
             <span id="data-source-badge" class="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-300 border border-slate-700">데모 데이터</span>
             <span id="last-updated-badge" class="text-xs text-slate-400 num">업데이트: 데모 스냅샷</span>
           </div>
-          <p class="text-xs text-slate-400">F1 세이버메트릭스 · Plackett-Luce F1-WAR · 차량 중립 dnWAR</p>
+          <p class="text-xs text-slate-400">F1 세이버메트릭스 v3 · 랩타임 동적 상태공간 모형 · 현재 폼 & 커리어 평가</p>
         </div>
       </div>
 
@@ -120,7 +120,7 @@
             </div>
             <div class="p-3 rounded-lg bg-rose-50/70 border border-rose-100">
               <div class="font-bold text-rose-700">dnWAR · dnPAR (차 떼고 본 순수 실력)</div>
-              <p class="text-slate-600 mt-1 leading-relaxed"><strong>모든 드라이버가 똑같은 레이스카를 탔다고 가정</strong>후 환산한 대체 선수 대비 승리 기여도(WAR)입니다. 하위권 에이스와 우승권 드라이버를 공정하게 비교할 때 봅니다.</p>
+              <p class="text-slate-600 mt-1 leading-relaxed"><strong>모든 드라이버가 똑같은 레이스카를 탔다고 가정</strong>한 환산 WAR입니다. 하위권 에이스와 우승권 드라이버를 공정하게 비교할 때 봅니다.</p>
             </div>
             <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
               <div class="font-bold text-slate-800">[하한 ~ 상한] 95% 신뢰구간</div>
@@ -140,8 +140,20 @@
         </div>
       </details>
 
-      <!-- 필터 바 -->
-      <div class="bg-white rounded-xl p-3.5 border border-slate-200 shadow-sm flex flex-wrap items-center justify-between gap-3">
+      <!-- 평가 모드 전환 (현재 폼 vs 커리어 평가) + 필터 바 -->
+      <div class="bg-white rounded-xl p-3.5 border border-slate-200 shadow-sm space-y-3">
+        <div class="flex flex-wrap items-center justify-between gap-2 pb-2.5 border-b border-slate-100">
+          <div class="inline-flex rounded-lg bg-slate-100 p-1 gap-1" role="group" aria-label="평가 모드 선택">
+            <button id="btn-mode-current" type="button" class="mode-btn px-3 py-1.5 rounded-md text-xs sm:text-sm font-bold bg-slate-900 text-white shadow-sm transition">
+              현재 폼 (최근 가중 · 반감기 1년)
+            </button>
+            <button id="btn-mode-career" type="button" class="mode-btn px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition">
+              커리어 평가 (전 시즌 통합)
+            </button>
+          </div>
+          <span id="mode-desc-text" class="text-xs text-slate-500">1년이 지날수록 과거 가중치를 절반으로 줄여 올해 실제 폼을 정밀 반영합니다.</span>
+        </div>
+        <div class="flex flex-wrap items-center justify-between gap-3">
         <div class="flex flex-wrap items-center gap-2.5">
           <div class="flex items-center gap-1.5">
             <label for="filter-season" class="text-xs font-semibold text-slate-600">시즌</label>
@@ -172,6 +184,7 @@
         <div class="text-xs text-slate-500">
           행을 클릭하면 드라이버 상세 프로필로 이동합니다 · 헤더 클릭 시 정렬
         </div>
+        </div>
       </div>
 
       <!-- 스탯티즈 스타일 메인 랭킹 테이블 -->
@@ -180,13 +193,13 @@
           <table class="w-full text-sm text-left border-collapse">
             <thead class="bg-slate-900 text-slate-200 text-xs uppercase tracking-wider">
               <tr id="leaderboard-thead-row">
-                <th class="px-3 py-3 text-center whitespace-nowrap">순위</th>
-                <th class="px-3 py-3 sort-btn" data-sort="driver">드라이버</th>
+                <th class="px-3 py-3 text-center whitespace-nowrap sticky left-0 z-20 bg-slate-900 w-12 min-w-[48px]">순위</th>
+                <th class="px-3 py-3 sort-btn whitespace-nowrap sticky left-12 z-20 bg-slate-900 shadow-[2px_0_6px_-2px_rgba(0,0,0,0.3)]" data-sort="driver">드라이버</th>
                 <th class="px-3 py-3 sort-btn" data-sort="team">팀</th>
                 <th class="px-3 py-3 text-center sort-btn" data-sort="car_tier">레이스카 티어</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="starts">출전</th>
-                <th class="px-3 py-3 text-right sort-btn" data-sort="delta_q">퀄리 ΔQ</th>
-                <th class="px-3 py-3 text-right sort-btn" data-sort="delta_r">레이스 ΔR</th>
+                <th class="px-3 py-3 text-right sort-btn whitespace-nowrap" data-sort="delta_q">퀄리 ΔQ(%)</th>
+                <th class="px-3 py-3 text-right sort-btn whitespace-nowrap" data-sort="delta_r">레이스 ΔR(초/랩)</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="f1_par">F1-PAR</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="f1_war">F1-WAR</th>
                 <th class="px-3 py-3 text-right sort-btn" data-sort="dn_par">dnPAR</th>
@@ -205,8 +218,8 @@
       <div class="bg-white rounded-xl p-4 sm:p-5 border border-slate-200 shadow-sm">
         <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
           <div>
-            <h2 class="text-sm font-bold text-slate-900">실제 레이스카 기여(F1-PAR) vs 차량 중립 순수 실력(dnPAR)</h2>
-            <p class="text-xs text-slate-500">두 막대의 격차가 클수록 레이스카 성능 때문에 실제 득점이 과소·과대 평가된 드라이버입니다.</p>
+            <h2 class="text-sm font-bold text-slate-900">실제 레이스카 F1-WAR vs 차량 중립 dnWAR (95% 신뢰구간 오차막대)</h2>
+            <p class="text-xs text-slate-500">막대 위 수직 오차선(95% CI)이 서로 겹치면 통계적 우열을 단정하기 어렵습니다.</p>
           </div>
         </div>
         <div class="relative h-72">
@@ -248,9 +261,12 @@
             </div>
           </div>
 
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-2 flex-wrap">
             <label for="profile-driver-select" class="text-xs font-semibold text-slate-500">빠른 전환</label>
             <select id="profile-driver-select" class="text-sm font-semibold rounded-lg border border-slate-300 px-3 py-1.5 bg-white focus:outline-none focus:ring-2 focus:ring-rose-500"></select>
+            <button id="btn-copy-profile-link" type="button" class="px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition">
+              프로필 링크 복사
+            </button>
           </div>
         </div>
 
@@ -333,6 +349,9 @@
           <label for="cmp-driver-b" class="text-xs font-semibold text-blue-600">드라이버 B</label>
           <select id="cmp-driver-b" class="text-sm font-semibold rounded-lg border border-blue-300 px-2.5 py-1.5 bg-blue-50/40"></select>
         </div>
+        <button id="btn-copy-compare-link" type="button" class="ml-auto px-3 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 text-white text-xs font-semibold transition">
+          비교 링크 복사
+        </button>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -365,7 +384,7 @@
     <section id="tab-methodology" class="hidden space-y-5">
       <div class="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-3">
         <div class="flex items-center gap-2">
-          <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full bg-rose-100 text-rose-700">v2 Methodology</span>
+          <span class="px-2.5 py-0.5 text-xs font-semibold rounded-full bg-rose-100 text-rose-700">v3 State-Space Engine</span>
           <h2 class="text-base sm:text-lg font-bold text-slate-900">Pole2Stat 통계 산출 원리 및 학술적 근거</h2>
         </div>
         <p class="text-sm text-slate-600 leading-relaxed">
@@ -395,17 +414,17 @@
 
       <!-- 5단계 계산식 -->
       <div class="bg-white rounded-xl p-5 sm:p-6 border border-slate-200 shadow-sm space-y-4">
-        <h3 class="text-sm sm:text-base font-bold text-slate-900">5단계 통계 추출 계산식 (임의 티어 배율 0개)</h3>
+        <h3 class="text-sm sm:text-base font-bold text-slate-900">v3 6단계 랩타임 동적 상태공간 계산식 (포인트 입력 0% · 출력 전용 변환)</h3>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-xs sm:text-sm text-slate-700">
           <div class="p-4 rounded-lg bg-slate-50 border border-slate-200 space-y-1.5">
             <div class="font-bold text-slate-900">1. 잠재 경쟁력 분해 (드라이버 · 시즌 폼 · 레이스카)</div>
-            <div class="font-mono text-xs bg-white px-3 py-2 rounded border border-slate-200 text-slate-900">η(i,j,t) = u_driver(i) + u_driver_year(i,t) + u_team_year(j,t)</div>
+            <div class="font-mono text-xs bg-white px-3 py-2 rounded border border-slate-200 text-slate-900">pace_sec(i,j,r) = θ_driver(i,t) + c_team×season(j,t) + α_circuit(r) + ε</div>
             <p class="text-xs text-slate-600">장기 실력, 해당 시즌만의 폼(루키 성장·기복), 해당 연도 레이스카 성능을 동시에 분리합니다.</p>
           </div>
           <div class="p-4 rounded-lg bg-slate-50 border border-slate-200 space-y-1.5">
-            <div class="font-bold text-slate-900">2. Plackett-Luce 순위 로짓 추정</div>
-            <div class="font-mono text-xs bg-white px-3 py-2 rounded border border-slate-200 text-slate-900">L(θ) = Σ[-η_k + log Σ exp(η_m)] + (λ/2)||u||²</div>
-            <p class="text-xs text-slate-600">기계적 DNF를 제외한 1~20위 제로섬 순열 확률을 직접 모델링하며, L2 수축 추정으로 소표본 과대평가를 방지합니다.</p>
+            <div class="font-bold text-slate-900">2. 동적 상태공간(Random-Walk) &amp; 반감기 1년 시간 감쇠</div>
+            <div class="font-mono text-xs bg-white px-3 py-2 rounded border border-slate-200 text-slate-900">Σ w(t)·(y - Xβ)² + λ_rw·Σ(θ_t - θ_{t-1})² + λ_c·Σ c² , w(t)=0.5^(Δt)</div>
+            <p class="text-xs text-slate-600">포인트 대신 퀄리(%)·레이스(초/랩) 랩타임 격차만 입력으로 쓰며, 팀×시즌 레이스카를 연도별로 완전 독립 추정하고 역헤시안 공분산으로 신생팀(캐딜락 등)에 추정 불확실 플래그를 자동 부여합니다.</p>
           </div>
           <div class="p-4 rounded-lg bg-slate-50 border border-slate-200 space-y-1.5">
             <div class="font-bold text-slate-900">3. 반사실적 기대 포인트 &amp; F1-WAR / dnWAR</div>
@@ -479,15 +498,33 @@
             <li><strong>전략·운 잔차:</strong> 피트스톱 전략 실수, 팀 오더, 세이프티카 타이밍 등은 완벽히 분리되지 않음</li>
             <li><strong>차량 성향 적응 편향:</strong> 특정 에이스에 맞춘 차에서 세컨드 드라이버가 부진하면 에이스 점수가 과대평가될 수 있음</li>
             <li><strong>순위 기반 한계:</strong> 레이스 순위 모드에서는 0.01초 차 1·2위와 30초 차 1·2위가 동일하게 처리됨</li>
+            <li><strong>시대 간 드리프트(Era Drift):</strong> 2006~2026년 21시즌을 연결할 때 멀리 떨어진 시대(예: 2006년 vs 2026년) 간 직접 비교는 이적 사슬 누적 오차가 커지므로 <strong>같은 시즌 또는 인접 시즌 비교가 가장 정확</strong>합니다.</li>
           </ul>
+        </div>
+      </div>
+
+      <!-- 시계열 교차 검증(Out-of-sample CV) 자동 튜닝 현황 -->
+      <div class="bg-slate-900 text-slate-100 rounded-xl p-5 border border-slate-800 flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <div class="text-xs font-semibold text-rose-400">Out-of-Sample Temporal Cross-Validation</div>
+          <div class="text-sm font-bold mt-0.5">정규화 계수(λ) 시계열 교차 검증 자동 최적화</div>
+          <p class="text-xs text-slate-400 mt-1">각 검증 시즌 전반기로 학습해 미관측 후반기 경기의 Plackett-Luce Log-Loss를 최소화하는 λ를 자동 선택합니다.</p>
+        </div>
+        <div id="method-cv-meta" class="text-xs font-mono bg-slate-800/90 border border-slate-700 rounded-lg px-3.5 py-2.5 text-slate-200 num">
+          λ_d=3.0 · λ_dy=6.0 · λ_c=0.8 (데모 기본값)
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="max-w-7xl mx-auto px-4 py-6 mt-4 border-t border-slate-200 text-xs text-slate-400 flex flex-wrap items-center justify-between gap-2">
-    <div><strong class="text-slate-600">Pole2Stat</strong> · F1 Sabermetrics Analytics (v2 Plackett-Luce)</div>
-    <div>Data: Jolpica F1 API &amp; FastF1 · Unofficial Fan Project</div>
+  <footer class="max-w-7xl mx-auto px-4 py-6 mt-4 border-t border-slate-200 text-xs text-slate-400 flex flex-wrap items-center justify-between gap-3">
+    <div><strong class="text-slate-600">Pole2Stat</strong> · F1 Sabermetrics Analytics (v3 Dynamic State-Space Lap-Time Model)</div>
+    <div class="flex flex-wrap items-center gap-3">
+      <span>Data: Jolpica F1 API &amp; FastF1</span>
+      <a href="https://github.com/wldn718791/Formula1-Sabermatrix/issues/new" target="_blank" rel="noopener noreferrer" class="text-rose-600 hover:text-rose-700 font-semibold hover:underline">
+        베타 피드백 · 오타 제보
+      </a>
+    </div>
   </footer>
 
   <!-- 인페이지 토스트 알림 -->
@@ -529,6 +566,9 @@
     ];
 
     const state = {
+      evalMode: 'current',
+      currentRows: DEMO_DATA.map(r => ({ ...r, dn_war: Number((r.dn_par / 25).toFixed(2)) })),
+      careerRows: DEMO_DATA.map(r => ({ ...r, dn_war: Number((r.dn_par / 25).toFixed(2)) })),
       rows: DEMO_DATA.map(r => ({ ...r, dn_war: Number((r.dn_par / 25).toFixed(2)) })),
       activeTab: 'leaderboard',
       seasonFilter: '2024',
@@ -594,7 +634,7 @@
       BEA: { ko: '올리버 베어먼', en: 'Oliver Bearman', nat: '영국' },
       COL: { ko: '프랑코 콜라핀토', en: 'Franco Colapinto', nat: '아르헨티나' },
       BOR: { ko: '가브리엘 보르톨레토', en: 'Gabriel Bortoleto', nat: '브라질' },
-      LIN: { ko: '아비드 린드블라드', en: 'Arvid Lindblad', nat: '영국' },
+      LIN: { ko: '아비드 린블라드', en: 'Arvid Lindblad', nat: '영국' },
       DOO: { ko: '잭 두한', en: 'Jack Doohan', nat: '호주' },
       RIC: { ko: '다니엘 리카도', en: 'Daniel Ricciardo', nat: '호주' },
       MAG: { ko: '케빈 마그누센', en: 'Kevin Magnussen', nat: '덴마크' },
@@ -658,7 +698,7 @@
       albon: '알렉산더 알본', hulkenberg: '니코 휠켄베르크', bottas: '발테리 보타스',
       perez: '세르히오 페레스', tsunoda: '츠노다 유키', lawson: '리암 로슨',
       hadjar: '아이작 하자르', bearman: '올리버 베어먼', colapinto: '프랑코 콜라핀토',
-      bortoleto: '가브리엘 보르톨레토', lindblad: '아르비드 린드블라드', doohan: '잭 두한',
+      bortoleto: '가브리엘 보르톨레토', lindblad: '아비드 린블라드', doohan: '잭 두한',
       ricciardo: '다니엘 리카도', kevin_magnussen: '케빈 마그누센', zhou: '저우관위',
       sargeant: '로건 사전트', de_vries: '닉 더 프리스', latifi: '니콜라스 라티피',
       mick_schumacher: '믹 슈마허', michael_schumacher: '미하엘 슈마허', ralf_schumacher: '랄프 슈마허',
@@ -686,8 +726,8 @@
       ide: '이데 유지', montagny: '프랑크 몽타니', doorNBos: '로베르트 도른보스',
       doornbos: '로베르트 도른보스', winkelhock: '마르쿠스 빙켈호크', badoer: '루카 바도에르',
       rossi: '알렉산더 로시', lotterer: '앙드레 로테러',
-      arvid_lindblad: '아르비드 린드블라드',
-      camara: '하파엘 카마라', rafael_camara: '하파엘 카마라',
+      arvid_lindblad: '아비드 린블라드',
+      camara: '라파엘 카마라', rafael_camara: '라파엘 카마라',
       hirakawa: '히라카와 료', ryo_hirakawa: '히라카와 료',
       andrea_kimi_antonelli: '키미 안토넬리', kimi_antonelli: '키미 안토넬리',
       oliver_bearman: '올리버 베어먼', gabriel_bortoleto: '가브리엘 보르톨레토',
@@ -969,11 +1009,15 @@
         tbody.innerHTML = `<tr><td colspan="13" class="px-4 py-8 text-center text-slate-400">조건에 맞는 드라이버 기록이 없습니다.</td></tr>`;
       } else {
         tbody.innerHTML = rows.map((r, idx) => `
-          <tr class="hover:bg-rose-50/50 cursor-pointer transition driver-row" data-driver-id="${getRowDriverId(r)}">
-            <td class="px-3 py-2.5 text-center font-semibold text-slate-500 num">${idx + 1}</td>
-            <td class="px-3 py-2.5 font-bold text-slate-900">
-              ${r.driver}
-              ${state.seasonFilter === 'ALL' ? `<span class="text-xs font-normal text-slate-400 ml-1">(${r.season})</span>` : ''}
+          <tr class="group hover:bg-rose-50/60 cursor-pointer transition driver-row" data-driver-id="${getRowDriverId(r)}">
+            <td class="px-3 py-2.5 text-center font-semibold text-slate-500 num sticky left-0 z-10 bg-white group-hover:bg-rose-50 w-12 min-w-[48px]">${idx + 1}</td>
+            <td class="px-3 py-2.5 whitespace-nowrap sticky left-12 z-10 bg-white group-hover:bg-rose-50 shadow-[2px_0_6px_-2px_rgba(15,23,42,0.08)]">
+              <div class="flex items-center gap-1.5">
+                <span class="font-bold text-slate-900">${getDriverMeta(getRowDriverId(r)).ko}</span>
+                <span class="text-[11px] font-mono font-semibold text-slate-400">${r.driver}</span>
+                ${Number(r.is_uncertain) === 1 ? '<span class="px-1.5 py-0.5 text-[10px] font-semibold rounded bg-amber-100 text-amber-800 border border-amber-200" title="신생팀 고립 연결 또는 표본 부족으로 신뢰구간이 넓음">추정 불확실</span>' : ''}
+                ${state.seasonFilter === 'ALL' ? `<span class="text-[11px] font-normal text-slate-400">(${r.season})</span>` : ''}
+              </div>
             </td>
             <td class="px-3 py-2.5">${teamBadgeHtml(r.team)}</td>
             <td class="px-3 py-2.5 text-center">${tierBadgeHtml(r.car_tier)}</td>
@@ -998,24 +1042,60 @@
         });
       }
 
-      // Chart.js: F1-PAR vs dnPAR 막대 차트 (상위 12행)
+      // Chart.js: F1-WAR vs dnWAR 막대 차트 + 95% 신뢰구간 오차막대(Error Bar)
       const topRows = rows.slice(0, 12);
+      const errorBarPlugin = {
+        id: 'ciErrorBars',
+        afterDatasetsDraw(chart) {
+          const { ctx: c, scales: { y } } = chart;
+          c.save();
+          c.lineWidth = 1.6;
+          chart.data.datasets.forEach((ds, dsIdx) => {
+            if (!ds.ciRanges) return;
+            const meta = chart.getDatasetMeta(dsIdx);
+            c.strokeStyle = dsIdx === 0 ? '#475569' : '#9f1239';
+            meta.data.forEach((bar, i) => {
+              const rng = ds.ciRanges[i];
+              if (!rng || rng[0] === null || rng[1] === null) return;
+              const yLow = y.getPixelForValue(rng[0]);
+              const yHigh = y.getPixelForValue(rng[1]);
+              const x = bar.x;
+              c.beginPath();
+              c.moveTo(x, yLow);
+              c.lineTo(x, yHigh);
+              c.moveTo(x - 4, yLow);
+              c.lineTo(x + 4, yLow);
+              c.moveTo(x - 4, yHigh);
+              c.lineTo(x + 4, yHigh);
+              c.stroke();
+            });
+          });
+          c.restore();
+        }
+      };
+
       const ctx = document.getElementById('chart-par-compare').getContext('2d');
       if (state.charts.par) state.charts.par.destroy();
       state.charts.par = new Chart(ctx, {
         type: 'bar',
+        plugins: [errorBarPlugin],
         data: {
-          labels: topRows.map(r => state.seasonFilter === 'ALL' ? `${r.driver} (${r.season})` : r.driver),
+          labels: topRows.map(r => {
+            const ko = getDriverMeta(getRowDriverId(r)).ko.split(' ').pop();
+            return state.seasonFilter === 'ALL' ? `${ko} (${r.season})` : `${ko} (${r.driver})`;
+          }),
           datasets: [
             {
-              label: '실제 레이스카 F1-PAR (pts)',
-              data: topRows.map(r => r.f1_par),
+              label: '실제 레이스카 F1-WAR',
+              data: topRows.map(r => r.f1_war),
+              ciRanges: topRows.map(r => [r.f1_war_ci_low ?? null, r.f1_war_ci_high ?? null]),
               backgroundColor: 'rgba(15, 23, 42, 0.85)',
               borderRadius: 4
             },
             {
-              label: '차량 중립 dnPAR (pts)',
-              data: topRows.map(r => r.dn_par),
+              label: '차량 중립 dnWAR',
+              data: topRows.map(r => r.dn_war),
+              ciRanges: topRows.map(r => [r.dn_war_ci_low ?? null, r.dn_war_ci_high ?? null]),
               backgroundColor: 'rgba(225, 29, 72, 0.85)',
               borderRadius: 4
             }
@@ -1024,9 +1104,22 @@
         options: {
           responsive: true,
           maintainAspectRatio: false,
-          plugins: { legend: { position: 'top' } },
+          plugins: {
+            legend: { position: 'top' },
+            tooltip: {
+              callbacks: {
+                afterLabel(item) {
+                  const rng = item.dataset.ciRanges && item.dataset.ciRanges[item.dataIndex];
+                  if (rng && rng[0] !== null && rng[1] !== null) {
+                    return `95% CI: [${Number(rng[0]).toFixed(2)} ~ ${Number(rng[1]).toFixed(2)}]`;
+                  }
+                  return '';
+                }
+              }
+            }
+          },
           scales: {
-            y: { grid: { color: '#f1f5f9' } },
+            y: { grid: { color: '#f1f5f9' }, title: { display: true, text: 'WAR (1승 = 25 pts)' } },
             x: { grid: { display: false } }
           }
         }
@@ -1232,7 +1325,30 @@
       ['leaderboard', 'profile', 'compare', 'methodology'].forEach(t => {
         document.getElementById(`tab-${t}`).classList.toggle('hidden', t !== tabName);
       });
-      document.querySelectorAll('.tab-btn').forEach(btn => {
+      function setEvalMode(mode) {
+      state.evalMode = mode;
+      state.rows = mode === 'career' ? state.careerRows : state.currentRows;
+      const btnCur = document.getElementById('btn-mode-current');
+      const btnCar = document.getElementById('btn-mode-career');
+      const desc = document.getElementById('mode-desc-text');
+      const isCur = mode === 'current';
+      btnCur.className = isCur
+        ? 'mode-btn px-3 py-1.5 rounded-md text-xs sm:text-sm font-bold bg-slate-900 text-white shadow-sm transition'
+        : 'mode-btn px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition';
+      btnCar.className = !isCur
+        ? 'mode-btn px-3 py-1.5 rounded-md text-xs sm:text-sm font-bold bg-slate-900 text-white shadow-sm transition'
+        : 'mode-btn px-3 py-1.5 rounded-md text-xs sm:text-sm font-medium text-slate-600 hover:text-slate-900 transition';
+      desc.textContent = isCur
+        ? '1년이 지날수록 과거 가중치를 절반으로 줄여 올해 실제 폼을 정밀 반영합니다.'
+        : '2006~2026 전 시즌을 동등 가중치 상태공간으로 통합 평가한 커리어 기준입니다.';
+      populateSelectors();
+      switchTab(state.activeTab);
+    }
+
+    document.getElementById('btn-mode-current').addEventListener('click', () => setEvalMode('current'));
+    document.getElementById('btn-mode-career').addEventListener('click', () => setEvalMode('career'));
+
+    document.querySelectorAll('.tab-btn').forEach(btn => {
         const active = btn.dataset.tab === tabName;
         btn.classList.toggle('border-rose-500', active);
         btn.classList.toggle('text-white', active);
@@ -1243,6 +1359,89 @@
       if (tabName === 'leaderboard') renderLeaderboard();
       if (tabName === 'profile') renderProfile();
       if (tabName === 'compare') renderCompare();
+      syncUrlHash();
+    }
+
+    function syncUrlHash() {
+      let targetHash = '';
+      if (state.activeTab === 'profile' && state.selectedDriver) {
+        targetHash = `#driver=${encodeURIComponent(state.selectedDriver)}`;
+      } else if (state.activeTab === 'compare' && state.cmpSeason && state.cmpA && state.cmpB) {
+        targetHash = `#compare=${encodeURIComponent(state.cmpSeason)}:${encodeURIComponent(state.cmpA)}:${encodeURIComponent(state.cmpB)}`;
+      } else if (state.activeTab === 'methodology') {
+        targetHash = '#methodology';
+      }
+      try {
+        const nextUrl = targetHash ? `${window.location.pathname}${window.location.search}${targetHash}` : `${window.location.pathname}${window.location.search}`;
+        window.history.replaceState(null, '', nextUrl);
+      } catch (_err) {
+        // 샌드박스 환경에서 history.replaceState 제한 시 무시
+      }
+    }
+
+    function applyUrlHash() {
+      const h = (window.location.hash || '').trim();
+      if (!h) return false;
+      const drivers = getUniqueDrivers();
+      const seasons = getUniqueSeasons().map(String);
+
+      if (h.startsWith('#driver=')) {
+        const target = decodeURIComponent(h.slice('#driver='.length));
+        const match = drivers.find(d => d.toLowerCase() === target.toLowerCase() || getDriverMeta(d).code.toLowerCase() === target.toLowerCase());
+        if (match) {
+          state.selectedDriver = match;
+          document.getElementById('profile-driver-select').value = match;
+          switchTab('profile');
+          return true;
+        }
+      } else if (h.startsWith('#compare=')) {
+        const parts = h.slice('#compare='.length).split(':').map(decodeURIComponent);
+        if (parts.length === 3) {
+          const [sec, da, db] = parts;
+          if (seasons.includes(sec)) state.cmpSeason = sec;
+          const mA = drivers.find(d => d.toLowerCase() === da.toLowerCase() || getDriverMeta(d).code.toLowerCase() === da.toLowerCase());
+          const mB = drivers.find(d => d.toLowerCase() === db.toLowerCase() || getDriverMeta(d).code.toLowerCase() === db.toLowerCase());
+          if (mA) state.cmpA = mA;
+          if (mB) state.cmpB = mB;
+          document.getElementById('cmp-season').value = state.cmpSeason;
+          document.getElementById('cmp-driver-a').value = state.cmpA;
+          document.getElementById('cmp-driver-b').value = state.cmpB;
+          switchTab('compare');
+          return true;
+        }
+      } else if (h === '#methodology') {
+        switchTab('methodology');
+        return true;
+      }
+      return false;
+    }
+
+    function copyCurrentShareUrl(label) {
+      syncUrlHash();
+      const url = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url)
+          .then(() => showToast(`${label} 복사 완료!`))
+          .catch(() => fallbackCopyText(url, label));
+      } else {
+        fallbackCopyText(url, label);
+      }
+    }
+
+    function fallbackCopyText(text, label) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast(`${label} 복사 완료!`);
+      } catch (_err) {
+        showToast('주소창의 URL을 직접 복사해 주세요.', 'error');
+      }
+      document.body.removeChild(ta);
     }
 
     function parseCsvText(text) {
@@ -1253,7 +1452,7 @@
       const missing = required.filter(k => !headers.includes(k));
       if (missing.length > 0) throw new Error(`필수 컬럼 누락: ${missing.join(', ')}`);
 
-      const numCols = new Set(['season', 'starts', 'counting_races', 'delta_q', 'delta_r', 'f1_par', 'f1_war', 'f1_war_ci_low', 'f1_war_ci_high', 'dn_par', 'dn_war', 'dn_war_ci_low', 'dn_war_ci_high', 'salary_musd', 'musd_per_f1_war', 'kusd_per_dn_par']);
+      const numCols = new Set(['season', 'starts', 'counting_races', 'delta_q', 'delta_r', 'pace_sec_adv', 'pace_se_sec', 'car_sec_adv', 'is_uncertain', 'f1_par', 'f1_war', 'f1_war_ci_low', 'f1_war_ci_high', 'dn_par', 'dn_war', 'dn_war_ci_low', 'dn_war_ci_high', 'salary_musd', 'musd_per_f1_war', 'kusd_per_dn_par']);
       const parsed = lines.slice(1).map(line => {
         const vals = line.split(',').map(v => v.trim().replace(/^"|"$/g, ''));
         const obj = {};
@@ -1318,19 +1517,29 @@
     document.getElementById('profile-driver-select').addEventListener('change', e => {
       state.selectedDriver = e.target.value;
       renderProfile();
+      syncUrlHash();
+    });
+    document.getElementById('btn-copy-profile-link').addEventListener('click', () => {
+      copyCurrentShareUrl('드라이버 프로필 링크');
     });
 
     document.getElementById('cmp-season').addEventListener('change', e => {
       state.cmpSeason = e.target.value;
       renderCompare();
+      syncUrlHash();
     });
     document.getElementById('cmp-driver-a').addEventListener('change', e => {
       state.cmpA = e.target.value;
       renderCompare();
+      syncUrlHash();
     });
     document.getElementById('cmp-driver-b').addEventListener('change', e => {
       state.cmpB = e.target.value;
       renderCompare();
+      syncUrlHash();
+    });
+    document.getElementById('btn-copy-compare-link').addEventListener('click', () => {
+      copyCurrentShareUrl('1:1 맞대결 링크');
     });
 
     function setLastUpdated(dateObj, customLabel = null) {
@@ -1355,18 +1564,39 @@
         const text = await resp.text();
         const { rows, hasSalary } = parseCsvText(text);
         if (!rows.length) return;
+        state.currentRows = rows;
+        state.careerRows = rows;
         state.rows = rows;
         state.hasSalary = hasSalary;
+        try {
+          const cResp = await fetch('./data/f1_war_career.csv', { cache: 'no-cache' });
+          if (cResp.ok) {
+            const cParsed = parseCsvText(await cResp.text());
+            if (cParsed.rows.length) state.careerRows = cParsed.rows;
+          }
+        } catch (_cErr) {}
         const seasons = getUniqueSeasons();
         if (seasons.length) {
           state.seasonFilter = String(seasons[0]);
           state.cmpSeason = String(seasons[0]);
         }
-        document.getElementById('data-source-badge').textContent = '공식 통계 v2';
+        document.getElementById('data-source-badge').textContent = '공식 통계 v3';
         const lastMod = resp.headers.get('Last-Modified');
         setLastUpdated(lastMod ? new Date(lastMod) : new Date());
         populateSelectors();
-        switchTab(state.activeTab);
+        if (!applyUrlHash()) {
+          switchTab(state.activeTab);
+        }
+        try {
+          const mResp = await fetch('./data/model_meta.json', { cache: 'no-cache' });
+          if (mResp.ok) {
+            const m = await mResp.json();
+            const el = document.getElementById('method-cv-meta');
+            if (el) {
+              el.textContent = `${m.engine || 'v3 State-Space'} | 반감기 ${m.half_life_years ?? 1.0}년 | 잔차 σ=${m.residual_sigma_sec ?? '-'}초/랩 | 분산: 차 ${m.car_variance_share_pct}% / 드라이버 ${m.driver_variance_share_pct}%`;
+            }
+          }
+        } catch (_mErr) {}
       } catch (_err) {
         // 정적 CSV가 없는 로컬/미리보기 환경에서는 기본 데모 데이터 유지
       }
@@ -1450,7 +1680,9 @@
 
     // 초기화: 기본 데모 화면을 즉시 렌더링한 뒤 배포용 CSV 자동 로드 시도
     populateSelectors();
-    renderLeaderboard();
+    if (!applyUrlHash()) {
+      renderLeaderboard();
+    }
     tryLoadAutoCsv();
   </script>
 </body>
