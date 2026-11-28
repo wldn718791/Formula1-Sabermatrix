@@ -11,6 +11,15 @@ on:
         required: false
         default: "2006"
         type: string
+      max_refresh_seasons:
+        description: "1회 실행당 과거 시즌 최대 재수집 수 (429 방지용, 기본 5 권장)"
+        required: false
+        default: "5"
+        type: choice
+        options:
+          - "5"
+          - "10"
+          - "21"
       use_fastf1:
         description: "2018년 이후 시즌에 FastF1 정밀 랩타임 병합 사용 (기본 false 권장)"
         required: false
@@ -20,7 +29,7 @@ on:
           - "false"
           - "true"
       force_refresh_archive:
-        description: "저장된 과거 시즌 아카이브 강제 재수집"
+        description: "이미 v3 랩타임이 있는 과거 시즌도 강제 재수집 (일반 백필은 false 권장)"
         required: false
         default: "false"
         type: choice
@@ -52,7 +61,8 @@ jobs:
       - name: Run Pole2Stat v3 State-Space Lap-Time pipeline (2006-2026)
         run: |
           START_YEAR="${{ inputs.start_year || '2006' }}"
-          ARGS="--start-year $START_YEAR --active-season 2026 --data-dir data"
+          MAX_REFRESH="${{ inputs.max_refresh_seasons || '5' }}"
+          ARGS="--start-year $START_YEAR --active-season 2026 --data-dir data --max-refresh-seasons $MAX_REFRESH"
           if [ "${{ inputs.use_fastf1 }}" = "true" ]; then
             ARGS="$ARGS --use-fastf1"
           fi
@@ -69,6 +79,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "변경된 통계 데이터가 없습니다."
           else
-            git commit -m "chore: update Pole2Stat rankings ($(date -u +'%Y-%m-%d'))"
+            git commit -m "chore: update Pole2Stat v3 rankings ($(date -u +'%Y-%m-%d'))"
             git push
           fi
