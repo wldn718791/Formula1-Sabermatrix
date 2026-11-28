@@ -1,379 +1,379 @@
-season,round,race_id,race_name,circuit_id,driver,driver_id,car_number,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,is_wet,pace_score
-2015,1,2015_R01,Australian Grand Prix,albert_park,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,1,2015_R01,Australian Grand Prix,albert_park,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9412
-2015,1,2015_R01,Australian Grand Prix,albert_park,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,4,3,15.0,Finished,finished,0,0,0.8824
-2015,1,2015_R01,Australian Grand Prix,albert_park,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,3,4,12.0,Finished,finished,0,0,0.8235
-2015,1,2015_R01,Australian Grand Prix,albert_park,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,10,5,10.0,Finished,finished,0,0,0.7647
-2015,1,2015_R01,Australian Grand Prix,albert_park,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,6,6,8.0,+1 Lap,finished,0,0,0.7059
-2015,1,2015_R01,Australian Grand Prix,albert_park,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,13,7,6.0,+1 Lap,finished,0,0,0.6471
-2015,1,2015_R01,Australian Grand Prix,albert_park,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,15,8,4.0,+1 Lap,finished,0,0,0.5882
-2015,1,2015_R01,Australian Grand Prix,albert_park,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,7,9,2.0,+1 Lap,finished,0,0,0.5294
-2015,1,2015_R01,Australian Grand Prix,albert_park,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,14,10,1.0,+1 Lap,finished,0,0,0.4706
-2015,1,2015_R01,Australian Grand Prix,albert_park,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,16,11,0.0,+2 Laps,finished,0,0,0.4118
-2015,1,2015_R01,Australian Grand Prix,albert_park,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,12,0.0,Wheel,mechanical_dnf,1,0,0.3529
-2015,1,2015_R01,Australian Grand Prix,albert_park,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,11,13,0.0,Engine,mechanical_dnf,1,0,0.2941
-2015,1,2015_R01,Australian Grand Prix,albert_park,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,14,0.0,Power loss,mechanical_dnf,1,0,0.2353
-2015,1,2015_R01,Australian Grand Prix,albert_park,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,9,15,0.0,Accident,driver_incident,0,0,0.1765
-2015,1,2015_R01,Australian Grand Prix,albert_park,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,12,16,0.0,Withdrew,mechanical_dnf,1,0,0.1176
-2015,1,2015_R01,Australian Grand Prix,albert_park,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2015,17,17,0.0,Withdrew,mechanical_dnf,1,0,0.0588
-2015,1,2015_R01,Australian Grand Prix,albert_park,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,0,18,0.0,Withdrew,mechanical_dnf,1,0,0.0
-2015,2,2015_R02,Malaysian Grand Prix,sepang,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,2,1,25.0,Finished,finished,0,0,1.0
-2015,2,2015_R02,Malaysian Grand Prix,sepang,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,0,0.9474
-2015,2,2015_R02,Malaysian Grand Prix,sepang,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,2,2015_R02,Malaysian Grand Prix,sepang,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,11,4,12.0,Finished,finished,0,0,0.8421
-2015,2,2015_R02,Malaysian Grand Prix,sepang,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,8,5,10.0,Finished,finished,0,0,0.7895
-2015,2,2015_R02,Malaysian Grand Prix,sepang,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,7,6,8.0,Finished,finished,0,0,0.7368
-2015,2,2015_R02,Malaysian Grand Prix,sepang,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,6,7,6.0,Finished,finished,0,0,0.6842
-2015,2,2015_R02,Malaysian Grand Prix,sepang,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,15,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,2,2015_R02,Malaysian Grand Prix,sepang,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,5,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,2,2015_R02,Malaysian Grand Prix,sepang,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,4,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,2,2015_R02,Malaysian Grand Prix,sepang,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,2,2015_R02,Malaysian Grand Prix,sepang,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,2,2015_R02,Malaysian Grand Prix,sepang,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,14,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,2,2015_R02,Malaysian Grand Prix,sepang,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,13,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,2,2015_R02,Malaysian Grand Prix,sepang,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,15,0.0,+3 Laps,finished,0,0,0.2632
-2015,2,2015_R02,Malaysian Grand Prix,sepang,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,12,16,0.0,Retired,mechanical_dnf,1,0,0.2105
-2015,2,2015_R02,Malaysian Grand Prix,sepang,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,17,17,0.0,Turbo,mechanical_dnf,1,0,0.1579
-2015,2,2015_R02,Malaysian Grand Prix,sepang,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,18,18,0.0,ERS,mechanical_dnf,1,0,0.1053
-2015,2,2015_R02,Malaysian Grand Prix,sepang,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,9,19,0.0,Spun off,driver_incident,0,0,0.0526
-2015,2,2015_R02,Malaysian Grand Prix,sepang,STE,stevens,28,Will Stevens,British,manor,manor_2015,0,20,0.0,Fuel system,mechanical_dnf,1,0,0.0
-2015,3,2015_R03,Chinese Grand Prix,shanghai,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,3,2015_R03,Chinese Grand Prix,shanghai,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,3,2015_R03,Chinese Grand Prix,shanghai,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,3,2015_R03,Chinese Grand Prix,shanghai,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,6,4,12.0,Finished,finished,0,0,0.8421
-2015,3,2015_R03,Chinese Grand Prix,shanghai,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,4,5,10.0,Finished,finished,0,0,0.7895
-2015,3,2015_R03,Chinese Grand Prix,shanghai,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,5,6,8.0,Finished,finished,0,0,0.7368
-2015,3,2015_R03,Chinese Grand Prix,shanghai,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,7,6.0,Finished,finished,0,0,0.6842
-2015,3,2015_R03,Chinese Grand Prix,shanghai,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,9,8,4.0,Finished,finished,0,0,0.6316
-2015,3,2015_R03,Chinese Grand Prix,shanghai,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,7,9,2.0,Finished,finished,0,0,0.5789
-2015,3,2015_R03,Chinese Grand Prix,shanghai,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,10,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,3,2015_R03,Chinese Grand Prix,shanghai,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,15,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,3,2015_R03,Chinese Grand Prix,shanghai,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,18,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,3,2015_R03,Chinese Grand Prix,shanghai,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,14,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,3,2015_R03,Chinese Grand Prix,shanghai,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,17,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,3,2015_R03,Chinese Grand Prix,shanghai,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,15,0.0,+2 Laps,finished,0,0,0.2632
-2015,3,2015_R03,Chinese Grand Prix,shanghai,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,3,2015_R03,Chinese Grand Prix,shanghai,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,13,17,0.0,Transmission,mechanical_dnf,1,0,0.1579
-2015,3,2015_R03,Chinese Grand Prix,shanghai,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,11,18,0.0,Brakes,mechanical_dnf,1,0,0.1053
-2015,3,2015_R03,Chinese Grand Prix,shanghai,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,12,19,0.0,Power Unit,mechanical_dnf,1,0,0.0526
-2015,3,2015_R03,Chinese Grand Prix,shanghai,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,16,20,0.0,Gearbox,mechanical_dnf,1,0,0.0
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,4,2,18.0,Finished,finished,0,0,0.9474
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,5,4,12.0,Finished,finished,0,0,0.8421
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,2,5,10.0,Finished,finished,0,0,0.7895
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,7,6,8.0,Finished,finished,0,0,0.7368
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,7,6.0,Finished,finished,0,0,0.6842
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,11,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,17,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,6,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,14,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,12,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,8,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,13,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,16,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,17,0.0,+3 Laps,finished,0,0,0.1579
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,15,18,0.0,Electrical,mechanical_dnf,1,0,0.1053
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,9,19,0.0,Engine,mechanical_dnf,1,0,0.0526
-2015,4,2015_R04,Bahrain Grand Prix,bahrain,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,20,0.0,ERS,mechanical_dnf,1,0,0.0
-2015,5,2015_R05,Spanish Grand Prix,catalunya,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,5,2015_R05,Spanish Grand Prix,catalunya,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,5,2015_R05,Spanish Grand Prix,catalunya,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,5,2015_R05,Spanish Grand Prix,catalunya,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,4,4,12.0,Finished,finished,0,0,0.8421
-2015,5,2015_R05,Spanish Grand Prix,catalunya,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,7,5,10.0,Finished,finished,0,0,0.7895
-2015,5,2015_R05,Spanish Grand Prix,catalunya,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,9,6,8.0,Finished,finished,0,0,0.7368
-2015,5,2015_R05,Spanish Grand Prix,catalunya,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,10,7,6.0,+1 Lap,finished,0,0,0.6842
-2015,5,2015_R05,Spanish Grand Prix,catalunya,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,11,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,5,2015_R05,Spanish Grand Prix,catalunya,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,5,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,5,2015_R05,Spanish Grand Prix,catalunya,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,8,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,5,2015_R05,Spanish Grand Prix,catalunya,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,6,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,5,2015_R05,Spanish Grand Prix,catalunya,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,15,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,5,2015_R05,Spanish Grand Prix,catalunya,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,18,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,5,2015_R05,Spanish Grand Prix,catalunya,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,16,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,5,2015_R05,Spanish Grand Prix,catalunya,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,17,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,5,2015_R05,Spanish Grand Prix,catalunya,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,14,16,0.0,+1 Lap,finished,0,0,0.2105
-2015,5,2015_R05,Spanish Grand Prix,catalunya,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,17,0.0,+3 Laps,finished,0,0,0.1579
-2015,5,2015_R05,Spanish Grand Prix,catalunya,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,18,0.0,+4 Laps,finished,0,0,0.1053
-2015,5,2015_R05,Spanish Grand Prix,catalunya,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,12,19,0.0,Accident,driver_incident,0,0,0.0526
-2015,5,2015_R05,Spanish Grand Prix,catalunya,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,13,20,0.0,Brakes,mechanical_dnf,1,0,0.0
-2015,6,2015_R06,Monaco Grand Prix,monaco,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,0,1.0
-2015,6,2015_R06,Monaco Grand Prix,monaco,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,2,18.0,Finished,finished,0,0,0.9474
-2015,6,2015_R06,Monaco Grand Prix,monaco,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,3,15.0,Finished,finished,0,0,0.8947
-2015,6,2015_R06,Monaco Grand Prix,monaco,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,5,4,12.0,Finished,finished,0,0,0.8421
-2015,6,2015_R06,Monaco Grand Prix,monaco,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,4,5,10.0,Finished,finished,0,0,0.7895
-2015,6,2015_R06,Monaco Grand Prix,monaco,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,6,6,8.0,Finished,finished,0,0,0.7368
-2015,6,2015_R06,Monaco Grand Prix,monaco,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,7,7,6.0,Finished,finished,0,0,0.6842
-2015,6,2015_R06,Monaco Grand Prix,monaco,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,10,8,4.0,Finished,finished,0,0,0.6316
-2015,6,2015_R06,Monaco Grand Prix,monaco,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,9,2.0,Finished,finished,0,0,0.5789
-2015,6,2015_R06,Monaco Grand Prix,monaco,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,0,10,1.0,Finished,finished,0,0,0.5263
-2015,6,2015_R06,Monaco Grand Prix,monaco,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,11,0.0,Finished,finished,0,0,0.4737
-2015,6,2015_R06,Monaco Grand Prix,monaco,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,15,12,0.0,Finished,finished,0,0,0.4211
-2015,6,2015_R06,Monaco Grand Prix,monaco,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,13,0.0,Finished,finished,0,0,0.3684
-2015,6,2015_R06,Monaco Grand Prix,monaco,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,16,14,0.0,Finished,finished,0,0,0.3158
-2015,6,2015_R06,Monaco Grand Prix,monaco,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,12,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,6,2015_R06,Monaco Grand Prix,monaco,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,6,2015_R06,Monaco Grand Prix,monaco,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,17,0.0,+2 Laps,finished,0,0,0.1579
-2015,6,2015_R06,Monaco Grand Prix,monaco,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,18,0.0,Accident,driver_incident,0,0,0.1053
-2015,6,2015_R06,Monaco Grand Prix,monaco,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,13,19,0.0,Gearbox,mechanical_dnf,1,0,0.0526
-2015,6,2015_R06,Monaco Grand Prix,monaco,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,8,20,0.0,Brakes,mechanical_dnf,1,0,0.0
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,4,3,15.0,Finished,finished,0,0,0.8947
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,3,4,12.0,Finished,finished,0,0,0.8421
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,18,5,10.0,Finished,finished,0,0,0.7895
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,15,6,8.0,Finished,finished,0,0,0.7368
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,6,7,6.0,Finished,finished,0,0,0.6842
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,7,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,8,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,5,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,10,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,11,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,9,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,12,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,19,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,17,0.0,+4 Laps,finished,0,0,0.1579
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,16,18,0.0,Retired,mechanical_dnf,1,0,0.1053
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,19,0.0,Retired,mechanical_dnf,1,0,0.0526
-2015,7,2015_R07,Canadian Grand Prix,villeneuve,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,13,20,0.0,Engine,mechanical_dnf,1,0,0.0
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,0,1.0
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,0,0.9474
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,4,3,15.0,Finished,finished,0,0,0.8947
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,4,12.0,Finished,finished,0,0,0.8421
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,5,10.0,Finished,finished,0,0,0.7895
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,5,6,8.0,Finished,finished,0,0,0.7368
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,10,7,6.0,+1 Lap,finished,0,0,0.6842
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,7,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,13,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,18,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,8,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,15,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,11,13,0.0,+2 Laps,finished,0,0,0.3684
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,16,14,0.0,+3 Laps,finished,0,0,0.3158
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,9,15,0.0,Gearbox,mechanical_dnf,1,0,0.2632
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,12,16,0.0,Power loss,mechanical_dnf,1,0,0.2105
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,17,0.0,Retired,mechanical_dnf,1,0,0.1579
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,18,0.0,Oil leak,mechanical_dnf,1,0,0.1053
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,14,19,0.0,Collision,driver_incident,0,0,0.0526
-2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,19,20,0.0,Collision,driver_incident,0,0,0.0
-2015,9,2015_R09,British Grand Prix,silverstone,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,9,2015_R09,British Grand Prix,silverstone,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,9,2015_R09,British Grand Prix,silverstone,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,6,3,15.0,Finished,finished,0,0,0.8947
-2015,9,2015_R09,British Grand Prix,silverstone,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,3,4,12.0,Finished,finished,0,0,0.8421
-2015,9,2015_R09,British Grand Prix,silverstone,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,4,5,10.0,Finished,finished,0,0,0.7895
-2015,9,2015_R09,British Grand Prix,silverstone,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,7,6,8.0,Finished,finished,0,0,0.7368
-2015,9,2015_R09,British Grand Prix,silverstone,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,9,7,6.0,Finished,finished,0,0,0.6842
-2015,9,2015_R09,British Grand Prix,silverstone,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,9,2015_R09,British Grand Prix,silverstone,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,11,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,9,2015_R09,British Grand Prix,silverstone,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,17,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,9,2015_R09,British Grand Prix,silverstone,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,15,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,9,2015_R09,British Grand Prix,silverstone,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,12,0.0,+3 Laps,finished,0,0,0.4211
-2015,9,2015_R09,British Grand Prix,silverstone,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,13,0.0,+3 Laps,finished,0,0,0.3684
-2015,9,2015_R09,British Grand Prix,silverstone,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,8,14,0.0,Electrical,mechanical_dnf,1,0,0.3158
-2015,9,2015_R09,British Grand Prix,silverstone,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,10,15,0.0,Electrical,mechanical_dnf,1,0,0.2632
-2015,9,2015_R09,British Grand Prix,silverstone,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,13,16,0.0,Spun off,driver_incident,0,0,0.2105
-2015,9,2015_R09,British Grand Prix,silverstone,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,12,17,0.0,Collision,driver_incident,0,0,0.1579
-2015,9,2015_R09,British Grand Prix,silverstone,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,14,18,0.0,Collision,driver_incident,0,0,0.1053
-2015,9,2015_R09,British Grand Prix,silverstone,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,18,19,0.0,Collision,driver_incident,0,0,0.0526
-2015,9,2015_R09,British Grand Prix,silverstone,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,20,0.0,Gearbox,mechanical_dnf,1,0,0.0
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,1,25.0,Finished,finished,0,0,1.0
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,7,2,18.0,Finished,finished,0,0,0.9474
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,4,3,15.0,Finished,finished,0,0,0.8947
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,4,12.0,Finished,finished,0,0,0.8421
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,15,5,10.0,Finished,finished,0,0,0.7895
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,6,8.0,Finished,finished,0,0,0.7368
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,7,6.0,Finished,finished,0,0,0.6842
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,8,4.0,Finished,finished,0,0,0.6316
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,16,9,2.0,Finished,finished,0,0,0.5789
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,10,1.0,Finished,finished,0,0,0.5263
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,18,11,0.0,Finished,finished,0,0,0.4737
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,8,12,0.0,Finished,finished,0,0,0.4211
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,13,0.0,Finished,finished,0,0,0.3684
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,14,14,0.0,Finished,finished,0,0,0.3158
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,15,0.0,+2 Laps,finished,0,0,0.2632
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,STE,stevens,28,Will Stevens,British,manor,manor_2015,20,16,0.0,+4 Laps,finished,0,0,0.2105
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,12,17,0.0,Electrical,mechanical_dnf,1,0,0.1579
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,18,0.0,Power Unit,mechanical_dnf,1,0,0.1053
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,13,19,0.0,Suspension,mechanical_dnf,1,0,0.0526
-2015,10,2015_R10,Hungarian Grand Prix,hungaroring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,20,0.0,Front wing,mechanical_dnf,1,0,0.0
-2015,11,2015_R11,Belgian Grand Prix,spa,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,11,2015_R11,Belgian Grand Prix,spa,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,11,2015_R11,Belgian Grand Prix,spa,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,9,3,15.0,Finished,finished,0,0,0.8947
-2015,11,2015_R11,Belgian Grand Prix,spa,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,12,4,12.0,Finished,finished,0,0,0.8421
-2015,11,2015_R11,Belgian Grand Prix,spa,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,4,5,10.0,Finished,finished,0,0,0.7895
-2015,11,2015_R11,Belgian Grand Prix,spa,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,6,6,8.0,Finished,finished,0,0,0.7368
-2015,11,2015_R11,Belgian Grand Prix,spa,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,16,7,6.0,Finished,finished,0,0,0.6842
-2015,11,2015_R11,Belgian Grand Prix,spa,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,18,8,4.0,Finished,finished,0,0,0.6316
-2015,11,2015_R11,Belgian Grand Prix,spa,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,3,9,2.0,Power Unit,mechanical_dnf,1,0,0.5789
-2015,11,2015_R11,Belgian Grand Prix,spa,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,13,10,1.0,Finished,finished,0,0,0.5263
-2015,11,2015_R11,Belgian Grand Prix,spa,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,11,0.0,Finished,finished,0,0,0.4737
-2015,11,2015_R11,Belgian Grand Prix,spa,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,8,12,0.0,Tyre,mechanical_dnf,1,0,0.4211
-2015,11,2015_R11,Belgian Grand Prix,spa,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,20,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,11,2015_R11,Belgian Grand Prix,spa,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,19,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,11,2015_R11,Belgian Grand Prix,spa,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,17,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,11,2015_R11,Belgian Grand Prix,spa,STE,stevens,28,Will Stevens,British,manor,manor_2015,15,16,0.0,+1 Lap,finished,0,0,0.2105
-2015,11,2015_R11,Belgian Grand Prix,spa,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,17,0.0,Power Unit,mechanical_dnf,1,0,0.1579
-2015,11,2015_R11,Belgian Grand Prix,spa,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,5,18,0.0,Power Unit,mechanical_dnf,1,0,0.1053
-2015,11,2015_R11,Belgian Grand Prix,spa,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,7,19,0.0,Engine,mechanical_dnf,1,0,0.0526
-2015,11,2015_R11,Belgian Grand Prix,spa,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,20,0.0,Power loss,mechanical_dnf,1,0,0.0
-2015,12,2015_R12,Italian Grand Prix,monza,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,12,2015_R12,Italian Grand Prix,monza,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,2,18.0,Finished,finished,0,0,0.9474
-2015,12,2015_R12,Italian Grand Prix,monza,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,5,3,15.0,Finished,finished,0,0,0.8947
-2015,12,2015_R12,Italian Grand Prix,monza,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,4,12.0,Finished,finished,0,0,0.8421
-2015,12,2015_R12,Italian Grand Prix,monza,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,2,5,10.0,Finished,finished,0,0,0.7895
-2015,12,2015_R12,Italian Grand Prix,monza,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,7,6,8.0,Finished,finished,0,0,0.7368
-2015,12,2015_R12,Italian Grand Prix,monza,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,9,7,6.0,+1 Lap,finished,0,0,0.6842
-2015,12,2015_R12,Italian Grand Prix,monza,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,19,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,12,2015_R12,Italian Grand Prix,monza,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,12,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,12,2015_R12,Italian Grand Prix,monza,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,18,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,12,2015_R12,Italian Grand Prix,monza,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,17,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,12,2015_R12,Italian Grand Prix,monza,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,20,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,12,2015_R12,Italian Grand Prix,monza,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,17,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,12,2015_R12,Italian Grand Prix,monza,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,15,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,12,2015_R12,Italian Grand Prix,monza,STE,stevens,28,Will Stevens,British,manor,manor_2015,13,15,0.0,+2 Laps,finished,0,0,0.2632
-2015,12,2015_R12,Italian Grand Prix,monza,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,14,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,12,2015_R12,Italian Grand Prix,monza,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,4,17,0.0,+3 Laps,finished,0,0,0.1579
-2015,12,2015_R12,Italian Grand Prix,monza,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,16,18,0.0,+6 Laps,finished,0,0,0.1053
-2015,12,2015_R12,Italian Grand Prix,monza,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,19,0.0,Collision damage,driver_incident,0,0,0.0526
-2015,12,2015_R12,Italian Grand Prix,monza,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,10,20,0.0,Collision damage,driver_incident,0,0,0.0
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,6,4,12.0,Finished,finished,0,0,0.8421
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,7,5,10.0,Finished,finished,0,0,0.7895
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,4,6,8.0,Finished,finished,0,0,0.7368
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,13,7,6.0,Finished,finished,0,0,0.6842
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,8,8,4.0,Finished,finished,0,0,0.6316
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,14,9,2.0,Finished,finished,0,0,0.5789
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,10,1.0,Finished,finished,0,0,0.5263
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,11,0.0,Finished,finished,0,0,0.4737
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,18,12,0.0,Finished,finished,0,0,0.4211
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,13,0.0,Tyre,mechanical_dnf,1,0,0.3684
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,20,14,0.0,+2 Laps,finished,0,0,0.3158
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,15,0.0,+2 Laps,finished,0,0,0.2632
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,15,16,0.0,Gearbox,mechanical_dnf,1,0,0.2105
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,12,17,0.0,Gearbox,mechanical_dnf,1,0,0.1579
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,5,18,0.0,Throttle,mechanical_dnf,1,0,0.1053
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,9,19,0.0,Gearbox,mechanical_dnf,1,0,0.0526
-2015,13,2015_R13,Singapore Grand Prix,marina_bay,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,20,0.0,Collision,driver_incident,0,0,0.0
-2015,14,2015_R14,Japanese Grand Prix,suzuka,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,0,1.0
-2015,14,2015_R14,Japanese Grand Prix,suzuka,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,0,0.9474
-2015,14,2015_R14,Japanese Grand Prix,suzuka,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,4,3,15.0,Finished,finished,0,0,0.8947
-2015,14,2015_R14,Japanese Grand Prix,suzuka,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,6,4,12.0,Finished,finished,0,0,0.8421
-2015,14,2015_R14,Japanese Grand Prix,suzuka,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,3,5,10.0,Finished,finished,0,0,0.7895
-2015,14,2015_R14,Japanese Grand Prix,suzuka,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,13,6,8.0,Finished,finished,0,0,0.7368
-2015,14,2015_R14,Japanese Grand Prix,suzuka,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,7,6.0,Finished,finished,0,0,0.6842
-2015,14,2015_R14,Japanese Grand Prix,suzuka,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,11,8,4.0,Finished,finished,0,0,0.6316
-2015,14,2015_R14,Japanese Grand Prix,suzuka,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,17,9,2.0,Finished,finished,0,0,0.5789
-2015,14,2015_R14,Japanese Grand Prix,suzuka,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,14,2015_R14,Japanese Grand Prix,suzuka,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,12,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,14,2015_R14,Japanese Grand Prix,suzuka,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,9,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,14,2015_R14,Japanese Grand Prix,suzuka,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,20,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,14,2015_R14,Japanese Grand Prix,suzuka,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,15,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,14,2015_R14,Japanese Grand Prix,suzuka,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,7,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,14,2015_R14,Japanese Grand Prix,suzuka,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,14,16,0.0,+1 Lap,finished,0,0,0.2105
-2015,14,2015_R14,Japanese Grand Prix,suzuka,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,5,17,0.0,+2 Laps,finished,0,0,0.1579
-2015,14,2015_R14,Japanese Grand Prix,suzuka,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,19,18,0.0,+2 Laps,finished,0,0,0.1053
-2015,14,2015_R14,Japanese Grand Prix,suzuka,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,19,0.0,+3 Laps,finished,0,0,0.0526
-2015,14,2015_R14,Japanese Grand Prix,suzuka,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,20,0.0,Retired,mechanical_dnf,1,0,0.0
-2015,15,2015_R15,Russian Grand Prix,sochi,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,0,1.0
-2015,15,2015_R15,Russian Grand Prix,sochi,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,4,2,18.0,Finished,finished,0,0,0.9474
-2015,15,2015_R15,Russian Grand Prix,sochi,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,7,3,15.0,Finished,finished,0,0,0.8947
-2015,15,2015_R15,Russian Grand Prix,sochi,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,15,4,12.0,Finished,finished,0,0,0.8421
-2015,15,2015_R15,Russian Grand Prix,sochi,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,11,5,10.0,Finished,finished,0,0,0.7895
-2015,15,2015_R15,Russian Grand Prix,sochi,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,12,6,8.0,Finished,finished,0,0,0.7368
-2015,15,2015_R15,Russian Grand Prix,sochi,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,14,7,6.0,Finished,finished,0,0,0.6842
-2015,15,2015_R15,Russian Grand Prix,sochi,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,8,4.0,Finished,finished,0,0,0.6316
-2015,15,2015_R15,Russian Grand Prix,sochi,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,13,9,2.0,Finished,finished,0,0,0.5789
-2015,15,2015_R15,Russian Grand Prix,sochi,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,10,1.0,Finished,finished,0,0,0.5263
-2015,15,2015_R15,Russian Grand Prix,sochi,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,19,11,0.0,Finished,finished,0,0,0.4737
-2015,15,2015_R15,Russian Grand Prix,sochi,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,3,12,0.0,Collision,driver_incident,0,0,0.4211
-2015,15,2015_R15,Russian Grand Prix,sochi,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,18,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,15,2015_R15,Russian Grand Prix,sochi,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,14,0.0,+2 Laps,finished,0,0,0.3158
-2015,15,2015_R15,Russian Grand Prix,sochi,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,10,15,0.0,Suspension,mechanical_dnf,1,0,0.2632
-2015,15,2015_R15,Russian Grand Prix,sochi,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,20,16,0.0,Brakes,mechanical_dnf,1,0,0.2105
-2015,15,2015_R15,Russian Grand Prix,sochi,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,17,0.0,Accident,driver_incident,0,0,0.1579
-2015,15,2015_R15,Russian Grand Prix,sochi,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,18,0.0,Throttle,mechanical_dnf,1,0,0.1053
-2015,15,2015_R15,Russian Grand Prix,sochi,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,6,19,0.0,Collision,driver_incident,0,0,0.0526
-2015,15,2015_R15,Russian Grand Prix,sochi,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,20,0.0,Collision,driver_incident,0,0,0.0
-2015,16,2015_R16,United States Grand Prix,americas,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,0,1.0
-2015,16,2015_R16,United States Grand Prix,americas,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,0,0.9474
-2015,16,2015_R16,United States Grand Prix,americas,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,13,3,15.0,Finished,finished,0,0,0.8947
-2015,16,2015_R16,United States Grand Prix,americas,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,8,4,12.0,Finished,finished,0,0,0.8421
-2015,16,2015_R16,United States Grand Prix,americas,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,5,5,10.0,Finished,finished,0,0,0.7895
-2015,16,2015_R16,United States Grand Prix,americas,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,11,6,8.0,Finished,finished,0,0,0.7368
-2015,16,2015_R16,United States Grand Prix,americas,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,20,7,6.0,Finished,finished,0,0,0.6842
-2015,16,2015_R16,United States Grand Prix,americas,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,12,8,4.0,Finished,finished,0,0,0.6316
-2015,16,2015_R16,United States Grand Prix,americas,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,15,9,2.0,Finished,finished,0,0,0.5789
-2015,16,2015_R16,United States Grand Prix,americas,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,3,10,1.0,Finished,finished,0,0,0.5263
-2015,16,2015_R16,United States Grand Prix,americas,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,9,11,0.0,Finished,finished,0,0,0.4737
-2015,16,2015_R16,United States Grand Prix,americas,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,17,12,0.0,Finished,finished,0,0,0.4211
-2015,16,2015_R16,United States Grand Prix,americas,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,4,13,0.0,Accident,driver_incident,0,0,0.3684
-2015,16,2015_R16,United States Grand Prix,americas,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,6,14,0.0,Accident,driver_incident,0,0,0.3158
-2015,16,2015_R16,United States Grand Prix,americas,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,14,15,0.0,Retired,mechanical_dnf,1,0,0.2632
-2015,16,2015_R16,United States Grand Prix,americas,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,18,16,0.0,Brake duct,mechanical_dnf,1,0,0.2105
-2015,16,2015_R16,United States Grand Prix,americas,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,7,17,0.0,Retired,mechanical_dnf,1,0,0.1579
-2015,16,2015_R16,United States Grand Prix,americas,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,18,0.0,Retired,mechanical_dnf,1,0,0.1053
-2015,16,2015_R16,United States Grand Prix,americas,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,16,19,0.0,Retired,mechanical_dnf,1,0,0.0526
-2015,16,2015_R16,United States Grand Prix,americas,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,20,0.0,Retired,mechanical_dnf,1,0,0.0
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,3,15.0,Finished,finished,0,0,0.8947
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,4,4,12.0,Finished,finished,0,0,0.8421
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,5,5,10.0,Finished,finished,0,0,0.7895
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,7,6,8.0,Finished,finished,0,0,0.7368
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,10,7,6.0,Finished,finished,0,0,0.6842
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,9,8,4.0,Finished,finished,0,0,0.6316
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,8,9,2.0,Finished,finished,0,0,0.5789
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,12,10,1.0,Finished,finished,0,0,0.5263
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,13,11,0.0,Finished,finished,0,0,0.4737
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,14,12,0.0,Finished,finished,0,0,0.4211
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,11,13,0.0,Finished,finished,0,0,0.3684
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,14,0.0,Finished,finished,0,0,0.3158
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,16,15,0.0,+2 Laps,finished,0,0,0.2632
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,15,17,0.0,Brakes,mechanical_dnf,1,0,0.1579
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,18,0.0,Accident,driver_incident,0,0,0.1053
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,19,19,0.0,Collision,driver_incident,0,0,0.0526
-2015,17,2015_R17,Mexican Grand Prix,rodriguez,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,18,20,0.0,Retired,mechanical_dnf,1,0,0.0
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,4,4,12.0,Finished,finished,0,0,0.8421
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,7,5,10.0,+1 Lap,finished,0,0,0.7895
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,5,6,8.0,+1 Lap,finished,0,0,0.7368
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,6,7,6.0,+1 Lap,finished,0,0,0.6842
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,14,8,4.0,+1 Lap,finished,0,0,0.6316
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,9,2.0,+1 Lap,finished,0,0,0.5789
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,15,10,1.0,+1 Lap,finished,0,0,0.5263
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,19,11,0.0,+1 Lap,finished,0,0,0.4737
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,11,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,13,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,16,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,20,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,12,16,0.0,+2 Laps,finished,0,0,0.2105
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,17,0.0,+4 Laps,finished,0,0,0.1579
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,17,18,0.0,+4 Laps,finished,0,0,0.1053
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,19,0.0,Retired,mechanical_dnf,1,0,0.0526
-2015,18,2015_R18,Brazilian Grand Prix,interlagos,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,8,20,0.0,Excluded,other_dnf,0,0,0.0
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,0,1.0
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,0,0.9474
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,0,0.8947
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,15,4,12.0,Finished,finished,0,0,0.8421
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,4,5,10.0,Finished,finished,0,0,0.7895
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,5,6,8.0,Finished,finished,0,0,0.7368
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,7,7,6.0,Finished,finished,0,0,0.6842
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,8,8,4.0,Finished,finished,0,0,0.6316
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,18,9,2.0,Finished,finished,0,0,0.5789
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,9,10,1.0,Finished,finished,0,0,0.5263
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,11,0.0,Finished,finished,0,0,0.4737
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,12,12,0.0,+1 Lap,finished,0,0,0.4211
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,13,0.0,+1 Lap,finished,0,0,0.3684
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,14,0.0,+1 Lap,finished,0,0,0.3158
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,15,0.0,+1 Lap,finished,0,0,0.2632
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,11,16,0.0,+1 Lap,finished,0,0,0.2105
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,16,17,0.0,+2 Laps,finished,0,0,0.1579
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,18,0.0,+2 Laps,finished,0,0,0.1053
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,19,0.0,+3 Laps,finished,0,0,0.0526
-2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,13,20,0.0,Collision,driver_incident,0,0,0.0
+season,round,race_id,race_name,circuit_id,driver,driver_id,car_number,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,laps_done,avg_lap_sec,is_wet,pace_score,race_pace_sec_adv
+2015,1,2015_R01,Australian Grand Prix,albert_park,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,58,95.07012068965517,0,1.0,1.6679
+2015,1,2015_R01,Australian Grand Prix,albert_park,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,58,95.09356896551724,0,0.9412,1.6444
+2015,1,2015_R01,Australian Grand Prix,albert_park,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,4,3,15.0,Finished,finished,0,58,95.66534482758621,0,0.8824,1.0727
+2015,1,2015_R01,Australian Grand Prix,albert_park,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,3,4,12.0,Finished,finished,0,58,95.7286724137931,0,0.8235,1.0093
+2015,1,2015_R01,Australian Grand Prix,albert_park,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,10,5,10.0,Finished,finished,0,58,96.71062068965517,0,0.7647,0.0274
+2015,1,2015_R01,Australian Grand Prix,albert_park,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,6,6,8.0,+1 Lap,finished,0,57,,0,0.7059,0.0
+2015,1,2015_R01,Australian Grand Prix,albert_park,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,13,7,6.0,+1 Lap,finished,0,57,,0,0.6471,0.0
+2015,1,2015_R01,Australian Grand Prix,albert_park,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,15,8,4.0,+1 Lap,finished,0,57,,0,0.5882,0.0
+2015,1,2015_R01,Australian Grand Prix,albert_park,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,7,9,2.0,+1 Lap,finished,0,57,,0,0.5294,0.0
+2015,1,2015_R01,Australian Grand Prix,albert_park,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,14,10,1.0,+1 Lap,finished,0,57,,0,0.4706,0.0
+2015,1,2015_R01,Australian Grand Prix,albert_park,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,16,11,0.0,+2 Laps,finished,0,56,,0,0.4118,-1.7275
+2015,1,2015_R01,Australian Grand Prix,albert_park,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,12,0.0,Wheel,mechanical_dnf,1,40,,0,0.3529,
+2015,1,2015_R01,Australian Grand Prix,albert_park,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,11,13,0.0,Engine,mechanical_dnf,1,32,,0,0.2941,
+2015,1,2015_R01,Australian Grand Prix,albert_park,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,14,0.0,Power loss,mechanical_dnf,1,0,,0,0.2353,
+2015,1,2015_R01,Australian Grand Prix,albert_park,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,9,15,0.0,Accident,driver_incident,0,0,,0,0.1765,
+2015,1,2015_R01,Australian Grand Prix,albert_park,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,12,16,0.0,Withdrew,mechanical_dnf,1,0,,0,0.1176,
+2015,1,2015_R01,Australian Grand Prix,albert_park,MAG,kevin_magnussen,20,Kevin Magnussen,Danish,mclaren,mclaren_2015,17,17,0.0,Withdrew,mechanical_dnf,1,0,,0,0.0588,
+2015,1,2015_R01,Australian Grand Prix,albert_park,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,0,18,0.0,Withdrew,mechanical_dnf,1,0,,0,0.0,
+2015,2,2015_R02,Malaysian Grand Prix,sepang,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,2,1,25.0,Finished,finished,0,56,108.31773214285714,0,1.0,1.9694
+2015,2,2015_R02,Malaysian Grand Prix,sepang,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,56,108.47075,0,0.9474,1.8164
+2015,2,2015_R02,Malaysian Grand Prix,sepang,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,3,3,15.0,Finished,finished,0,56,108.53755357142857,0,0.8947,1.7496
+2015,2,2015_R02,Malaysian Grand Prix,sepang,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,11,4,12.0,Finished,finished,0,56,109.27883928571428,0,0.8421,1.0083
+2015,2,2015_R02,Malaysian Grand Prix,sepang,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,8,5,10.0,Finished,finished,0,56,109.57503571428572,0,0.7895,0.7121
+2015,2,2015_R02,Malaysian Grand Prix,sepang,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,7,6,8.0,Finished,finished,0,56,109.63176785714286,0,0.7368,0.6554
+2015,2,2015_R02,Malaysian Grand Prix,sepang,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,6,7,6.0,Finished,finished,0,56,110.06348214285715,0,0.6842,0.2237
+2015,2,2015_R02,Malaysian Grand Prix,sepang,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,15,8,4.0,+1 Lap,finished,0,55,,0,0.6316,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,5,9,2.0,+1 Lap,finished,0,55,,0,0.5789,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,4,10,1.0,+1 Lap,finished,0,55,,0,0.5263,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,11,0.0,+1 Lap,finished,0,55,,0,0.4737,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,12,0.0,+1 Lap,finished,0,55,,0,0.4211,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,14,13,0.0,+1 Lap,finished,0,55,,0,0.3684,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,13,14,0.0,+1 Lap,finished,0,55,,0,0.3158,0.0
+2015,2,2015_R02,Malaysian Grand Prix,sepang,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,15,0.0,+3 Laps,finished,0,53,,0,0.2632,-3.5
+2015,2,2015_R02,Malaysian Grand Prix,sepang,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,12,16,0.0,Retired,mechanical_dnf,1,47,,0,0.2105,
+2015,2,2015_R02,Malaysian Grand Prix,sepang,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,17,17,0.0,Turbo,mechanical_dnf,1,41,,0,0.1579,
+2015,2,2015_R02,Malaysian Grand Prix,sepang,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,18,18,0.0,ERS,mechanical_dnf,1,21,,0,0.1053,
+2015,2,2015_R02,Malaysian Grand Prix,sepang,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,9,19,0.0,Spun off,driver_incident,0,3,,0,0.0526,
+2015,2,2015_R02,Malaysian Grand Prix,sepang,STE,stevens,28,Will Stevens,British,manor,manor_2015,0,20,0.0,Fuel system,mechanical_dnf,1,0,,0,0.0,
+2015,3,2015_R03,Chinese Grand Prix,shanghai,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,56,106.82157142857143,0,1.0,0.4888
+2015,3,2015_R03,Chinese Grand Prix,shanghai,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,56,106.83432142857143,0,0.9474,0.476
+2015,3,2015_R03,Chinese Grand Prix,shanghai,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,56,106.87492857142857,0,0.8947,0.4354
+2015,3,2015_R03,Chinese Grand Prix,shanghai,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,6,4,12.0,Finished,finished,0,56,106.89005357142857,0,0.8421,0.4203
+2015,3,2015_R03,Chinese Grand Prix,shanghai,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,4,5,10.0,Finished,finished,0,56,106.97414285714285,0,0.7895,0.3362
+2015,3,2015_R03,Chinese Grand Prix,shanghai,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,5,6,8.0,Finished,finished,0,56,106.99808928571429,0,0.7368,0.3123
+2015,3,2015_R03,Chinese Grand Prix,shanghai,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,7,6.0,Finished,finished,0,56,107.16099999999999,0,0.6842,0.1493
+2015,3,2015_R03,Chinese Grand Prix,shanghai,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,9,8,4.0,Finished,finished,0,56,107.22558928571428,0,0.6316,0.0848
+2015,3,2015_R03,Chinese Grand Prix,shanghai,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,7,9,2.0,Finished,finished,0,56,107.39508928571429,0,0.5789,-0.0847
+2015,3,2015_R03,Chinese Grand Prix,shanghai,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,10,10,1.0,+1 Lap,finished,0,55,,0,0.5263,-1.4534
+2015,3,2015_R03,Chinese Grand Prix,shanghai,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,15,11,0.0,+1 Lap,finished,0,55,,0,0.4737,-1.4534
+2015,3,2015_R03,Chinese Grand Prix,shanghai,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,18,12,0.0,+1 Lap,finished,0,55,,0,0.4211,-1.4534
+2015,3,2015_R03,Chinese Grand Prix,shanghai,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,14,13,0.0,+1 Lap,finished,0,55,,0,0.3684,-1.4534
+2015,3,2015_R03,Chinese Grand Prix,shanghai,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,17,14,0.0,+1 Lap,finished,0,55,,0,0.3158,-1.4534
+2015,3,2015_R03,Chinese Grand Prix,shanghai,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,15,0.0,+2 Laps,finished,0,54,,0,0.2632,-3.4676
+2015,3,2015_R03,Chinese Grand Prix,shanghai,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,16,0.0,+2 Laps,finished,0,54,,0,0.2105,-3.4676
+2015,3,2015_R03,Chinese Grand Prix,shanghai,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,13,17,0.0,Transmission,mechanical_dnf,1,52,,0,0.1579,
+2015,3,2015_R03,Chinese Grand Prix,shanghai,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,11,18,0.0,Brakes,mechanical_dnf,1,49,,0,0.1053,
+2015,3,2015_R03,Chinese Grand Prix,shanghai,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,12,19,0.0,Power Unit,mechanical_dnf,1,15,,0,0.0526,
+2015,3,2015_R03,Chinese Grand Prix,shanghai,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,16,20,0.0,Gearbox,mechanical_dnf,1,9,,0,0.0,
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,57,100.10191228070175,0,1.0,1.7875
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,4,2,18.0,Finished,finished,0,57,100.1612105263158,0,0.9474,1.7282
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,3,3,15.0,Finished,finished,0,57,100.2077543859649,0,0.8947,1.6817
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,5,4,12.0,Finished,finished,0,57,100.85554385964912,0,0.8421,1.0339
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,2,5,10.0,Finished,finished,0,57,100.87364912280701,0,0.7895,1.0158
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,7,6,8.0,Finished,finished,0,57,101.18526315789474,0,0.7368,0.7042
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,7,6.0,Finished,finished,0,57,101.58898245614036,0,0.6842,0.3005
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,11,8,4.0,+1 Lap,finished,0,56,,0,0.6316,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,17,9,2.0,+1 Lap,finished,0,56,,0,0.5789,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,6,10,1.0,+1 Lap,finished,0,56,,0,0.5263,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,14,11,0.0,+1 Lap,finished,0,56,,0,0.4737,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,12,12,0.0,+1 Lap,finished,0,56,,0,0.4211,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,8,13,0.0,+1 Lap,finished,0,56,,0,0.3684,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,13,14,0.0,+1 Lap,finished,0,56,,0,0.3158,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,16,15,0.0,+1 Lap,finished,0,56,,0,0.2632,0.0
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,16,0.0,+2 Laps,finished,0,55,,0,0.2105,-1.8525
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,17,0.0,+3 Laps,finished,0,54,,0,0.1579,-3.5
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,15,18,0.0,Electrical,mechanical_dnf,1,34,,0,0.1053,
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,9,19,0.0,Engine,mechanical_dnf,1,29,,0,0.0526,
+2015,4,2015_R04,Bahrain Grand Prix,bahrain,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,20,0.0,ERS,mechanical_dnf,1,0,,0,0.0,
+2015,5,2015_R05,Spanish Grand Prix,catalunya,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,66,92.0084090909091,0,1.0,1.4155
+2015,5,2015_R05,Spanish Grand Prix,catalunya,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,66,92.27433333333333,0,0.9474,1.1496
+2015,5,2015_R05,Spanish Grand Prix,catalunya,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,66,92.6954090909091,0,0.8947,0.7285
+2015,5,2015_R05,Spanish Grand Prix,catalunya,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,4,4,12.0,Finished,finished,0,66,92.90563636363636,0,0.8421,0.5183
+2015,5,2015_R05,Spanish Grand Prix,catalunya,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,7,5,10.0,Finished,finished,0,66,92.9175303030303,0,0.7895,0.5064
+2015,5,2015_R05,Spanish Grand Prix,catalunya,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,9,6,8.0,Finished,finished,0,66,93.24043939393938,0,0.7368,0.1835
+2015,5,2015_R05,Spanish Grand Prix,catalunya,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,10,7,6.0,+1 Lap,finished,0,65,,0,0.6842,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,11,8,4.0,+1 Lap,finished,0,65,,0,0.6316,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,5,9,2.0,+1 Lap,finished,0,65,,0,0.5789,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,8,10,1.0,+1 Lap,finished,0,65,,0,0.5263,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,6,11,0.0,+1 Lap,finished,0,65,,0,0.4737,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,15,12,0.0,+1 Lap,finished,0,65,,0,0.4211,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,18,13,0.0,+1 Lap,finished,0,65,,0,0.3684,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,16,14,0.0,+1 Lap,finished,0,65,,0,0.3158,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,17,15,0.0,+1 Lap,finished,0,65,,0,0.2632,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,14,16,0.0,+1 Lap,finished,0,65,,0,0.2105,0.0
+2015,5,2015_R05,Spanish Grand Prix,catalunya,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,17,0.0,+3 Laps,finished,0,63,,0,0.1579,-2.9658
+2015,5,2015_R05,Spanish Grand Prix,catalunya,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,18,0.0,+4 Laps,finished,0,62,,0,0.1053,-3.5
+2015,5,2015_R05,Spanish Grand Prix,catalunya,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,12,19,0.0,Accident,driver_incident,0,45,,0,0.0526,
+2015,5,2015_R05,Spanish Grand Prix,catalunya,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,13,20,0.0,Brakes,mechanical_dnf,1,26,,0,0.0,
+2015,6,2015_R06,Monaco Grand Prix,monaco,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,78,84.0823076923077,0,1.0,0.3029
+2015,6,2015_R06,Monaco Grand Prix,monaco,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,2,18.0,Finished,finished,0,78,84.1398205128205,0,0.9474,0.2454
+2015,6,2015_R06,Monaco Grand Prix,monaco,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,3,15.0,Finished,finished,0,78,84.15991025641026,0,0.8947,0.2253
+2015,6,2015_R06,Monaco Grand Prix,monaco,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,5,4,12.0,Finished,finished,0,78,84.23570512820513,0,0.8421,0.1495
+2015,6,2015_R06,Monaco Grand Prix,monaco,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,4,5,10.0,Finished,finished,0,78,84.25676923076924,0,0.7895,0.1284
+2015,6,2015_R06,Monaco Grand Prix,monaco,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,6,6,8.0,Finished,finished,0,78,84.26621794871795,0,0.7368,0.119
+2015,6,2015_R06,Monaco Grand Prix,monaco,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,7,7,6.0,Finished,finished,0,78,84.27478205128205,0,0.6842,0.1104
+2015,6,2015_R06,Monaco Grand Prix,monaco,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,10,8,4.0,Finished,finished,0,78,84.28824358974359,0,0.6316,0.097
+2015,6,2015_R06,Monaco Grand Prix,monaco,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,9,2.0,Finished,finished,0,78,84.38520512820513,0,0.5789,0.0
+2015,6,2015_R06,Monaco Grand Prix,monaco,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,0,10,1.0,Finished,finished,0,78,84.40353846153846,0,0.5263,-0.0183
+2015,6,2015_R06,Monaco Grand Prix,monaco,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,11,0.0,Finished,finished,0,78,84.41861538461538,0,0.4737,-0.0334
+2015,6,2015_R06,Monaco Grand Prix,monaco,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,15,12,0.0,Finished,finished,0,78,84.44660256410256,0,0.4211,-0.0614
+2015,6,2015_R06,Monaco Grand Prix,monaco,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,13,0.0,Finished,finished,0,78,84.48178205128205,0,0.3684,-0.0966
+2015,6,2015_R06,Monaco Grand Prix,monaco,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,16,14,0.0,Finished,finished,0,78,84.66934615384615,0,0.3158,-0.2841
+2015,6,2015_R06,Monaco Grand Prix,monaco,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,12,15,0.0,+1 Lap,finished,0,77,,0,0.2632,-0.7891
+2015,6,2015_R06,Monaco Grand Prix,monaco,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,16,0.0,+2 Laps,finished,0,76,,0,0.2105,-1.9098
+2015,6,2015_R06,Monaco Grand Prix,monaco,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,17,0.0,+2 Laps,finished,0,76,,0,0.1579,-1.9098
+2015,6,2015_R06,Monaco Grand Prix,monaco,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,18,0.0,Accident,driver_incident,0,62,,0,0.1053,
+2015,6,2015_R06,Monaco Grand Prix,monaco,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,13,19,0.0,Gearbox,mechanical_dnf,1,41,,0,0.0526,
+2015,6,2015_R06,Monaco Grand Prix,monaco,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,8,20,0.0,Brakes,mechanical_dnf,1,5,,0,0.0,
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,70,78.7592142857143,0,1.0,1.1414
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,70,78.79185714285715,0,0.9474,1.1088
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,4,3,15.0,Finished,finished,0,70,79.34015714285714,0,0.8947,0.5605
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,3,4,12.0,Finished,finished,0,70,79.411,0,0.8421,0.4897
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,18,5,10.0,Finished,finished,0,70,79.47211428571428,0,0.7895,0.4285
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,15,6,8.0,Finished,finished,0,70,79.56465714285714,0,0.7368,0.336
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,6,7,6.0,Finished,finished,0,70,79.71155714285715,0,0.6842,0.1891
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,7,8,4.0,+1 Lap,finished,0,69,,0,0.6316,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,8,9,2.0,+1 Lap,finished,0,69,,0,0.5789,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,5,10,1.0,+1 Lap,finished,0,69,,0,0.5263,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,10,11,0.0,+1 Lap,finished,0,69,,0,0.4737,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,11,12,0.0,+1 Lap,finished,0,69,,0,0.4211,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,9,13,0.0,+1 Lap,finished,0,69,,0,0.3684,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,12,14,0.0,+1 Lap,finished,0,69,,0,0.3158,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,19,15,0.0,+1 Lap,finished,0,69,,0,0.2632,0.0
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,16,0.0,+2 Laps,finished,0,68,,0,0.2105,-1.175
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,17,0.0,+4 Laps,finished,0,66,,0,0.1579,-3.5
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,16,18,0.0,Retired,mechanical_dnf,1,57,,0,0.1053,
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,19,0.0,Retired,mechanical_dnf,1,54,,0,0.0526,
+2015,7,2015_R07,Canadian Grand Prix,villeneuve,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,13,20,0.0,Engine,mechanical_dnf,1,44,,0,0.0,
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,71,76.29478873239437,0,1.0,1.0899
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,71,76.41873239436619,0,0.9474,0.966
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,4,3,15.0,Finished,finished,0,71,76.54229577464788,0,0.8947,0.8424
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,4,12.0,Finished,finished,0,71,76.55085915492957,0,0.8421,0.8339
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,5,10.0,Finished,finished,0,71,77.04977464788732,0,0.7895,0.3349
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,5,6,8.0,Finished,finished,0,71,77.19725352112677,0,0.7368,0.1875
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,10,7,6.0,+1 Lap,finished,0,70,,0,0.6842,0.0
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,7,8,4.0,+1 Lap,finished,0,70,,0,0.6316,0.0
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,13,9,2.0,+1 Lap,finished,0,70,,0,0.5789,0.0
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,18,10,1.0,+1 Lap,finished,0,70,,0,0.5263,0.0
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,8,11,0.0,+1 Lap,finished,0,70,,0,0.4737,0.0
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,15,12,0.0,+1 Lap,finished,0,70,,0,0.4211,0.0
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,11,13,0.0,+2 Laps,finished,0,69,,0,0.3684,-1.1215
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,16,14,0.0,+3 Laps,finished,0,68,,0,0.3158,-2.276
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,9,15,0.0,Gearbox,mechanical_dnf,1,35,,0,0.2632,
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,12,16,0.0,Power loss,mechanical_dnf,1,35,,0,0.2105,
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,17,0.0,Retired,mechanical_dnf,1,8,,0,0.1579,
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,18,0.0,Oil leak,mechanical_dnf,1,1,,0,0.1053,
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,14,19,0.0,Collision,driver_incident,0,0,,0,0.0526,
+2015,8,2015_R08,Austrian Grand Prix,red_bull_ring,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,19,20,0.0,Collision,driver_incident,0,0,,0,0.0,
+2015,9,2015_R09,British Grand Prix,silverstone,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,52,105.53325000000001,0,1.0,1.5143
+2015,9,2015_R09,British Grand Prix,silverstone,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,52,105.74394230769232,0,0.9474,1.3036
+2015,9,2015_R09,British Grand Prix,silverstone,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,6,3,15.0,Finished,finished,0,52,106.02253846153846,0,0.8947,1.025
+2015,9,2015_R09,British Grand Prix,silverstone,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,3,4,12.0,Finished,finished,0,52,106.24169230769232,0,0.8421,0.8059
+2015,9,2015_R09,British Grand Prix,silverstone,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,4,5,10.0,Finished,finished,0,52,106.74851923076923,0,0.7895,0.299
+2015,9,2015_R09,British Grand Prix,silverstone,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,7,6,8.0,Finished,finished,0,52,106.76315384615386,0,0.7368,0.2844
+2015,9,2015_R09,British Grand Prix,silverstone,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,9,7,6.0,Finished,finished,0,52,107.04755769230769,0,0.6842,0.0
+2015,9,2015_R09,British Grand Prix,silverstone,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,8,4.0,+1 Lap,finished,0,51,,0,0.6316,-0.555
+2015,9,2015_R09,British Grand Prix,silverstone,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,11,9,2.0,+1 Lap,finished,0,51,,0,0.5789,-0.555
+2015,9,2015_R09,British Grand Prix,silverstone,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,17,10,1.0,+1 Lap,finished,0,51,,0,0.5263,-0.555
+2015,9,2015_R09,British Grand Prix,silverstone,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,15,11,0.0,+1 Lap,finished,0,51,,0,0.4737,-0.555
+2015,9,2015_R09,British Grand Prix,silverstone,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,12,0.0,+3 Laps,finished,0,49,,0,0.4211,-3.5
+2015,9,2015_R09,British Grand Prix,silverstone,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,13,0.0,+3 Laps,finished,0,49,,0,0.3684,-3.5
+2015,9,2015_R09,British Grand Prix,silverstone,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,8,14,0.0,Electrical,mechanical_dnf,1,31,,0,0.3158,
+2015,9,2015_R09,British Grand Prix,silverstone,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,10,15,0.0,Electrical,mechanical_dnf,1,21,,0,0.2632,
+2015,9,2015_R09,British Grand Prix,silverstone,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,13,16,0.0,Spun off,driver_incident,0,3,,0,0.2105,
+2015,9,2015_R09,British Grand Prix,silverstone,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,12,17,0.0,Collision,driver_incident,0,0,,0,0.1579,
+2015,9,2015_R09,British Grand Prix,silverstone,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,14,18,0.0,Collision,driver_incident,0,0,,0,0.1053,
+2015,9,2015_R09,British Grand Prix,silverstone,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,18,19,0.0,Collision,driver_incident,0,0,,0,0.0526,
+2015,9,2015_R09,British Grand Prix,silverstone,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,20,0.0,Gearbox,mechanical_dnf,1,0,,0,0.0,
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,1,25.0,Finished,finished,0,69,92.3186231884058,0,1.0,0.9123
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,7,2,18.0,Finished,finished,0,69,92.54685507246377,0,0.9474,0.6841
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,4,3,15.0,Finished,finished,0,69,92.68215942028986,0,0.8947,0.5488
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,4,12.0,Finished,finished,0,69,92.95994202898551,0,0.8421,0.271
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,15,5,10.0,Finished,finished,0,69,93.02991304347826,0,0.7895,0.2011
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,6,8.0,Finished,finished,0,69,93.07260869565218,0,0.7368,0.1584
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,7,6.0,Finished,finished,0,69,93.16757971014493,0,0.6842,0.0634
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,8,4.0,Finished,finished,0,69,93.17189855072463,0,0.6316,0.0591
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,16,9,2.0,Finished,finished,0,69,93.29004347826087,0,0.5789,-0.0591
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,10,1.0,Finished,finished,0,69,93.3205072463768,0,0.5263,-0.0895
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,18,11,0.0,Finished,finished,0,69,93.38323188405798,0,0.4737,-0.1523
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,8,12,0.0,Finished,finished,0,69,93.39511594202898,0,0.4211,-0.1641
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,13,0.0,Finished,finished,0,69,93.48134782608695,0,0.3684,-0.2504
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,14,14,0.0,Finished,finished,0,69,93.5525652173913,0,0.3158,-0.3216
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,19,15,0.0,+2 Laps,finished,0,67,,0,0.2632,-1.8434
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,STE,stevens,28,Will Stevens,British,manor,manor_2015,20,16,0.0,+4 Laps,finished,0,65,,0,0.2105,-3.5
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,12,17,0.0,Electrical,mechanical_dnf,1,60,,0,0.1579,
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,18,0.0,Power Unit,mechanical_dnf,1,55,,0,0.1053,
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,13,19,0.0,Suspension,mechanical_dnf,1,53,,0,0.0526,
+2015,10,2015_R10,Hungarian Grand Prix,hungaroring,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,20,0.0,Front wing,mechanical_dnf,1,41,,0,0.0,
+2015,11,2015_R11,Belgian Grand Prix,spa,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,43,116.75318604651162,0,1.0,1.3041
+2015,11,2015_R11,Belgian Grand Prix,spa,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,43,116.8010465116279,0,0.9474,1.2562
+2015,11,2015_R11,Belgian Grand Prix,spa,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,9,3,15.0,Finished,finished,0,43,117.63662790697674,0,0.8947,0.4207
+2015,11,2015_R11,Belgian Grand Prix,spa,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,12,4,12.0,Finished,finished,0,43,117.81579069767442,0,0.8421,0.2415
+2015,11,2015_R11,Belgian Grand Prix,spa,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,4,5,10.0,Finished,finished,0,43,118.00893023255814,0,0.7895,0.0483
+2015,11,2015_R11,Belgian Grand Prix,spa,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,6,6,8.0,Finished,finished,0,43,118.03883720930233,0,0.7368,0.0184
+2015,11,2015_R11,Belgian Grand Prix,spa,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,16,7,6.0,Finished,finished,0,43,118.04860465116279,0,0.6842,0.0087
+2015,11,2015_R11,Belgian Grand Prix,spa,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,18,8,4.0,Finished,finished,0,43,118.05727906976743,0,0.6316,0.0
+2015,11,2015_R11,Belgian Grand Prix,spa,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,3,9,2.0,Power Unit,mechanical_dnf,1,43,118.17272093023256,0,0.5789,-0.1154
+2015,11,2015_R11,Belgian Grand Prix,spa,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,13,10,1.0,Finished,finished,0,43,118.87490697674419,0,0.5263,-0.8176
+2015,11,2015_R11,Belgian Grand Prix,spa,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,11,0.0,Finished,finished,0,43,119.13251162790698,0,0.4737,-1.0752
+2015,11,2015_R11,Belgian Grand Prix,spa,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,8,12,0.0,Tyre,mechanical_dnf,1,42,,0,0.4211,
+2015,11,2015_R11,Belgian Grand Prix,spa,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,20,13,0.0,+1 Lap,finished,0,42,,0,0.3684,-1.4757
+2015,11,2015_R11,Belgian Grand Prix,spa,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,19,14,0.0,+1 Lap,finished,0,42,,0,0.3158,-1.4757
+2015,11,2015_R11,Belgian Grand Prix,spa,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,17,15,0.0,+1 Lap,finished,0,42,,0,0.2632,-1.4757
+2015,11,2015_R11,Belgian Grand Prix,spa,STE,stevens,28,Will Stevens,British,manor,manor_2015,15,16,0.0,+1 Lap,finished,0,42,,0,0.2105,-1.4757
+2015,11,2015_R11,Belgian Grand Prix,spa,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,17,0.0,Power Unit,mechanical_dnf,1,32,,0,0.1579,
+2015,11,2015_R11,Belgian Grand Prix,spa,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,5,18,0.0,Power Unit,mechanical_dnf,1,19,,0,0.1053,
+2015,11,2015_R11,Belgian Grand Prix,spa,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,7,19,0.0,Engine,mechanical_dnf,1,2,,0,0.0526,
+2015,11,2015_R11,Belgian Grand Prix,spa,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,20,0.0,Power loss,mechanical_dnf,1,0,,0,0.0,
+2015,12,2015_R12,Italian Grand Prix,monza,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,53,88.3148679245283,0,1.0,1.6984
+2015,12,2015_R12,Italian Grand Prix,monza,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,2,18.0,Finished,finished,0,53,88.78735849056604,0,0.9474,1.2259
+2015,12,2015_R12,Italian Grand Prix,monza,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,5,3,15.0,Finished,finished,0,53,89.21364150943397,0,0.8947,0.7996
+2015,12,2015_R12,Italian Grand Prix,monza,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,4,12.0,Finished,finished,0,53,89.22045283018868,0,0.8421,0.7928
+2015,12,2015_R12,Italian Grand Prix,monza,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,2,5,10.0,Finished,finished,0,53,89.61411320754716,0,0.7895,0.3991
+2015,12,2015_R12,Italian Grand Prix,monza,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,7,6,8.0,Finished,finished,0,53,89.68813207547169,0,0.7368,0.3251
+2015,12,2015_R12,Italian Grand Prix,monza,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,9,7,6.0,+1 Lap,finished,0,52,,0,0.6842,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,19,8,4.0,+1 Lap,finished,0,52,,0,0.6316,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,12,9,2.0,+1 Lap,finished,0,52,,0,0.5789,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,18,10,1.0,+1 Lap,finished,0,52,,0,0.5263,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,17,11,0.0,+1 Lap,finished,0,52,,0,0.4737,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,20,12,0.0,+1 Lap,finished,0,52,,0,0.4211,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,17,13,0.0,+1 Lap,finished,0,52,,0,0.3684,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,15,14,0.0,+1 Lap,finished,0,52,,0,0.3158,0.0
+2015,12,2015_R12,Italian Grand Prix,monza,STE,stevens,28,Will Stevens,British,manor,manor_2015,13,15,0.0,+2 Laps,finished,0,51,,0,0.2632,-1.765
+2015,12,2015_R12,Italian Grand Prix,monza,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,14,16,0.0,+2 Laps,finished,0,51,,0,0.2105,-1.765
+2015,12,2015_R12,Italian Grand Prix,monza,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,4,17,0.0,+3 Laps,finished,0,50,,0,0.1579,-3.5
+2015,12,2015_R12,Italian Grand Prix,monza,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,16,18,0.0,+6 Laps,finished,0,47,,0,0.1053,-3.5
+2015,12,2015_R12,Italian Grand Prix,monza,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,19,0.0,Collision damage,driver_incident,0,1,,0,0.0526,
+2015,12,2015_R12,Italian Grand Prix,monza,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,10,20,0.0,Collision damage,driver_incident,0,1,,0,0.0,
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,1,1,25.0,Finished,finished,0,61,119.37898360655738,0,1.0,0.8384
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,2,2,18.0,Finished,finished,0,61,119.4032131147541,0,0.9474,0.8142
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,61,119.66019672131148,0,0.8947,0.5572
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,6,4,12.0,Finished,finished,0,61,119.78422950819672,0,0.8421,0.4332
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,7,5,10.0,Finished,finished,0,61,119.93970491803279,0,0.7895,0.2777
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,4,6,8.0,Finished,finished,0,61,119.96108196721312,0,0.7368,0.2563
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,13,7,6.0,Finished,finished,0,61,120.2123606557377,0,0.6842,0.005
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,8,8,4.0,Finished,finished,0,61,120.2224262295082,0,0.6316,-0.005
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,14,9,2.0,Finished,finished,0,61,120.24554098360656,0,0.5789,-0.0281
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,10,1.0,Finished,finished,0,61,120.85513114754097,0,0.5263,-0.6377
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,11,0.0,Finished,finished,0,61,120.97745901639344,0,0.4737,-0.7601
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,18,12,0.0,Finished,finished,0,61,120.98091803278689,0,0.4211,-0.7635
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,13,0.0,Tyre,mechanical_dnf,1,59,,0,0.3684,
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,20,14,0.0,+2 Laps,finished,0,59,,0,0.3158,-3.2083
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,15,0.0,+2 Laps,finished,0,59,,0,0.2632,-3.2083
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,15,16,0.0,Gearbox,mechanical_dnf,1,52,,0,0.2105,
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,12,17,0.0,Gearbox,mechanical_dnf,1,33,,0,0.1579,
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,5,18,0.0,Throttle,mechanical_dnf,1,32,,0,0.1053,
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,9,19,0.0,Gearbox,mechanical_dnf,1,30,,0,0.0526,
+2015,13,2015_R13,Singapore Grand Prix,marina_bay,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,11,20,0.0,Collision,driver_incident,0,12,,0,0.0,
+2015,14,2015_R14,Japanese Grand Prix,suzuka,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,53,99.74543396226414,0,1.0,1.9182
+2015,14,2015_R14,Japanese Grand Prix,suzuka,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,53,100.10324528301886,0,0.9474,1.5604
+2015,14,2015_R14,Japanese Grand Prix,suzuka,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,4,3,15.0,Finished,finished,0,53,100.13883018867925,0,0.8947,1.5248
+2015,14,2015_R14,Japanese Grand Prix,suzuka,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,6,4,12.0,Finished,finished,0,53,100.38256603773584,0,0.8421,1.281
+2015,14,2015_R14,Japanese Grand Prix,suzuka,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,3,5,10.0,Finished,finished,0,53,100.43875471698114,0,0.7895,1.2249
+2015,14,2015_R14,Japanese Grand Prix,suzuka,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,13,6,8.0,Finished,finished,0,53,100.79371698113208,0,0.7368,0.8699
+2015,14,2015_R14,Japanese Grand Prix,suzuka,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,7,6.0,Finished,finished,0,53,101.10954716981131,0,0.6842,0.5541
+2015,14,2015_R14,Japanese Grand Prix,suzuka,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,11,8,4.0,Finished,finished,0,53,101.13364150943396,0,0.6316,0.53
+2015,14,2015_R14,Japanese Grand Prix,suzuka,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,17,9,2.0,Finished,finished,0,53,101.54383018867925,0,0.5789,0.1198
+2015,14,2015_R14,Japanese Grand Prix,suzuka,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,10,1.0,+1 Lap,finished,0,52,,0,0.5263,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,12,11,0.0,+1 Lap,finished,0,52,,0,0.4737,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,9,12,0.0,+1 Lap,finished,0,52,,0,0.4211,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,20,13,0.0,+1 Lap,finished,0,52,,0,0.3684,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,15,14,0.0,+1 Lap,finished,0,52,,0,0.3158,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,7,15,0.0,+1 Lap,finished,0,52,,0,0.2632,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,14,16,0.0,+1 Lap,finished,0,52,,0,0.2105,0.0
+2015,14,2015_R14,Japanese Grand Prix,suzuka,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,5,17,0.0,+2 Laps,finished,0,51,,0,0.1579,-1.9934
+2015,14,2015_R14,Japanese Grand Prix,suzuka,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,19,18,0.0,+2 Laps,finished,0,51,,0,0.1053,-1.9934
+2015,14,2015_R14,Japanese Grand Prix,suzuka,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,19,0.0,+3 Laps,finished,0,50,,0,0.0526,-3.5
+2015,14,2015_R14,Japanese Grand Prix,suzuka,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,16,20,0.0,Retired,mechanical_dnf,1,49,,0,0.0,
+2015,15,2015_R15,Russian Grand Prix,sochi,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,53,110.01932075471699,0,1.0,1.1526
+2015,15,2015_R15,Russian Grand Prix,sochi,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,4,2,18.0,Finished,finished,0,53,110.13164150943396,0,0.9474,1.0403
+2015,15,2015_R15,Russian Grand Prix,sochi,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,7,3,15.0,Finished,finished,0,53,110.56494339622641,0,0.8947,0.607
+2015,15,2015_R15,Russian Grand Prix,sochi,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,15,4,12.0,Finished,finished,0,53,110.75198113207546,0,0.8421,0.4199
+2015,15,2015_R15,Russian Grand Prix,sochi,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,11,5,10.0,Finished,finished,0,53,110.9167924528302,0,0.7895,0.2551
+2015,15,2015_R15,Russian Grand Prix,sochi,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,12,6,8.0,Finished,finished,0,53,111.08550943396227,0,0.7368,0.0864
+2015,15,2015_R15,Russian Grand Prix,sochi,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,14,7,6.0,Finished,finished,0,53,111.17192452830189,0,0.6842,0.0
+2015,15,2015_R15,Russian Grand Prix,sochi,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,5,8,4.0,Finished,finished,0,53,111.38456603773584,0,0.6316,-0.2126
+2015,15,2015_R15,Russian Grand Prix,sochi,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,13,9,2.0,Finished,finished,0,53,111.51869811320755,0,0.5789,-0.3468
+2015,15,2015_R15,Russian Grand Prix,sochi,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,10,1.0,Finished,finished,0,53,111.68769811320756,0,0.5263,-0.5158
+2015,15,2015_R15,Russian Grand Prix,sochi,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,19,11,0.0,Finished,finished,0,53,111.7402641509434,0,0.4737,-0.5683
+2015,15,2015_R15,Russian Grand Prix,sochi,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,3,12,0.0,Collision,driver_incident,0,52,,0,0.4211,
+2015,15,2015_R15,Russian Grand Prix,sochi,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,18,13,0.0,+1 Lap,finished,0,52,,0,0.3684,-0.9632
+2015,15,2015_R15,Russian Grand Prix,sochi,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,14,0.0,+2 Laps,finished,0,51,,0,0.3158,-3.1619
+2015,15,2015_R15,Russian Grand Prix,sochi,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,10,15,0.0,Suspension,mechanical_dnf,1,47,,0,0.2632,
+2015,15,2015_R15,Russian Grand Prix,sochi,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,20,16,0.0,Brakes,mechanical_dnf,1,45,,0,0.2105,
+2015,15,2015_R15,Russian Grand Prix,sochi,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,8,17,0.0,Accident,driver_incident,0,11,,0,0.1579,
+2015,15,2015_R15,Russian Grand Prix,sochi,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,18,0.0,Throttle,mechanical_dnf,1,7,,0,0.1053,
+2015,15,2015_R15,Russian Grand Prix,sochi,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,6,19,0.0,Collision,driver_incident,0,0,,0,0.0526,
+2015,15,2015_R15,Russian Grand Prix,sochi,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,20,0.0,Collision,driver_incident,0,0,,0,0.0,
+2015,16,2015_R16,United States Grand Prix,americas,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,1,25.0,Finished,finished,0,56,118.79826785714286,0,1.0,0.5239
+2015,16,2015_R16,United States Grand Prix,americas,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,2,18.0,Finished,finished,0,56,118.84916071428572,0,0.9474,0.473
+2015,16,2015_R16,United States Grand Prix,americas,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,13,3,15.0,Finished,finished,0,56,118.85864285714285,0,0.8947,0.4635
+2015,16,2015_R16,United States Grand Prix,americas,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,8,4,12.0,Finished,finished,0,56,119.1975357142857,0,0.8421,0.1246
+2015,16,2015_R16,United States Grand Prix,americas,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,5,5,10.0,Finished,finished,0,56,119.23421428571429,0,0.7895,0.088
+2015,16,2015_R16,United States Grand Prix,americas,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,11,6,8.0,Finished,finished,0,56,119.29930357142858,0,0.7368,0.0229
+2015,16,2015_R16,United States Grand Prix,americas,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,20,7,6.0,Finished,finished,0,56,119.34503571428571,0,0.6842,-0.0229
+2015,16,2015_R16,United States Grand Prix,americas,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,12,8,4.0,Finished,finished,0,56,119.37457142857143,0,0.6316,-0.0524
+2015,16,2015_R16,United States Grand Prix,americas,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,15,9,2.0,Finished,finished,0,56,119.51714285714286,0,0.5789,-0.195
+2015,16,2015_R16,United States Grand Prix,americas,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,3,10,1.0,Finished,finished,0,56,119.75132142857142,0,0.5263,-0.4292
+2015,16,2015_R16,United States Grand Prix,americas,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,9,11,0.0,Finished,finished,0,56,119.777125,0,0.4737,-0.455
+2015,16,2015_R16,United States Grand Prix,americas,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,17,12,0.0,Finished,finished,0,56,120.1425,0,0.4211,-0.8203
+2015,16,2015_R16,United States Grand Prix,americas,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,4,13,0.0,Accident,driver_incident,0,41,,0,0.3684,
+2015,16,2015_R16,United States Grand Prix,americas,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,6,14,0.0,Accident,driver_incident,0,35,,0,0.3158,
+2015,16,2015_R16,United States Grand Prix,americas,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,14,15,0.0,Retired,mechanical_dnf,1,25,,0,0.2632,
+2015,16,2015_R16,United States Grand Prix,americas,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,18,16,0.0,Brake duct,mechanical_dnf,1,25,,0,0.2105,
+2015,16,2015_R16,United States Grand Prix,americas,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,7,17,0.0,Retired,mechanical_dnf,1,23,,0,0.1579,
+2015,16,2015_R16,United States Grand Prix,americas,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,10,18,0.0,Retired,mechanical_dnf,1,10,,0,0.1053,
+2015,16,2015_R16,United States Grand Prix,americas,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,16,19,0.0,Retired,mechanical_dnf,1,5,,0,0.0526,
+2015,16,2015_R16,United States Grand Prix,americas,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,20,0.0,Retired,mechanical_dnf,1,1,,0,0.0,
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,71,86.69067605633802,0,1.0,0.4899
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,71,86.7181971830986,0,0.9474,0.4624
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,3,15.0,Finished,finished,0,71,86.8961971830986,0,0.8947,0.2844
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,4,4,12.0,Finished,finished,0,71,86.92408450704225,0,0.8421,0.2565
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,5,5,10.0,Finished,finished,0,71,86.96788732394367,0,0.7895,0.2127
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,7,6,8.0,Finished,finished,0,71,86.99339436619718,0,0.7368,0.1872
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,10,7,6.0,Finished,finished,0,71,87.0549014084507,0,0.6842,0.1257
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,9,8,4.0,Finished,finished,0,71,87.17438028169015,0,0.6316,0.0062
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,8,9,2.0,Finished,finished,0,71,87.18685915492958,0,0.5789,-0.0062
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,12,10,1.0,Finished,finished,0,71,87.22495774647886,0,0.5263,-0.0443
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,13,11,0.0,Finished,finished,0,71,87.23346478873239,0,0.4737,-0.0528
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,14,12,0.0,Finished,finished,0,71,87.25659154929578,0,0.4211,-0.076
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,11,13,0.0,Finished,finished,0,71,87.37760563380282,0,0.3684,-0.197
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,20,14,0.0,Finished,finished,0,71,87.3838309859155,0,0.3158,-0.2032
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,16,15,0.0,+2 Laps,finished,0,69,,0,0.2632,-2.0228
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,STE,stevens,28,Will Stevens,British,manor,manor_2015,17,16,0.0,+2 Laps,finished,0,69,,0,0.2105,-2.0228
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,15,17,0.0,Brakes,mechanical_dnf,1,57,,0,0.1579,
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,18,0.0,Accident,driver_incident,0,50,,0,0.1053,
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,19,19,0.0,Collision,driver_incident,0,21,,0,0.0526,
+2015,17,2015_R17,Mexican Grand Prix,rodriguez,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,18,20,0.0,Retired,mechanical_dnf,1,1,,0,0.0,
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,71,77.02943661971831,0,1.0,1.1004
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,71,77.13867605633803,0,0.9474,0.9912
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,71,77.23005633802816,0,0.8947,0.8998
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,4,4,12.0,Finished,finished,0,71,77.69905633802817,0,0.8421,0.4308
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,7,5,10.0,+1 Lap,finished,0,70,,0,0.7895,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,5,6,8.0,+1 Lap,finished,0,70,,0,0.7368,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,6,7,6.0,+1 Lap,finished,0,70,,0,0.6842,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,14,8,4.0,+1 Lap,finished,0,70,,0,0.6316,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,9,9,2.0,+1 Lap,finished,0,70,,0,0.5789,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,15,10,1.0,+1 Lap,finished,0,70,,0,0.5263,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,19,11,0.0,+1 Lap,finished,0,70,,0,0.4737,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,11,12,0.0,+1 Lap,finished,0,70,,0,0.4211,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,13,13,0.0,+1 Lap,finished,0,70,,0,0.3684,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,16,14,0.0,+1 Lap,finished,0,70,,0,0.3158,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,20,15,0.0,+1 Lap,finished,0,70,,0,0.2632,0.0
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,12,16,0.0,+2 Laps,finished,0,69,,0,0.2105,-1.1323
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,STE,stevens,28,Will Stevens,British,manor,manor_2015,18,17,0.0,+4 Laps,finished,0,67,,0,0.1579,-3.4984
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,RSS,rossi,53,Alexander Rossi,American,manor,manor_2015,17,18,0.0,+4 Laps,finished,0,67,,0,0.1053,-3.4984
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,19,0.0,Retired,mechanical_dnf,1,0,,0,0.0526,
+2015,18,2015_R18,Brazilian Grand Prix,interlagos,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,8,20,0.0,Excluded,other_dnf,0,70,,0,0.0,
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,ROS,rosberg,6,Nico Rosberg,German,mercedes,mercedes_2015,1,1,25.0,Finished,finished,0,55,107.45772727272728,0,1.0,1.8613
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,44,Lewis Hamilton,British,mercedes,mercedes_2015,2,2,18.0,Finished,finished,0,55,107.6081090909091,0,0.9474,1.7109
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,RAI,raikkonen,7,Kimi Räikkönen,Finnish,ferrari,ferrari_2015,3,3,15.0,Finished,finished,0,55,107.81099999999999,0,0.8947,1.508
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,VET,vettel,5,Sebastian Vettel,German,ferrari,ferrari_2015,15,4,12.0,Finished,finished,0,55,108.25290909090909,0,0.8421,1.0661
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,PER,perez,11,Sergio Pérez,Mexican,force_india,force_india_2015,4,5,10.0,Finished,finished,0,55,108.62049090909092,0,0.7895,0.6985
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,RIC,ricciardo,3,Daniel Ricciardo,Australian,red_bull,red_bull_2015,5,6,8.0,Finished,finished,0,55,108.63972727272728,0,0.7368,0.6793
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,HUL,hulkenberg,27,Nico Hülkenberg,German,force_india,force_india_2015,7,7,6.0,Finished,finished,0,55,109.15987272727273,0,0.6842,0.1591
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,MAS,massa,19,Felipe Massa,Brazilian,williams,williams_2015,8,8,4.0,Finished,finished,0,55,109.23501818181819,0,0.6316,0.084
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,GRO,grosjean,8,Romain Grosjean,French,lotus_f1,lotus_f1_2015,18,9,2.0,Finished,finished,0,55,109.2432,0,0.5789,0.0758
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,KVY,kvyat,26,Daniil Kvyat,Russian,red_bull,red_bull_2015,9,10,1.0,Finished,finished,0,55,109.31901818181818,0,0.5263,0.0
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,SAI,sainz,55,Carlos Sainz,Spanish,toro_rosso,toro_rosso_2015,10,11,0.0,Finished,finished,0,55,109.34,0,0.4737,-0.021
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,BUT,button,22,Jenson Button,British,mclaren,mclaren_2015,12,12,0.0,+1 Lap,finished,0,54,,0,0.4211,-0.1287
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,BOT,bottas,77,Valtteri Bottas,Finnish,williams,williams_2015,6,13,0.0,+1 Lap,finished,0,54,,0,0.3684,-0.1287
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,ERI,ericsson,9,Marcus Ericsson,Swedish,sauber,sauber_2015,17,14,0.0,+1 Lap,finished,0,54,,0,0.3158,-0.1287
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,NAS,nasr,12,Felipe Nasr,Brazilian,sauber,sauber_2015,14,15,0.0,+1 Lap,finished,0,54,,0,0.2632,-0.1287
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,VER,max_verstappen,33,Max Verstappen,Dutch,toro_rosso,toro_rosso_2015,11,16,0.0,+1 Lap,finished,0,54,,0,0.2105,-0.1287
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,14,Fernando Alonso,Spanish,mclaren,mclaren_2015,16,17,0.0,+2 Laps,finished,0,53,,0,0.1579,-2.1937
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,STE,stevens,28,Will Stevens,British,manor,manor_2015,19,18,0.0,+2 Laps,finished,0,53,,0,0.1053,-2.1937
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,MER,merhi,98,Roberto Merhi,Spanish,manor,manor_2015,20,19,0.0,+3 Laps,finished,0,52,,0,0.0526,-3.5
+2015,19,2015_R19,Abu Dhabi Grand Prix,yas_marina,MAL,maldonado,13,Pastor Maldonado,Venezuelan,lotus_f1,lotus_f1_2015,13,20,0.0,Collision,driver_incident,0,0,,0,0.0,

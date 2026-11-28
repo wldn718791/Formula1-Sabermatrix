@@ -1,341 +1,341 @@
-season,round,race_id,race_name,circuit_id,driver,driver_id,car_number,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,is_wet,pace_score,best_quali_sec,adj_quali_sec,quali_pace_pct
-2009,1,2009_R01,Australian Grand Prix,albert_park,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,10.0,Finished,finished,0,0,1.0,84.855,86.202,1.1264
-2009,1,2009_R01,Australian Grand Prix,albert_park,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,2,2,8.0,Finished,finished,0,0,0.9474,84.783,86.505,0.7788
-2009,1,2009_R01,Australian Grand Prix,albert_park,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,20,3,6.0,Finished,finished,0,0,0.8947,85.265,87.007,0.203
-2009,1,2009_R01,Australian Grand Prix,albert_park,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,19,4,5.0,Finished,finished,0,0,0.8421,85.281,86.975,0.2397
-2009,1,2009_R01,Australian Grand Prix,albert_park,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,10,5,4.0,Finished,finished,0,0,0.7895,85.605,87.347,-0.187
-2009,1,2009_R01,Australian Grand Prix,albert_park,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,5,6,3.0,Finished,finished,0,0,0.7368,85.123,86.865,0.3659
-2009,1,2009_R01,Australian Grand Prix,albert_park,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,13,7,2.0,Finished,finished,0,0,0.6842,86.503,87.7825,-0.6865
-2009,1,2009_R01,Australian Grand Prix,albert_park,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,17,8,1.0,Finished,finished,0,0,0.6316,86.964,88.2435,-1.2152
-2009,1,2009_R01,Australian Grand Prix,albert_park,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,16,9,0.0,Finished,finished,0,0,0.5789,86.742,88.0215,-0.9606
-2009,1,2009_R01,Australian Grand Prix,albert_park,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,9,10,0.0,Finished,finished,0,0,0.5263,85.504,87.246,-0.0711
-2009,1,2009_R01,Australian Grand Prix,albert_park,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,15,11,0.0,Finished,finished,0,0,0.4737,86.677,87.9565,-0.8861
-2009,1,2009_R01,Australian Grand Prix,albert_park,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,8,12,0.0,+1 Lap,finished,0,0,0.4211,85.241,86.983,0.2305
-2009,1,2009_R01,Australian Grand Prix,albert_park,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,3,13,0.0,Collision,driver_incident,0,0,0.3684,85.121,86.83,0.406
-2009,1,2009_R01,Australian Grand Prix,albert_park,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,4,14,0.0,Collision,driver_incident,0,0,0.3158,85.152,86.894,0.3326
-2009,1,2009_R01,Australian Grand Prix,albert_park,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,7,15,0.0,Differential,mechanical_dnf,1,0,0.2632,85.38,87.122,0.0711
-2009,1,2009_R01,Australian Grand Prix,albert_park,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,6,16,0.0,Suspension,mechanical_dnf,1,0,0.2105,85.319,87.033,0.1732
-2009,1,2009_R01,Australian Grand Prix,albert_park,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,14,17,0.0,Spun off,driver_incident,0,0,0.1579,86.598,87.8775,-0.7954
-2009,1,2009_R01,Australian Grand Prix,albert_park,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,11,18,0.0,Accident,driver_incident,0,0,0.1053,85.607,87.349,-0.1893
-2009,1,2009_R01,Australian Grand Prix,albert_park,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,12,19,0.0,Collision,driver_incident,0,0,0.0526,85.726,87.468,-0.3257
-2009,1,2009_R01,Australian Grand Prix,albert_park,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,18,20,0.0,Disqualified,driver_incident,0,0,0.0,86.454,87.7335,-0.6303
-2009,2,2009_R02,Malaysian Grand Prix,sepang,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,5.0,Finished,finished,0,0,1.0,93.784,95.181,1.0099
-2009,2,2009_R02,Malaysian Grand Prix,sepang,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,10,2,4.0,Finished,finished,0,0,0.9474,94.769,96.1835,-0.0328
-2009,2,2009_R02,Malaysian Grand Prix,sepang,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,3,3,3.0,Finished,finished,0,0,0.8947,94.258,95.6725,0.4987
-2009,2,2009_R02,Malaysian Grand Prix,sepang,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,2,4,2.5,Finished,finished,0,0,0.8421,93.99,95.273,0.9142
-2009,2,2009_R02,Malaysian Grand Prix,sepang,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,8,5,2.0,Finished,finished,0,0,0.7895,94.387,95.651,0.5211
-2009,2,2009_R02,Malaysian Grand Prix,sepang,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,5,6,1.5,Finished,finished,0,0,0.7368,94.222,95.6365,0.5361
-2009,2,2009_R02,Malaysian Grand Prix,sepang,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,12,7,1.0,Finished,finished,0,0,0.6842,94.905,96.3195,-0.1742
-2009,2,2009_R02,Malaysian Grand Prix,sepang,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,4,8,0.5,Finished,finished,0,0,0.6316,94.547,95.75,0.4181
-2009,2,2009_R02,Malaysian Grand Prix,sepang,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,16,9,0.0,Finished,finished,0,0,0.5789,95.642,96.5025,-0.3645
-2009,2,2009_R02,Malaysian Grand Prix,sepang,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,15,10,0.0,Finished,finished,0,0,0.5263,95.431,96.8455,-0.7213
-2009,2,2009_R02,Malaysian Grand Prix,sepang,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,9,11,0.0,+1 Lap,finished,0,0,0.4737,94.706,96.1205,0.0328
-2009,2,2009_R02,Malaysian Grand Prix,sepang,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,11,12,0.0,+1 Lap,finished,0,0,0.4211,94.788,96.2025,-0.0525
-2009,2,2009_R02,Malaysian Grand Prix,sepang,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,17,13,0.0,+1 Lap,finished,0,0,0.3684,95.708,96.5685,-0.4332
-2009,2,2009_R02,Malaysian Grand Prix,sepang,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,7,14,0.0,+1 Lap,finished,0,0,0.3158,94.456,95.8705,0.2928
-2009,2,2009_R02,Malaysian Grand Prix,sepang,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,13,15,0.0,Spun off,driver_incident,0,0,0.2632,94.276,95.518,0.6594
-2009,2,2009_R02,Malaysian Grand Prix,sepang,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,20,16,0.0,Spun off,driver_incident,0,0,0.2105,96.107,96.9675,-0.8481
-2009,2,2009_R02,Malaysian Grand Prix,sepang,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,19,17,0.0,+1 Lap,finished,0,0,0.1579,95.951,96.8115,-0.6859
-2009,2,2009_R02,Malaysian Grand Prix,sepang,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,18,18,0.0,Spun off,driver_incident,0,0,0.1053,95.908,96.7685,-0.6412
-2009,2,2009_R02,Malaysian Grand Prix,sepang,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,6,19,0.0,Engine,mechanical_dnf,1,0,0.0526,94.562,95.9765,0.1825
-2009,2,2009_R02,Malaysian Grand Prix,sepang,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,14,20,0.0,Spun off,driver_incident,0,0,0.0,94.924,96.3385,-0.194
-2009,3,2009_R03,Chinese Grand Prix,shanghai,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,0,1.0,95.13,96.184,1.057
-2009,3,2009_R03,Chinese Grand Prix,shanghai,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,0,0.9474,95.173,96.4145,0.8199
-2009,3,2009_R03,Chinese Grand Prix,shanghai,BUT,button,22,Jenson Button,British,brawn,brawn_2009,5,3,6.0,Finished,finished,0,0,0.8947,95.533,96.532,0.699
-2009,3,2009_R03,Chinese Grand Prix,shanghai,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,4,4,5.0,Finished,finished,0,0,0.8421,95.503,96.493,0.7391
-2009,3,2009_R03,Chinese Grand Prix,shanghai,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,12,5,4.0,Finished,finished,0,0,0.7895,96.032,97.2735,-0.0638
-2009,3,2009_R03,Chinese Grand Prix,shanghai,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,9,6,3.0,Finished,finished,0,0,0.7368,95.74,96.9815,0.2366
-2009,3,2009_R03,Chinese Grand Prix,shanghai,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,19,7,2.0,Finished,finished,0,0,0.6842,96.066,97.3075,-0.0988
-2009,3,2009_R03,Chinese Grand Prix,shanghai,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,10,8,1.0,Finished,finished,0,0,0.6316,95.965,97.2065,0.0051
-2009,3,2009_R03,Chinese Grand Prix,shanghai,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,2,9,0.0,Finished,finished,0,0,0.5789,95.803,96.381,0.8543
-2009,3,2009_R03,Chinese Grand Prix,shanghai,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,8,10,0.0,Finished,finished,0,0,0.5263,95.856,97.0975,0.1173
-2009,3,2009_R03,Chinese Grand Prix,shanghai,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,15,11,0.0,Finished,finished,0,0,0.4737,96.906,97.8285,-0.6347
-2009,3,2009_R03,Chinese Grand Prix,shanghai,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,12,0.0,Finished,finished,0,0,0.4211,95.975,97.2165,-0.0051
-2009,3,2009_R03,Chinese Grand Prix,shanghai,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,17,13,0.0,Finished,finished,0,0,0.3684,96.966,97.8885,-0.6964
-2009,3,2009_R03,Chinese Grand Prix,shanghai,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,20,14,0.0,+1 Lap,finished,0,0,0.3158,97.672,98.5945,-1.4227
-2009,3,2009_R03,Chinese Grand Prix,shanghai,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,15,0.0,+1 Lap,finished,0,0,0.2632,95.809,97.0505,0.1656
-2009,3,2009_R03,Chinese Grand Prix,shanghai,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,16,16,0.0,+2 Laps,finished,0,0,0.2105,96.908,97.8305,-0.6368
-2009,3,2009_R03,Chinese Grand Prix,shanghai,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,18,17,0.0,Spun off,driver_incident,0,0,0.1579,97.669,98.5915,-1.4196
-2009,3,2009_R03,Chinese Grand Prix,shanghai,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,14,18,0.0,Retired,mechanical_dnf,1,0,0.1053,96.193,97.4345,-0.2294
-2009,3,2009_R03,Chinese Grand Prix,shanghai,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,13,19,0.0,Electronics,mechanical_dnf,1,0,0.0526,96.033,97.2745,-0.0648
-2009,3,2009_R03,Chinese Grand Prix,shanghai,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,6,20,0.0,Collision,driver_incident,0,0,0.0,95.645,96.835,0.3873
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,BUT,button,22,Jenson Button,British,brawn,brawn_2009,4,1,10.0,Finished,finished,0,0,1.0,92.842,94.044,0.6644
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,0,0.9474,92.474,93.943,0.7711
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,1,3,6.0,Finished,finished,0,0,0.8947,92.671,93.431,1.3119
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,5,4,5.0,Finished,finished,0,0,0.8421,92.851,94.196,0.5038
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,6,5,4.0,Finished,finished,0,0,0.7895,92.842,94.239,0.4584
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,10,6,3.0,Finished,finished,0,0,0.7368,92.827,94.296,0.3982
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,2,7,2.0,Finished,finished,0,0,0.6842,92.613,93.712,1.0151
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,7,8,1.0,Finished,finished,0,0,0.6316,92.86,94.329,0.3634
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,9,0.0,Finished,finished,0,0,0.5789,93.166,94.635,0.0401
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,15,10,0.0,Finished,finished,0,0,0.5263,93.608,95.41,-0.7785
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,18,11,0.0,Finished,finished,0,0,0.4737,94.038,95.301,-0.6633
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,11,12,0.0,Finished,finished,0,0,0.4211,93.242,94.711,-0.0401
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,20,13,0.0,Finished,finished,0,0,0.3684,94.159,95.422,-0.7911
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,8,14,0.0,+1 Lap,finished,0,0,0.3158,93.014,94.483,0.2007
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,17,15,0.0,+1 Lap,finished,0,0,0.2632,93.91,95.173,-0.5281
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,19,16,0.0,+1 Lap,finished,0,0,0.2105,93.722,94.985,-0.3296
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,16,17,0.0,+1 Lap,finished,0,0,0.1579,93.753,95.016,-0.3623
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,13,18,0.0,+1 Lap,finished,0,0,0.1053,93.487,94.956,-0.2989
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,14,19,0.0,+1 Lap,finished,0,0,0.0526,93.377,95.031,-0.3781
-2009,4,2009_R04,Bahrain Grand Prix,bahrain,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,12,20,0.0,Oil pressure,mechanical_dnf,1,0,0.0,93.221,94.817,-0.1521
-2009,5,2009_R05,Spanish Grand Prix,catalunya,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,10.0,Finished,finished,0,0,1.0,80.192,80.527,1.0463
-2009,5,2009_R05,Spanish Grand Prix,catalunya,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,2,8.0,Finished,finished,0,0,0.9474,79.954,80.762,0.7576
-2009,5,2009_R05,Spanish Grand Prix,catalunya,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,5,3,6.0,Finished,finished,0,0,0.8947,80.007,80.8655,0.6304
-2009,5,2009_R05,Spanish Grand Prix,catalunya,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,4,5.0,Finished,finished,0,0,0.8421,80.22,80.66,0.8829
-2009,5,2009_R05,Spanish Grand Prix,catalunya,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,5,4.0,Finished,finished,0,0,0.7895,80.509,81.3675,0.0135
-2009,5,2009_R05,Spanish Grand Prix,catalunya,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,4,6,3.0,Finished,finished,0,0,0.7368,80.149,80.934,0.5462
-2009,5,2009_R05,Spanish Grand Prix,catalunya,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,13,7,2.0,Finished,finished,0,0,0.6842,80.676,81.5345,-0.1917
-2009,5,2009_R05,Spanish Grand Prix,catalunya,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,8,1.0,Finished,finished,0,0,0.6316,80.256,81.1145,0.3244
-2009,5,2009_R05,Spanish Grand Prix,catalunya,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,14,9,0.0,+1 Lap,finished,0,0,0.5789,80.805,81.6635,-0.3502
-2009,5,2009_R05,Spanish Grand Prix,catalunya,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,6,10,0.0,+1 Lap,finished,0,0,0.5263,80.107,80.9655,0.5075
-2009,5,2009_R05,Spanish Grand Prix,catalunya,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,10,11,0.0,+1 Lap,finished,0,0,0.4737,80.408,81.2665,0.1376
-2009,5,2009_R05,Spanish Grand Prix,catalunya,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,12,12,0.0,+1 Lap,finished,0,0,0.4211,80.604,81.4625,-0.1032
-2009,5,2009_R05,Spanish Grand Prix,catalunya,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,11,13,0.0,+1 Lap,finished,0,0,0.3684,80.531,81.3895,-0.0135
-2009,5,2009_R05,Spanish Grand Prix,catalunya,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,20,14,0.0,+1 Lap,finished,0,0,0.3158,82.204,82.5475,-1.4365
-2009,5,2009_R05,Spanish Grand Prix,catalunya,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,16,15,0.0,Hydraulics,mechanical_dnf,1,0,0.2632,81.291,81.6345,-0.3146
-2009,5,2009_R05,Spanish Grand Prix,catalunya,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,18,16,0.0,Gearbox,mechanical_dnf,1,0,0.2105,81.675,82.0185,-0.7864
-2009,5,2009_R05,Spanish Grand Prix,catalunya,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,7,17,0.0,Collision,driver_incident,0,0,0.1579,80.42,81.254,0.153
-2009,5,2009_R05,Spanish Grand Prix,catalunya,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,15,18,0.0,Collision,driver_incident,0,0,0.1053,81.033,81.9255,-0.6722
-2009,5,2009_R05,Spanish Grand Prix,catalunya,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,17,19,0.0,Collision,driver_incident,0,0,0.0526,81.3,81.6435,-0.3256
-2009,5,2009_R05,Spanish Grand Prix,catalunya,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,19,20,0.0,Collision,driver_incident,0,0,0.0,81.742,82.0855,-0.8688
-2009,6,2009_R06,Monaco Grand Prix,monaco,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,10.0,Finished,finished,0,0,1.0,74.902,74.902,1.7402
-2009,6,2009_R06,Monaco Grand Prix,monaco,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,2,8.0,Finished,finished,0,0,0.9474,74.829,75.077,1.5106
-2009,6,2009_R06,Monaco Grand Prix,monaco,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,2,3,6.0,Finished,finished,0,0,0.8947,74.514,74.927,1.7074
-2009,6,2009_R06,Monaco Grand Prix,monaco,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,5,4,5.0,Finished,finished,0,0,0.8421,75.001,75.437,1.0383
-2009,6,2009_R06,Monaco Grand Prix,monaco,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,8,5,4.0,Finished,finished,0,0,0.7895,74.825,75.3475,1.1557
-2009,6,2009_R06,Monaco Grand Prix,monaco,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,6,6,3.0,Finished,finished,0,0,0.7368,74.846,75.3685,1.1282
-2009,6,2009_R06,Monaco Grand Prix,monaco,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,9,7,2.0,Finished,finished,0,0,0.6842,75.2,75.7225,0.6638
-2009,6,2009_R06,Monaco Grand Prix,monaco,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,14,8,1.0,Finished,finished,0,0,0.6316,76.12,76.8035,-0.7543
-2009,6,2009_R06,Monaco Grand Prix,monaco,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,13,9,0.0,Finished,finished,0,0,0.5789,76.063,76.6685,-0.5772
-2009,6,2009_R06,Monaco Grand Prix,monaco,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,20,10,0.0,+1 Lap,finished,0,0,0.5263,76.788,76.9715,-0.9747
-2009,6,2009_R06,Monaco Grand Prix,monaco,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,16,11,0.0,+1 Lap,finished,0,0,0.4737,76.264,76.4475,-0.2873
-2009,6,2009_R06,Monaco Grand Prix,monaco,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,19,12,0.0,+1 Lap,finished,0,0,0.4211,76.264,76.4475,-0.2873
-2009,6,2009_R06,Monaco Grand Prix,monaco,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,18,13,0.0,+1 Lap,finished,0,0,0.3684,76.548,76.7315,-0.6599
-2009,6,2009_R06,Monaco Grand Prix,monaco,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,15,14,0.0,+1 Lap,finished,0,0,0.3158,76.248,77.0675,-1.1006
-2009,6,2009_R06,Monaco Grand Prix,monaco,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,10,15,0.0,Accident,driver_incident,0,0,0.2632,75.579,76.1015,0.1666
-2009,6,2009_R06,Monaco Grand Prix,monaco,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,7,16,0.0,Accident,driver_incident,0,0,0.2105,74.809,75.3315,1.1767
-2009,6,2009_R06,Monaco Grand Prix,monaco,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,17,17,0.0,Brakes,mechanical_dnf,1,0,0.1579,76.405,76.5885,-0.4723
-2009,6,2009_R06,Monaco Grand Prix,monaco,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,4,18,0.0,Accident,driver_incident,0,0,0.1053,74.879,75.271,1.2561
-2009,6,2009_R06,Monaco Grand Prix,monaco,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,12,19,0.0,Collision,driver_incident,0,0,0.0526,75.837,76.3595,-0.1719
-2009,6,2009_R06,Monaco Grand Prix,monaco,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,11,20,0.0,Collision,driver_incident,0,0,0.0,75.833,76.3555,-0.1666
-2009,7,2009_R07,Turkish Grand Prix,istanbul,BUT,button,22,Jenson Button,British,brawn,brawn_2009,2,1,10.0,Finished,finished,0,0,1.0,87.23,88.421,0.5908
-2009,7,2009_R07,Turkish Grand Prix,istanbul,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,4,2,8.0,Finished,finished,0,0,0.9474,87.416,88.613,0.3749
-2009,7,2009_R07,Turkish Grand Prix,istanbul,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,3,6.0,Finished,finished,0,0,0.8947,87.016,88.316,0.7089
-2009,7,2009_R07,Turkish Grand Prix,istanbul,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,5,4,5.0,Finished,finished,0,0,0.8421,87.195,88.6445,0.3395
-2009,7,2009_R07,Turkish Grand Prix,istanbul,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,5,4.0,Finished,finished,0,0,0.7895,87.418,88.8675,0.0888
-2009,7,2009_R07,Turkish Grand Prix,istanbul,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,7,6,3.0,Finished,finished,0,0,0.7368,87.349,88.7985,0.1664
-2009,7,2009_R07,Turkish Grand Prix,istanbul,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,10,7,2.0,Finished,finished,0,0,0.6842,87.455,88.9045,0.0472
-2009,7,2009_R07,Turkish Grand Prix,istanbul,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,13,8,1.0,Finished,finished,0,0,0.6316,87.795,89.2445,-0.335
-2009,7,2009_R07,Turkish Grand Prix,istanbul,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,6,9,0.0,Finished,finished,0,0,0.5789,87.387,88.815,0.1478
-2009,7,2009_R07,Turkish Grand Prix,istanbul,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,10,0.0,Finished,finished,0,0,0.5263,87.473,88.9225,0.027
-2009,7,2009_R07,Turkish Grand Prix,istanbul,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,11,0.0,Finished,finished,0,0,0.4737,87.521,88.9705,-0.027
-2009,7,2009_R07,Turkish Grand Prix,istanbul,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,12,12,0.0,Finished,finished,0,0,0.4211,87.629,89.0785,-0.1484
-2009,7,2009_R07,Turkish Grand Prix,istanbul,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,16,13,0.0,Finished,finished,0,0,0.3684,88.318,89.6085,-0.7443
-2009,7,2009_R07,Turkish Grand Prix,istanbul,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,14,14,0.0,+1 Lap,finished,0,0,0.3158,88.199,89.6565,-0.7982
-2009,7,2009_R07,Turkish Grand Prix,istanbul,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,18,15,0.0,+1 Lap,finished,0,0,0.2632,88.708,89.9985,-1.1827
-2009,7,2009_R07,Turkish Grand Prix,istanbul,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,17,16,0.0,+1 Lap,finished,0,0,0.2105,88.582,89.8725,-1.0411
-2009,7,2009_R07,Turkish Grand Prix,istanbul,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,15,17,0.0,+1 Lap,finished,0,0,0.1579,88.278,89.8405,-1.0051
-2009,7,2009_R07,Turkish Grand Prix,istanbul,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,20,18,0.0,+1 Lap,finished,0,0,0.1053,88.918,90.2085,-1.4188
-2009,7,2009_R07,Turkish Grand Prix,istanbul,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,19,0.0,Gearbox,mechanical_dnf,1,0,0.0526,87.371,88.579,0.4132
-2009,7,2009_R07,Turkish Grand Prix,istanbul,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,19,20,0.0,Brakes,mechanical_dnf,1,0,0.0,88.717,90.0075,-1.1929
-2009,8,2009_R08,British Grand Prix,silverstone,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,0,1.0,78.119,79.509,1.2777
-2009,8,2009_R08,British Grand Prix,silverstone,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,0,0.9474,78.209,79.868,0.8319
-2009,8,2009_R08,British Grand Prix,silverstone,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,2,3,6.0,Finished,finished,0,0,0.8947,78.335,79.856,0.8468
-2009,8,2009_R08,British Grand Prix,silverstone,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,11,4,5.0,Finished,finished,0,0,0.8421,78.927,80.606,-0.0844
-2009,8,2009_R08,British Grand Prix,silverstone,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,5,4.0,Finished,finished,0,0,0.7895,78.591,80.27,0.3328
-2009,8,2009_R08,British Grand Prix,silverstone,BUT,button,22,Jenson Button,British,brawn,brawn_2009,6,6,3.0,Finished,finished,0,0,0.7368,78.663,80.289,0.3092
-2009,8,2009_R08,British Grand Prix,silverstone,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,4,7,2.0,Finished,finished,0,0,0.6842,78.24,79.919,0.7686
-2009,8,2009_R08,British Grand Prix,silverstone,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,9,8,1.0,Finished,finished,0,0,0.6316,78.566,80.245,0.3638
-2009,8,2009_R08,British Grand Prix,silverstone,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,8,9,0.0,Finished,finished,0,0,0.5789,78.791,80.47,0.0844
-2009,8,2009_R08,British Grand Prix,silverstone,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,16,10,0.0,Finished,finished,0,0,0.5263,79.802,81.074,-0.6655
-2009,8,2009_R08,British Grand Prix,silverstone,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,5,11,0.0,Finished,finished,0,0,0.4737,78.53,80.216,0.3998
-2009,8,2009_R08,British Grand Prix,silverstone,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,14,12,0.0,+1 Lap,finished,0,0,0.4211,79.392,81.071,-0.6618
-2009,8,2009_R08,British Grand Prix,silverstone,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,12,13,0.0,+1 Lap,finished,0,0,0.3684,79.308,80.987,-0.5575
-2009,8,2009_R08,British Grand Prix,silverstone,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,10,14,0.0,+1 Lap,finished,0,0,0.3158,78.761,80.44,0.1217
-2009,8,2009_R08,British Grand Prix,silverstone,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,15,15,0.0,+1 Lap,finished,0,0,0.2632,79.448,81.127,-0.7313
-2009,8,2009_R08,British Grand Prix,silverstone,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,18,16,0.0,+1 Lap,finished,0,0,0.2105,79.917,81.189,-0.8083
-2009,8,2009_R08,British Grand Prix,silverstone,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,20,17,0.0,+1 Lap,finished,0,0,0.1579,79.909,81.181,-0.7984
-2009,8,2009_R08,British Grand Prix,silverstone,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,19,18,0.0,+1 Lap,finished,0,0,0.1053,80.236,81.508,-1.2044
-2009,8,2009_R08,British Grand Prix,silverstone,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,17,19,0.0,Collision,driver_incident,0,0,0.0526,79.898,81.17,-0.7847
-2009,8,2009_R08,British Grand Prix,silverstone,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,13,20,0.0,Collision,driver_incident,0,0,0.0,79.353,81.032,-0.6134
-2009,9,2009_R09,German Grand Prix,nurburgring,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,0,1.0,91.257,91.492,3.3053
-2009,9,2009_R09,German Grand Prix,nurburgring,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,4,2,8.0,Finished,finished,0,0,0.9474,91.43,92.48,2.2612
-2009,9,2009_R09,German Grand Prix,nurburgring,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,8,3,6.0,Finished,finished,0,0,0.8947,91.6,94.574,0.0481
-2009,9,2009_R09,German Grand Prix,nurburgring,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,15,4,5.0,Finished,finished,0,0,0.8421,91.598,96.313,-1.7898
-2009,9,2009_R09,German Grand Prix,nurburgring,BUT,button,22,Jenson Button,British,brawn,brawn_2009,3,5,4.0,Finished,finished,0,0,0.7895,91.568,92.473,2.2686
-2009,9,2009_R09,German Grand Prix,nurburgring,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,2,6,3.0,Finished,finished,0,0,0.7368,91.482,87.909,7.0921
-2009,9,2009_R09,German Grand Prix,nurburgring,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,12,7,2.0,Finished,finished,0,0,0.6842,91.302,95.772,-1.218
-2009,9,2009_R09,German Grand Prix,nurburgring,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,6,8,1.0,Finished,finished,0,0,0.6316,91.881,93.859,0.8037
-2009,9,2009_R09,German Grand Prix,nurburgring,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,20,9,0.0,Finished,finished,0,0,0.5789,92.423,94.822,-0.214
-2009,9,2009_R09,German Grand Prix,nurburgring,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,10,0.0,Finished,finished,0,0,0.5263,91.771,95.764,-1.2096
-2009,9,2009_R09,German Grand Prix,nurburgring,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,18,11,0.0,Finished,finished,0,0,0.4737,92.402,94.801,-0.1918
-2009,9,2009_R09,German Grand Prix,nurburgring,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,13,12,0.0,Finished,finished,0,0,0.4211,91.884,95.954,-1.4104
-2009,9,2009_R09,German Grand Prix,nurburgring,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,10,13,0.0,Finished,finished,0,0,0.3684,92.128,89.191,5.7372
-2009,9,2009_R09,German Grand Prix,nurburgring,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,16,14,0.0,Finished,finished,0,0,0.3158,92.19,94.589,0.0322
-2009,9,2009_R09,German Grand Prix,nurburgring,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,7,15,0.0,Finished,finished,0,0,0.2632,92.015,90.194,4.6772
-2009,9,2009_R09,German Grand Prix,nurburgring,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,17,16,0.0,Finished,finished,0,0,0.2105,92.251,94.65,-0.0322
-2009,9,2009_R09,German Grand Prix,nurburgring,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,14,17,0.0,Finished,finished,0,0,0.1579,91.76,96.225,-1.6968
-2009,9,2009_R09,German Grand Prix,nurburgring,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,5,18,0.0,+1 Lap,finished,0,0,0.1053,91.473,92.603,2.1312
-2009,9,2009_R09,German Grand Prix,nurburgring,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,9,19,0.0,Engine,mechanical_dnf,1,0,0.0526,91.869,94.71,-0.0956
-2009,9,2009_R09,German Grand Prix,nurburgring,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,19,20,0.0,Hydraulics,mechanical_dnf,1,0,0.0,93.559,95.958,-1.4146
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,4,1,10.0,Finished,finished,0,0,1.0,80.465,81.839,0.5438
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,7,2,8.0,Finished,finished,0,0,0.9474,80.647,82.021,0.3227
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,3,6.0,Finished,finished,0,0,0.8947,80.358,81.732,0.6739
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,5,4,5.0,Finished,finished,0,0,0.8421,80.793,81.89,0.4819
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,6,5,4.0,Finished,finished,0,0,0.7895,80.807,82.095,0.2327
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,13,6,3.0,Finished,finished,0,0,0.7368,81.242,82.616,-0.4004
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,BUT,button,22,Jenson Button,British,brawn,brawn_2009,8,7,2.0,Finished,finished,0,0,0.6842,80.707,82.081,0.2497
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,11,8,1.0,Finished,finished,0,0,0.6316,81.082,82.456,-0.206
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,9,9,0.0,Finished,finished,0,0,0.5789,80.57,81.944,0.4162
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,12,10,0.0,Finished,finished,0,0,0.5263,81.222,82.596,-0.3761
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,15,11,0.0,Finished,finished,0,0,0.4737,81.738,82.543,-0.3117
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,14,12,0.0,Finished,finished,0,0,0.4211,81.278,82.763,-0.5791
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,18,13,0.0,Finished,finished,0,0,0.3684,81.901,82.706,-0.5098
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,16,14,0.0,+1 Lap,finished,0,0,0.3158,81.807,82.612,-0.3956
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,19,15,0.0,+1 Lap,finished,0,0,0.2632,82.359,83.164,-1.0664
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,10,16,0.0,+1 Lap,finished,0,0,0.2105,81.002,82.376,-0.1088
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,17,0.0,Suspension,mechanical_dnf,1,0,0.1579,80.604,81.607,0.8258
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,1,18,0.0,Wheel,mechanical_dnf,1,0,0.1053,80.826,81.569,0.872
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,17,19,0.0,Overheating,mechanical_dnf,1,0,0.0526,81.868,82.673,-0.4697
-2009,10,2009_R10,Hungarian Grand Prix,hungaroring,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,0,20,0.0,Withdrew,mechanical_dnf,1,0,0.0,80.823,82.197,0.1088
-2009,11,2009_R11,European Grand Prix,valencia,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,1,10.0,Finished,finished,0,0,1.0,98.076,99.563,0.7229
-2009,11,2009_R11,European Grand Prix,valencia,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,2,8.0,Finished,finished,0,0,0.9474,98.182,99.489,0.7967
-2009,11,2009_R11,European Grand Prix,valencia,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,6,3,6.0,Finished,finished,0,0,0.8947,98.782,100.144,0.1436
-2009,11,2009_R11,European Grand Prix,valencia,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,2,4,5.0,Finished,finished,0,0,0.8421,98.23,99.532,0.7538
-2009,11,2009_R11,European Grand Prix,valencia,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,5,4.0,Finished,finished,0,0,0.7895,98.346,99.8475,0.4392
-2009,11,2009_R11,European Grand Prix,valencia,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,6,3.0,Finished,finished,0,0,0.7368,98.717,100.2185,0.0693
-2009,11,2009_R11,European Grand Prix,valencia,BUT,button,22,Jenson Button,British,brawn,brawn_2009,5,7,2.0,Finished,finished,0,0,0.6842,98.531,99.821,0.4657
-2009,11,2009_R11,European Grand Prix,valencia,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,10,8,1.0,Finished,finished,0,0,0.6316,98.747,100.2485,0.0394
-2009,11,2009_R11,European Grand Prix,valencia,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,9,9,0.0,Finished,finished,0,0,0.5789,98.625,100.1265,0.161
-2009,11,2009_R11,European Grand Prix,valencia,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,12,10,0.0,Finished,finished,0,0,0.5263,98.846,100.3475,-0.0593
-2009,11,2009_R11,European Grand Prix,valencia,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,11,0.0,Finished,finished,0,0,0.4737,98.826,100.3275,-0.0394
-2009,11,2009_R11,European Grand Prix,valencia,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,16,12,0.0,Finished,finished,0,0,0.4211,99.531,100.6745,-0.3854
-2009,11,2009_R11,European Grand Prix,valencia,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,18,13,0.0,Finished,finished,0,0,0.3684,99.807,100.9505,-0.6606
-2009,11,2009_R11,European Grand Prix,valencia,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,13,14,0.0,Finished,finished,0,0,0.3158,98.991,100.4925,-0.2039
-2009,11,2009_R11,European Grand Prix,valencia,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,14,15,0.0,Finished,finished,0,0,0.2632,99.04,100.5415,-0.2528
-2009,11,2009_R11,European Grand Prix,valencia,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,19,16,0.0,+1 Lap,finished,0,0,0.2105,99.925,101.0685,-0.7783
-2009,11,2009_R11,European Grand Prix,valencia,BAD,badoer,3,Luca Badoer,Italian,ferrari,ferrari_2009,20,17,0.0,+1 Lap,finished,0,0,0.1579,101.413,102.5565,-2.262
-2009,11,2009_R11,European Grand Prix,valencia,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,17,18,0.0,+3 Laps,finished,0,0,0.1053,99.795,100.9385,-0.6486
-2009,11,2009_R11,European Grand Prix,valencia,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,15,19,0.0,Brakes,mechanical_dnf,1,0,0.0526,98.912,101.0155,-0.7254
-2009,11,2009_R11,European Grand Prix,valencia,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,4,20,0.0,Engine,mechanical_dnf,1,0,0.0,98.273,99.7745,0.512
-2009,12,2009_R12,Belgian Grand Prix,spa,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,6,1,10.0,Finished,finished,0,0,1.0,104.953,106.633,0.2638
-2009,12,2009_R12,Belgian Grand Prix,spa,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,1,2,8.0,Finished,finished,0,0,0.9474,104.667,106.308,0.5677
-2009,12,2009_R12,Belgian Grand Prix,spa,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,8,3,6.0,Finished,finished,0,0,0.8947,104.592,106.424,0.4592
-2009,12,2009_R12,Belgian Grand Prix,spa,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,5,4,5.0,Finished,finished,0,0,0.8421,104.557,106.389,0.492
-2009,12,2009_R12,Belgian Grand Prix,spa,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,3,5,4.0,Finished,finished,0,0,0.7895,104.709,106.5,0.3882
-2009,12,2009_R12,Belgian Grand Prix,spa,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,15,6,3.0,Finished,finished,0,0,0.7368,105.259,107.091,-0.1646
-2009,12,2009_R12,Belgian Grand Prix,spa,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,4,7,2.0,Finished,finished,0,0,0.6842,104.834,106.513,0.376
-2009,12,2009_R12,Belgian Grand Prix,spa,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,10,8,1.0,Finished,finished,0,0,0.6316,105.047,106.879,0.0337
-2009,12,2009_R12,Belgian Grand Prix,spa,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,9,9,0.0,Finished,finished,0,0,0.5789,104.924,106.756,0.1487
-2009,12,2009_R12,Belgian Grand Prix,spa,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,7,10,0.0,Finished,finished,0,0,0.5263,104.877,106.677,0.2226
-2009,12,2009_R12,Belgian Grand Prix,spa,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,11,11,0.0,Finished,finished,0,0,0.4737,105.119,106.951,-0.0337
-2009,12,2009_R12,Belgian Grand Prix,spa,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,16,12,0.0,Finished,finished,0,0,0.4211,105.951,107.212,-0.2778
-2009,12,2009_R12,Belgian Grand Prix,spa,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,18,13,0.0,Finished,finished,0,0,0.3684,106.307,107.568,-0.6108
-2009,12,2009_R12,Belgian Grand Prix,spa,BAD,badoer,3,Luca Badoer,Italian,ferrari,ferrari_2009,20,14,0.0,Finished,finished,0,0,0.3158,106.957,108.218,-1.2187
-2009,12,2009_R12,Belgian Grand Prix,spa,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,13,15,0.0,Retired,mechanical_dnf,1,0,0.2632,105.136,106.968,-0.0496
-2009,12,2009_R12,Belgian Grand Prix,spa,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,2,16,0.0,Brakes,mechanical_dnf,1,0,0.2105,104.503,106.335,0.5425
-2009,12,2009_R12,Belgian Grand Prix,spa,BUT,button,22,Jenson Button,British,brawn,brawn_2009,14,17,0.0,Collision,driver_incident,0,0,0.1579,105.251,107.083,-0.1571
-2009,12,2009_R12,Belgian Grand Prix,spa,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,19,18,0.0,Collision,driver_incident,0,0,0.1053,106.359,107.62,-0.6594
-2009,12,2009_R12,Belgian Grand Prix,spa,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,12,19,0.0,Collision,driver_incident,0,0,0.0526,105.122,106.954,-0.0365
-2009,12,2009_R12,Belgian Grand Prix,spa,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,17,20,0.0,Collision,driver_incident,0,0,0.0,106.302,107.563,-0.6061
-2009,13,2009_R13,Italian Grand Prix,monza,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,5,1,10.0,Finished,finished,0,0,1.0,82.976,84.581,0.7067
-2009,13,2009_R13,Italian Grand Prix,monza,BUT,button,22,Jenson Button,British,brawn,brawn_2009,6,2,8.0,Finished,finished,0,0,0.9474,82.955,84.56,0.7314
-2009,13,2009_R13,Italian Grand Prix,monza,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,3,3,6.0,Finished,finished,0,0,0.8947,83.349,84.523,0.7748
-2009,13,2009_R13,Italian Grand Prix,monza,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,2,4,5.0,Finished,finished,0,0,0.8421,83.07,84.261,1.0824
-2009,13,2009_R13,Italian Grand Prix,monza,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,5,4.0,Finished,finished,0,0,0.7895,83.497,85.072,0.1303
-2009,13,2009_R13,Italian Grand Prix,monza,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,4,6,3.0,Finished,finished,0,0,0.7368,83.515,84.845,0.3968
-2009,13,2009_R13,Italian Grand Prix,monza,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,15,7,2.0,Finished,finished,0,0,0.6842,83.584,85.88,-0.8182
-2009,13,2009_R13,Italian Grand Prix,monza,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,9,8,1.0,Finished,finished,0,0,0.6316,83.545,85.15,0.0387
-2009,13,2009_R13,Italian Grand Prix,monza,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,14,9,0.0,Finished,finished,0,0,0.5789,83.828,85.506,-0.3792
-2009,13,2009_R13,Italian Grand Prix,monza,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,17,10,0.0,Finished,finished,0,0,0.5263,84.074,85.432,-0.2923
-2009,13,2009_R13,Italian Grand Prix,monza,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,16,11,0.0,Finished,finished,0,0,0.4737,84.036,85.394,-0.2477
-2009,13,2009_R13,Italian Grand Prix,monza,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,12,0.0,Accident,driver_incident,0,0,0.4211,82.973,84.066,1.3113
-2009,13,2009_R13,Italian Grand Prix,monza,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,19,13,0.0,+1 Lap,finished,0,0,0.3684,84.22,85.578,-0.4637
-2009,13,2009_R13,Italian Grand Prix,monza,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,11,14,0.0,+1 Lap,finished,0,0,0.3158,83.611,85.216,-0.0387
-2009,13,2009_R13,Italian Grand Prix,monza,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,12,15,0.0,+1 Lap,finished,0,0,0.2632,83.728,85.333,-0.1761
-2009,13,2009_R13,Italian Grand Prix,monza,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,18,16,0.0,+2 Laps,finished,0,0,0.2105,84.121,85.479,-0.3475
-2009,13,2009_R13,Italian Grand Prix,monza,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,7,17,0.0,Transmission,mechanical_dnf,1,0,0.1579,83.207,84.812,0.4355
-2009,13,2009_R13,Italian Grand Prix,monza,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,20,18,0.0,Retired,mechanical_dnf,1,0,0.1053,84.951,86.309,-1.3219
-2009,13,2009_R13,Italian Grand Prix,monza,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,13,19,0.0,Oil leak,mechanical_dnf,1,0,0.0526,83.866,85.471,-0.3381
-2009,13,2009_R13,Italian Grand Prix,monza,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,10,20,0.0,Collision,driver_incident,0,0,0.0,83.273,84.878,0.3581
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,1,10.0,Finished,finished,0,0,1.0,106.657,107.891,1.2602
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,6,2,8.0,Finished,finished,0,0,0.9474,106.707,109.0475,0.2018
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,5,3,6.0,Finished,finished,0,0,0.8947,106.767,109.054,0.1958
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,4,5.0,Finished,finished,0,0,0.8421,106.362,108.204,0.9738
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,BUT,button,22,Jenson Button,British,brawn,brawn_2009,11,5,4.0,Finished,finished,0,0,0.7895,107.141,109.4815,-0.1954
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,9,6,3.0,Finished,finished,0,0,0.7368,106.787,108.828,0.4027
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,8,7,2.0,Finished,finished,0,0,0.6842,106.842,109.1825,0.0782
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,7,8,1.0,Finished,finished,0,0,0.6316,106.813,109.1535,0.1048
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,10,9,0.0,Finished,finished,0,0,0.5789,107.013,109.3535,-0.0782
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,12,10,0.0,Finished,finished,0,0,0.5263,107.177,109.5175,-0.2283
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,3,11,0.0,Finished,finished,0,0,0.4737,106.197,108.348,0.842
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,14,12,0.0,Finished,finished,0,0,0.4211,107.413,109.7535,-0.4443
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,17,13,0.0,Finished,finished,0,0,0.3684,108.35,110.0665,-0.7308
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,19,14,0.0,Finished,finished,0,0,0.3158,108.792,110.5085,-1.1353
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,16,15,0.0,Brakes,mechanical_dnf,1,0,0.2632,108.34,110.0565,-0.7216
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,13,16,0.0,Gearbox,mechanical_dnf,1,0,0.2105,107.369,109.7095,-0.4041
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,4,17,0.0,Brakes,mechanical_dnf,1,0,0.1579,106.328,108.6685,0.5487
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,15,18,0.0,Collision,driver_incident,0,0,0.1053,108.231,109.9475,-0.6219
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,20,19,0.0,Collision,driver_incident,0,0,0.0526,106.832,109.1725,0.0874
-2009,14,2009_R14,Singapore Grand Prix,marina_bay,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,18,20,0.0,Brakes,mechanical_dnf,1,0,0.0,108.544,110.2605,-0.9083
-2009,15,2009_R15,Japanese Grand Prix,suzuka,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,0,1.0,90.341,92.0675,0.9489
-2009,15,2009_R15,Japanese Grand Prix,suzuka,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,2,2,8.0,Finished,finished,0,0,0.9474,90.737,92.22,0.7848
-2009,15,2009_R15,Japanese Grand Prix,suzuka,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,3,3,6.0,Finished,finished,0,0,0.8947,90.627,92.3535,0.6412
-2009,15,2009_R15,Japanese Grand Prix,suzuka,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,5,4,5.0,Finished,finished,0,0,0.8421,91.052,92.7785,0.184
-2009,15,2009_R15,Japanese Grand Prix,suzuka,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,5,4.0,Finished,finished,0,0,0.7895,91.286,93.2085,-0.2786
-2009,15,2009_R15,Japanese Grand Prix,suzuka,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,4,6,3.0,Finished,finished,0,0,0.7368,91.26,92.945,0.0048
-2009,15,2009_R15,Japanese Grand Prix,suzuka,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,6,7,2.0,Finished,finished,0,0,0.6842,91.055,92.66,0.3115
-2009,15,2009_R15,Japanese Grand Prix,suzuka,BUT,button,22,Jenson Button,British,brawn,brawn_2009,10,8,1.0,Finished,finished,0,0,0.6316,90.88,92.6065,0.369
-2009,15,2009_R15,Japanese Grand Prix,suzuka,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,9,9,0.0,Finished,finished,0,0,0.5789,91.417,94.0675,-1.2028
-2009,15,2009_R15,Japanese Grand Prix,suzuka,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,16,10,0.0,Finished,finished,0,0,0.5263,91.401,93.3645,-0.4465
-2009,15,2009_R15,Japanese Grand Prix,suzuka,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,11,11,0.0,Finished,finished,0,0,0.4737,91.223,92.9495,0.0
-2009,15,2009_R15,Japanese Grand Prix,suzuka,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,14,12,0.0,Finished,finished,0,0,0.4211,91.704,93.2135,-0.284
-2009,15,2009_R15,Japanese Grand Prix,suzuka,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,8,13,0.0,Finished,finished,0,0,0.3684,91.222,92.466,0.5202
-2009,15,2009_R15,Japanese Grand Prix,suzuka,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,18,14,0.0,Finished,finished,0,0,0.3158,92.087,93.5965,-0.6961
-2009,15,2009_R15,Japanese Grand Prix,suzuka,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,15,15,0.0,Finished,finished,0,0,0.2632,91.718,93.2275,-0.2991
-2009,15,2009_R15,Japanese Grand Prix,suzuka,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,17,16,0.0,+1 Lap,finished,0,0,0.2105,92.073,93.5825,-0.681
-2009,15,2009_R15,Japanese Grand Prix,suzuka,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,19,17,0.0,+2 Laps,finished,0,0,0.1579,,,
-2009,15,2009_R15,Japanese Grand Prix,suzuka,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,12,18,0.0,Accident,driver_incident,0,0,0.1053,91.571,93.0805,-0.1409
-2009,15,2009_R15,Japanese Grand Prix,suzuka,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,13,19,0.0,Clutch,mechanical_dnf,1,0,0.0526,91.103,92.8295,0.1291
-2009,15,2009_R15,Japanese Grand Prix,suzuka,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,20,20,0.0,Injured,other_dnf,0,0,0.0,91.55,93.0595,-0.1183
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,2,1,10.0,Finished,finished,0,0,1.0,79.668,79.668,1.9851
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,8,2,8.0,Finished,finished,0,0,0.9474,80.631,80.62,0.8138
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,17,3,6.0,Finished,finished,0,0,0.8947,85.192,82.164,-1.0857
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,15,4,5.0,Finished,finished,0,0,0.8421,85.009,81.981,-0.8606
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,BUT,button,22,Jenson Button,British,brawn,brawn_2009,14,5,4.0,Finished,finished,0,0,0.7895,82.504,81.977,-0.8557
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,5,6,3.0,Finished,finished,0,0,0.7368,80.168,80.168,1.3699
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,6,7,2.0,Finished,finished,0,0,0.6842,80.25,80.174,1.3625
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,1,8,1.0,Finished,finished,0,0,0.6316,79.576,79.576,2.0983
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,16,9,0.0,Finished,finished,0,0,0.5789,85.052,82.024,-0.9135
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,KOB,kobayashi,10,Kamui Kobayashi,Japanese,toyota,toyota_2009,11,10,0.0,Finished,finished,0,0,0.5263,81.96,81.433,-0.1864
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,19,11,0.0,Finished,finished,0,0,0.4737,100.703,97.675,-20.1688
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,20,12,0.0,Finished,finished,0,0,0.4211,84.645,81.617,-0.4128
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,13,13,0.0,+1 Lap,finished,0,0,0.3684,82.477,81.95,-0.8225
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,12,14,0.0,+1 Lap,finished,0,0,0.3158,82.231,81.704,-0.5198
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,9,15,0.0,Accident,driver_incident,0,0,0.2632,80.427,79.9,1.6996
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,16,0.0,Gearbox,mechanical_dnf,1,0,0.2105,80.326,79.841,1.7722
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,18,17,0.0,Out of fuel,mechanical_dnf,1,0,0.1579,85.515,82.487,-1.4831
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,3,18,0.0,Accident,driver_incident,0,0,0.1053,79.912,79.912,1.6849
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,4,19,0.0,Accident,driver_incident,0,0,0.0526,80.097,80.097,1.4573
-2009,16,2009_R16,Brazilian Grand Prix,interlagos,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,10,20,0.0,Accident,driver_incident,0,0,0.0,81.422,81.13,0.1864
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,1,10.0,Finished,finished,0,0,1.0,99.984,101.5615,0.6937
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,0,0.9474,100.272,101.726,0.5329
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,BUT,button,22,Jenson Button,British,brawn,brawn_2009,5,3,6.0,Finished,finished,0,0,0.8947,100.148,101.7255,0.5334
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,4,4,5.0,Finished,finished,0,0,0.8421,100.421,101.786,0.4742
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,8,5,4.0,Finished,finished,0,0,0.7895,100.558,102.2125,0.0572
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,KOB,kobayashi,10,Kamui Kobayashi,Japanese,toyota,toyota_2009,12,6,3.0,Finished,finished,0,0,0.7368,100.777,102.3545,-0.0816
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,6,7,2.0,Finished,finished,0,0,0.6842,100.373,101.897,0.3657
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,10,8,1.0,Finished,finished,0,0,0.6316,100.43,102.0075,0.2576
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,9,0.0,Finished,finished,0,0,0.5789,100.661,102.2385,0.0318
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,7,10,0.0,Finished,finished,0,0,0.5263,100.52,101.992,0.2728
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,18,11,0.0,Finished,finished,0,0,0.4737,100.808,102.5605,-0.2831
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,11,12,0.0,Finished,finished,0,0,0.4211,100.726,102.3035,-0.0318
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,13,13,0.0,Finished,finished,0,0,0.3684,101.096,102.7255,-0.4444
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,15,14,0.0,Finished,finished,0,0,0.3158,101.667,103.0665,-0.7778
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,16,15,0.0,Finished,finished,0,0,0.2632,101.701,103.1005,-0.8111
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,20,16,0.0,+1 Lap,finished,0,0,0.2105,102.184,103.5835,-1.2834
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,17,17,0.0,+1 Lap,finished,0,0,0.1579,101.836,103.2355,-0.9431
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,19,18,0.0,+1 Lap,finished,0,0,0.1053,101.95,103.3495,-1.0546
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,19,0.0,Brakes,mechanical_dnf,1,0,0.0526,99.695,100.948,1.2936
-2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,14,20,0.0,Gearbox,mechanical_dnf,1,0,0.0,101.503,103.2665,-0.9734
+season,round,race_id,race_name,circuit_id,driver,driver_id,car_number,driver_fullname,driver_nationality,team,team_year,grid,finish_position,points,status_raw,status_category,mechanical_dnf,laps_done,avg_lap_sec,is_wet,pace_score,race_pace_sec_adv
+2009,1,2009_R01,Australian Grand Prix,albert_park,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,10.0,Finished,finished,0,58,97.5135172413793,0,1.0,0.1011
+2009,1,2009_R01,Australian Grand Prix,albert_park,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,2,2,8.0,Finished,finished,0,58,97.52743103448276,0,0.9474,0.0872
+2009,1,2009_R01,Australian Grand Prix,albert_park,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,20,3,6.0,Finished,finished,0,58,97.5411724137931,0,0.8947,0.0734
+2009,1,2009_R01,Australian Grand Prix,albert_park,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,19,4,5.0,Finished,finished,0,58,97.58998275862069,0,0.8421,0.0246
+2009,1,2009_R01,Australian Grand Prix,albert_park,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,10,5,4.0,Finished,finished,0,58,97.59763793103447,0,0.7895,0.017
+2009,1,2009_R01,Australian Grand Prix,albert_park,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,5,6,3.0,Finished,finished,0,58,97.6121724137931,0,0.7368,0.0024
+2009,1,2009_R01,Australian Grand Prix,albert_park,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,13,7,2.0,Finished,finished,0,58,97.61703448275861,0,0.6842,-0.0024
+2009,1,2009_R01,Australian Grand Prix,albert_park,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,17,8,1.0,Finished,finished,0,58,97.62210344827587,0,0.6316,-0.0075
+2009,1,2009_R01,Australian Grand Prix,albert_park,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,16,9,0.0,Finished,finished,0,58,97.62274137931034,0,0.5789,-0.0081
+2009,1,2009_R01,Australian Grand Prix,albert_park,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,9,10,0.0,Finished,finished,0,58,97.6356724137931,0,0.5263,-0.0211
+2009,1,2009_R01,Australian Grand Prix,albert_park,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,15,11,0.0,Finished,finished,0,58,97.6406551724138,0,0.4737,-0.0261
+2009,1,2009_R01,Australian Grand Prix,albert_park,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,8,12,0.0,+1 Lap,finished,0,57,,0,0.4211,-1.6097
+2009,1,2009_R01,Australian Grand Prix,albert_park,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,3,13,0.0,Collision,driver_incident,0,56,,0,0.3684,
+2009,1,2009_R01,Australian Grand Prix,albert_park,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,4,14,0.0,Collision,driver_incident,0,55,,0,0.3158,
+2009,1,2009_R01,Australian Grand Prix,albert_park,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,7,15,0.0,Differential,mechanical_dnf,1,55,,0,0.2632,
+2009,1,2009_R01,Australian Grand Prix,albert_park,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,6,16,0.0,Suspension,mechanical_dnf,1,45,,0,0.2105,
+2009,1,2009_R01,Australian Grand Prix,albert_park,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,14,17,0.0,Spun off,driver_incident,0,24,,0,0.1579,
+2009,1,2009_R01,Australian Grand Prix,albert_park,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,11,18,0.0,Accident,driver_incident,0,17,,0,0.1053,
+2009,1,2009_R01,Australian Grand Prix,albert_park,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,12,19,0.0,Collision,driver_incident,0,0,,0,0.0526,
+2009,1,2009_R01,Australian Grand Prix,albert_park,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,18,20,0.0,Disqualified,driver_incident,0,58,,0,0.0,
+2009,2,2009_R02,Malaysian Grand Prix,sepang,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,5.0,Finished,finished,0,31,137.1642580645161,0,1.0,1.4895
+2009,2,2009_R02,Malaysian Grand Prix,sepang,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,10,2,4.0,Finished,finished,0,31,137.89722580645162,0,0.9474,0.7565
+2009,2,2009_R02,Malaysian Grand Prix,sepang,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,3,3,3.0,Finished,finished,0,31,137.92274193548386,0,0.8947,0.731
+2009,2,2009_R02,Malaysian Grand Prix,sepang,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,2,4,2.5,Finished,finished,0,31,138.65370967741936,0,0.8421,0.0
+2009,2,2009_R02,Malaysian Grand Prix,sepang,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,8,5,2.0,Finished,finished,0,31,138.692,0,0.7895,-0.0383
+2009,2,2009_R02,Malaysian Grand Prix,sepang,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,5,6,1.5,Finished,finished,0,31,138.8524193548387,0,0.7368,-0.1987
+2009,2,2009_R02,Malaysian Grand Prix,sepang,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,12,7,1.0,Finished,finished,0,31,139.1233870967742,0,0.6842,-0.4697
+2009,2,2009_R02,Malaysian Grand Prix,sepang,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,4,8,0.5,Finished,finished,0,31,139.47316129032257,0,0.6316,-0.8195
+2009,2,2009_R02,Malaysian Grand Prix,sepang,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,16,9,0.0,Finished,finished,0,31,139.64593548387097,0,0.5789,-0.9922
+2009,2,2009_R02,Malaysian Grand Prix,sepang,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,15,10,0.0,Finished,finished,0,31,140.45987096774195,0,0.5263,-1.8062
+2009,2,2009_R02,Malaysian Grand Prix,sepang,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,9,11,0.0,+1 Lap,finished,0,31,,0,0.4737,1.4895
+2009,2,2009_R02,Malaysian Grand Prix,sepang,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,11,12,0.0,+1 Lap,finished,0,31,,0,0.4211,1.4895
+2009,2,2009_R02,Malaysian Grand Prix,sepang,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,17,13,0.0,+1 Lap,finished,0,31,,0,0.3684,1.4895
+2009,2,2009_R02,Malaysian Grand Prix,sepang,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,7,14,0.0,+1 Lap,finished,0,31,,0,0.3158,1.4895
+2009,2,2009_R02,Malaysian Grand Prix,sepang,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,13,15,0.0,Spun off,driver_incident,0,30,,0,0.2632,
+2009,2,2009_R02,Malaysian Grand Prix,sepang,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,20,16,0.0,Spun off,driver_incident,0,30,,0,0.2105,
+2009,2,2009_R02,Malaysian Grand Prix,sepang,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,19,17,0.0,+1 Lap,finished,0,30,,0,0.1579,-3.0827
+2009,2,2009_R02,Malaysian Grand Prix,sepang,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,18,18,0.0,Spun off,driver_incident,0,29,,0,0.1053,
+2009,2,2009_R02,Malaysian Grand Prix,sepang,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,6,19,0.0,Engine,mechanical_dnf,1,1,,0,0.0526,
+2009,2,2009_R02,Malaysian Grand Prix,sepang,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,14,20,0.0,Spun off,driver_incident,0,0,,0,0.0,
+2009,3,2009_R03,Chinese Grand Prix,shanghai,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,56,126.13366071428571,0,1.0,1.4353
+2009,3,2009_R03,Chinese Grand Prix,shanghai,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,56,126.32955357142858,0,0.9474,1.2394
+2009,3,2009_R03,Chinese Grand Prix,shanghai,BUT,button,22,Jenson Button,British,brawn,brawn_2009,5,3,6.0,Finished,finished,0,56,126.93678571428572,0,0.8947,0.6321
+2009,3,2009_R03,Chinese Grand Prix,shanghai,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,4,4,5.0,Finished,finished,0,56,127.27123214285714,0,0.8421,0.2977
+2009,3,2009_R03,Chinese Grand Prix,shanghai,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,12,5,4.0,Finished,finished,0,56,127.29619642857143,0,0.7895,0.2727
+2009,3,2009_R03,Chinese Grand Prix,shanghai,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,9,6,3.0,Finished,finished,0,56,127.41698214285714,0,0.7368,0.1519
+2009,3,2009_R03,Chinese Grand Prix,shanghai,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,19,7,2.0,Finished,finished,0,56,127.46358928571429,0,0.6842,0.1053
+2009,3,2009_R03,Chinese Grand Prix,shanghai,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,10,8,1.0,Finished,finished,0,56,127.49864285714285,0,0.6316,0.0703
+2009,3,2009_R03,Chinese Grand Prix,shanghai,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,2,9,0.0,Finished,finished,0,56,127.63917857142857,0,0.5789,-0.0703
+2009,3,2009_R03,Chinese Grand Prix,shanghai,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,8,10,0.0,Finished,finished,0,56,127.77205357142857,0,0.5263,-0.2031
+2009,3,2009_R03,Chinese Grand Prix,shanghai,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,15,11,0.0,Finished,finished,0,56,127.81501785714285,0,0.4737,-0.2461
+2009,3,2009_R03,Chinese Grand Prix,shanghai,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,12,0.0,Finished,finished,0,56,127.84498214285715,0,0.4211,-0.2761
+2009,3,2009_R03,Chinese Grand Prix,shanghai,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,17,13,0.0,Finished,finished,0,56,128.04175,0,0.3684,-0.4728
+2009,3,2009_R03,Chinese Grand Prix,shanghai,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,20,14,0.0,+1 Lap,finished,0,55,,0,0.3158,-0.8581
+2009,3,2009_R03,Chinese Grand Prix,shanghai,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,15,0.0,+1 Lap,finished,0,55,,0,0.2632,-0.8581
+2009,3,2009_R03,Chinese Grand Prix,shanghai,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,16,16,0.0,+2 Laps,finished,0,54,,0,0.2105,-3.2364
+2009,3,2009_R03,Chinese Grand Prix,shanghai,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,18,17,0.0,Spun off,driver_incident,0,50,,0,0.1579,
+2009,3,2009_R03,Chinese Grand Prix,shanghai,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,14,18,0.0,Retired,mechanical_dnf,1,43,,0,0.1053,
+2009,3,2009_R03,Chinese Grand Prix,shanghai,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,13,19,0.0,Electronics,mechanical_dnf,1,20,,0,0.0526,
+2009,3,2009_R03,Chinese Grand Prix,shanghai,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,6,20,0.0,Collision,driver_incident,0,18,,0,0.0,
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,BUT,button,22,Jenson Button,British,brawn,brawn_2009,4,1,10.0,Finished,finished,0,57,96.63477192982455,0,1.0,1.143
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,57,96.7608596491228,0,0.9474,1.0169
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,1,3,6.0,Finished,finished,0,57,96.79564912280702,0,0.8947,0.9821
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,5,4,5.0,Finished,finished,0,57,97.02242105263159,0,0.8421,0.7553
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,6,5,4.0,Finished,finished,0,57,97.29756140350878,0,0.7895,0.4802
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,10,6,3.0,Finished,finished,0,57,97.37261403508771,0,0.7368,0.4051
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,2,7,2.0,Finished,finished,0,57,97.38705263157894,0,0.6842,0.3907
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,7,8,1.0,Finished,finished,0,57,97.56064912280702,0,0.6316,0.2171
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,9,0.0,Finished,finished,0,57,97.65578947368421,0,0.5789,0.1219
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,15,10,0.0,Finished,finished,0,57,97.77773684210527,0,0.5263,0.0
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,18,11,0.0,Finished,finished,0,57,97.82145614035089,0,0.4737,-0.0437
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,11,12,0.0,Finished,finished,0,57,98.0001052631579,0,0.4211,-0.2224
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,20,13,0.0,Finished,finished,0,57,98.01731578947368,0,0.3684,-0.2396
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,8,14,0.0,+1 Lap,finished,0,56,,0,0.3158,-0.5827
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,17,15,0.0,+1 Lap,finished,0,56,,0,0.2632,-0.5827
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,19,16,0.0,+1 Lap,finished,0,56,,0,0.2105,-0.5827
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,16,17,0.0,+1 Lap,finished,0,56,,0,0.1579,-0.5827
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,13,18,0.0,+1 Lap,finished,0,56,,0,0.1053,-0.5827
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,14,19,0.0,+1 Lap,finished,0,56,,0,0.0526,-0.5827
+2009,4,2009_R04,Bahrain Grand Prix,bahrain,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,12,20,0.0,Oil pressure,mechanical_dnf,1,48,,0,0.0,
+2009,5,2009_R05,Spanish Grand Prix,catalunya,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,10.0,Finished,finished,0,66,88.47275757575758,0,1.0,0.8903
+2009,5,2009_R05,Spanish Grand Prix,catalunya,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,2,8.0,Finished,finished,0,66,88.67057575757576,0,0.9474,0.6925
+2009,5,2009_R05,Spanish Grand Prix,catalunya,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,5,3,6.0,Finished,finished,0,66,88.68372727272728,0,0.8947,0.6794
+2009,5,2009_R05,Spanish Grand Prix,catalunya,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,4,5.0,Finished,finished,0,66,88.75974242424242,0,0.8421,0.6033
+2009,5,2009_R05,Spanish Grand Prix,catalunya,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,5,4.0,Finished,finished,0,66,89.12678787878788,0,0.7895,0.2363
+2009,5,2009_R05,Spanish Grand Prix,catalunya,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,4,6,3.0,Finished,finished,0,66,89.24286363636364,0,0.7368,0.1202
+2009,5,2009_R05,Spanish Grand Prix,catalunya,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,13,7,2.0,Finished,finished,0,66,89.26536363636365,0,0.6842,0.0977
+2009,5,2009_R05,Spanish Grand Prix,catalunya,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,8,1.0,Finished,finished,0,66,89.46080303030303,0,0.6316,-0.0977
+2009,5,2009_R05,Spanish Grand Prix,catalunya,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,14,9,0.0,+1 Lap,finished,0,65,,0,0.5789,-0.4708
+2009,5,2009_R05,Spanish Grand Prix,catalunya,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,6,10,0.0,+1 Lap,finished,0,65,,0,0.5263,-0.4708
+2009,5,2009_R05,Spanish Grand Prix,catalunya,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,10,11,0.0,+1 Lap,finished,0,65,,0,0.4737,-0.4708
+2009,5,2009_R05,Spanish Grand Prix,catalunya,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,12,12,0.0,+1 Lap,finished,0,65,,0,0.4211,-0.4708
+2009,5,2009_R05,Spanish Grand Prix,catalunya,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,11,13,0.0,+1 Lap,finished,0,65,,0,0.3684,-0.4708
+2009,5,2009_R05,Spanish Grand Prix,catalunya,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,20,14,0.0,+1 Lap,finished,0,65,,0,0.3158,-0.4708
+2009,5,2009_R05,Spanish Grand Prix,catalunya,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,16,15,0.0,Hydraulics,mechanical_dnf,1,17,,0,0.2632,
+2009,5,2009_R05,Spanish Grand Prix,catalunya,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,18,16,0.0,Gearbox,mechanical_dnf,1,7,,0,0.2105,
+2009,5,2009_R05,Spanish Grand Prix,catalunya,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,7,17,0.0,Collision,driver_incident,0,0,,0,0.1579,
+2009,5,2009_R05,Spanish Grand Prix,catalunya,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,15,18,0.0,Collision,driver_incident,0,0,,0,0.1053,
+2009,5,2009_R05,Spanish Grand Prix,catalunya,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,17,19,0.0,Collision,driver_incident,0,0,,0,0.0526,
+2009,5,2009_R05,Spanish Grand Prix,catalunya,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,19,20,0.0,Collision,driver_incident,0,0,,0,0.0,
+2009,6,2009_R06,Monaco Grand Prix,monaco,BUT,button,22,Jenson Button,British,brawn,brawn_2009,1,1,10.0,Finished,finished,0,78,77.49079487179488,0,1.0,0.6473
+2009,6,2009_R06,Monaco Grand Prix,monaco,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,2,8.0,Finished,finished,0,78,77.58907692307693,0,0.9474,0.549
+2009,6,2009_R06,Monaco Grand Prix,monaco,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,2,3,6.0,Finished,finished,0,78,77.6631282051282,0,0.8947,0.475
+2009,6,2009_R06,Monaco Grand Prix,monaco,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,5,4,5.0,Finished,finished,0,78,77.68451282051282,0,0.8421,0.4536
+2009,6,2009_R06,Monaco Grand Prix,monaco,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,8,5,4.0,Finished,finished,0,78,77.69246153846153,0,0.7895,0.4456
+2009,6,2009_R06,Monaco Grand Prix,monaco,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,6,6,3.0,Finished,finished,0,78,77.92138461538462,0,0.7368,0.2167
+2009,6,2009_R06,Monaco Grand Prix,monaco,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,9,7,2.0,Finished,finished,0,78,77.97591025641026,0,0.6842,0.1622
+2009,6,2009_R06,Monaco Grand Prix,monaco,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,14,8,1.0,Finished,finished,0,78,78.3003076923077,0,0.6316,-0.1622
+2009,6,2009_R06,Monaco Grand Prix,monaco,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,13,9,0.0,Finished,finished,0,78,78.32464102564103,0,0.5789,-0.1865
+2009,6,2009_R06,Monaco Grand Prix,monaco,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,20,10,0.0,+1 Lap,finished,0,77,,0,0.5263,-0.3591
+2009,6,2009_R06,Monaco Grand Prix,monaco,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,16,11,0.0,+1 Lap,finished,0,77,,0,0.4737,-0.3591
+2009,6,2009_R06,Monaco Grand Prix,monaco,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,19,12,0.0,+1 Lap,finished,0,77,,0,0.4211,-0.3591
+2009,6,2009_R06,Monaco Grand Prix,monaco,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,18,13,0.0,+1 Lap,finished,0,77,,0,0.3684,-0.3591
+2009,6,2009_R06,Monaco Grand Prix,monaco,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,15,14,0.0,+1 Lap,finished,0,77,,0,0.3158,-0.3591
+2009,6,2009_R06,Monaco Grand Prix,monaco,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,10,15,0.0,Accident,driver_incident,0,76,,0,0.2632,
+2009,6,2009_R06,Monaco Grand Prix,monaco,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,7,16,0.0,Accident,driver_incident,0,51,,0,0.2105,
+2009,6,2009_R06,Monaco Grand Prix,monaco,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,17,17,0.0,Brakes,mechanical_dnf,1,28,,0,0.1579,
+2009,6,2009_R06,Monaco Grand Prix,monaco,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,4,18,0.0,Accident,driver_incident,0,15,,0,0.1053,
+2009,6,2009_R06,Monaco Grand Prix,monaco,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,12,19,0.0,Collision,driver_incident,0,10,,0,0.0526,
+2009,6,2009_R06,Monaco Grand Prix,monaco,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,11,20,0.0,Collision,driver_incident,0,10,,0,0.0,
+2009,7,2009_R07,Turkish Grand Prix,istanbul,BUT,button,22,Jenson Button,British,brawn,brawn_2009,2,1,10.0,Finished,finished,0,58,89.39393103448276,0,1.0,0.9713
+2009,7,2009_R07,Turkish Grand Prix,istanbul,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,4,2,8.0,Finished,finished,0,58,89.50968965517241,0,0.9474,0.8555
+2009,7,2009_R07,Turkish Grand Prix,istanbul,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,3,6.0,Finished,finished,0,58,89.52256896551725,0,0.8947,0.8426
+2009,7,2009_R07,Turkish Grand Prix,istanbul,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,5,4,5.0,Finished,finished,0,58,89.87398275862068,0,0.8421,0.4912
+2009,7,2009_R07,Turkish Grand Prix,istanbul,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,5,4.0,Finished,finished,0,58,89.93770689655172,0,0.7895,0.4275
+2009,7,2009_R07,Turkish Grand Prix,istanbul,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,7,6,3.0,Finished,finished,0,58,90.08351724137931,0,0.7368,0.2817
+2009,7,2009_R07,Turkish Grand Prix,istanbul,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,10,7,2.0,Finished,finished,0,58,90.19129310344827,0,0.6842,0.1739
+2009,7,2009_R07,Turkish Grand Prix,istanbul,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,13,8,1.0,Finished,finished,0,58,90.20356896551723,0,0.6316,0.1616
+2009,7,2009_R07,Turkish Grand Prix,istanbul,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,6,9,0.0,Finished,finished,0,58,90.26024137931034,0,0.5789,0.1049
+2009,7,2009_R07,Turkish Grand Prix,istanbul,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,10,0.0,Finished,finished,0,58,90.47013793103449,0,0.5263,-0.1049
+2009,7,2009_R07,Turkish Grand Prix,istanbul,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,11,0.0,Finished,finished,0,58,90.50301724137931,0,0.4737,-0.1378
+2009,7,2009_R07,Turkish Grand Prix,istanbul,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,12,12,0.0,Finished,finished,0,58,90.53834482758622,0,0.4211,-0.1732
+2009,7,2009_R07,Turkish Grand Prix,istanbul,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,16,13,0.0,Finished,finished,0,58,90.78106896551724,0,0.3684,-0.4159
+2009,7,2009_R07,Turkish Grand Prix,istanbul,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,14,14,0.0,+1 Lap,finished,0,57,,0,0.3158,-0.5971
+2009,7,2009_R07,Turkish Grand Prix,istanbul,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,18,15,0.0,+1 Lap,finished,0,57,,0,0.2632,-0.5971
+2009,7,2009_R07,Turkish Grand Prix,istanbul,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,17,16,0.0,+1 Lap,finished,0,57,,0,0.2105,-0.5971
+2009,7,2009_R07,Turkish Grand Prix,istanbul,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,15,17,0.0,+1 Lap,finished,0,57,,0,0.1579,-0.5971
+2009,7,2009_R07,Turkish Grand Prix,istanbul,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,20,18,0.0,+1 Lap,finished,0,57,,0,0.1053,-0.5971
+2009,7,2009_R07,Turkish Grand Prix,istanbul,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,19,0.0,Gearbox,mechanical_dnf,1,47,,0,0.0526,
+2009,7,2009_R07,Turkish Grand Prix,istanbul,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,19,20,0.0,Brakes,mechanical_dnf,1,4,,0,0.0,
+2009,8,2009_R08,British Grand Prix,silverstone,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,60,82.82213333333334,0,1.0,1.1779
+2009,8,2009_R08,British Grand Prix,silverstone,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,60,83.07526666666666,0,0.9474,0.9247
+2009,8,2009_R08,British Grand Prix,silverstone,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,2,3,6.0,Finished,finished,0,60,83.50838333333333,0,0.8947,0.4916
+2009,8,2009_R08,British Grand Prix,silverstone,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,11,4,5.0,Finished,finished,0,60,83.57285,0,0.8421,0.4272
+2009,8,2009_R08,British Grand Prix,silverstone,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,5,4.0,Finished,finished,0,60,83.58738333333334,0,0.7895,0.4126
+2009,8,2009_R08,British Grand Prix,silverstone,BUT,button,22,Jenson Button,British,brawn,brawn_2009,6,6,3.0,Finished,finished,0,60,83.59355000000001,0,0.7368,0.4065
+2009,8,2009_R08,British Grand Prix,silverstone,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,4,7,2.0,Finished,finished,0,60,83.96058333333333,0,0.6842,0.0394
+2009,8,2009_R08,British Grand Prix,silverstone,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,9,8,1.0,Finished,finished,0,60,83.9825,0,0.6316,0.0175
+2009,8,2009_R08,British Grand Prix,silverstone,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,8,9,0.0,Finished,finished,0,60,83.98585,0,0.5789,0.0142
+2009,8,2009_R08,British Grand Prix,silverstone,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,16,10,0.0,Finished,finished,0,60,84.01416666666667,0,0.5263,-0.0142
+2009,8,2009_R08,British Grand Prix,silverstone,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,5,11,0.0,Finished,finished,0,60,84.05584999999999,0,0.4737,-0.0558
+2009,8,2009_R08,British Grand Prix,silverstone,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,14,12,0.0,+1 Lap,finished,0,59,,0,0.4211,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,12,13,0.0,+1 Lap,finished,0,59,,0,0.3684,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,10,14,0.0,+1 Lap,finished,0,59,,0,0.3158,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,15,15,0.0,+1 Lap,finished,0,59,,0,0.2632,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,18,16,0.0,+1 Lap,finished,0,59,,0,0.2105,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,20,17,0.0,+1 Lap,finished,0,59,,0,0.1579,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,19,18,0.0,+1 Lap,finished,0,59,,0,0.1053,-0.2259
+2009,8,2009_R08,British Grand Prix,silverstone,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,17,19,0.0,Collision,driver_incident,0,37,,0,0.0526,
+2009,8,2009_R08,British Grand Prix,silverstone,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,13,20,0.0,Collision,driver_incident,0,36,,0,0.0,
+2009,9,2009_R09,German Grand Prix,nurburgring,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,60,96.72183333333334,0,1.0,1.0282
+2009,9,2009_R09,German Grand Prix,nurburgring,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,4,2,8.0,Finished,finished,0,60,96.87603333333333,0,0.9474,0.874
+2009,9,2009_R09,German Grand Prix,nurburgring,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,8,3,6.0,Finished,finished,0,60,96.98693333333334,0,0.8947,0.7631
+2009,9,2009_R09,German Grand Prix,nurburgring,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,15,4,5.0,Finished,finished,0,60,97.07348333333333,0,0.8421,0.6765
+2009,9,2009_R09,German Grand Prix,nurburgring,BUT,button,22,Jenson Button,British,brawn,brawn_2009,3,5,4.0,Finished,finished,0,60,97.11531666666666,0,0.7895,0.6347
+2009,9,2009_R09,German Grand Prix,nurburgring,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,2,6,3.0,Finished,finished,0,60,97.12963333333333,0,0.7368,0.6204
+2009,9,2009_R09,German Grand Prix,nurburgring,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,12,7,2.0,Finished,finished,0,60,97.13663333333334,0,0.6842,0.6134
+2009,9,2009_R09,German Grand Prix,nurburgring,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,6,8,1.0,Finished,finished,0,60,97.70003333333334,0,0.6316,0.05
+2009,9,2009_R09,German Grand Prix,nurburgring,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,20,9,0.0,Finished,finished,0,60,97.74611666666667,0,0.5789,0.0039
+2009,9,2009_R09,German Grand Prix,nurburgring,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,10,0.0,Finished,finished,0,60,97.75391666666665,0,0.5263,-0.0039
+2009,9,2009_R09,German Grand Prix,nurburgring,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,18,11,0.0,Finished,finished,0,60,97.76061666666666,0,0.4737,-0.0106
+2009,9,2009_R09,German Grand Prix,nurburgring,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,13,12,0.0,Finished,finished,0,60,97.76976666666665,0,0.4211,-0.0198
+2009,9,2009_R09,German Grand Prix,nurburgring,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,10,13,0.0,Finished,finished,0,60,97.86063333333333,0,0.3684,-0.1106
+2009,9,2009_R09,German Grand Prix,nurburgring,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,16,14,0.0,Finished,finished,0,60,97.88108333333334,0,0.3158,-0.1311
+2009,9,2009_R09,German Grand Prix,nurburgring,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,7,15,0.0,Finished,finished,0,60,97.92085,0,0.2632,-0.1708
+2009,9,2009_R09,German Grand Prix,nurburgring,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,17,16,0.0,Finished,finished,0,60,98.22558333333333,0,0.2105,-0.4756
+2009,9,2009_R09,German Grand Prix,nurburgring,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,14,17,0.0,Finished,finished,0,60,98.238,0,0.1579,-0.488
+2009,9,2009_R09,German Grand Prix,nurburgring,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,5,18,0.0,+1 Lap,finished,0,59,,0,0.1053,-0.6112
+2009,9,2009_R09,German Grand Prix,nurburgring,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,9,19,0.0,Engine,mechanical_dnf,1,34,,0,0.0526,
+2009,9,2009_R09,German Grand Prix,nurburgring,BOU,bourdais,11,Sébastien Bourdais,French,toro_rosso,toro_rosso_2009,19,20,0.0,Hydraulics,mechanical_dnf,1,18,,0,0.0,
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,4,1,10.0,Finished,finished,0,70,84.34108571428571,0,1.0,0.9782
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,7,2,8.0,Finished,finished,0,70,84.50578571428571,0,0.9474,0.8135
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,3,6.0,Finished,finished,0,70,84.58231428571428,0,0.8947,0.737
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,5,4,5.0,Finished,finished,0,70,84.72632857142857,0,0.8421,0.5929
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,6,5,4.0,Finished,finished,0,70,84.8324,0,0.7895,0.4869
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,13,6,3.0,Finished,finished,0,70,84.84447142857144,0,0.7368,0.4748
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,BUT,button,22,Jenson Button,British,brawn,brawn_2009,8,7,2.0,Finished,finished,0,70,85.12805714285714,0,0.6842,0.1912
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,11,8,1.0,Finished,finished,0,70,85.31497142857143,0,0.6316,0.0043
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,9,9,0.0,Finished,finished,0,70,85.32357142857143,0,0.5789,-0.0043
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,12,10,0.0,Finished,finished,0,70,85.33045714285714,0,0.5263,-0.0112
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,15,11,0.0,Finished,finished,0,70,85.34982857142857,0,0.4737,-0.0306
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,PIQ,piquet_jr,8,Nelson Piquet Jr.,Brazilian,renault,renault_2009,14,12,0.0,Finished,finished,0,70,85.36268571428572,0,0.4211,-0.0434
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,18,13,0.0,Finished,finished,0,70,85.39888571428571,0,0.3684,-0.0796
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,16,14,0.0,+1 Lap,finished,0,69,,0,0.3158,-0.2441
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,19,15,0.0,+1 Lap,finished,0,69,,0,0.2632,-0.2441
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,10,16,0.0,+1 Lap,finished,0,69,,0,0.2105,-0.2441
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,17,0.0,Suspension,mechanical_dnf,1,29,,0,0.1579,
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,1,18,0.0,Wheel,mechanical_dnf,1,15,,0,0.1053,
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,17,19,0.0,Overheating,mechanical_dnf,1,1,,0,0.0526,
+2009,10,2009_R10,Hungarian Grand Prix,hungaroring,MAS,massa,3,Felipe Massa,Brazilian,ferrari,ferrari_2009,0,20,0.0,Withdrew,mechanical_dnf,1,0,,0,0.0,
+2009,11,2009_R11,European Grand Prix,valencia,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,3,1,10.0,Finished,finished,0,57,100.89980701754385,0,1.0,0.8144
+2009,11,2009_R11,European Grand Prix,valencia,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,2,8.0,Finished,finished,0,57,100.94117543859649,0,0.9474,0.7731
+2009,11,2009_R11,European Grand Prix,valencia,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,6,3,6.0,Finished,finished,0,57,101.18040350877193,0,0.8947,0.5338
+2009,11,2009_R11,European Grand Prix,valencia,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,2,4,5.0,Finished,finished,0,57,101.25124561403508,0,0.8421,0.463
+2009,11,2009_R11,European Grand Prix,valencia,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,5,4.0,Finished,finished,0,57,101.26594736842105,0,0.7895,0.4483
+2009,11,2009_R11,European Grand Prix,valencia,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,6,3.0,Finished,finished,0,57,101.38654385964912,0,0.7368,0.3277
+2009,11,2009_R11,European Grand Prix,valencia,BUT,button,22,Jenson Button,British,brawn,brawn_2009,5,7,2.0,Finished,finished,0,57,101.51231578947369,0,0.6842,0.2019
+2009,11,2009_R11,European Grand Prix,valencia,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,10,8,1.0,Finished,finished,0,57,101.54308771929824,0,0.6316,0.1711
+2009,11,2009_R11,European Grand Prix,valencia,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,9,9,0.0,Finished,finished,0,57,101.68770175438596,0,0.5789,0.0265
+2009,11,2009_R11,European Grand Prix,valencia,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,12,10,0.0,Finished,finished,0,57,101.74077192982456,0,0.5263,-0.0265
+2009,11,2009_R11,European Grand Prix,valencia,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,11,11,0.0,Finished,finished,0,57,101.75633333333333,0,0.4737,-0.0421
+2009,11,2009_R11,European Grand Prix,valencia,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,16,12,0.0,Finished,finished,0,57,102.01584210526316,0,0.4211,-0.3016
+2009,11,2009_R11,European Grand Prix,valencia,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,18,13,0.0,Finished,finished,0,57,102.03185964912281,0,0.3684,-0.3176
+2009,11,2009_R11,European Grand Prix,valencia,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,13,14,0.0,Finished,finished,0,57,102.41768421052632,0,0.3158,-0.7034
+2009,11,2009_R11,European Grand Prix,valencia,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,14,15,0.0,Finished,finished,0,57,102.50987719298246,0,0.2632,-0.7956
+2009,11,2009_R11,European Grand Prix,valencia,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,19,16,0.0,+1 Lap,finished,0,56,,0,0.2105,-0.9874
+2009,11,2009_R11,European Grand Prix,valencia,BAD,badoer,3,Luca Badoer,Italian,ferrari,ferrari_2009,20,17,0.0,+1 Lap,finished,0,56,,0,0.1579,-0.9874
+2009,11,2009_R11,European Grand Prix,valencia,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,17,18,0.0,+3 Laps,finished,0,54,,0,0.1053,-3.5
+2009,11,2009_R11,European Grand Prix,valencia,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,15,19,0.0,Brakes,mechanical_dnf,1,41,,0,0.0526,
+2009,11,2009_R11,European Grand Prix,valencia,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,4,20,0.0,Engine,mechanical_dnf,1,23,,0,0.0,
+2009,12,2009_R12,Belgian Grand Prix,spa,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,6,1,10.0,Finished,finished,0,44,114.34079545454546,0,1.0,0.8144
+2009,12,2009_R12,Belgian Grand Prix,spa,FIS,fisichella,21,Giancarlo Fisichella,Italian,force_india,force_india_2009,1,2,8.0,Finished,finished,0,44,114.36213636363637,0,0.9474,0.7931
+2009,12,2009_R12,Belgian Grand Prix,spa,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,8,3,6.0,Finished,finished,0,44,114.42886363636363,0,0.8947,0.7264
+2009,12,2009_R12,Belgian Grand Prix,spa,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,5,4,5.0,Finished,finished,0,44,114.56729545454546,0,0.8421,0.5879
+2009,12,2009_R12,Belgian Grand Prix,spa,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,3,5,4.0,Finished,finished,0,44,114.59706818181817,0,0.7895,0.5581
+2009,12,2009_R12,Belgian Grand Prix,spa,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,15,6,3.0,Finished,finished,0,44,115.08540909090908,0,0.7368,0.0698
+2009,12,2009_R12,Belgian Grand Prix,spa,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,4,7,2.0,Finished,finished,0,44,115.14672727272728,0,0.6842,0.0085
+2009,12,2009_R12,Belgian Grand Prix,spa,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,10,8,1.0,Finished,finished,0,44,115.16370454545455,0,0.6316,-0.0085
+2009,12,2009_R12,Belgian Grand Prix,spa,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,9,9,0.0,Finished,finished,0,44,115.18077272727272,0,0.5789,-0.0256
+2009,12,2009_R12,Belgian Grand Prix,spa,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,7,10,0.0,Finished,finished,0,44,115.28375,0,0.5263,-0.1285
+2009,12,2009_R12,Belgian Grand Prix,spa,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,11,11,0.0,Finished,finished,0,44,115.30979545454547,0,0.4737,-0.1546
+2009,12,2009_R12,Belgian Grand Prix,spa,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,16,12,0.0,Finished,finished,0,44,115.38865909090909,0,0.4211,-0.2334
+2009,12,2009_R12,Belgian Grand Prix,spa,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,18,13,0.0,Finished,finished,0,44,115.57354545454545,0,0.3684,-0.4183
+2009,12,2009_R12,Belgian Grand Prix,spa,BAD,badoer,3,Luca Badoer,Italian,ferrari,ferrari_2009,20,14,0.0,Finished,finished,0,44,116.663,0,0.3158,-1.5078
+2009,12,2009_R12,Belgian Grand Prix,spa,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,13,15,0.0,Retired,mechanical_dnf,1,26,,0,0.2632,
+2009,12,2009_R12,Belgian Grand Prix,spa,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,2,16,0.0,Brakes,mechanical_dnf,1,21,,0,0.2105,
+2009,12,2009_R12,Belgian Grand Prix,spa,BUT,button,22,Jenson Button,British,brawn,brawn_2009,14,17,0.0,Collision,driver_incident,0,0,,0,0.1579,
+2009,12,2009_R12,Belgian Grand Prix,spa,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,19,18,0.0,Collision,driver_incident,0,0,,0,0.1053,
+2009,12,2009_R12,Belgian Grand Prix,spa,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,12,19,0.0,Collision,driver_incident,0,0,,0,0.0526,
+2009,12,2009_R12,Belgian Grand Prix,spa,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,17,20,0.0,Collision,driver_incident,0,0,,0,0.0,
+2009,13,2009_R13,Italian Grand Prix,monza,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,5,1,10.0,Finished,finished,0,53,86.44728301886792,0,1.0,1.6115
+2009,13,2009_R13,Italian Grand Prix,monza,BUT,button,22,Jenson Button,British,brawn,brawn_2009,6,2,8.0,Finished,finished,0,53,86.50135849056603,0,0.9474,1.5574
+2009,13,2009_R13,Italian Grand Prix,monza,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,3,3,6.0,Finished,finished,0,53,87.02584905660378,0,0.8947,1.0329
+2009,13,2009_R13,Italian Grand Prix,monza,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,2,4,5.0,Finished,finished,0,53,87.0346603773585,0,0.8421,1.0241
+2009,13,2009_R13,Italian Grand Prix,monza,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,8,5,4.0,Finished,finished,0,53,87.56392452830188,0,0.7895,0.4948
+2009,13,2009_R13,Italian Grand Prix,monza,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,4,6,3.0,Finished,finished,0,53,87.59243396226415,0,0.7368,0.4663
+2009,13,2009_R13,Italian Grand Prix,monza,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,15,7,2.0,Finished,finished,0,53,88.00222641509434,0,0.6842,0.0565
+2009,13,2009_R13,Italian Grand Prix,monza,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,9,8,1.0,Finished,finished,0,53,88.0587358490566,0,0.6316,0.0
+2009,13,2009_R13,Italian Grand Prix,monza,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,14,9,0.0,Finished,finished,0,53,88.08607547169811,0,0.5789,-0.0273
+2009,13,2009_R13,Italian Grand Prix,monza,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,17,10,0.0,Finished,finished,0,53,89.50696226415094,0,0.5263,-1.4482
+2009,13,2009_R13,Italian Grand Prix,monza,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,16,11,0.0,Finished,finished,0,53,89.54020754716981,0,0.4737,-1.4815
+2009,13,2009_R13,Italian Grand Prix,monza,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,12,0.0,Accident,driver_incident,0,52,,0,0.4211,
+2009,13,2009_R13,Italian Grand Prix,monza,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,19,13,0.0,+1 Lap,finished,0,52,,0,0.3684,-0.051
+2009,13,2009_R13,Italian Grand Prix,monza,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,11,14,0.0,+1 Lap,finished,0,52,,0,0.3158,-0.051
+2009,13,2009_R13,Italian Grand Prix,monza,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,12,15,0.0,+1 Lap,finished,0,52,,0,0.2632,-0.051
+2009,13,2009_R13,Italian Grand Prix,monza,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,18,16,0.0,+2 Laps,finished,0,51,,0,0.2105,-1.7786
+2009,13,2009_R13,Italian Grand Prix,monza,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,7,17,0.0,Transmission,mechanical_dnf,1,22,,0,0.1579,
+2009,13,2009_R13,Italian Grand Prix,monza,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,20,18,0.0,Retired,mechanical_dnf,1,19,,0,0.1053,
+2009,13,2009_R13,Italian Grand Prix,monza,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,13,19,0.0,Oil leak,mechanical_dnf,1,15,,0,0.0526,
+2009,13,2009_R13,Italian Grand Prix,monza,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,10,20,0.0,Collision,driver_incident,0,0,,0,0.0,
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,1,10.0,Finished,finished,0,61,114.20224590163936,0,1.0,0.7476
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,6,2,8.0,Finished,finished,0,61,114.36018032786885,0,0.9474,0.5897
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,5,3,6.0,Finished,finished,0,61,114.47477049180328,0,0.8947,0.4751
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,4,5.0,Finished,finished,0,61,114.5402950819672,0,0.8421,0.4096
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,BUT,button,22,Jenson Button,British,brawn,brawn_2009,11,5,4.0,Finished,finished,0,61,114.69429508196721,0,0.7895,0.2556
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,9,6,3.0,Finished,finished,0,61,114.7245081967213,0,0.7368,0.2254
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,8,7,2.0,Finished,finished,0,61,114.79498360655737,0,0.6842,0.1549
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,7,8,1.0,Finished,finished,0,61,115.10477049180328,0,0.6316,-0.1549
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,10,9,0.0,Finished,finished,0,61,115.12116393442622,0,0.5789,-0.1713
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,12,10,0.0,Finished,finished,0,61,115.16768852459016,0,0.5263,-0.2178
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,3,11,0.0,Finished,finished,0,61,115.18219672131147,0,0.4737,-0.2323
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,14,12,0.0,Finished,finished,0,61,115.39911475409835,0,0.4211,-0.4492
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,17,13,0.0,Finished,finished,0,61,115.51191803278688,0,0.3684,-0.562
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,19,14,0.0,Finished,finished,0,61,115.73506557377048,0,0.3158,-0.7852
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,16,15,0.0,Brakes,mechanical_dnf,1,47,,0,0.2632,
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,13,16,0.0,Gearbox,mechanical_dnf,1,47,,0,0.2105,
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,4,17,0.0,Brakes,mechanical_dnf,1,45,,0,0.1579,
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,15,18,0.0,Collision,driver_incident,0,23,,0,0.1053,
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,20,19,0.0,Collision,driver_incident,0,19,,0,0.0526,
+2009,14,2009_R14,Singapore Grand Prix,marina_bay,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,18,20,0.0,Brakes,mechanical_dnf,1,3,,0,0.0,
+2009,15,2009_R15,Japanese Grand Prix,suzuka,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,1,1,10.0,Finished,finished,0,53,100.00835849056604,0,1.0,0.2222
+2009,15,2009_R15,Japanese Grand Prix,suzuka,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,2,2,8.0,Finished,finished,0,53,100.10037735849056,0,0.9474,0.1302
+2009,15,2009_R15,Japanese Grand Prix,suzuka,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,3,3,6.0,Finished,finished,0,53,100.13047169811321,0,0.8947,0.1001
+2009,15,2009_R15,Japanese Grand Prix,suzuka,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,5,4,5.0,Finished,finished,0,53,100.15816981132075,0,0.8421,0.0724
+2009,15,2009_R15,Japanese Grand Prix,suzuka,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,5,4.0,Finished,finished,0,53,100.1742641509434,0,0.7895,0.0563
+2009,15,2009_R15,Japanese Grand Prix,suzuka,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,4,6,3.0,Finished,finished,0,53,100.18777358490567,0,0.7368,0.0428
+2009,15,2009_R15,Japanese Grand Prix,suzuka,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,6,7,2.0,Finished,finished,0,53,100.2091320754717,0,0.6842,0.0214
+2009,15,2009_R15,Japanese Grand Prix,suzuka,BUT,button,22,Jenson Button,British,brawn,brawn_2009,10,8,1.0,Finished,finished,0,53,100.22484905660379,0,0.6316,0.0057
+2009,15,2009_R15,Japanese Grand Prix,suzuka,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,9,9,0.0,Finished,finished,0,53,100.23056603773585,0,0.5789,0.0
+2009,15,2009_R15,Japanese Grand Prix,suzuka,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,16,10,0.0,Finished,finished,0,53,100.2548679245283,0,0.5263,-0.0243
+2009,15,2009_R15,Japanese Grand Prix,suzuka,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,11,11,0.0,Finished,finished,0,53,100.26750943396226,0,0.4737,-0.0369
+2009,15,2009_R15,Japanese Grand Prix,suzuka,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,14,12,0.0,Finished,finished,0,53,100.28375471698112,0,0.4211,-0.0532
+2009,15,2009_R15,Japanese Grand Prix,suzuka,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,8,13,0.0,Finished,finished,0,53,100.2906037735849,0,0.3684,-0.06
+2009,15,2009_R15,Japanese Grand Prix,suzuka,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,18,14,0.0,Finished,finished,0,53,100.30522641509434,0,0.3158,-0.0747
+2009,15,2009_R15,Japanese Grand Prix,suzuka,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,15,15,0.0,Finished,finished,0,53,100.34747169811321,0,0.2632,-0.1169
+2009,15,2009_R15,Japanese Grand Prix,suzuka,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,17,16,0.0,+1 Lap,finished,0,52,,0,0.2105,-1.701
+2009,15,2009_R15,Japanese Grand Prix,suzuka,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,19,17,0.0,+2 Laps,finished,0,51,,0,0.1579,-3.5
+2009,15,2009_R15,Japanese Grand Prix,suzuka,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,12,18,0.0,Accident,driver_incident,0,43,,0,0.1053,
+2009,15,2009_R15,Japanese Grand Prix,suzuka,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,13,19,0.0,Clutch,mechanical_dnf,1,11,,0,0.0526,
+2009,15,2009_R15,Japanese Grand Prix,suzuka,GLO,glock,10,Timo Glock,German,toyota,toyota_2009,20,20,0.0,Injured,other_dnf,0,0,,0,0.0,
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,2,1,10.0,Finished,finished,0,71,78.07156338028169,0,1.0,0.5736
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,8,2,8.0,Finished,finished,0,71,78.17897183098592,0,0.9474,0.4661
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,17,3,6.0,Finished,finished,0,71,78.33838028169014,0,0.8947,0.3067
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,15,4,5.0,Finished,finished,0,71,78.34835211267605,0,0.8421,0.2968
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,BUT,button,22,Jenson Button,British,brawn,brawn_2009,14,5,4.0,Finished,finished,0,71,78.48008450704226,0,0.7895,0.165
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,5,6,3.0,Finished,finished,0,71,78.54114084507043,0,0.7368,0.104
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,6,7,2.0,Finished,finished,0,71,78.57847887323943,0,0.6842,0.0666
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,1,8,1.0,Finished,finished,0,71,78.71176056338028,0,0.6316,-0.0666
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,16,9,0.0,Finished,finished,0,71,78.75464788732394,0,0.5789,-0.1095
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,KOB,kobayashi,10,Kamui Kobayashi,Japanese,toyota,toyota_2009,11,10,0.0,Finished,finished,0,71,78.96345070422535,0,0.5263,-0.3183
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,19,11,0.0,Finished,finished,0,71,79.06684507042253,0,0.4737,-0.4217
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,20,12,0.0,Finished,finished,0,71,79.07702816901408,0,0.4211,-0.4319
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,13,13,0.0,+1 Lap,finished,0,70,,0,0.3684,-0.5418
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,12,14,0.0,+1 Lap,finished,0,70,,0,0.3158,-0.5418
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,9,15,0.0,Accident,driver_incident,0,30,,0,0.2632,
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,7,16,0.0,Gearbox,mechanical_dnf,1,27,,0,0.2105,
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,18,17,0.0,Out of fuel,mechanical_dnf,1,21,,0,0.1579,
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,3,18,0.0,Accident,driver_incident,0,0,,0,0.1053,
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,4,19,0.0,Accident,driver_incident,0,0,,0,0.0526,
+2009,16,2009_R16,Brazilian Grand Prix,interlagos,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,10,20,0.0,Accident,driver_incident,0,0,,0,0.0,
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,VET,vettel,15,Sebastian Vettel,German,red_bull,red_bull_2009,2,1,10.0,Finished,finished,0,55,102.60752727272727,0,1.0,0.8556
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,WEB,webber,14,Mark Webber,Australian,red_bull,red_bull_2009,3,2,8.0,Finished,finished,0,55,102.9322,0,0.9474,0.531
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,BUT,button,22,Jenson Button,British,brawn,brawn_2009,5,3,6.0,Finished,finished,0,55,102.94329090909092,0,0.8947,0.5199
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,BAR,barrichello,23,Rubens Barrichello,Brazilian,brawn,brawn_2009,4,4,5.0,Finished,finished,0,55,103.02089090909091,0,0.8421,0.4423
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,HEI,heidfeld,6,Nick Heidfeld,German,bmw_sauber,bmw_sauber_2009,8,5,4.0,Finished,finished,0,55,103.08485454545455,0,0.7895,0.3783
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,KOB,kobayashi,10,Kamui Kobayashi,Japanese,toyota,toyota_2009,12,6,3.0,Finished,finished,0,55,103.12285454545454,0,0.7368,0.3403
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,TRU,trulli,9,Jarno Trulli,Italian,toyota,toyota_2009,6,7,2.0,Finished,finished,0,55,103.23236363636363,0,0.6842,0.2308
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,BUE,buemi,12,Sébastien Buemi,Swiss,toro_rosso,toro_rosso_2009,10,8,1.0,Finished,finished,0,55,103.35832727272727,0,0.6316,0.1048
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,ROS,rosberg,16,Nico Rosberg,German,williams,williams_2009,9,9,0.0,Finished,finished,0,55,103.44281818181817,0,0.5789,0.0204
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,KUB,kubica,5,Robert Kubica,Polish,bmw_sauber,bmw_sauber_2009,7,10,0.0,Finished,finished,0,55,103.48352727272727,0,0.5263,-0.0204
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,KOV,kovalainen,2,Heikki Kovalainen,Finnish,mclaren,mclaren_2009,18,11,0.0,Finished,finished,0,55,103.56749090909092,0,0.4737,-0.1043
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,RAI,raikkonen,4,Kimi Räikkönen,Finnish,ferrari,ferrari_2009,11,12,0.0,Finished,finished,0,55,103.59510909090909,0,0.4211,-0.1319
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,NAK,nakajima,17,Kazuki Nakajima,Japanese,williams,williams_2009,13,13,0.0,Finished,finished,0,55,103.69550909090908,0,0.3684,-0.2323
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,ALO,alonso,7,Fernando Alonso,Spanish,renault,renault_2009,15,14,0.0,Finished,finished,0,55,103.87456363636363,0,0.3158,-0.4114
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,LIU,liuzzi,21,Vitantonio Liuzzi,Italian,force_india,force_india_2009,16,15,0.0,Finished,finished,0,55,104.3248,0,0.2632,-0.8616
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,FIS,fisichella,3,Giancarlo Fisichella,Italian,ferrari,ferrari_2009,20,16,0.0,+1 Lap,finished,0,54,,0,0.2105,-1.0445
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,SUT,sutil,20,Adrian Sutil,German,force_india,force_india_2009,17,17,0.0,+1 Lap,finished,0,54,,0,0.1579,-1.0445
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,GRO,grosjean,8,Romain Grosjean,French,renault,renault_2009,19,18,0.0,+1 Lap,finished,0,54,,0,0.1053,-1.0445
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,HAM,hamilton,1,Lewis Hamilton,British,mclaren,mclaren_2009,1,19,0.0,Brakes,mechanical_dnf,1,20,,0,0.0526,
+2009,17,2009_R17,Abu Dhabi Grand Prix,yas_marina,ALG,alguersuari,11,Jaime Alguersuari,Spanish,toro_rosso,toro_rosso_2009,14,20,0.0,Gearbox,mechanical_dnf,1,18,,0,0.0,
