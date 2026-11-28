@@ -49,10 +49,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run Pole2Stat v2 pipeline (2006-2026)
+      - name: Run Pole2Stat v3 State-Space Lap-Time pipeline (2006-2026)
         run: |
           START_YEAR="${{ inputs.start_year || '2006' }}"
-          ARGS="--start-year $START_YEAR --active-season 2026 --data-dir data --n-bootstrap 25"
+          ARGS="--start-year $START_YEAR --active-season 2026 --data-dir data"
           if [ "${{ inputs.use_fastf1 }}" = "true" ]; then
             ARGS="$ARGS --use-fastf1"
           fi

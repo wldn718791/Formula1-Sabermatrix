@@ -1,0 +1,9 @@
+{
+  "engine": "v3 Dynamic State-Space Lap-Time Model",
+  "half_life_years": 1.0,
+  "car_variance_share_pct": 85.9,
+  "driver_variance_share_pct": 14.1,
+  "residual_sigma_sec": 0.234,
+  "n_races": 60,
+  "seasons_range": "2024–2026"
+}
