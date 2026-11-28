@@ -362,12 +362,12 @@ def build_v3_rankings(
             f1_lo_p, dn_lo_p = _cf_par(drv_sec[i] - 1.96 * drv_se[i])
             f1_hi_p, dn_hi_p = _cf_par(drv_sec[i] + 1.96 * drv_se[i])
 
-            # 5단계: 불확실성 판정 — 사후 95% CI가 그리드 중앙값보다 크게 넓거나(신생팀·고립 연결),
-            # 유효 경기 수가 6경기 미만이면 '추정 불확실' 플래그 자동 부여
-            ci_width_sec = float(2.0 * 1.96 * drv_se[i])
+            # 5단계: 불확실성 판정 (스케일 불변 상대 기준)
+            # 실데이터의 높은 경기 노이즈 때문에 전원이 '추정 불확실'로 찍히지 않도록 절대 초(sec) 컷오프를 제거하고,
+            # (1) 유효 완주 6경기 미만(소표본·대타·잦은 리타이어)이거나
+            # (2) 해당 시즌 그리드 중앙 표준오차(med_se)보다 25% 이상 불확실한 경우(신생팀·고립 연결·신인)만 표기합니다.
             med_se = float(np.median(drv_se)) if len(drv_se) > 0 else 0.10
-            war_ci_width = abs(max(dn_lo_p, dn_hi_p) - min(dn_lo_p, dn_hi_p)) / POINTS_PER_WIN
-            is_uncertain = int((drv_se[i] > max(0.108, med_se * 1.07)) or (ci_width_sec > 0.43) or (counting < 6) or (war_ci_width > 8.5))
+            is_uncertain = int((counting < 6) or (drv_se[i] > med_se * 1.25))
 
             tier = "우승권" if car_sec[i] >= q_hi else ("하위권" if car_sec[i] <= q_lo else "중상위권")
             q_val = grp.loc[i, "quali_sec"]
