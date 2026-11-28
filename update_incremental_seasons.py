@@ -17,7 +17,8 @@ import numpy as np
 import pandas as pd
 
 from f1_multilevel_prototype import preprocess_f1_dataframe
-from f1_plackett_luce_v2 import compute_bootstrap_ci, generate_plackett_luce_demo
+import json
+from f1_plackett_luce_v2 import compute_bootstrap_ci, generate_plackett_luce_demo, tune_lambdas_temporal_cv
 from fastf1_enricher import enrich_jolpica_with_fastf1
 from jolpica_f1_loader import fetch_recent_seasons_df
 from run_f1_sabermetrics_pipeline import _fit_best_multilevel, attach_salary_efficiency
@@ -153,9 +154,21 @@ def update_incremental(
             if nums:
                 num_map[(int(s), str(did))] = pd.Series(nums).mode().iloc[0]
 
-    # 1) v2 Plackett-Luce 순위 로짓 + 반사실적 시뮬레이션 + 95% 부트스트랩 신뢰구간 (driver_id 기준)
+    # 1) 시계열 교차 검증으로 최적 λ 자동 탐색 후 Plackett-Luce + 95% 부트스트랩 실행
     clean_df = combined[combined.get("mechanical_dnf", 0) == 0].dropna(subset=["finish_position"]).copy()
-    rankings, pl_fit = compute_bootstrap_ci(clean_df, raw_df=combined, n_bootstrap=n_bootstrap)
+    cv_meta = tune_lambdas_temporal_cv(clean_df)
+    print(
+        f"[시계열 CV 최적 λ] λ_d={cv_meta['lambda_d']}, λ_dy={cv_meta['lambda_dy']}, "
+        f"λ_c={cv_meta['lambda_c']} (OOS Log-Loss={cv_meta['val_log_loss']})"
+    )
+    rankings, pl_fit = compute_bootstrap_ci(
+        clean_df,
+        raw_df=combined,
+        n_bootstrap=n_bootstrap,
+        lambda_d=cv_meta["lambda_d"],
+        lambda_dy=cv_meta["lambda_dy"],
+        lambda_c=cv_meta["lambda_c"],
+    )
 
     # 2) 퀄리 ΔQ 다층 모형 병합 (driver_id 기준)
     if "quali_pace_pct" in combined.columns and combined["quali_pace_pct"].notna().sum() >= 20:
@@ -195,6 +208,18 @@ def update_incremental(
 
     rankings.to_csv(rankings_path, index=False)
     seasons_done = sorted(int(x) for x in rankings["season"].unique())
+    meta_payload = {
+        "lambda_d": cv_meta["lambda_d"],
+        "lambda_dy": cv_meta["lambda_dy"],
+        "lambda_c": cv_meta["lambda_c"],
+        "val_log_loss": cv_meta["val_log_loss"],
+        "car_variance_share_pct": round(pl_fit.car_variance_share_pct, 1),
+        "driver_variance_share_pct": round(pl_fit.driver_variance_share_pct, 1),
+        "n_races": int(clean_df["race_id"].nunique()),
+        "n_bootstrap": int(n_bootstrap),
+        "seasons_range": f"{seasons_done[0]}–{seasons_done[-1]}",
+    }
+    (out_dir / "model_meta.json").write_text(json.dumps(meta_payload, ensure_ascii=False, indent=2), encoding="utf-8")
     print("=== Pole2Stat v2 업데이트 완료 (2006~2026 현대 F1 아카이브) ===")
     print(f"분산 분해: 레이스카 {pl_fit.car_variance_share_pct:.1f}% | 드라이버 {pl_fit.driver_variance_share_pct:.1f}%")
     print(f"저장 경로: {rankings_path} ({len(rankings)}행, {len(seasons_done)}시즌: {seasons_done[0]}~{seasons_done[-1]})")

@@ -312,15 +312,106 @@ def compute_counterfactual_war(
 # ---------------------------------------------------------------------------
 # 3. 경기 단위 부트스트랩(Race-Cluster Bootstrap) 95% 신뢰구간 추정
 # ---------------------------------------------------------------------------
+def _evaluate_oos_pl_logloss(fit: PlackettLuceFit, val_df: pd.DataFrame) -> float:
+    """학습되지 않은 미래 경기(val_df)에 대한 평균 Plackett-Luce 음의 로그 가능도(Log-Loss)를 계산합니다."""
+    id_col = "driver_id" if "driver_id" in val_df.columns else "driver"
+    total_nll = 0.0
+    n_races = 0
+
+    for _, grp in val_df.groupby("race_id", sort=False):
+        ordered = grp.sort_values("finish_position", ascending=True)
+        if len(ordered) < 2:
+            continue
+        etas = []
+        for r in ordered.itertuples(index=False):
+            did = str(getattr(r, id_col))
+            dy = f"{did}_{int(r.season)}"
+            ty = f"{r.team}_{int(r.season)}"
+            u_d = float(fit.u_driver[fit.driver_index[did]]) if did in fit.driver_index else 0.0
+            u_dy = float(fit.u_dy[fit.dy_index[dy]]) if dy in fit.dy_index else 0.0
+            u_c = float(fit.u_car[fit.car_index[ty]]) if ty in fit.car_index else 0.0
+            etas.append(u_d + u_dy + u_c)
+        eta = np.array(etas, dtype=float)
+        shift = np.max(eta)
+        exp_eta = np.exp(eta - shift)
+        suffix = np.cumsum(exp_eta[::-1])[::-1]
+        total_nll += float(np.sum(-(eta[:-1] - shift) + np.log(suffix[:-1])))
+        n_races += 1
+
+    return total_nll / n_races if n_races > 0 else float("inf")
+
+
+def tune_lambdas_temporal_cv(clean_df: pd.DataFrame) -> dict[str, float]:
+    """시계열 교차 검증(전반기 학습 -> 미관측 후반기 예측)으로 최적 L2 정규화 계수(λ)를 탐색합니다.
+
+    각 검증 시즌의 전반기 경기 + 이전 시즌 전체로 학습한 뒤, 한 번도 보지 못한
+    후반기 경기의 Plackett-Luce Log-Loss가 가장 낮은 (lambda_d, lambda_dy, lambda_c)를 선택합니다.
+    """
+    seasons = sorted(int(s) for s in clean_df["season"].unique())
+    if not seasons:
+        return {"lambda_d": 3.0, "lambda_dy": 6.0, "lambda_c": 0.8, "val_log_loss": 0.0}
+
+    # 최근 최대 3개 시즌을 검증 폴드로 사용 (각 시즌 후반 40% 경기를 Out-of-sample 평가)
+    val_seasons = seasons[-3:]
+    splits: list[tuple[pd.DataFrame, pd.DataFrame]] = []
+    for vs in val_seasons:
+        s_races = sorted(clean_df.loc[clean_df["season"] == vs, "race_id"].unique())
+        if len(s_races) < 6:
+            continue
+        cutoff = max(3, int(len(s_races) * 0.6))
+        train_races = set(s_races[:cutoff])
+        val_races = set(s_races[cutoff:])
+        train_df = clean_df[(clean_df["season"] < vs) | (clean_df["race_id"].isin(train_races))].copy()
+        val_df = clean_df[clean_df["race_id"].isin(val_races)].copy()
+        if not train_df.empty and not val_df.empty:
+            splits.append((train_df, val_df))
+
+    if not splits:
+        return {"lambda_d": 3.0, "lambda_dy": 6.0, "lambda_c": 0.8, "val_log_loss": 0.0}
+
+    # 후보 정규화 그리드 (드라이버 장기 · 시즌 폼 · 레이스카 페널티 조합)
+    candidates = [
+        (1.5, 4.0, 0.5),
+        (2.5, 5.0, 0.6),
+        (3.0, 6.0, 0.8),
+        (4.0, 8.0, 1.0),
+        (5.0, 10.0, 1.2),
+        (2.0, 8.0, 0.5),
+        (4.0, 5.0, 0.8),
+    ]
+
+    best_loss = float("inf")
+    best_cfg = (3.0, 6.0, 0.8)
+    for ld, ldy, lc in candidates:
+        losses = []
+        for tr, va in splits:
+            fit = fit_plackett_luce(tr, lambda_d=ld, lambda_dy=ldy, lambda_c=lc)
+            losses.append(_evaluate_oos_pl_logloss(fit, va))
+        mean_loss = float(np.mean(losses))
+        if mean_loss < best_loss:
+            best_loss = mean_loss
+            best_cfg = (ld, ldy, lc)
+
+    return {
+        "lambda_d": best_cfg[0],
+        "lambda_dy": best_cfg[1],
+        "lambda_c": best_cfg[2],
+        "val_log_loss": round(best_loss, 4),
+    }
+
+
 def compute_bootstrap_ci(
     clean_df: pd.DataFrame,
     raw_df: pd.DataFrame | None = None,
     n_bootstrap: int = 40,
     n_sims: int = 800,
     seed: int = 123,
-) -> pd.DataFrame:
+    lambda_d: float = 3.0,
+    lambda_dy: float = 6.0,
+    lambda_c: float = 0.8,
+) -> tuple[pd.DataFrame, PlackettLuceFit]:
     """경기(race_id) 단위로 복원 추출해 F1-WAR와 dnWAR의 95% 신뢰구간을 계산합니다."""
-    base_fit = fit_plackett_luce(clean_df)
+    base_fit = fit_plackett_luce(clean_df, lambda_d=lambda_d, lambda_dy=lambda_dy, lambda_c=lambda_c)
     base_rankings = compute_counterfactual_war(base_fit, clean_df, raw_df=raw_df, n_sims=2000, seed=seed)
 
     rng = np.random.default_rng(seed)
@@ -340,7 +431,7 @@ def compute_bootstrap_ci(
             boot_frames.append(g)
         boot_df = pd.concat(boot_frames, ignore_index=True)
 
-        b_fit = fit_plackett_luce(boot_df)
+        b_fit = fit_plackett_luce(boot_df, lambda_d=lambda_d, lambda_dy=lambda_dy, lambda_c=lambda_c)
         b_rank = compute_counterfactual_war(b_fit, boot_df, raw_df=None, n_sims=n_sims, seed=seed + b + 1)
 
         for r in b_rank.itertuples(index=False):
